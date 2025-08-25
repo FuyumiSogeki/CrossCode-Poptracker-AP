@@ -5,11 +5,13 @@ ITEM_MAPPING =
 [3235824001] = {"eleCold", "toggle"}, -- Cold Element, progression
 [3235824002] = {"eleShock", "toggle"}, -- Shock Element, progression
 [3235824003] = {"eleWave", "toggle"}, -- Wave Element, progression
--- Progresssive Gear
+-- Progresssive Area
+
+[3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
+[3235824051] = {"progOverUnlock", "consumable"}, -- Progressive Overworld Unlock, progression
+[3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
+
 --[3235824004] = {"spUpgrade", "consumable"}, -- SP Upgrade, useful
---[3235824050] = {"progAreaUnlock", "progressive"}, -- Progressive Area Unlock, progression
---[3235824051] = {"progOverUnlock", "progressive"}, -- Progressive Overworld Unlock, progression
---[3235824052] = {"progDunUnlock", "progressive"}, -- Progressive Dungeon Unlock, progression
 --[3235824060] = {"progAllHeads", "progressive"}, -- Progressive All-Purpose Heads, useful
 --[3235824061] = {"progDefHeads", "progressive"}, -- Progressive Defense Heads, useful
 --[3235824062] = {"progOffHeads", "progressive"}, -- Progressive Offense Heads, useful

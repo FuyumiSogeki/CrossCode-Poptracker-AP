@@ -176,6 +176,18 @@ function onClear(slot_data)
     else
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
+
+    -- get auto tabbing
+    --if Archipelago.PlayerNumber > -1 then
+    --    TABS_ID = "_tab_location_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+
+    --    Archipelago:SetNotify({TABS_ID})
+    --    Archipelago:Get({TABS_ID})
+
+    --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+    --        print(string.format("tabs table dump: %s", dump_table(TABS_ID)))
+    --    end
+    --end
 end
 
 -- called when an item gets collected
@@ -213,12 +225,18 @@ function onItem(index, item_id, item_name, player_number)
             end
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+            if item_id == 3235824052 then
+                manualDungeonUnlocks(obj.AcquiredCount)
+            elseif item_id == 3235824051 then
+                manualOverworldUnlocks(obj.AcquiredCount)
+            end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
         end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+
     -- track local items via snes interface
     if is_local then
         if LOCAL_ITEMS[v[1]] then
@@ -354,6 +372,77 @@ function onBounce(json)
         print(string.format("called onBounce: %s", dump_table(json)))
     end
     -- your code goes here
+end
+
+function onNotify(key, value, old_value)
+    if value ~= old_value and key == TABS_ID then
+        if Tracker:FindObjectForCode("auto_tab").CurrentStage == 1 then
+            if TABS_MAPPING[value] then
+                CURRENT_ROOM = TABS_MAPPING[value]
+            else
+                CURRENT_ROOM = CURRENT_ROOM_ADDRESS
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    end
+end
+
+function manualDungeonUnlocks(item_count)
+    if item_count == 1 then
+        local objItem = Tracker:FindObjectForCode("minePass")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 2 then
+        local objItem = Tracker:FindObjectForCode("sandShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 3 then
+        local objItem = Tracker:FindObjectForCode("boltShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 4 then
+        local objItem = Tracker:FindObjectForCode("dropShade")
+        if objItem then
+            objItem.Active = true
+        end    
+    end
+end
+
+function manualOverworldUnlocks(item_count)
+    if item_count == 1 then
+        local objItem = Tracker:FindObjectForCode("leafShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 2 then
+        local objItem = Tracker:FindObjectForCode("iceShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 3 then
+        local objItem = Tracker:FindObjectForCode("flameShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 4 then
+        local objItem = Tracker:FindObjectForCode("seedShade")
+        if objItem then
+            objItem.Active = true
+        end    
+    elseif item_count == 5 then
+        local objItem = Tracker:FindObjectForCode("starShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 6 then
+        local objItem = Tracker:FindObjectForCode("meteorShade")
+        if objItem then
+            objItem.Active = true
+        end
+    end
 end
 
 function manualHostedItems(location_id)
@@ -876,4 +965,6 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+
 
