@@ -81,7 +81,7 @@ LOCATION_MAPPING =
 [3235824074] = {"@Bergen Village/Bergen Village - Seeker Hub Cellar Left/Chest"},
 [3235824075] = {"@Bergen Village/Bergen Village - Seeker Hub Cellar Right/Bronze Chest"},
 [3235824076] = {"@Bergen Village/Bergen Village South - Storage Room/Chest"},
-[3235824077] = {"@Bergen Village/Bergen Village - Omni Gliders/Basement - Bronze Chest"},
+[3235824077] = {"@Bergen Village/Bergen Village - Omni Gliders Basement/Bronze Chest"},
 -- Trail Chests
 [3235824078] = {"@Bergen Trail/Bergen Trail - Abandoned Cave/Chest"},
 [3235824079] = {"@Bergen Trail/Bergen Trail - Frozen Cave/Chest"},
