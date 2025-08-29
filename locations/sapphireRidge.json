@@ -1493,7 +1493,7 @@
                         ],
                         "access_rules":
                         [
-                            "meteorShade"  
+                            "iceShade, meteorShade"
                         ],
                         "item_count": 1
                     }
