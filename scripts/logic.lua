@@ -202,7 +202,7 @@ function regionOpen4_5()
 end
 
 function regionOpen4_6()
-  return regionOpen4_3() and has ("eleHeat")
+  return regionOpen4_3() and has ("eleHeat") and newLock(3235824114, "thiefKey")
 end
 
 function regionOpen4_7()
