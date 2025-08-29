@@ -147,7 +147,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824315|WhiteKey"
+                            "$newLock|3235824315|whiteKey"
                         ],
                         "item_count": 1
                     }
@@ -178,7 +178,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824316|RadiantKey"
+                            "$newLock|3235824316|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -1455,7 +1455,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824314|WhiteKey"
+                            "$newLock|3235824314|whiteKey"
                         ],
                         "item_count": 1
                     },
