@@ -241,14 +241,14 @@ ITEM_MAPPING =
 [3235924379] = {"BKEvendor8", "toggle"}, -- Basin Vendor Item Slot 8 (fruitDrink)
 [3235924380] = {"BKEvendor9", "toggle"}, -- Basin Vendor Item Slot 9 (riceCracker)
 [3235924381] = {"BKEvendor10", "toggle"}, -- Basin Vendor Item Slot 10 (veggieSticks)
-[3235924382] = {"BKEvendor5", "toggle"}, -- Basin Vendor Item Slot 5 (kebab)
-[3235924383] = {"BKEvendor6", "toggle"}, -- Basin Vendor Item Slot 6 (risotto)
-[3235924384] = {"BKEvendor11", "toggle"}, -- Basin Vendor Item Slot 11 (iceCream)
-[3235924385] = {"BKEvendor12", "toggle"}, -- Basin Vendor Item Slot 12 (lemonJuice)
-[3235924386] = {"BKEvendor14", "toggle"}, -- Basin Vendor Item Slot 14 (peanuts)
-[3235924387] = {"BKEvendor13", "toggle"}, -- Basin Vendor Item Slot 13 (coffee)
-[3235924388] = {"BKEvendor15", "toggle"}, -- Basin Vendor Item Slot 15 (snackMix)
--- Basin Items
+[3235924382] = {"BKEvendor11", "toggle"}, -- Basin Vendor Item Slot 11 (iceCream)
+[3235924383] = {"BKEvendor12", "toggle"}, -- Basin Vendor Item Slot 12 (lemonJuice)
+[3235924384] = {"BKEvendor14", "toggle"}, -- Basin Vendor Item Slot 14 (peanuts)
+[3235924385] = {"BKEvendor13", "toggle"}, -- Basin Vendor Item Slot 13 (coffee)
+[3235924386] = {"BKEvendor15", "toggle"}, -- Basin Vendor Item Slot 15 (snackMix)
+[3235924387] = {"BKEvendor5", "toggle"}, -- Basin Vendor Item Slot 5 (kebab)
+[3235924388] = {"BKEvendor6", "toggle"}, -- Basin Vendor Item Slot 6 (risotto)
+-- Basin Items 
 [3235924389] = {"basinItemShop", "toggle"}, -- Basin Item Shop Unlock
 [3235924390] = {"BKEitem1", "toggle"}, -- Basin Item Slot 1 (sandwich)
 [3235924391] = {"BKEitem2", "toggle"}, -- Basin Item Slot 2 (hi-sandwich)
