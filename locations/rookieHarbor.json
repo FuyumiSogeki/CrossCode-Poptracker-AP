@@ -295,8 +295,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, $region8, RH-Bull, eleHeat, eleCold, flameShade",
-                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, flameShade"
+                            "$region20, $region8, RH-Bull, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, $regionOpen4_5, RH-Bull, eleHeat, eleCold, iceShade, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -351,8 +351,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-hillkat, eleHeat, eleCold, flameShade",
-                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, flameShade"
+                            "$region20, RH-hillkat, eleHeat, eleCold, iceShade, flameShade",
+                            "$regionOpen9, RH-hillkat, eleHeat, eleCold, iceShade, flameShade"
                         ],
                         "item_count": 1
                     }
@@ -407,8 +407,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-tree-2, flameShade, eleHeat, eleCold",
-                            "$regionOpen9, RH-tree-2, flameShade, eleHeat, eleCold"
+                            "$region20, RH-tree-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-tree-2, iceShade, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
@@ -463,7 +463,7 @@
                         ],
                         "access_rules": 
                         [
-                            "RH-smuggle-1, flameShade"
+                            "RH-smuggle-1, iceShade"
                         ],
                         "item_count": 1
                     }
@@ -550,8 +550,8 @@
                         ],
                         "access_rules": 
                         [
-                            "$region20, RH-steaks-2, flameShade, eleHeat, eleCold",
-                            "$regionOpen9, RH-steaks-2, flameShade, eleHeat, eleCold"
+                            "$region20, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold",
+                            "$regionOpen9, RH-steaks-2, iceShade, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     }
