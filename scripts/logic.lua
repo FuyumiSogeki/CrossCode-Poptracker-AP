@@ -45,7 +45,7 @@ function region8()
 end
 
 function region9()
-  return region7() and (has ("eleHeat") and has ("thiefKey"))
+  return region7() and (has ("eleHeat") and newLock(3235824114, "thiefKey"))
 end
 
 function region10()
@@ -81,7 +81,7 @@ function region17()
 end
 
 function region17half()
-  return region17() and has ("whiteKey")
+  return region17() and newLock(3235824211, "whiteKey")
 end
 
 function region18()
@@ -242,7 +242,7 @@ function regionOpen7_5()
 end
 
 function regionOpen7_6()
-  return regionOpen7_5() and has ("whiteKey")
+  return regionOpen7_5() and newLock(3235824211, "whiteKey")
 end
 
 function regionOpen7_7()
