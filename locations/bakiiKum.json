@@ -332,7 +332,7 @@
                         ],
                         "access_rules":
                         [
-                            "MV-blasting, eleHeat"
+                            "MV-blasting, flameShade, eleHeat, eleCold"
                         ],
                         "item_count": 1
                     },
