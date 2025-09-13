@@ -432,6 +432,18 @@ function retrieved(key, value)
                 --    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
                 --end
             end
+        else
+            CURRENT_ROOM = "Connections"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Overworld %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+            
+            CURRENT_ROOM = "World Map"
+            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print("Region %s", CURRENT_ROOM)
+            end
+            Tracker:UiHint("ActivateTab", CURRENT_ROOM)
         end
     end
 end
