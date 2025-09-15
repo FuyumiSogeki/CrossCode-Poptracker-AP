@@ -687,8 +687,8 @@
                 ],
                 "access_rules": 
                 [
-                    "$region31",
-                    "$regionOpen16"
+                    "$region33",
+                    "$regionOpen3"
                 ],
                 "sections": [
                     {
@@ -699,8 +699,8 @@
                         ],
                         "access_rules": 
                         [
-                            "botanics-4, $region24",
-                            "botanics-4, $regionOpen11"
+                            "botanics-4, $region33",
+                            "botanics-4, $retionOpen4_1_1, $regionOpen5, $regionOpen9, $regionOpen11, $regionOpen16, $regionOpen20"
                         ],
                         "item_count": 1
                     }

@@ -185,6 +185,10 @@ function regionOpen4_1()
   return regionOpen3() and has ("minePass")
 end
 
+function retionOpen4_1_1()
+  return regionOpen4_1() and (mineKeyTotal(1) or has("eleHeat"))
+end
+
 function regionOpen4_2()
   return mineKeyTotal(1) and regionOpen4_1()
 end
