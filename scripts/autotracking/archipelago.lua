@@ -410,27 +410,43 @@ function retrieved(key, value)
     end
 
     if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
-        if OVERWORLD_MAPPING[value] then
-            CURRENT_ROOM = OVERWORLD_MAPPING[value]
+        splitedArea = {}
+        index = 1
+
+        for splited in string.gmatch(value, '([^.]+)') do 
+            splitedArea[index] = splited
+            index = index + 1
+        end
+
+        Overworld = splitedArea[1]
+        Region = splitedArea[1]
+        Floor = splitedArea[1] .. "." .. splitedArea[2]
+
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("area splited: overworld is %s, region is %s, floor is %s", Overworld, Region, Floor))
+        end
+
+        if OVERWORLD_MAPPING[Overworld] then
+            CURRENT_ROOM = OVERWORLD_MAPPING[Overworld]
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print("Overworld %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     
-            if REGION_MAPPING[value] then
-                CURRENT_ROOM = REGION_MAPPING[value]
+            if REGION_MAPPING[Region] then
+                CURRENT_ROOM = REGION_MAPPING[Region]
                 if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                     print("Region %s", CURRENT_ROOM)
                 end
                 Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     
-                --if DUNGEON_MAPPING[value] then
-                --    CURRENT_ROOM = DUNGEON_MAPPING[value]
-                --    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                --        print("Dungeon %s", CURRENT_ROOM)
-                --    end
-                --    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-                --end
+                if DUNGEON_MAPPING[Floor] then
+                    CURRENT_ROOM = DUNGEON_MAPPING[Floor]
+                    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print("Dungeon %s", CURRENT_ROOM)
+                    end
+                    Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+                end
             end
         else
             CURRENT_ROOM = "Connections"
