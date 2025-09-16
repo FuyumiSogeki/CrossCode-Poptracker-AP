@@ -86,7 +86,7 @@
                         "name": "Bronze Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [
@@ -117,7 +117,7 @@
                         "name": "Silver Chest",
                         "visibility_rules": 
                         [
-                            ""
+                            "questShuffle"
                         ],
                         "access_rules":
                         [
