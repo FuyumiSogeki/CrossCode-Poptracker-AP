@@ -328,7 +328,7 @@
                 "access_rules": 
                 [
                     "$region31",
-                    "$regionOpen16_1"
+                    "$regionOpen16"
                 ],
                 "sections": [
                     {
