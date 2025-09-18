@@ -1493,7 +1493,7 @@
                         ],
                         "access_rules":
                         [
-                            "iceShade, meteorShade"
+                            "iceShade, eleHeat, eleCold, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
