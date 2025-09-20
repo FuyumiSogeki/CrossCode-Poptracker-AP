@@ -3148,25 +3148,5 @@
                 ]
             }
         ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Rookie Harbor - Marketplace/Chest",
-                        "name": "Rookie Harbor - Marketplace - Chest"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "WorldMap",
-                      "x": 279,
-                      "y": 192
-                    }
-                ]
-            }
-        ]
     }
 ]
