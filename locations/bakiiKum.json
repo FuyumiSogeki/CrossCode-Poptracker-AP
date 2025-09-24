@@ -287,7 +287,8 @@
                         ],
                         "access_rules":
                         [
-                            "MV-tree-done, shinyOrb"
+                            "MV-tree-done, shinyOrb",
+                            "settingQuestShuffleOff"
                         ],
                         "item_count": 1
                     }
