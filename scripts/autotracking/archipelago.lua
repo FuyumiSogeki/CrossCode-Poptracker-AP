@@ -12,6 +12,9 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+PROG_A_UNLOCK = {}
+PROG_D_UNLOCK = {}
+PROG_O_UNLOCK = {}
 
 function dump_table(o, depth)
     if depth == nil then
@@ -178,6 +181,10 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
 
+    PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
+    PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]
+    PROG_O_UNLOCK = slot_data['options']["progressiveChains"]["3235824051"]
+
     -- get auto tabbing
     if Archipelago.PlayerNumber > -1 then
         --local data_storage_list = ({"area"})
@@ -224,11 +231,20 @@ function onItem(index, item_id, item_name, player_number)
         elseif v[2] == "consumable" then
             obj.AcquiredCount = obj.AcquiredCount + obj.Increment
             if item_id == 3235824052 then
-                manualDungeonUnlocks(obj.AcquiredCount)
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_D_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
             elseif item_id == 3235824051 then
-                manualOverworldUnlocks(obj.AcquiredCount)
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_O_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
             elseif item_id == 3235824050 then
-                manualAreaUnlocks(obj.AcquiredCount) 
+                local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_A_UNLOCK[obj.AcquiredCount]][1])
+                if objItem then
+                    objItem.Active = true
+                end
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
@@ -498,118 +514,6 @@ function retrieved(key, value)
                 print("Region %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
-        end
-    end
-end
-
-function manualAreaUnlocks(item_count)
-    if item_count == 1 then
-        local objItem = Tracker:FindObjectForCode("leafShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 2 then
-        local objItem = Tracker:FindObjectForCode("minePass")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 3 then
-        local objItem = Tracker:FindObjectForCode("iceShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 4 then
-        local objItem = Tracker:FindObjectForCode("sandShade")
-        if objItem then
-            objItem.Active = true
-        end    
-    elseif item_count == 5 then
-        local objItem = Tracker:FindObjectForCode("flameShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 6 then
-        local objItem = Tracker:FindObjectForCode("seedShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 7 then
-        local objItem = Tracker:FindObjectForCode("boltShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 8 then
-        local objItem = Tracker:FindObjectForCode("dropShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 9 then
-        local objItem = Tracker:FindObjectForCode("starShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 10 then
-        local objItem = Tracker:FindObjectForCode("meteorShade")
-        if objItem then
-            objItem.Active = true
-        end
-    end
-end
-
-function manualDungeonUnlocks(item_count)
-    if item_count == 1 then
-        local objItem = Tracker:FindObjectForCode("minePass")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 2 then
-        local objItem = Tracker:FindObjectForCode("sandShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 3 then
-        local objItem = Tracker:FindObjectForCode("boltShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 4 then
-        local objItem = Tracker:FindObjectForCode("dropShade")
-        if objItem then
-            objItem.Active = true
-        end    
-    end
-end
-
-function manualOverworldUnlocks(item_count)
-    if item_count == 1 then
-        local objItem = Tracker:FindObjectForCode("leafShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 2 then
-        local objItem = Tracker:FindObjectForCode("iceShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 3 then
-        local objItem = Tracker:FindObjectForCode("flameShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 4 then
-        local objItem = Tracker:FindObjectForCode("seedShade")
-        if objItem then
-            objItem.Active = true
-        end    
-    elseif item_count == 5 then
-        local objItem = Tracker:FindObjectForCode("starShade")
-        if objItem then
-            objItem.Active = true
-        end
-    elseif item_count == 6 then
-        local objItem = Tracker:FindObjectForCode("meteorShade")
-        if objItem then
-            objItem.Active = true
         end
     end
 end
