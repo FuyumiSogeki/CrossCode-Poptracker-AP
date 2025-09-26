@@ -7,7 +7,7 @@ ITEM_MAPPING =
 [3235824003] = {"eleWave", "toggle"}, -- Wave Element, progression
 
 -- Progresssive Area
---[3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
+[3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
 [3235824051] = {"progOverUnlock", "consumable"}, -- Progressive Overworld Unlock, progression
 [3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
 

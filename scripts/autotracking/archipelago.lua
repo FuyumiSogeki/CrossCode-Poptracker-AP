@@ -227,6 +227,8 @@ function onItem(index, item_id, item_name, player_number)
                 manualDungeonUnlocks(obj.AcquiredCount)
             elseif item_id == 3235824051 then
                 manualOverworldUnlocks(obj.AcquiredCount)
+            elseif item_id == 3235824050 then
+                manualAreaUnlocks(obj.AcquiredCount) 
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
@@ -496,6 +498,60 @@ function retrieved(key, value)
                 print("Region %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    end
+end
+
+function manualAreaUnlocks(item_count)
+    if item_count == 1 then
+        local objItem = Tracker:FindObjectForCode("leafShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 2 then
+        local objItem = Tracker:FindObjectForCode("minePass")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 3 then
+        local objItem = Tracker:FindObjectForCode("iceShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 4 then
+        local objItem = Tracker:FindObjectForCode("sandShade")
+        if objItem then
+            objItem.Active = true
+        end    
+    elseif item_count == 5 then
+        local objItem = Tracker:FindObjectForCode("flameShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 6 then
+        local objItem = Tracker:FindObjectForCode("seedShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 7 then
+        local objItem = Tracker:FindObjectForCode("boltShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 8 then
+        local objItem = Tracker:FindObjectForCode("dropShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 9 then
+        local objItem = Tracker:FindObjectForCode("starShade")
+        if objItem then
+            objItem.Active = true
+        end
+    elseif item_count == 10 then
+        local objItem = Tracker:FindObjectForCode("meteorShade")
+        if objItem then
+            objItem.Active = true
         end
     end
 end
