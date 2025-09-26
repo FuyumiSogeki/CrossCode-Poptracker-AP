@@ -1,6 +1,6 @@
 -- Configuration --------------------------------------
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true and ENABLE_DEBUG_LOG
-AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true and true
+AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true and AUTOTRACKER_ENABLE_DEBUG_LOGGING
 -------------------------------------------------------
 print("")
 print("Active Auto-Tracker Configuration")
