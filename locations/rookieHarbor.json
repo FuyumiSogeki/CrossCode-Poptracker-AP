@@ -1001,7 +1001,7 @@
                         "name": "Sandwich Type - 100 Credits",
                         "visibility_rules": 
                         [
-                            "settingShopReceiveSlots"
+                            "settingShopReceiveTypes"
                         ],
                         "access_rules": 
                         [
