@@ -1524,7 +1524,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1541,7 +1541,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1558,7 +1558,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1575,7 +1575,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1592,7 +1592,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1609,7 +1609,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1626,7 +1626,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1643,7 +1643,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1681,7 +1681,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1698,7 +1698,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1715,7 +1715,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1732,7 +1732,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1749,7 +1749,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1766,7 +1766,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1783,7 +1783,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1800,7 +1800,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1817,7 +1817,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1834,7 +1834,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1851,7 +1851,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1868,7 +1868,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1885,7 +1885,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1902,7 +1902,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1919,7 +1919,7 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -2221,469 +2221,6 @@
                       "map": "WorldMap",
                       "x": 365,
                       "y": 140
-                    }
-                ]
-            }
-        ]
-    },
-
-    // Sapphire Shop Map
-
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Kebab Roll Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nKebab Roll Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Meaty Risotto Slot - 650 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nMeaty Risotto Slot - 650 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 198
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 218
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nBergen Ice Cream Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 240
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSweet Lemonjuice Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 260
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Cup o' Coffee Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nCup o' Coffee Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 280
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Salted Peanuts Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSalted Peanuts Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 300
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Item Shop/Snack Mix Slot - 450 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Item Shop\nSnack Mix Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 320
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Goggles Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Goggles Slot - 46750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Goggles Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Goggles Slot - 71350 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Edge Slot - 46475 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Edge Slot - 46475 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Edge Slot - 70975 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Edge Slot - 70975 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Mail Slot - 46925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Mail Slot - 46925 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Mail Slot - 71925 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Mail Slot - 71925 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Titan Boots Slot - 46750 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nTitan Boots Slot - 46750 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Sapphire Ridge - Cave Inn Weapon Shop/Cobalt Boots Slot - 71350 Credits",
-                        "name": "Sapphire Ridge - Cave Inn Weapon Shop\nCobalt Boots Slot - 71350 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 585,
-                      "y": 513
                     }
                 ]
             }

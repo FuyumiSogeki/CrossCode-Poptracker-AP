@@ -459,17 +459,12 @@
       },
       {
         "img": "images/settings/shopShuffleType.png",
-        "codes": "op_SS,settingShopShuffleType,shopShuffle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/settings/shopShuffleType.png",
-        "codes": "op_SS,settingShopShuffleType,shopShuffle",
+        "codes": "op_SS,settingShopShuffleType,shopShuffleTypes",
         "inherit_codes": false
       },
       {
         "img": "images/settings/shopShuffleSlot.png",
-        "codes": "op_SS,settingShopShuffleSlot,shopShuffle",
+        "codes": "op_SS,settingShopShuffleSlot,shopShuffleSlot",
         "inherit_codes": false
       }
       

@@ -549,9 +549,9 @@ LOCATION_MAPPING =
 -- Shops
 -- Rookie Items
 [3235824524] = {"@Rookie Harbor/Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits"},
-[3235824525] = {"GLOBAL SANDWICH TYPE TO GO HERE"},
+[3235824525] = {"@Shop Types/Sandwich Type/Buy A 'Sandwich' From Any Item Shop"},
 [3235824526] = {"@Rookie Harbor/Rookie Harbor - Item Shop/Hi-Sandwich Slot - 300 Credits"},
-[3235824527] = {"GLOBAL HI-SANDWICH TO GO HERE"},
+[3235824527] = {"@Shop Types/Hi-Sandwich Type/Buy A 'Hi-Sandwich' From Any Item Shop"},
 [3235824528] = {"@Rookie Harbor/Rookie Harbor - Item Shop/Green Leaf Tea Slot - 250 Credits"},
 [3235824529] = {"GLOBAL GREEN LEAF TEA TO GO HERE"},
 [3235824530] = {"@Rookie Harbor/Rookie Harbor - Item Shop/Just Water Slot - 222 Credits"},

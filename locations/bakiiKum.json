@@ -532,7 +532,7 @@
                         "chest_opened_img": "images/food/SandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -549,7 +549,7 @@
                         "chest_opened_img": "images/food/HiSandwichOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -566,7 +566,7 @@
                         "chest_opened_img": "images/food/GreenTeaOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -583,7 +583,7 @@
                         "chest_opened_img": "images/food/WaterOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -600,7 +600,7 @@
                         "chest_opened_img": "images/food/KebabOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -617,7 +617,7 @@
                         "chest_opened_img": "images/food/RisottoOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -634,7 +634,7 @@
                         "chest_opened_img": "images/food/SpicyBunOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -651,7 +651,7 @@
                         "chest_opened_img": "images/food/FruitDrinkOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -668,7 +668,7 @@
                         "chest_opened_img": "images/food/RiceCrackerOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -685,7 +685,7 @@
                         "chest_opened_img": "images/food/VeggieSticksOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -702,7 +702,7 @@
                         "chest_opened_img": "images/food/IceCreamOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -719,7 +719,7 @@
                         "chest_opened_img": "images/food/LemonadeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -736,7 +736,7 @@
                         "chest_opened_img": "images/food/CoffeeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -753,7 +753,7 @@
                         "chest_opened_img": "images/food/PeanutsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -770,7 +770,7 @@
                         "chest_opened_img": "images/food/SnackMixOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -787,7 +787,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -804,7 +804,7 @@
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -821,7 +821,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -838,7 +838,7 @@
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -855,7 +855,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -872,7 +872,7 @@
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -889,7 +889,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -906,7 +906,7 @@
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": 
                         [
-                            "shopShuffle"
+                            "shopShuffleSlot"
                         ],
                         "access_rules":
                         [
@@ -1097,466 +1097,5 @@
                 ]
             }
         ]
-    },
-    //Bakii Kum Shops Map
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSandwich Slot - 100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 38
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Hi-Sandwich Slot - 300 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nHi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 56
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Green Leaf Tea Slot - 250 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nGreen Leaf Tea Slot - 250 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 76
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Just Water Slot - 222 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nJust Water Slot - 222 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 98
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Kebab Roll Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nKebab Roll Slot - 650 Credits Have Blue Ice"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 118
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Meaty Risotto Slot - 650 Credits Have Blue Ice",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nMeaty Risotto Slot - 650 Credits Have Blue Ice"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 138
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Spicy Bun Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSpicy Bun Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 158
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Fruit Drink Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nFruit Drink Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 178
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Rice Cracker Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nRice Cracker Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 198
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Veggie Sticks Slot - 200 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nVeggie Sticks Slot - 200 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 218
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Bergen Ice Cream Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nBergen Ice Cream Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 240
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Sweet Lemonjuice Slot - 450 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSweet Lemonjuice Slot - 450 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 260
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Cup o' Coffee Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nCup o' Coffee Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 280
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Salted Peanuts Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSalted Peanuts Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 300
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Snack Mix Slot - 450 Credits Have Green Seed",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSnack Mix Slot - 450 Credits Have Green Seed"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 320
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Goggles Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Goggles Slot - 4700 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 378
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Goggles Slot - 15850 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Goggles Slot - 15850 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 398
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Edge Slot - 4500 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Edge Slot - 4500 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 418
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Edge Slot - 15800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Edge Slot - 15800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 438
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Mail Slot - 4800 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Mail Slot - 4800 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 458
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Mail Slot - 16100 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Mail Slot - 16100 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 478
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Iron Boots Slot - 4700 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nIron Boots Slot - 4700 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Ba'kii Kum - Weapon & Item Shop/Steel Boots Slot - 15950 Credits",
-                        "name": "Ba'kii Kum - Weapon & Item Shop\nSteel Boots Slot - 15950 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                      "map": "ShopMap",
-                      "x": 300,
-                      "y": 515
-                    }
-                ]
-            }
-        ]
-    }
+    }    
 ]  

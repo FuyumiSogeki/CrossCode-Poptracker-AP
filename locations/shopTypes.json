@@ -6,24 +6,24 @@
 		[
             {
                 "name": "Sandwich Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
+                "chest_unopened_img": "images/food/Sandwich.png",
+                "chest_opened_img": "images/food/SandwichOff.png",
                 "map_locations": 
 				[
                     {
-                        "map": "ShopMap",
-                        "x": 195,
-                        "y": 320
+                        "map": "TypesMap",
+                        "x": 17,
+                        "y": 15
                     }
                 ],
                 "visibility_rules": 
                 [
-                    "settingShopShuffleType"
+                    "shopShuffleTypes"
                 ],
                 "access_rules": 
                 [
-                    "$region23",
-                    "$regionOpen10"
+                    "$region2, $canGrind",
+                    "$regionOpen2, $canGrind"
                 ],
                 "sections":
 				[
@@ -35,7 +35,10 @@
                         ],
                         "access_rules": 
                         [
-                            "sandwich"
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, sandwich",
+                            "settingShopReceiveSlots, $slSandwich",
+                            "settingShopReceiveShops, $shSandwich"
                         ],
                         "item_count": 1
                     }
@@ -43,24 +46,24 @@
             },
             {
                 "name": "Hi-Sandwich Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
+                "chest_unopened_img": "images/food/HiSandwich.png",
+                "chest_opened_img": "images/food/HiSandwichOff.png",
                 "map_locations": 
 				[
                     {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
+                        "map": "TypesMap",
+                        "x": 17,
+                        "y": 45
                     }
                 ],
                 "visibility_rules": 
                 [
-                    "settingShopShuffleType"
+                    "shopShuffleTypes"
                 ],
                 "access_rules": 
                 [
-                    "$region23",
-                    "$regionOpen10"
+                    "$region2, $canGrind",
+                    "$regionOpen2, $canGrind"
                 ],
                 "sections":
 				[
@@ -72,303 +75,10 @@
                         ],
                         "access_rules": 
                         [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Green Leaf Tea Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Green Leaf Tea' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Just Water Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Just Water' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Kebab Roll Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Kebab Roll' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Meaty Risotto Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Meaty Risotto' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Spicy Bun Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Spicy Bun' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Fruit Drink Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Fruit Drink' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Rice Cracker Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Rice Cracker' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
-                        ],
-                        "item_count": 1
-                    }
-                ]
-            },
-            {
-                "name": "Green Leaf Tea Type",
-                "chest_unopened_img": "images/icons/chest_default_x.png",
-                "chest_opened_img": "images/icons/chest_o.png",
-                "map_locations": 
-				[
-                    {
-                        "map": "Zirvitar_Temple",
-                        "x": 195,
-                        "y": 320
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "settingShopShuffleType"
-                ],
-                "access_rules": 
-                [
-                    "$region23",
-                    "$regionOpen10"
-                ],
-                "sections":
-				[
-                    {
-                        "name": "Buy A 'Green Leaf Tea' From Any Item Shop",
-                        "visibility_rules": 
-                        [
-                            ""
-                        ],
-                        "access_rules": 
-                        [
-                            "hiSandwich"
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, hiSandwich",
+                            "settingShopReceiveSlots, $slHiSandwich",
+                            "settingShopReceiveShops, $shHiSandwich"
                         ],
                         "item_count": 1
                     }
