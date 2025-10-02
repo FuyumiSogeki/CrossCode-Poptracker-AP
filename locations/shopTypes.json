@@ -73,8 +73,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, hiSandwich",
+                            "settingShopReceiveOff,   $hiSandwichOff",
+                            "settingShopReceiveTypes, $hiSandwichType",
                             "settingShopReceiveSlots, $hiSandwichSlot",
                             "settingShopReceiveShops, $hiSandwichShop"
                         ],
@@ -112,8 +112,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff", 
-                            "settingShopReceiveTypes, greenTea",
+                            "settingShopReceiveOff,   $greenTeaOff",
+                            "settingShopReceiveTypes, $greenTeaType",
                             "settingShopReceiveSlots, $greenTeaSlot",
                             "settingShopReceiveShops, $greenTeaShop"
                         ],
@@ -151,8 +151,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, justWater",
+                            "settingShopReceiveOff,   $justWaterOff",
+                            "settingShopReceiveTypes, $justWaterType",
                             "settingShopReceiveSlots, $justWaterSlot",
                             "settingShopReceiveShops, $justWaterShop"
                         ],
@@ -190,8 +190,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, kebab",
+                            "settingShopReceiveOff,   $kebabOff",
+                            "settingShopReceiveTypes, $kebabType",
                             "settingShopReceiveSlots, $kebabSlot",
                             "settingShopReceiveShops, $kebabShop"
                         ],
@@ -229,8 +229,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, risotto",
+                            "settingShopReceiveOff,   $risottoOff",
+                            "settingShopReceiveTypes, $risottoType",
                             "settingShopReceiveSlots, $risottoSlot",
                             "settingShopReceiveShops, $risottoShop"
                         ],
@@ -268,8 +268,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, spicyBun",
+                            "settingShopReceiveOff,   $spicyBunOff",
+                            "settingShopReceiveTypes, $spicyBunType",
                             "settingShopReceiveSlots, $spicyBunSlot",
                             "settingShopReceiveShops, $spicyBunShop"
                         ],
@@ -307,8 +307,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, fruitDrink",
+                            "settingShopReceiveOff,   $fruitDrinkOff",
+                            "settingShopReceiveTypes, $fruitDrinkType",
                             "settingShopReceiveSlots, $fruitDrinkSlot",
                             "settingShopReceiveShops, $fruitDrinkShop"
                         ],
@@ -346,8 +346,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, cracker",
+                            "settingShopReceiveOff,   $crackerOff",
+                            "settingShopReceiveTypes, $crackerType",
                             "settingShopReceiveSlots, $crackerSlot",
                             "settingShopReceiveShops, $crackerShop"
                         ],
@@ -385,8 +385,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, veggieSticks",
+                            "settingShopReceiveOff,   $veggieSticksOff",
+                            "settingShopReceiveTypes, $veggieSticksType",
                             "settingShopReceiveSlots, $veggieSticksSlot",
                             "settingShopReceiveShops, $veggieSticksShop"
                         ],
@@ -424,8 +424,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, iceCream",
+                            "settingShopReceiveOff,   $iceCreamOff",
+                            "settingShopReceiveTypes, $iceCreamType",
                             "settingShopReceiveSlots, $iceCreamSlot",
                             "settingShopReceiveShops, $iceCreamShop"
                         ],
@@ -463,8 +463,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, lemonJuice",
+                            "settingShopReceiveOff,   $lemonJuiceOff",
+                            "settingShopReceiveTypes, $lemonJuiceType",
                             "settingShopReceiveSlots, $lemonJuiceSlot",
                             "settingShopReceiveShops, $lemonJuiceShop"
                         ],
@@ -502,8 +502,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, coffee",
+                            "settingShopReceiveOff,   $coffeeOff",
+                            "settingShopReceiveTypes, $coffeeType",
                             "settingShopReceiveSlots, $coffeeSlot",
                             "settingShopReceiveShops, $coffeeShop"
                         ],
@@ -541,8 +541,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, peanuts",
+                            "settingShopReceiveOff,   $peanutsOff",
+                            "settingShopReceiveTypes, $peanutsType",
                             "settingShopReceiveSlots, $peanutsSlot",
                             "settingShopReceiveShops, $peanutsShop"
                         ],
@@ -580,8 +580,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, snackMix",
+                            "settingShopReceiveOff,   $snackMixOff",
+                            "settingShopReceiveTypes, $snackMixType",
                             "settingShopReceiveSlots, $snackMixSlot",
                             "settingShopReceiveShops, $snackMixShop"
                         ],
@@ -619,8 +619,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, risingStar",
+                            "settingShopReceiveOff,   $risingStarOff",
+                            "settingShopReceiveTypes, $risingStarType",
                             "settingShopReceiveSlots, $risingStarSlot",
                             "settingShopReceiveShops, $risingStarShop"
                         ],
@@ -658,8 +658,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, dkPepper",
+                            "settingShopReceiveOff,   $dkPepperOff",
+                            "settingShopReceiveTypes, $dkPepperType",
                             "settingShopReceiveSlots, $dkPepperSlot",
                             "settingShopReceiveShops, $dkPepperShop"
                         ],
@@ -697,8 +697,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, maultasche",
+                            "settingShopReceiveOff,   $maultascheOff",
+                            "settingShopReceiveTypes, $maultascheType",
                             "settingShopReceiveSlots, $maultascheSlot",
                             "settingShopReceiveShops, $maultascheShop"
                         ],
@@ -736,8 +736,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, spaetzle",
+                            "settingShopReceiveOff,   $spaetzleOff",
+                            "settingShopReceiveTypes, $spaetzleType",
                             "settingShopReceiveSlots, $spaetzleSlot",
                             "settingShopReceiveShops, $spaetzleShop"
                         ],
@@ -775,8 +775,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, durian",
+                            "settingShopReceiveOff,   $durianOff",
+                            "settingShopReceiveTypes, $durianType",
                             "settingShopReceiveSlots, $durianSlot",
                             "settingShopReceiveShops, $durianShop"
                         ],
@@ -814,8 +814,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, pengoPop",
+                            "settingShopReceiveOff,   $pengoPopOff",
+                            "settingShopReceiveTypes, $pengoPopType",
                             "settingShopReceiveSlots, $pengoPopSlot",
                             "settingShopReceiveShops, $pengoPopShop"
                         ],
@@ -853,8 +853,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, beatZero",
+                            "settingShopReceiveOff,   $beatZeroOff",
+                            "settingShopReceiveTypes, $beatZeroType",
                             "settingShopReceiveSlots, $beatZeroSlot",
                             "settingShopReceiveShops, $beatZeroShop"
                         ],
@@ -892,8 +892,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, werewolf",
+                            "settingShopReceiveOff,   $werewolfOff",
+                            "settingShopReceiveTypes, $werewolfType",
                             "settingShopReceiveSlots, $werewolfSlot",
                             "settingShopReceiveShops, $werewolfShop"
                         ],
@@ -931,8 +931,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, mooncake",
+                            "settingShopReceiveOff,   $mooncakeOff",
+                            "settingShopReceiveTypes, $mooncakeType",
                             "settingShopReceiveSlots, $mooncakeSlot",
                             "settingShopReceiveShops, $mooncakeShop"
                         ],
@@ -970,8 +970,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, willis",
+                            "settingShopReceiveOff,   $willisOff",
+                            "settingShopReceiveTypes, $willisType",
                             "settingShopReceiveSlots, $willisSlot",
                             "settingShopReceiveShops, $willisShop"
                         ],
@@ -1009,8 +1009,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, pumpkinCoffee",
+                            "settingShopReceiveOff,   $pumpkinCoffeeOff",
+                            "settingShopReceiveTypes, $pumpkinCoffeeType",
                             "settingShopReceiveSlots, $pumpkinCoffeeSlot",
                             "settingShopReceiveShops, $pumpkinCoffeeShop"
                         ],
@@ -1048,8 +1048,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, toast",
+                            "settingShopReceiveOff,   $toastOff",
+                            "settingShopReceiveTypes, $toastType",
                             "settingShopReceiveSlots, $toastSlot",
                             "settingShopReceiveShops, $toastShop"
                         ],
@@ -1087,8 +1087,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, sweetTea",
+                            "settingShopReceiveOff,   $sweetTeaOff",
+                            "settingShopReceiveTypes, $sweetTeaType",
                             "settingShopReceiveSlots, $sweetTeaSlot",
                             "settingShopReceiveShops, $sweetTeaShop"
                         ],
@@ -1126,8 +1126,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, chili",
+                            "settingShopReceiveOff,   $chiliOff",
+                            "settingShopReceiveTypes, $chiliType",
                             "settingShopReceiveSlots, $chiliSlot",
                             "settingShopReceiveShops, $chiliShop"
                         ],
@@ -1165,8 +1165,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, oneUp",
+                            "settingShopReceiveOff,   $oneUpOff",
+                            "settingShopReceiveTypes, $oneUpType",
                             "settingShopReceiveSlots, $oneUpSlot",
                             "settingShopReceiveShops, $oneUpShop"
                         ],
@@ -1204,8 +1204,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, brHelm",
+                            "settingShopReceiveOff,   $brHelmOff",
+                            "settingShopReceiveTypes, $brHelmType",
                             "settingShopReceiveSlots, $brHelmSlot",
                             "settingShopReceiveShops, $brHelmShop"
                         ],
@@ -1243,8 +1243,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, irHelm",
+                            "settingShopReceiveOff,   $irHelmOff",
+                            "settingShopReceiveTypes, $irHelmType",
                             "settingShopReceiveSlots, $irHelmSlot",
                             "settingShopReceiveShops, $irHelmShop"
                         ],
@@ -1282,8 +1282,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, silHelm",
+                            "settingShopReceiveOff,   $silHelmOff",
+                            "settingShopReceiveTypes, $silHelmType",
                             "settingShopReceiveSlots, $silHelmSlot",
                             "settingShopReceiveShops, $silHelmShop"
                         ],
@@ -1321,8 +1321,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, stHelm",
+                            "settingShopReceiveOff,   $stHelmOff",
+                            "settingShopReceiveTypes, $stHelmType",
                             "settingShopReceiveSlots, $stHelmSlot",
                             "settingShopReceiveShops, $stHelmShop"
                         ],
@@ -1360,8 +1360,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, tiHelm",
+                            "settingShopReceiveOff,   $tiHelmOff",
+                            "settingShopReceiveTypes, $tiHelmType",
                             "settingShopReceiveSlots, $tiHelmSlot",
                             "settingShopReceiveShops, $tiHelmShop"
                         ],
@@ -1399,8 +1399,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, coHelm",
+                            "settingShopReceiveOff,   $coHelmOff",
+                            "settingShopReceiveTypes, $coHelmType",
                             "settingShopReceiveSlots, $coHelmSlot",
                             "settingShopReceiveShops, $coHelmShop"
                         ],
@@ -1438,8 +1438,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, laHelm",
+                            "settingShopReceiveOff,   $laHelmOff",
+                            "settingShopReceiveTypes, $laHelmType",
                             "settingShopReceiveSlots, $laHelmSlot",
                             "settingShopReceiveShops, $laHelmShop"
                         ],
@@ -1477,8 +1477,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, brEdge",
+                            "settingShopReceiveOff,   $brEdgeOff",
+                            "settingShopReceiveTypes, $brEdgeType",
                             "settingShopReceiveSlots, $brEdgeSlot",
                             "settingShopReceiveShops, $brEdgeShop"
                         ],
@@ -1516,8 +1516,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, irEdge",
+                            "settingShopReceiveOff,   $irEdgeOff",
+                            "settingShopReceiveTypes, $irEdgeType",
                             "settingShopReceiveSlots, $irEdgeSlot",
                             "settingShopReceiveShops, $irEdgeShop"
                         ],
@@ -1555,8 +1555,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, silEdge",
+                            "settingShopReceiveOff,   $silEdgeOff",
+                            "settingShopReceiveTypes, $silEdgeType",
                             "settingShopReceiveSlots, $silEdgeSlot",
                             "settingShopReceiveShops, $silEdgeShop"
                         ],
@@ -1594,8 +1594,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, stEdge",
+                            "settingShopReceiveOff,   $stEdgeOff",
+                            "settingShopReceiveTypes, $stEdgeType",
                             "settingShopReceiveSlots, $stEdgeSlot",
                             "settingShopReceiveShops, $stEdgeShop"
                         ],
@@ -1633,8 +1633,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, tiEdge",
+                            "settingShopReceiveOff,   $tiEdgeOff",
+                            "settingShopReceiveTypes, $tiEdgeType",
                             "settingShopReceiveSlots, $tiEdgeSlot",
                             "settingShopReceiveShops, $tiEdgeShop"
                         ],
@@ -1672,8 +1672,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, coEdge",
+                            "settingShopReceiveOff,   $coEdgeOff",
+                            "settingShopReceiveTypes, $coEdgeType",
                             "settingShopReceiveSlots, $coEdgeSlot",
                             "settingShopReceiveShops, $coEdgeShop"
                         ],
@@ -1711,8 +1711,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, laEdge",
+                            "settingShopReceiveOff,   $laEdgeOff",
+                            "settingShopReceiveTypes, $laEdgeType",
                             "settingShopReceiveSlots, $laEdgeSlot",
                             "settingShopReceiveShops, $laEdgeShop"
                         ],
@@ -1750,8 +1750,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, brMail",
+                            "settingShopReceiveOff,   $brMailOff",
+                            "settingShopReceiveTypes, $brMailType",
                             "settingShopReceiveSlots, $brMailSlot",
                             "settingShopReceiveShops, $brMailShop"
                         ],
@@ -1789,8 +1789,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, irMail",
+                            "settingShopReceiveOff,   $irMailOff",
+                            "settingShopReceiveTypes, $irMailType",
                             "settingShopReceiveSlots, $irMailSlot",
                             "settingShopReceiveShops, $irMailShop"
                         ],
@@ -1828,8 +1828,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, silMail",
+                            "settingShopReceiveOff,   $silMailOff",
+                            "settingShopReceiveTypes, $silMailType",
                             "settingShopReceiveSlots, $silMailSlot",
                             "settingShopReceiveShops, $silMailShop"
                         ],
@@ -1867,8 +1867,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, stMail",
+                            "settingShopReceiveOff,   $stMailOff",
+                            "settingShopReceiveTypes, $stMailType",
                             "settingShopReceiveSlots, $stMailSlot",
                             "settingShopReceiveShops, $stMailShop"
                         ],
@@ -1906,8 +1906,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, tiMail",
+                            "settingShopReceiveOff,   $tiMailOff",
+                            "settingShopReceiveTypes, $tiMailType",
                             "settingShopReceiveSlots, $tiMailSlot",
                             "settingShopReceiveShops, $tiMailShop"
                         ],
@@ -1945,8 +1945,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, coMail",
+                            "settingShopReceiveOff,   $coMailOff",
+                            "settingShopReceiveTypes, $coMailType",
                             "settingShopReceiveSlots, $coMailSlot",
                             "settingShopReceiveShops, $coMailShop"
                         ],
@@ -1984,8 +1984,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, laMail",
+                            "settingShopReceiveOff,   $laMailOff",
+                            "settingShopReceiveTypes, $laMailType",
                             "settingShopReceiveSlots, $laMailSlot",
                             "settingShopReceiveShops, $laMailShop"
                         ],
@@ -2023,8 +2023,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, brBoots",
+                            "settingShopReceiveOff,   $brBootsOff",
+                            "settingShopReceiveTypes, $brBootsType",
                             "settingShopReceiveSlots, $brBootsSlot",
                             "settingShopReceiveShops, $brBootsShop"
                         ],
@@ -2062,8 +2062,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, irBoots",
+                            "settingShopReceiveOff,   $irBootsOff",
+                            "settingShopReceiveTypes, $irBootsType",
                             "settingShopReceiveSlots, $irBootsSlot",
                             "settingShopReceiveShops, $irBootsShop"
                         ],
@@ -2101,8 +2101,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, silBoots",
+                            "settingShopReceiveOff,   $silBootsOff",
+                            "settingShopReceiveTypes, $silBootsType",
                             "settingShopReceiveSlots, $silBootsSlot",
                             "settingShopReceiveShops, $silBootsShop"
                         ],
@@ -2140,8 +2140,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, stBoots",
+                            "settingShopReceiveOff,   $stBootsOff",
+                            "settingShopReceiveTypes, $stBootsType",
                             "settingShopReceiveSlots, $stBootsSlot",
                             "settingShopReceiveShops, $stBootsShop"
                         ],
@@ -2179,8 +2179,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, tiBoots",
+                            "settingShopReceiveOff,   $tiBootsOff",
+                            "settingShopReceiveTypes, $tiBootsType",
                             "settingShopReceiveSlots, $tiBootsSlot",
                             "settingShopReceiveShops, $tiBootsShop"
                         ],
@@ -2218,8 +2218,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, coBoots",
+                            "settingShopReceiveOff,   $coBootsOff",
+                            "settingShopReceiveTypes, $coBootsType",
                             "settingShopReceiveSlots, $coBootsSlot",
                             "settingShopReceiveShops, $coBootsShop"
                         ],
@@ -2257,8 +2257,8 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, laBoots",
+                            "settingShopReceiveOff,   $laBootsOff",
+                            "settingShopReceiveTypes, $laBootsType",
                             "settingShopReceiveSlots, $laBootsSlot",
                             "settingShopReceiveShops, $laBootsShop"
                         ],
@@ -2296,15 +2296,15 @@
                         ],
                         "access_rules": 
                         [
-                            "settingShopReceiveOff",
-                            "settingShopReceiveTypes, chestDetector",
+                            "settingShopReceiveOff,   $chestDetectorOff",
+                            "settingShopReceiveTypes, $chestDetectorType",
                             "settingShopReceiveSlots, $chestDetectorSlot",
                             "settingShopReceiveShops, $chestDetectorShop"
                         ],
                         "item_count": 1
                     }
                 ]
-            },
+            }
         ]
     }
 ]
