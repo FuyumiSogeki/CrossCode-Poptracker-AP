@@ -22,7 +22,7 @@
                 ],
                 "access_rules": 
                 [
-                    ""
+                    "$canGrind"
                 ],
                 "sections":
 				[
