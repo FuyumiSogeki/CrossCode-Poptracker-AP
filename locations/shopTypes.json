@@ -35,7 +35,7 @@
                         "access_rules": 
                         [
                             "settingShopReceiveOff",
-                            "settingShopReceiveTypes, sandwich",
+                            "settingShopReceiveTypes, $sandwichType",
                             "settingShopReceiveSlots, $sandwichSlot",
                             "settingShopReceiveShops, $sandwichShop"
                         ],
