@@ -801,6 +801,7 @@ end
 function BKweapon4()
   return has ("settingShopReceiveSlots") and has ("BKweapon4")
 end
+
 function BKweapon5()
   return has ("settingShopReceiveSlots") and has ("BKweapon5")
 end
@@ -1515,8 +1516,6 @@ function typeLaBoots()
   return has ("settingShopReceiveTypes") and has ("laBoots")
 end
 
-
-
 -- Rookie Harbor Shops Reachable
 
 function RHitem1Reach()
@@ -1725,10 +1724,182 @@ function BThermit3Reach()
   return BThermit3 and (region3() or regionOpen3())
 end
 
+-- Bergen Village Shops Reachable
 
+function BVitem1Reach()
+  return BVitem1 and (region3() or regionOpen3())
+end
+
+function BVitem2Reach()
+  return BVitem2 and (region3() or regionOpen3())
+end
+
+function BVitem3Reach()
+  return BVitem3 and (region3() or regionOpen3())
+end
+
+function BVitem4Reach()
+  return BVitem4 and (region3() or regionOpen3())
+end
+
+function BVitem5Reach()
+  return BVitem5 and (region3() or regionOpen3())
+end
+
+function BVitem6Reach()
+  return BVitem6 and (region3() or regionOpen3())
+end
+
+function BVitem7Reach()
+  return BVitem7 and (region3() or regionOpen3())
+end
+
+function BVitem8Reach()
+  return BVitem8 and (region3() or regionOpen3())
+end
+
+function BVitem9Reach()
+  return BVitem9 and (region3() or regionOpen3())
+end
+
+function BVitem10Reach()
+  return BVitem10 and (region3() or regionOpen3())
+end
+
+function BVitem11Reach()
+  return BVitem11 and (region3() or regionOpen3())
+end
+
+function BVitem12Reach()
+  return BVitem12 and (region3() or regionOpen3())
+end
+
+function BVitem13Reach()
+  return BVitem13 and (region3() or regionOpen3())
+end
+
+function BVitem14Reach()
+  return BVitem14 and (region3() or regionOpen3())
+end
+
+function BVitem15Reach()
+  return BVitem15 and (region3() or regionOpen3())
+end
+
+function BVweapon1Reach()
+  return BVweapon1 and (region3() or regionOpen3())
+end
+
+function BVweapon2Reach()
+  return BVweapon2 and (region3() or regionOpen3())
+end
+
+function BVweapon3Reach()
+  return BVweapon3 and (region3() or regionOpen3())
+end
+
+function BVweapon4Reach()
+  return BVweapon4 and (region3() or regionOpen3())
+end
+
+-- Bakii Kum Shops Reachable
+
+function BKitem1Reach()
+  return BKitem1 and (region11() or regionOpen5())
+end
+
+function BKitem2Reach()
+  return BKitem2 and (region11() or regionOpen5())
+end
+
+function BKitem3Reach()
+  return BKitem3 and (region11() or regionOpen5())
+end
+
+function BKitem4Reach()
+  return BKitem4 and (region11() or regionOpen5())
+end
+
+function BKitem5Reach()
+  return BKitem5 and (region11() or regionOpen5())
+end
+
+function BKitem6Reach()
+  return BKitem6 and (region11() or regionOpen5())
+end
+
+function BKitem7Reach()
+  return BKitem7 and (region11() or regionOpen5())
+end
+
+function BKitem8Reach()
+  return BKitem8 and (region11() or regionOpen5())
+end
+
+function BKitem9Reach()
+  return BKitem9 and (region11() or regionOpen5())
+end
+
+function BKitem10Reach()
+  return BKitem10 and (region11() or regionOpen5())
+end
+
+function BKitem11Reach()
+  return BKitem11 and (region11() or regionOpen5())
+end
+
+function BKitem12Reach()
+  return BKitem12 and (region11() or regionOpen5())
+end
+
+function BKitem13Reach()
+  return BKitem13 and (region11() or regionOpen5())
+end
+
+function BKitem14Reach()
+  return BKitem14 and (region11() or regionOpen5())
+end
+
+function BKitem15Reach()
+  return BKitem15 and (region11() or regionOpen5())
+end
+
+function BKweapon1Reach()
+  return BKweapon1 and (region11() or regionOpen5())
+end
+
+function BKweapon2Reach()
+  return BKweapon2 and (region11() or regionOpen5())
+end
+
+function BKweapon3Reach()
+  return BKweapon3 and (region11() or regionOpen5())
+end
+
+function BKweapon4Reach()
+  return BKweapon4 and (region11() or regionOpen5())
+end
+
+function BKweapon5Reach()
+  return BKweapon5 and (region11() or regionOpen5())
+end
+
+function BKweapon6Reach()
+  return BKweapon6 and (region11() or regionOpen5())
+end
+
+function BKweapon7Reach()
+  return BKweapon7 and (region11() or regionOpen5())
+end
+
+function BKweapon8Reach()
+  return BKweapon8 and (region11() or regionOpen5())
+end
+
+-- Shop Send Type
 
 function sandwichSlot()
-  return RHitem1Reach() or BVitem1() or BKitem1() or BKEvendor1() or BKEitem1() or SRitem1() or RSitem1() or VWitem1()
+  return RHitem1Reach() or BVitem1Reach() or BKitem1Reach() or BKEvendor1Reach() or BKEitem1Reach() or SRitem1Reach() or RSitem1Reach() or VWitem1Reach()
 end
 
 function sandwichShop()
