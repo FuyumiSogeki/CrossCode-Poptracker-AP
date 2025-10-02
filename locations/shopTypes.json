@@ -12,8 +12,8 @@
 				[
                     {
                         "map": "TypesMap",
-                        "x": 17,
-                        "y": 15
+                        "x": 47,
+                        "y": 14
                     }
                 ],
                 "visibility_rules": 
@@ -22,8 +22,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$region2, $canGrind",
-                    "$regionOpen2, $canGrind"
+                    ""
                 ],
                 "sections":
 				[
@@ -37,8 +36,8 @@
                         [
                             "settingShopReceiveOff",
                             "settingShopReceiveTypes, sandwich",
-                            "settingShopReceiveSlots, $slSandwich",
-                            "settingShopReceiveShops, $shSandwich"
+                            "settingShopReceiveSlots, $sandwichSlot",
+                            "settingShopReceiveShops, $sandwichShop"
                         ],
                         "item_count": 1
                     }
@@ -52,8 +51,8 @@
 				[
                     {
                         "map": "TypesMap",
-                        "x": 17,
-                        "y": 45
+                        "x": 47,
+                        "y": 47
                     }
                 ],
                 "visibility_rules": 
@@ -62,8 +61,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$region2, $canGrind",
-                    "$regionOpen2, $canGrind"
+                    ""
                 ],
                 "sections":
 				[
@@ -77,13 +75,2236 @@
                         [
                             "settingShopReceiveOff",
                             "settingShopReceiveTypes, hiSandwich",
-                            "settingShopReceiveSlots, $slHiSandwich",
-                            "settingShopReceiveShops, $shHiSandwich"
+                            "settingShopReceiveSlots, $hiSandwichSlot",
+                            "settingShopReceiveShops, $hiSandwichShop"
                         ],
                         "item_count": 1
                     }
                 ]
-            }
+            },
+            {
+                "name": "Green Leaf Tea Type",
+                "chest_unopened_img": "images/food/GreenTea.png",
+                "chest_opened_img": "images/food/GreenTeaOff.png",
+                "map_locations": 
+				[
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 79
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+				[
+                    {
+                        "name": "Buy A 'Green Leaf Tea' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff", 
+                            "settingShopReceiveTypes, greenTea",
+                            "settingShopReceiveSlots, $greenTeaSlot",
+                            "settingShopReceiveShops, $greenTeaShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Just Water Type",
+                "chest_unopened_img": "images/food/Water.png",
+                "chest_opened_img": "images/food/WaterOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 112
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Just Water' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, justWater",
+                            "settingShopReceiveSlots, $justWaterSlot",
+                            "settingShopReceiveShops, $justWaterShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kebab Roll Type",
+                "chest_unopened_img": "images/food/Kebab.png",
+                "chest_opened_img": "images/food/KebabOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 147
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Kebab Roll' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, kebab",
+                            "settingShopReceiveSlots, $kebabSlot",
+                            "settingShopReceiveShops, $kebabShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Meaty Risotto Type",
+                "chest_unopened_img": "images/food/Risotto.png",
+                "chest_opened_img": "images/food/RisottoOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 182
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Meaty Risotto' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, risotto",
+                            "settingShopReceiveSlots, $risottoSlot",
+                            "settingShopReceiveShops, $risottoShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spicy Bun Type",
+                "chest_unopened_img": "images/food/SpicyBun.png",
+                "chest_opened_img": "images/food/SpicyBunOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 214
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Spicy Bun' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, spicyBun",
+                            "settingShopReceiveSlots, $spicyBunSlot",
+                            "settingShopReceiveShops, $spicyBunShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Fruit Drink Type",
+                "chest_unopened_img": "images/food/FruitDrink.png",
+                "chest_opened_img": "images/food/FruitDrinkOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 245
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Fruit Drink' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, fruitDrink",
+                            "settingShopReceiveSlots, $fruitDrinkSlot",
+                            "settingShopReceiveShops, $fruitDrinkShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rice Cracker Type",
+                "chest_unopened_img": "images/food/RiceCracker.png",
+                "chest_opened_img": "images/food/RiceCrackerOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 278
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Rice Cracker' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, cracker",
+                            "settingShopReceiveSlots, $crackerSlot",
+                            "settingShopReceiveShops, $crackerShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Veggie Sticks Type",
+                "chest_unopened_img": "images/food/VeggieSticks.png",
+                "chest_opened_img": "images/food/VeggieSticksOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 310
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Veggie Sticks' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, veggieSticks",
+                            "settingShopReceiveSlots, $veggieSticksSlot",
+                            "settingShopReceiveShops, $veggieSticksShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bergen Ice Cream Type",
+                "chest_unopened_img": "images/food/IceCream.png",
+                "chest_opened_img": "images/food/IceCreamOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 343
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Bergen Ice Cream' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, iceCream",
+                            "settingShopReceiveSlots, $iceCreamSlot",
+                            "settingShopReceiveShops, $iceCreamShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sweet Lemonjuice Type",
+                "chest_unopened_img": "images/food/Lemonade.png",
+                "chest_opened_img": "images/food/LemonadeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 377
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Sweet Lemonjuice' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, lemonJuice",
+                            "settingShopReceiveSlots, $lemonJuiceSlot",
+                            "settingShopReceiveShops, $lemonJuiceShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cup o' Coffee Type",
+                "chest_unopened_img": "images/food/Coffee.png",
+                "chest_opened_img": "images/food/CoffeeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 413
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cup o' Coffee' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, coffee",
+                            "settingShopReceiveSlots, $coffeeSlot",
+                            "settingShopReceiveShops, $coffeeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Salted Peanuts Type",
+                "chest_unopened_img": "images/food/Peanuts.png",
+                "chest_opened_img": "images/food/PeanutsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 447
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Salted Peanuts' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, peanuts",
+                            "settingShopReceiveSlots, $peanutsSlot",
+                            "settingShopReceiveShops, $peanutsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Snack Mix Type",
+                "chest_unopened_img": "images/food/SnackMix.png",
+                "chest_opened_img": "images/food/SnackMixOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 480
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Snack Mix' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, snackMix",
+                            "settingShopReceiveSlots, $snackMixSlot",
+                            "settingShopReceiveShops, $snackMixShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rising Super Star Type",
+                "chest_unopened_img": "images/food/RisingStar.png",
+                "chest_opened_img": "images/food/RisingStarOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 515
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Rising Super Star' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, risingStar",
+                            "settingShopReceiveSlots, $risingStarSlot",
+                            "settingShopReceiveShops, $risingStarShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Dk Pepper Type",
+                "chest_unopened_img": "images/food/DkPepper.png",
+                "chest_opened_img": "images/food/DkPepperOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 550
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Dk Pepper' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, dkPepper",
+                            "settingShopReceiveSlots, $dkPepperSlot",
+                            "settingShopReceiveShops, $dkPepperShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Maultasche Type",
+                "chest_unopened_img": "images/food/Maultasche.png",
+                "chest_opened_img": "images/food/MaultascheOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 584
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Maultasche' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, maultasche",
+                            "settingShopReceiveSlots, $maultascheSlot",
+                            "settingShopReceiveShops, $maultascheShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cheese Spaetzle Type",
+                "chest_unopened_img": "images/food/Spaetzle.png",
+                "chest_opened_img": "images/food/SpaetzleOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 617
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cheese Spaetzle' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, spaetzle",
+                            "settingShopReceiveSlots, $spaetzleSlot",
+                            "settingShopReceiveShops, $spaetzleShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Durian Type",
+                "chest_unopened_img": "images/food/Durian.png",
+                "chest_opened_img": "images/food/DurianOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 649
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Durian' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, durian",
+                            "settingShopReceiveSlots, $durianSlot",
+                            "settingShopReceiveShops, $durianShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "PengoPop Type",
+                "chest_unopened_img": "images/food/PengoPop.png",
+                "chest_opened_img": "images/food/PengoPopOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 684
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'PengoPop' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, pengoPop",
+                            "settingShopReceiveSlots, $pengoPopSlot",
+                            "settingShopReceiveShops, $pengoPopShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Spicy Beat-0-Type Type",
+                "chest_unopened_img": "images/food/BeatZero.png",
+                "chest_opened_img": "images/food/BeatZeroOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 716
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Spicy Beat-0-Type' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, beatZero",
+                            "settingShopReceiveSlots, $beatZeroSlot",
+                            "settingShopReceiveShops, $beatZeroShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Werewolf Stick Type",
+                "chest_unopened_img": "images/food/WerewolfStick.png",
+                "chest_opened_img": "images/food/WerewolfStickOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 749
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Werewolf Stick' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, werewolf",
+                            "settingShopReceiveSlots, $werewolfSlot",
+                            "settingShopReceiveShops, $werewolfShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Mooncake Type",
+                "chest_unopened_img": "images/food/Mooncake.png",
+                "chest_opened_img": "images/food/MooncakeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 783
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Mooncake' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, mooncake",
+                            "settingShopReceiveSlots, $mooncakeSlot",
+                            "settingShopReceiveShops, $mooncakeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Willis Waldmahl Type",
+                "chest_unopened_img": "images/food/WillisWaldmahl.png",
+                "chest_opened_img": "images/food/WillisWaldmahlOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 815
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Willis Waldmahl' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, willis",
+                            "settingShopReceiveSlots, $willisSlot",
+                            "settingShopReceiveShops, $willisShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Pumpkin Spiced Coffee Type",
+                "chest_unopened_img": "images/food/PumpkinSpice.png",
+                "chest_opened_img": "images/food/PumpkinSpiceOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 851
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Pumpkin Spiced Coffee' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, pumpkinCoffee",
+                            "settingShopReceiveSlots, $pumpkinCoffeeSlot",
+                            "settingShopReceiveShops, $pumpkinCoffeeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Guacamole Toast Type",
+                "chest_unopened_img": "images/food/GuacamoleToast.png",
+                "chest_opened_img": "images/food/GuacamoleToastOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 48,
+                        "y": 884
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Guacamole Toast' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, toast",
+                            "settingShopReceiveSlots, $toastSlot",
+                            "settingShopReceiveShops, $toastShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Sweet Berry Tea Type",
+                "chest_unopened_img": "images/food/SweetTea.png",
+                "chest_opened_img": "images/food/SweetTeaOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 49,
+                        "y": 910
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Sweet Berry Tea' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, sweetTea",
+                            "settingShopReceiveSlots, $sweetTeaSlot",
+                            "settingShopReceiveShops, $sweetTeaShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chili Con Carne Type",
+                "chest_unopened_img": "images/food/Chili.png",
+                "chest_opened_img": "images/food/ChiliOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 49,
+                        "y": 929
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Chili Con Carne' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, chili",
+                            "settingShopReceiveSlots, $chiliSlot",
+                            "settingShopReceiveShops, $chiliShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "One Up Type",
+                "chest_unopened_img": "images/food/OneUp.png",
+                "chest_opened_img": "images/food/OneUpOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 80,
+                        "y": 954
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'One Up' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, oneUp",
+                            "settingShopReceiveSlots, $oneUpSlot",
+                            "settingShopReceiveShops, $oneUpShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bronze Goggles Type",
+                "chest_unopened_img": "images/shops/bronzeHelm.png",
+                "chest_opened_img": "images/shops/bronzeHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Bronze Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, brHelm",
+                            "settingShopReceiveSlots, $brHelmSlot",
+                            "settingShopReceiveShops, $brHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Goggles Type",
+                "chest_unopened_img": "images/shops/ironHelm.png",
+                "chest_opened_img": "images/shops/ironHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Iron Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, irHelm",
+                            "settingShopReceiveSlots, $irHelmSlot",
+                            "settingShopReceiveShops, $irHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silver Goggles Type",
+                "chest_unopened_img": "images/shops/silHelm.png",
+                "chest_opened_img": "images/shops/silHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Silver Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, silHelm",
+                            "settingShopReceiveSlots, $silHelmSlot",
+                            "settingShopReceiveShops, $silHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Steel Goggles Type",
+                "chest_unopened_img": "images/shops/steelHelm.png",
+                "chest_opened_img": "images/shops/steelHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Steel Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, stHelm",
+                            "settingShopReceiveSlots, $stHelmSlot",
+                            "settingShopReceiveShops, $stHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titan Goggles Type",
+                "chest_unopened_img": "images/shops/titanHelm.png",
+                "chest_opened_img": "images/shops/titanHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Titan Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, tiHelm",
+                            "settingShopReceiveSlots, $tiHelmSlot",
+                            "settingShopReceiveShops, $tiHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cobalt Goggles Type",
+                "chest_unopened_img": "images/shops/cobaltHelm.png",
+                "chest_opened_img": "images/shops/cobaltHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cobalt Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, coHelm",
+                            "settingShopReceiveSlots, $coHelmSlot",
+                            "settingShopReceiveShops, $coHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Laser Goggles Type",
+                "chest_unopened_img": "images/shops/laserHelm.png",
+                "chest_opened_img": "images/shops/laserHelmOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Laser Goggles' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, laHelm",
+                            "settingShopReceiveSlots, $laHelmSlot",
+                            "settingShopReceiveShops, $laHelmShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bronze Edge Type",
+                "chest_unopened_img": "images/shops/bronzeEdge.png",
+                "chest_opened_img": "images/shops/bronzeEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Bronze Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, brEdge",
+                            "settingShopReceiveSlots, $brEdgeSlot",
+                            "settingShopReceiveShops, $brEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Edge Type",
+                "chest_unopened_img": "images/shops/ironEdge.png",
+                "chest_opened_img": "images/shops/ironEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Iron Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, irEdge",
+                            "settingShopReceiveSlots, $irEdgeSlot",
+                            "settingShopReceiveShops, $irEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silver Edge Type",
+                "chest_unopened_img": "images/shops/silverEdge.png",
+                "chest_opened_img": "images/shops/silverEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Silver Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, silEdge",
+                            "settingShopReceiveSlots, $silEdgeSlot",
+                            "settingShopReceiveShops, $silEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Steel Edge Type",
+                "chest_unopened_img": "images/shops/steelEdge.png",
+                "chest_opened_img": "images/shops/steelEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Steel Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, stEdge",
+                            "settingShopReceiveSlots, $stEdgeSlot",
+                            "settingShopReceiveShops, $stEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titan Edge Type",
+                "chest_unopened_img": "images/shops/titanEdge.png",
+                "chest_opened_img": "images/shops/titanEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Titan Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, tiEdge",
+                            "settingShopReceiveSlots, $tiEdgeSlot",
+                            "settingShopReceiveShops, $tiEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cobalt Edge Type",
+                "chest_unopened_img": "images/shops/cobaltEdge.png",
+                "chest_opened_img": "images/shops/cobaltEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cobalt Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, coEdge",
+                            "settingShopReceiveSlots, $coEdgeSlot",
+                            "settingShopReceiveShops, $coEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Laser Edge Type",
+                "chest_unopened_img": "images/shops/laserEdge.png",
+                "chest_opened_img": "images/shops/laserEdgeOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Laser Edge' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, laEdge",
+                            "settingShopReceiveSlots, $laEdgeSlot",
+                            "settingShopReceiveShops, $laEdgeShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bronze Mail Type",
+                "chest_unopened_img": "images/shops/bronzeMail.png",
+                "chest_opened_img": "images/shops/bronzeMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Bronze Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, brMail",
+                            "settingShopReceiveSlots, $brMailSlot",
+                            "settingShopReceiveShops, $brMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Mail Type",
+                "chest_unopened_img": "images/shops/ironMail.png",
+                "chest_opened_img": "images/shops/ironMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Iron Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, irMail",
+                            "settingShopReceiveSlots, $irMailSlot",
+                            "settingShopReceiveShops, $irMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silver Mail Type",
+                "chest_unopened_img": "images/shops/silverMail.png",
+                "chest_opened_img": "images/shops/silverMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Silver Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, silMail",
+                            "settingShopReceiveSlots, $silMailSlot",
+                            "settingShopReceiveShops, $silMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Steel Mail Type",
+                "chest_unopened_img": "images/shops/steelMail.png",
+                "chest_opened_img": "images/shops/steelMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Steel Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, stMail",
+                            "settingShopReceiveSlots, $stMailSlot",
+                            "settingShopReceiveShops, $stMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titan Mail Type",
+                "chest_unopened_img": "images/shops/titanMail.png",
+                "chest_opened_img": "images/shops/titanMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Titan Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, tiMail",
+                            "settingShopReceiveSlots, $tiMailSlot",
+                            "settingShopReceiveShops, $tiMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cobalt Mail Type",
+                "chest_unopened_img": "images/shops/cobaltMail.png",
+                "chest_opened_img": "images/shops/cobaltMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cobalt Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, coMail",
+                            "settingShopReceiveSlots, $coMailSlot",
+                            "settingShopReceiveShops, $coMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Laser Mail Type",
+                "chest_unopened_img": "images/shops/laserMail.png",
+                "chest_opened_img": "images/shops/laserMailOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Laser Mail' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, laMail",
+                            "settingShopReceiveSlots, $laMailSlot",
+                            "settingShopReceiveShops, $laMailShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Bronze Boots Type",
+                "chest_unopened_img": "images/shops/bronzeBoots.png",
+                "chest_opened_img": "images/shops/bronzeBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Bronze Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, brBoots",
+                            "settingShopReceiveSlots, $brBootsSlot",
+                            "settingShopReceiveShops, $brBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Iron Boots Type",
+                "chest_unopened_img": "images/shops/ironBoots.png",
+                "chest_opened_img": "images/shops/ironBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Iron Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, irBoots",
+                            "settingShopReceiveSlots, $irBootsSlot",
+                            "settingShopReceiveShops, $irBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silver Boots Type",
+                "chest_unopened_img": "images/shops/silverBoots.png",
+                "chest_opened_img": "images/shops/silverBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Silver Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, silBoots",
+                            "settingShopReceiveSlots, $silBootsSlot",
+                            "settingShopReceiveShops, $silBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Steel Boots Type",
+                "chest_unopened_img": "images/shops/steelBoots.png",
+                "chest_opened_img": "images/shops/steelBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Steel Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, stBoots",
+                            "settingShopReceiveSlots, $stBootsSlot",
+                            "settingShopReceiveShops, $stBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Titan Boots Type",
+                "chest_unopened_img": "images/shops/titanBoots.png",
+                "chest_opened_img": "images/shops/titanBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Titan Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, tiBoots",
+                            "settingShopReceiveSlots, $tiBootsSlot",
+                            "settingShopReceiveShops, $tiBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Cobalt Boots Type",
+                "chest_unopened_img": "images/shops/cobaltBoots.png",
+                "chest_opened_img": "images/shops/cobaltBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Cobalt Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, coBoots",
+                            "settingShopReceiveSlots, $coBootsSlot",
+                            "settingShopReceiveShops, $coBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Laser Boots Type",
+                "chest_unopened_img": "images/shops/laserBoots.png",
+                "chest_opened_img": "images/shops/laserBootsOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Laser Boots' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, laBoots",
+                            "settingShopReceiveSlots, $laBootsSlot",
+                            "settingShopReceiveShops, $laBootsShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Chest Detector Type",
+                "chest_unopened_img": "images/shops/ChestDetector.png",
+                "chest_opened_img": "images/shops/ChestDetectorOff.png",
+                "map_locations": 
+                [
+                    {
+                        "map": "TypesMap",
+                        "x": 47,
+                        "y": 47
+                    }
+                ],
+                "visibility_rules": 
+                [
+                    "shopShuffleTypes"
+                ],
+                "access_rules": 
+                [
+                    ""
+                ],
+                "sections":
+                [
+                    {
+                        "name": "Buy A 'Chest Detector' From Any Item Shop",
+                        "visibility_rules": 
+                        [
+                            ""
+                        ],
+                        "access_rules": 
+                        [
+                            "settingShopReceiveOff",
+                            "settingShopReceiveTypes, chestDetector",
+                            "settingShopReceiveSlots, $chestDetectorSlot",
+                            "settingShopReceiveShops, $chestDetectorShop"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
         ]
     }
 ]
