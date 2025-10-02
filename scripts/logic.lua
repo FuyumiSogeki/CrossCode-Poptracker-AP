@@ -1523,377 +1523,377 @@ function RHitem1Reach()
 end
 
 function RHitem2Reach()
-  return RHitem2 and (region2() or regionOpen2())
+  return RHitem2() and (region2() or regionOpen2())
 end
 
 function RHitem3Reach()
-  return RHitem3 and (region2() or regionOpen2())
+  return RHitem3() and (region2() or regionOpen2())
 end
 
 function RHitem4Reach()
-  return RHitem4 and (region2() or regionOpen2())
+  return RHitem4() and (region2() or regionOpen2())
 end
 
 function RHitem5Reach()
-  return RHitem5 and (region2() or regionOpen2())
+  return RHitem5() and (region2() or regionOpen2())
 end
 
 function RHitem6Reach()
-  return RHitem6 and (region2() or regionOpen2())
+  return RHitem6() and (region2() or regionOpen2())
 end
 
 function RHitem7Reach()
-  return RHitem7 and (region2() or regionOpen2())
+  return RHitem7() and (region2() or regionOpen2())
 end
 
 function RHitem8Reach()
-  return RHitem8 and (region2() or regionOpen2())
+  return RHitem8() and (region2() or regionOpen2())
 end
 
 function RHitem9Reach()
-  return RHitem9 and (region2() or regionOpen2())
+  return RHitem9() and (region2() or regionOpen2())
 end
 
 function RHitem10Reach()
-  return RHitem10 and (region2() or regionOpen2())
+  return RHitem10() and (region2() or regionOpen2())
 end
 
 function RHitem11Reach()
-  return RHitem11 and (region2() or regionOpen2())
+  return RHitem11() and (region2() or regionOpen2())
 end
 
 function RHitem12Reach()
-  return RHitem12 and (region2() or regionOpen2())
+  return RHitem12() and (region2() or regionOpen2())
 end
 
 function RHitem13Reach()
-  return RHitem13 and (region2() or regionOpen2())
+  return RHitem13() and (region2() or regionOpen2())
 end
 
 function RHitem14Reach()
-  return RHitem14 and (region2() or regionOpen2())
+  return RHitem14() and (region2() or regionOpen2())
 end
 
 function RHitem15Reach()
-  return RHitem15 and (region2() or regionOpen2())
+  return RHitem15() and (region2() or regionOpen2())
 end
 
 function RHweapon1Reach()
-  return RHweapon1 and (region2() or regionOpen2())
+  return RHweapon1() and (region2() or regionOpen2())
 end
 
 function RHweapon2Reach()
-  return RHweapon2 and (region2() or regionOpen2())
+  return RHweapon2() and (region2() or regionOpen2())
 end
 
 function RHweapon3Reach()
-  return RHweapon3 and (region2() or regionOpen2())
+  return RHweapon3() and (region2() or regionOpen2())
 end
 
 function RHweapon4Reach()
-  return RHweapon4 and (region2() or regionOpen2())
+  return RHweapon4() and (region2() or regionOpen2())
 end
 
 function RHweapon5Reach()
-  return RHweapon5 and (region2() or regionOpen2())
+  return RHweapon5() and (region2() or regionOpen2())
 end
 
 function RHweapon6Reach()
-  return RHweapon6 and (region2() or regionOpen2())
+  return RHweapon6() and (region2() or regionOpen2())
 end
 
 function RHweapon7Reach()
-  return RHweapon7 and (region2() or regionOpen2())
+  return RHweapon7() and (region2() or regionOpen2())
 end
 
 function RHweapon8Reach()
-  return RHweapon8 and (region2() or regionOpen2())
+  return RHweapon8() and (region2() or regionOpen2())
 end
 
 function RHweapon9Reach()
-  return RHweapon9 and (region2() or regionOpen2())
+  return RHweapon9() and (region2() or regionOpen2())
 end
 
 function RHweapon10Reach()
-  return RHweapon10 and (region2() or regionOpen2())
+  return RHweapon10() and (region2() or regionOpen2())
 end
 
 function RHweapon11Reach()
-  return RHweapon11 and (region2() or regionOpen2())
+  return RHweapon11() and (region2() or regionOpen2())
 end
 
 function RHweapon12Reach()
-  return RHweapon12 and (region2() or regionOpen2())
+  return RHweapon12() and (region2() or regionOpen2())
 end
 
 function RHchef1Reach()
-  return RHchef1 and (region19() or regionOpen8())
+  return RHchef1() and (region19() or regionOpen8())
 end
 
 function RHchef2Reach()
-  return RHchef2 and (region19() or regionOpen8())
+  return RHchef2() and (region19() or regionOpen8())
 end
 
 function RHchef3Reach()
-  return RHchef3 and (region19() or regionOpen8())
+  return RHchef3() and (region19() or regionOpen8())
 end
 
 function RHchef4Reach()
-  return RHchef4 and (region19() or regionOpen8())
+  return RHchef4() and (region19() or regionOpen8())
 end
 
 function RHchef5Reach()
-  return RHchef5 and (region19() or regionOpen8())
+  return RHchef5() and (region19() or regionOpen8())
 end
 
 function RHchef6Reach()
-  return RHchef6 and (region19() or regionOpen8())
+  return RHchef6() and (region19() or regionOpen8())
 end
 
 function RHchef7Reach()
-  return RHchef7 and (region19() or regionOpen8())
+  return RHchef7() and (region19() or regionOpen8())
 end
 
 function RHchef8Reach()
-  return RHchef8 and (region19() or regionOpen8())
+  return RHchef8() and (region19() or regionOpen8())
 end
 
 function RHchef9Reach()
-  return RHchef9 and (region19() or regionOpen8())
+  return RHchef9() and (region19() or regionOpen8())
 end
 
 function RHchef10Reach()
-  return RHchef10 and (region19() or regionOpen8())
+  return RHchef10() and (region19() or regionOpen8())
 end
 
 function RHchef11Reach()
-  return RHchef11 and (region19() or regionOpen8())
+  return RHchef11() and (region19() or regionOpen8())
 end
 
 function RHchef12Reach()
-  return RHchef12 and (region19() or regionOpen8())
+  return RHchef12() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon1Reach()
-  return RHbackWeapon1 and (region19() or regionOpen8())
+  return RHbackWeapon1() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon2Reach()
-  return RHbackWeapon2 and (region19() or regionOpen8())
+  return RHbackWeapon2() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon3Reach()
-  return RHbackWeapon3 and (region19() or regionOpen8())
+  return RHbackWeapon3() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon4Reach()
-  return RHbackWeapon4 and (region19() or regionOpen8())
+  return RHbackWeapon4() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon5Reach()
-  return RHbackWeapon5 and (region19() or regionOpen8())
+  return RHbackWeapon5() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon6Reach()
-  return RHbackWeapon6 and (region19() or regionOpen8())
+  return RHbackWeapon6() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon7Reach()
-  return RHbackWeapon7 and (region19() or regionOpen8())
+  return RHbackWeapon7() and (region19() or regionOpen8())
 end
 
 function RHbackWeapon8Reach()
-  return RHbackWeapon8 and (region19() or regionOpen8())
+  return RHbackWeapon8() and (region19() or regionOpen8())
 end
 
 function RHtara1Reach()
-  return RHtara1 and (region2() or regionOpen2())
+  return RHtara1() and (region2() or regionOpen2())
 end
 
 -- Bergen Trail Shops Reachable
 
 function BThermit1Reach()
-  return BThermit1 and (region3() or regionOpen3())
+  return BThermit1() and (region3() or regionOpen3())
 end
 
 function BThermit2Reach()
-  return BThermit2 and (region3() or regionOpen3())
+  return BThermit2() and (region3() or regionOpen3())
 end
 
 function BThermit3Reach()
-  return BThermit3 and (region3() or regionOpen3())
+  return BThermit3() and (region3() or regionOpen3())
 end
 
 -- Bergen Village Shops Reachable
 
 function BVitem1Reach()
-  return BVitem1 and (region3() or regionOpen3())
+  return BVitem1() and (region3() or regionOpen3())
 end
 
 function BVitem2Reach()
-  return BVitem2 and (region3() or regionOpen3())
+  return BVitem2() and (region3() or regionOpen3())
 end
 
 function BVitem3Reach()
-  return BVitem3 and (region3() or regionOpen3())
+  return BVitem3() and (region3() or regionOpen3())
 end
 
 function BVitem4Reach()
-  return BVitem4 and (region3() or regionOpen3())
+  return BVitem4() and (region3() or regionOpen3())
 end
 
 function BVitem5Reach()
-  return BVitem5 and (region3() or regionOpen3())
+  return BVitem5() and (region3() or regionOpen3())
 end
 
 function BVitem6Reach()
-  return BVitem6 and (region3() or regionOpen3())
+  return BVitem6() and (region3() or regionOpen3())
 end
 
 function BVitem7Reach()
-  return BVitem7 and (region3() or regionOpen3())
+  return BVitem7() and (region3() or regionOpen3())
 end
 
 function BVitem8Reach()
-  return BVitem8 and (region3() or regionOpen3())
+  return BVitem8() and (region3() or regionOpen3())
 end
 
 function BVitem9Reach()
-  return BVitem9 and (region3() or regionOpen3())
+  return BVitem9() and (region3() or regionOpen3())
 end
 
 function BVitem10Reach()
-  return BVitem10 and (region3() or regionOpen3())
+  return BVitem10() and (region3() or regionOpen3())
 end
 
 function BVitem11Reach()
-  return BVitem11 and (region3() or regionOpen3())
+  return BVitem11() and (region3() or regionOpen3())
 end
 
 function BVitem12Reach()
-  return BVitem12 and (region3() or regionOpen3())
+  return BVitem12() and (region3() or regionOpen3())
 end
 
 function BVitem13Reach()
-  return BVitem13 and (region3() or regionOpen3())
+  return BVitem13() and (region3() or regionOpen3())
 end
 
 function BVitem14Reach()
-  return BVitem14 and (region3() or regionOpen3())
+  return BVitem14() and (region3() or regionOpen3())
 end
 
 function BVitem15Reach()
-  return BVitem15 and (region3() or regionOpen3())
+  return BVitem15() and (region3() or regionOpen3())
 end
 
 function BVweapon1Reach()
-  return BVweapon1 and (region3() or regionOpen3())
+  return BVweapon1() and (region3() or regionOpen3())
 end
 
 function BVweapon2Reach()
-  return BVweapon2 and (region3() or regionOpen3())
+  return BVweapon2() and (region3() or regionOpen3())
 end
 
 function BVweapon3Reach()
-  return BVweapon3 and (region3() or regionOpen3())
+  return BVweapon3() and (region3() or regionOpen3())
 end
 
 function BVweapon4Reach()
-  return BVweapon4 and (region3() or regionOpen3())
+  return BVweapon4() and (region3() or regionOpen3())
 end
 
 -- Bakii Kum Shops Reachable
 
 function BKitem1Reach()
-  return BKitem1 and (region11() or regionOpen5())
+  return BKitem1() and (region11() or regionOpen5())
 end
 
 function BKitem2Reach()
-  return BKitem2 and (region11() or regionOpen5())
+  return BKitem2() and (region11() or regionOpen5())
 end
 
 function BKitem3Reach()
-  return BKitem3 and (region11() or regionOpen5())
+  return BKitem3() and (region11() or regionOpen5())
 end
 
 function BKitem4Reach()
-  return BKitem4 and (region11() or regionOpen5())
+  return BKitem4() and (region11() or regionOpen5())
 end
 
 function BKitem5Reach()
-  return BKitem5 and (region11() or regionOpen5())
+  return BKitem5() and (region11() or regionOpen5())
 end
 
 function BKitem6Reach()
-  return BKitem6 and (region11() or regionOpen5())
+  return BKitem6() and (region11() or regionOpen5())
 end
 
 function BKitem7Reach()
-  return BKitem7 and (region11() or regionOpen5())
+  return BKitem7() and (region11() or regionOpen5())
 end
 
 function BKitem8Reach()
-  return BKitem8 and (region11() or regionOpen5())
+  return BKitem8() and (region11() or regionOpen5())
 end
 
 function BKitem9Reach()
-  return BKitem9 and (region11() or regionOpen5())
+  return BKitem9() and (region11() or regionOpen5())
 end
 
 function BKitem10Reach()
-  return BKitem10 and (region11() or regionOpen5())
+  return BKitem10() and (region11() or regionOpen5())
 end
 
 function BKitem11Reach()
-  return BKitem11 and (region11() or regionOpen5())
+  return BKitem11() and (region11() or regionOpen5())
 end
 
 function BKitem12Reach()
-  return BKitem12 and (region11() or regionOpen5())
+  return BKitem12() and (region11() or regionOpen5())
 end
 
 function BKitem13Reach()
-  return BKitem13 and (region11() or regionOpen5())
+  return BKitem13() and (region11() or regionOpen5())
 end
 
 function BKitem14Reach()
-  return BKitem14 and (region11() or regionOpen5())
+  return BKitem14() and (region11() or regionOpen5())
 end
 
 function BKitem15Reach()
-  return BKitem15 and (region11() or regionOpen5())
+  return BKitem15() and (region11() or regionOpen5())
 end
 
 function BKweapon1Reach()
-  return BKweapon1 and (region11() or regionOpen5())
+  return BKweapon1() and (region11() or regionOpen5())
 end
 
 function BKweapon2Reach()
-  return BKweapon2 and (region11() or regionOpen5())
+  return BKweapon2() and (region11() or regionOpen5())
 end
 
 function BKweapon3Reach()
-  return BKweapon3 and (region11() or regionOpen5())
+  return BKweapon3() and (region11() or regionOpen5())
 end
 
 function BKweapon4Reach()
-  return BKweapon4 and (region11() or regionOpen5())
+  return BKweapon4() and (region11() or regionOpen5())
 end
 
 function BKweapon5Reach()
-  return BKweapon5 and (region11() or regionOpen5())
+  return BKweapon5() and (region11() or regionOpen5())
 end
 
 function BKweapon6Reach()
-  return BKweapon6 and (region11() or regionOpen5())
+  return BKweapon6() and (region11() or regionOpen5())
 end
 
 function BKweapon7Reach()
-  return BKweapon7 and (region11() or regionOpen5())
+  return BKweapon7() and (region11() or regionOpen5())
 end
 
 function BKweapon8Reach()
-  return BKweapon8 and (region11() or regionOpen5())
+  return BKweapon8() and (region11() or regionOpen5())
 end
 
 -- Shop Send Type
