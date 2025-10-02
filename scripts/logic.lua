@@ -632,200 +632,6 @@ function RHtara1()
   return has ("settingShopReceiveSlots") and has ("RHtara1")
 end
 
--- Rookie Harbor Shop Reachable
-
-function RHitem1Reach()
-  return RHitem1() and (region2() or regionOpen2())
-end
-
-function RHitem2Reach()
-  return RHitem2 and (region2() or regionOpen2())
-end
-
-function RHitem3Reach()
-  return RHitem3 and (region2() or regionOpen2())
-end
-
-function RHitem4Reach()
-  return RHitem4 and (region2() or regionOpen2())
-end
-
-function RHitem5Reach()
-  return RHitem5 and (region2() or regionOpen2())
-end
-
-function RHitem6Reach()
-  return RHitem6 and (region2() or regionOpen2())
-end
-
-function RHitem7Reach()
-  return RHitem7 and (region2() or regionOpen2())
-end
-
-function RHitem8Reach()
-  return RHitem8 and (region2() or regionOpen2())
-end
-
-function RHitem9Reach()
-  return RHitem9 and (region2() or regionOpen2())
-end
-
-function RHitem10Reach()
-  return RHitem10 and (region2() or regionOpen2())
-end
-
-function RHitem11Reach()
-  return RHitem11 and (region2() or regionOpen2())
-end
-
-function RHitem12Reach()
-  return RHitem12 and (region2() or regionOpen2())
-end
-
-function RHitem13Reach()
-  return RHitem13 and (region2() or regionOpen2())
-end
-
-function RHitem14Reach()
-  return RHitem14 and (region2() or regionOpen2())
-end
-
-function RHitem15Reach()
-  return RHitem15 and (region2() or regionOpen2())
-end
-
-function RHweapon1Reach()
-  return RHweapon1 and (region2() or regionOpen2())
-end
-
-function RHweapon2Reach()
-  return RHweapon2 and (region2() or regionOpen2())
-end
-
-function RHweapon3Reach()
-  return RHweapon3 and (region2() or regionOpen2())
-end
-
-function RHweapon4Reach()
-  return RHweapon4 and (region2() or regionOpen2())
-end
-
-function RHweapon5Reach()
-  return RHweapon5 and (region2() or regionOpen2())
-end
-
-function RHweapon6Reach()
-  return RHweapon6 and (region2() or regionOpen2())
-end
-
-function RHweapon7Reach()
-  return RHweapon7 and (region2() or regionOpen2())
-end
-
-function RHweapon8Reach()
-  return RHweapon8 and (region2() or regionOpen2())
-end
-
-function RHweapon9Reach()
-  return RHweapon9 and (region2() or regionOpen2())
-end
-
-function RHweapon10Reach()
-  return RHweapon10 and (region2() or regionOpen2())
-end
-
-function RHweapon11Reach()
-  return RHweapon11 and (region2() or regionOpen2())
-end
-
-function RHweapon12Reach()
-  return RHweapon12 and (region2() or regionOpen2())
-end
-
-function RHchef1Reach()
-  return RHchef1 and (region19() or regionOpen8())
-end
-
-function RHchef2Reach()
-  return RHchef2 and (region19() or regionOpen8())
-end
-
-function RHchef3Reach()
-  return RHchef3 and (region19() or regionOpen8())
-end
-
-function RHchef4Reach()
-  return RHchef4 and (region19() or regionOpen8())
-end
-
-function RHchef5Reach()
-  return RHchef5 and (region19() or regionOpen8())
-end
-
-function RHchef6Reach()
-  return RHchef6 and (region19() or regionOpen8())
-end
-
-function RHchef7Reach()
-  return RHchef7 and (region19() or regionOpen8())
-end
-
-function RHchef8Reach()
-  return RHchef8 and (region19() or regionOpen8())
-end
-
-function RHchef9Reach()
-  return RHchef9 and (region19() or regionOpen8())
-end
-
-function RHchef10Reach()
-  return RHchef10 and (region19() or regionOpen8())
-end
-
-function RHchef11Reach()
-  return RHchef11 and (region19() or regionOpen8())
-end
-
-function RHchef12Reach()
-  return RHchef12 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon1Reach()
-  return RHbackWeapon1 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon2Reach()
-  return RHbackWeapon2 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon3Reach()
-  return RHbackWeapon3 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon4Reach()
-  return RHbackWeapon4 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon5Reach()
-  return RHbackWeapon5 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon6Reach()
-  return RHbackWeapon6 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon7Reach()
-  return RHbackWeapon7 and (region19() or regionOpen8())
-end
-
-function RHbackWeapon8Reach()
-  return RHbackWeapon8 and (region19() or regionOpen8())
-end
-
-function RHtara1Reach()
-  return RHtara1 and (region2() or regionOpen2())
-end
-
 -- Bergen Trail Shops
 
 function BThermit1()
@@ -1710,7 +1516,216 @@ function typeLaBoots()
 end
 
 
--- Slot/Location association for type send
+
+-- Rookie Harbor Shops Reachable
+
+function RHitem1Reach()
+  return RHitem1() and (region2() or regionOpen2())
+end
+
+function RHitem2Reach()
+  return RHitem2 and (region2() or regionOpen2())
+end
+
+function RHitem3Reach()
+  return RHitem3 and (region2() or regionOpen2())
+end
+
+function RHitem4Reach()
+  return RHitem4 and (region2() or regionOpen2())
+end
+
+function RHitem5Reach()
+  return RHitem5 and (region2() or regionOpen2())
+end
+
+function RHitem6Reach()
+  return RHitem6 and (region2() or regionOpen2())
+end
+
+function RHitem7Reach()
+  return RHitem7 and (region2() or regionOpen2())
+end
+
+function RHitem8Reach()
+  return RHitem8 and (region2() or regionOpen2())
+end
+
+function RHitem9Reach()
+  return RHitem9 and (region2() or regionOpen2())
+end
+
+function RHitem10Reach()
+  return RHitem10 and (region2() or regionOpen2())
+end
+
+function RHitem11Reach()
+  return RHitem11 and (region2() or regionOpen2())
+end
+
+function RHitem12Reach()
+  return RHitem12 and (region2() or regionOpen2())
+end
+
+function RHitem13Reach()
+  return RHitem13 and (region2() or regionOpen2())
+end
+
+function RHitem14Reach()
+  return RHitem14 and (region2() or regionOpen2())
+end
+
+function RHitem15Reach()
+  return RHitem15 and (region2() or regionOpen2())
+end
+
+function RHweapon1Reach()
+  return RHweapon1 and (region2() or regionOpen2())
+end
+
+function RHweapon2Reach()
+  return RHweapon2 and (region2() or regionOpen2())
+end
+
+function RHweapon3Reach()
+  return RHweapon3 and (region2() or regionOpen2())
+end
+
+function RHweapon4Reach()
+  return RHweapon4 and (region2() or regionOpen2())
+end
+
+function RHweapon5Reach()
+  return RHweapon5 and (region2() or regionOpen2())
+end
+
+function RHweapon6Reach()
+  return RHweapon6 and (region2() or regionOpen2())
+end
+
+function RHweapon7Reach()
+  return RHweapon7 and (region2() or regionOpen2())
+end
+
+function RHweapon8Reach()
+  return RHweapon8 and (region2() or regionOpen2())
+end
+
+function RHweapon9Reach()
+  return RHweapon9 and (region2() or regionOpen2())
+end
+
+function RHweapon10Reach()
+  return RHweapon10 and (region2() or regionOpen2())
+end
+
+function RHweapon11Reach()
+  return RHweapon11 and (region2() or regionOpen2())
+end
+
+function RHweapon12Reach()
+  return RHweapon12 and (region2() or regionOpen2())
+end
+
+function RHchef1Reach()
+  return RHchef1 and (region19() or regionOpen8())
+end
+
+function RHchef2Reach()
+  return RHchef2 and (region19() or regionOpen8())
+end
+
+function RHchef3Reach()
+  return RHchef3 and (region19() or regionOpen8())
+end
+
+function RHchef4Reach()
+  return RHchef4 and (region19() or regionOpen8())
+end
+
+function RHchef5Reach()
+  return RHchef5 and (region19() or regionOpen8())
+end
+
+function RHchef6Reach()
+  return RHchef6 and (region19() or regionOpen8())
+end
+
+function RHchef7Reach()
+  return RHchef7 and (region19() or regionOpen8())
+end
+
+function RHchef8Reach()
+  return RHchef8 and (region19() or regionOpen8())
+end
+
+function RHchef9Reach()
+  return RHchef9 and (region19() or regionOpen8())
+end
+
+function RHchef10Reach()
+  return RHchef10 and (region19() or regionOpen8())
+end
+
+function RHchef11Reach()
+  return RHchef11 and (region19() or regionOpen8())
+end
+
+function RHchef12Reach()
+  return RHchef12 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon1Reach()
+  return RHbackWeapon1 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon2Reach()
+  return RHbackWeapon2 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon3Reach()
+  return RHbackWeapon3 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon4Reach()
+  return RHbackWeapon4 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon5Reach()
+  return RHbackWeapon5 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon6Reach()
+  return RHbackWeapon6 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon7Reach()
+  return RHbackWeapon7 and (region19() or regionOpen8())
+end
+
+function RHbackWeapon8Reach()
+  return RHbackWeapon8 and (region19() or regionOpen8())
+end
+
+function RHtara1Reach()
+  return RHtara1 and (region2() or regionOpen2())
+end
+
+-- Bergen Trail Shops Reachable
+
+function BThermit1Reach()
+  return BThermit1 and (region3() or regionOpen3())
+end
+
+function BThermit2Reach()
+  return BThermit2 and (region3() or regionOpen3())
+end
+
+function BThermit3Reach()
+  return BThermit3 and (region3() or regionOpen3())
+end
+
+
 
 function sandwichSlot()
   return RHitem1Reach() or BVitem1() or BKitem1() or BKEvendor1() or BKEitem1() or SRitem1() or RSitem1() or VWitem1()
