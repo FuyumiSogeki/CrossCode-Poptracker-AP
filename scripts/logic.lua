@@ -1516,856 +1516,412 @@ function typeLaBoots()
   return has ("settingShopReceiveTypes") and has ("laBoots")
 end
 
--- Rookie Harbor Shops Reachable
+-- Shop Reach
+-- Rookie Harbor Shops Reach
 
-function RHitem1Reach()
-  return RHitem1() and (region2() or regionOpen2())
+function RH_1_1()
+  return region2() or regionOpen2()
 end
 
-function RHitem2Reach()
-  return RHitem2() and (region2() or regionOpen2())
+function RH_1_2()
+  return RH_1_1() and has("iceShade")
 end
 
-function RHitem3Reach()
-  return RHitem3() and (region2() or regionOpen2())
+function RH_1_3()
+  return RH_1_1() and has("flameShade")
 end
 
-function RHitem4Reach()
-  return RHitem4() and (region2() or regionOpen2())
+function RH_1_4()
+  return RH_1_1() and has("seedShade")
 end
 
-function RHitem5Reach()
-  return RHitem5() and (region2() or regionOpen2())
+function RH_2()
+  return region19() or regionOpen8()
 end
 
-function RHitem6Reach()
-  return RHitem6() and (region2() or regionOpen2())
-end
-
-function RHitem7Reach()
-  return RHitem7() and (region2() or regionOpen2())
-end
-
-function RHitem8Reach()
-  return RHitem8() and (region2() or regionOpen2())
-end
-
-function RHitem9Reach()
-  return RHitem9() and (region2() or regionOpen2())
-end
-
-function RHitem10Reach()
-  return RHitem10() and (region2() or regionOpen2())
-end
-
-function RHitem11Reach()
-  return RHitem11() and (region2() or regionOpen2())
-end
-
-function RHitem12Reach()
-  return RHitem12() and (region2() or regionOpen2())
-end
-
-function RHitem13Reach()
-  return RHitem13() and (region2() or regionOpen2())
-end
-
-function RHitem14Reach()
-  return RHitem14() and (region2() or regionOpen2())
-end
-
-function RHitem15Reach()
-  return RHitem15() and (region2() or regionOpen2())
-end
-
-function RHweapon1Reach()
-  return RHweapon1() and (region2() or regionOpen2())
-end
-
-function RHweapon2Reach()
-  return RHweapon2() and (region2() or regionOpen2())
-end
-
-function RHweapon3Reach()
-  return RHweapon3() and (region2() or regionOpen2())
-end
-
-function RHweapon4Reach()
-  return RHweapon4() and (region2() or regionOpen2())
-end
-
-function RHweapon5Reach()
-  return RHweapon5() and (region2() or regionOpen2())
-end
-
-function RHweapon6Reach()
-  return RHweapon6() and (region2() or regionOpen2())
-end
-
-function RHweapon7Reach()
-  return RHweapon7() and (region2() or regionOpen2())
-end
-
-function RHweapon8Reach()
-  return RHweapon8() and (region2() or regionOpen2())
-end
-
-function RHweapon9Reach()
-  return RHweapon9() and (region2() or regionOpen2())
-end
-
-function RHweapon10Reach()
-  return RHweapon10() and (region2() or regionOpen2())
-end
-
-function RHweapon11Reach()
-  return RHweapon11() and (region2() or regionOpen2())
-end
-
-function RHweapon12Reach()
-  return RHweapon12() and (region2() or regionOpen2())
-end
-
-function RHchef1Reach()
-  return RHchef1() and (region19() or regionOpen8())
-end
-
-function RHchef2Reach()
-  return RHchef2() and (region19() or regionOpen8())
-end
-
-function RHchef3Reach()
-  return RHchef3() and (region19() or regionOpen8())
-end
-
-function RHchef4Reach()
-  return RHchef4() and (region19() or regionOpen8())
-end
-
-function RHchef5Reach()
-  return RHchef5() and (region19() or regionOpen8())
-end
-
-function RHchef6Reach()
-  return RHchef6() and (region19() or regionOpen8())
-end
-
-function RHchef7Reach()
-  return RHchef7() and (region19() or regionOpen8())
-end
-
-function RHchef8Reach()
-  return RHchef8() and (region19() or regionOpen8())
-end
-
-function RHchef9Reach()
-  return RHchef9() and (region19() or regionOpen8())
-end
-
-function RHchef10Reach()
-  return RHchef10() and (region19() or regionOpen8())
-end
-
-function RHchef11Reach()
-  return RHchef11() and (region19() or regionOpen8())
-end
-
-function RHchef12Reach()
-  return RHchef12() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon1Reach()
-  return RHbackWeapon1() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon2Reach()
-  return RHbackWeapon2() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon3Reach()
-  return RHbackWeapon3() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon4Reach()
-  return RHbackWeapon4() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon5Reach()
-  return RHbackWeapon5() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon6Reach()
-  return RHbackWeapon6() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon7Reach()
-  return RHbackWeapon7() and (region19() or regionOpen8())
-end
-
-function RHbackWeapon8Reach()
-  return RHbackWeapon8() and (region19() or regionOpen8())
-end
-
-function RHtara1Reach()
-  return RHtara1() and (region2() or regionOpen2())
-end
-
--- Bergen Trail Shops Reachable
-
-function BThermit1Reach()
-  return BThermit1() and (region3() or regionOpen3())
-end
-
-function BThermit2Reach()
-  return BThermit2() and (region3() or regionOpen3())
-end
-
-function BThermit3Reach()
-  return BThermit3() and (region3() or regionOpen3())
-end
-
--- Bergen Village Shops Reachable
-
-function BVitem1Reach()
-  return BVitem1() and (region3() or regionOpen3())
-end
-
-function BVitem2Reach()
-  return BVitem2() and (region3() or regionOpen3())
-end
-
-function BVitem3Reach()
-  return BVitem3() and (region3() or regionOpen3())
-end
-
-function BVitem4Reach()
-  return BVitem4() and (region3() or regionOpen3())
-end
-
-function BVitem5Reach()
-  return BVitem5() and (region3() or regionOpen3())
-end
-
-function BVitem6Reach()
-  return BVitem6() and (region3() or regionOpen3())
-end
-
-function BVitem7Reach()
-  return BVitem7() and (region3() or regionOpen3())
-end
-
-function BVitem8Reach()
-  return BVitem8() and (region3() or regionOpen3())
-end
-
-function BVitem9Reach()
-  return BVitem9() and (region3() or regionOpen3())
-end
-
-function BVitem10Reach()
-  return BVitem10() and (region3() or regionOpen3())
-end
-
-function BVitem11Reach()
-  return BVitem11() and (region3() or regionOpen3())
-end
-
-function BVitem12Reach()
-  return BVitem12() and (region3() or regionOpen3())
-end
-
-function BVitem13Reach()
-  return BVitem13() and (region3() or regionOpen3())
-end
-
-function BVitem14Reach()
-  return BVitem14() and (region3() or regionOpen3())
-end
+-- Bergen Trail Shops Reach
 
-function BVitem15Reach()
-  return BVitem15() and (region3() or regionOpen3())
+function BT()
+  return region3() or regionOpen3()
 end
 
-function BVweapon1Reach()
-  return BVweapon1() and (region3() or regionOpen3())
+function BV_1()
+  return region3() or regionOpen3()
 end
 
-function BVweapon2Reach()
-  return BVweapon2() and (region3() or regionOpen3())
+function BV_2()
+  return BV_1() and has("iceShade")
 end
 
-function BVweapon3Reach()
-  return BVweapon3() and (region3() or regionOpen3())
+function BV_3()
+  return BV_1() and has("flameShade")
 end
 
-function BVweapon4Reach()
-  return BVweapon4() and (region3() or regionOpen3())
+function BV_4()
+  return BV_1() and has("seedShade")
 end
 
 -- Bakii Kum Shops Reachable
 
-function BKitem1Reach()
-  return BKitem1() and (region11() or regionOpen5())
+function BK_1()
+  return region11() or regionOpen5()
 end
 
-function BKitem2Reach()
-  return BKitem2() and (region11() or regionOpen5())
+function BK_2()
+  return BK_1() and has("flameShade")
 end
 
-function BKitem3Reach()
-  return BKitem3() and (region11() or regionOpen5())
-end
-
-function BKitem4Reach()
-  return BKitem4() and (region11() or regionOpen5())
-end
-
-function BKitem5Reach()
-  return BKitem5() and (region11() or regionOpen5())
-end
-
-function BKitem6Reach()
-  return BKitem6() and (region11() or regionOpen5())
-end
-
-function BKitem7Reach()
-  return BKitem7() and (region11() or regionOpen5())
-end
-
-function BKitem8Reach()
-  return BKitem8() and (region11() or regionOpen5())
-end
-
-function BKitem9Reach()
-  return BKitem9() and (region11() or regionOpen5())
-end
-
-function BKitem10Reach()
-  return BKitem10() and (region11() or regionOpen5())
-end
-
-function BKitem11Reach()
-  return BKitem11() and (region11() or regionOpen5())
-end
-
-function BKitem12Reach()
-  return BKitem12() and (region11() or regionOpen5())
-end
-
-function BKitem13Reach()
-  return BKitem13() and (region11() or regionOpen5())
-end
-
-function BKitem14Reach()
-  return BKitem14() and (region11() or regionOpen5())
-end
-
-function BKitem15Reach()
-  return BKitem15() and (region11() or regionOpen5())
-end
-
-function BKweapon1Reach()
-  return BKweapon1() and (region11() or regionOpen5())
-end
-
-function BKweapon2Reach()
-  return BKweapon2() and (region11() or regionOpen5())
-end
-
-function BKweapon3Reach()
-  return BKweapon3() and (region11() or regionOpen5())
-end
-
-function BKweapon4Reach()
-  return BKweapon4() and (region11() or regionOpen5())
-end
-
-function BKweapon5Reach()
-  return BKweapon5() and (region11() or regionOpen5())
-end
-
-function BKweapon6Reach()
-  return BKweapon6() and (region11() or regionOpen5())
-end
-
-function BKweapon7Reach()
-  return BKweapon7() and (region11() or regionOpen5())
-end
-
-function BKweapon8Reach()
-  return BKweapon8() and (region11() or regionOpen5())
+function BK_3()
+  return BK_1() and has("seedShade")
 end
 
 -- Basin Keep Shops Reachable
 
-function BKEitem1Reach()
-  return BKEitem1() and (region23() or regionOpen10())
-end
-
-function BKEitem2Reach()
-  return BKEitem2() and (region23() or regionOpen10())
-end
-
-function BKEitem3Reach()
-  return BKEitem3() and (region23() or regionOpen10())
-end
-
-function BKEitem4Reach()
-  return BKEitem4() and (region23() or regionOpen10())
-end
-
-function BKEitem5Reach()
-  return BKEitem5() and (region23() or regionOpen10())
-end
-
-function BKEitem6Reach()
-  return BKEitem6() and (region23() or regionOpen10())
-end
-
-function BKEitem7Reach()
-  return BKEitem7() and (region23() or regionOpen10())
-end
-
-function BKEitem8Reach()
-  return BKEitem8() and (region23() or regionOpen10())
-end
-
-function BKEitem9Reach()
-  return BKEitem9() and (region23() or regionOpen10())
-end
-
-function BKEitem10Reach()
-  return BKEitem10() and (region23() or regionOpen10())
-end
-
-function BKEitem11Reach()
-  return BKEitem11() and (region23() or regionOpen10())
-end
-
-function BKEitem12Reach()
-  return BKEitem12() and (region23() or regionOpen10())
-end
-
-function BKEitem13Reach()
-  return BKEitem13() and (region23() or regionOpen10())
-end
-
-function BKEitem14Reach()
-  return BKEitem14() and (region23() or regionOpen10())
-end
-
-function BKEitem15Reach()
-  return BKEitem15() and (region23() or regionOpen10())
-end
-
-function BKEweapon1Reach()
-  return BKEweapon1() and (region23() or regionOpen10())
-end
-
-function BKEweapon2Reach()
-  return BKEweapon2() and (region23() or regionOpen10())
-end
-
-function BKEweapon3Reach()
-  return BKEweapon3() and (region23() or regionOpen10())
-end
-
-function BKEweapon4Reach()
-  return BKEweapon4() and (region23() or regionOpen10())
-end
-function BKEweapon5Reach()
-  return BKEweapon5() and (region23() or regionOpen10())
-end
-
-function BKEweapon6Reach()
-  return BKEweapon6() and (region23() or regionOpen10())
-end
-
-function BKEweapon7Reach()
-  return BKEweapon7() and (region23() or regionOpen10())
-end
-
-function BKEweapon8Reach()
-  return BKEweapon8() and (region23() or regionOpen10())
-end
-
-function BKEvendor1Reach()
-  return BKEvendor1() and (region23() or regionOpen10())
-end
-
-function BKEvendor2Reach()
-  return BKEvendor2() and (region23() or regionOpen10())
-end
-
-function BKEvendor3Reach()
-  return BKEvendor3() and (region23() or regionOpen10())
-end
-
-function BKEvendor4Reach()
-  return BKEvendor4() and (region23() or regionOpen10())
-end
-
-function BKEvendor5Reach()
-  return BKEvendor5() and (region23() or regionOpen10())
-end
-
-function BKEvendor6Reach()
-  return BKEvendor6() and (region23() or regionOpen10())
-end
-
-function BKEvendor7Reach()
-  return BKEvendor7() and (region23() or regionOpen10())
-end
-
-function BKEvendor8Reach()
-  return BKEvendor8() and (region23() or regionOpen10())
-end
-
-function BKEvendor9Reach()
-  return BKEvendor9() and (region23() or regionOpen10())
-end
-
-function BKEvendor10Reach()
-  return BKEvendor10() and (region23() or regionOpen10())
-end
-
-function BKEvendor11Reach()
-  return BKEvendor11() and (region23() or regionOpen10())
-end
-
-function BKEvendor12Reach()
-  return BKEvendor12() and (region23() or regionOpen10())
-end
-
-function BKEvendor13Reach()
-  return BKEvendor13() and (region23() or regionOpen10())
-end
-
-function BKEvendor14Reach()
-  return BKEvendor14() and (region23() or regionOpen10())
-end
-
-function BKEvendor15Reach()
-  return BKEvendor15() and (region23() or regionOpen10())
-end
-
-function BKEcalzone1Reach()
-  return BKEcalzone1() and (region23() or regionOpen10())
+function BKE()
+  return region23() or regionOpen10()
 end
 
 -- Sapphire Ridge Shops Reachable
 
-function SRitem1Reach()
-  return SRitem1() and (region31() or regionOpen16())
-end
-
-function SRitem2Reach()
-  return SRitem2() and (region31() or regionOpen16())
-end
-
-function SRitem3Reach()
-  return SRitem3() and (region31() or regionOpen16())
-end
-
-function SRitem4Reach()
-  return SRitem4() and (region31() or regionOpen16())
-end
-
-function SRitem5Reach()
-  return SRitem5() and (region31() or regionOpen16())
-end
-
-function SRitem6Reach()
-  return SRitem6() and (region31() or regionOpen16())
-end
-
-function SRitem7Reach()
-  return SRitem7() and (region31() or regionOpen16())
-end
-
-function SRitem8Reach()
-  return SRitem8() and (region31() or regionOpen16())
-end
-
-function SRitem9Reach()
-  return SRitem9() and (region31() or regionOpen16())
-end
-
-function SRitem10Reach()
-  return SRitem10() and (region31() or regionOpen16())
-end
-
-function SRitem11Reach()
-  return SRitem11() and (region31() or regionOpen16())
-end
-
-function SRitem12Reach()
-  return SRitem12() and (region31() or regionOpen16())
-end
-
-function SRitem13Reach()
-  return SRitem13() and (region31() or regionOpen16())
-end
-
-function SRitem14Reach()
-  return SRitem14() and (region31() or regionOpen16())
-end
-
-function SRitem15Reach()
-  return SRitem15() and (region31() or regionOpen16())
-end
-
-function SRweapon1Reach()
-  return SRweapon1() and (region31() or regionOpen16())
-end
-
-function SRweapon2Reach()
-  return SRweapon2() and (region31() or regionOpen16())
-end
-
-function SRweapon3Reach()
-  return SRweapon3() and (region31() or regionOpen16())
-end
-
-function SRweapon4Reach()
-  return SRweapon4() and (region31() or regionOpen16())
-end
-function SRweapon5Reach()
-  return SRweapon5() and (region31() or regionOpen16())
-end
-
-function SRweapon6Reach()
-  return SRweapon6() and (region31() or regionOpen16())
-end
-
-function SRweapon7Reach()
-  return SRweapon7() and (region31() or regionOpen16())
-end
-
-function SRweapon8Reach()
-  return SRweapon8() and (region31() or regionOpen16())
+function SR()
+  return region31() or regionOpen16()
 end
 
 -- Rhombus Square Shops Reachable
 
-function RSitem1Reach()
-  return RSitem1() and (region33() or regionOpen20())
-end
-
-function RSitem2Reach()
-  return RSitem2() and (region33() or regionOpen20())
-end
-
-function RSitem3Reach()
-  return RSitem3() and (region33() or regionOpen20())
-end
-
-function RSitem4Reach()
-  return RSitem4() and (region33() or regionOpen20())
-end
-
-function RSitem5Reach()
-  return RSitem5() and (region33() or regionOpen20())
-end
-
-function RSitem6Reach()
-  return RSitem6() and (region33() or regionOpen20())
-end
-
-function RSitem7Reach()
-  return RSitem7() and (region33() or regionOpen20())
-end
-
-function RSitem8Reach()
-  return RSitem8() and (region33() or regionOpen20())
-end
-
-function RSitem9Reach()
-  return RSitem9() and (region33() or regionOpen20())
-end
-
-function RSitem10Reach()
-  return RSitem10() and (region33() or regionOpen20())
-end
-
-function RSitem11Reach()
-  return RSitem11() and (region33() or regionOpen20())
-end
-
-function RSitem12Reach()
-  return RSitem12() and (region33() or regionOpen20())
-end
-
-function RSitem13Reach()
-  return RSitem13() and (region33() or regionOpen20())
-end
-
-function RSitem14Reach()
-  return RSitem14() and (region33() or regionOpen20())
-end
-
-function RSitem15Reach()
-  return RSitem15() and (region33() or regionOpen20())
-end
-
-function RSweapon1Reach()
-  return RSweapon1() and (region33() or regionOpen20())
-end
-
-function RSweapon2Reach()
-  return RSweapon2() and (region33() or regionOpen20())
-end
-
-function RSweapon3Reach()
-  return RSweapon3() and (region33() or regionOpen20())
-end
-
-function RSweapon4Reach()
-  return RSweapon4() and (region33() or regionOpen20())
-end
-function RSweapon5Reach()
-  return RSweapon5() and (region33() or regionOpen20())
-end
-
-function RSweapon6Reach()
-  return RSweapon6() and (region33() or regionOpen20())
-end
-
-function RSweapon7Reach()
-  return RSweapon7() and (region33() or regionOpen20())
-end
-
-function RSweapon8Reach()
-  return RSweapon8() and (region33() or regionOpen20())
-end
-
-function RSchef1Reach()
-  return RSchef1() and (region33() or regionOpen20())
-end
-
-function RSchef2Reach()
-  return RSchef2() and (region33() or regionOpen20())
-end
-
-function RSchef3Reach()
-  return RSchef3() and (region33() or regionOpen20())
-end
-
-function RSchef4Reach()
-  return RSchef4() and (region33() or regionOpen20())
-end
-
-function RSchef5Reach()
-  return RSchef5() and (region33() or regionOpen20())
-end
-
-function RSchef6Reach()
-  return RSchef6() and (region33() or regionOpen20())
-end
-
-function RSchef7Reach()
-  return RSchef7() and (region33() or regionOpen20())
-end
-
-function RSchef8Reach()
-  return RSchef8() and (region33() or regionOpen20())
-end
-
-function RSchef9Reach()
-  return RSchef9() and (region33() or regionOpen20())
-end
-
-function RSchef10Reach()
-  return RSchef10() and (region33() or regionOpen20())
-end
-
-function RSchef11Reach()
-  return RSchef11() and (region33() or regionOpen20())
-end
-
-function RSchef12Reach()
-  return RSchef12() and (region33() or regionOpen20())
-end
-
-function RScurio1Reach()
-  return RScurio1() and (region33() or regionOpen20())
+function RS()
+  return region33() or regionOpen20()
 end
 
 -- Vermillion Wasteland Shops Reachable
 
-function VWitem1Reach()
-  return VWitem1() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
+function VW()
+  return (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
 
-function VWitem2Reach()
-  return VWitem2() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem3Reach()
-  return VWitem3() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem4Reach()
-  return VWitem4() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem5Reach()
-  return VWitem5() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem6Reach()
-  return VWitem6() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem7Reach()
-  return VWitem7() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWitem8Reach()
-  return VWitem8() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon1Reach()
-  return VWweapon1() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon2Reach()
-  return VWweapon2() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon3Reach()
-  return VWweapon3() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon4Reach()
-  return VWweapon4() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon5Reach()
-  return VWweapon5() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon6Reach()
-  return VWweapon6() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon7Reach()
-  return VWweapon7() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
-
-function VWweapon8Reach()
-  return VWweapon8() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
-end
 
 -- Shop Send Type
+-- Shop Receive Off
 
-function sandwichSlot()
-  return RHitem1Reach() or BVitem1Reach() or BKitem1Reach() or BKEvendor1Reach() or BKEitem1Reach() or SRitem1Reach() or RSitem1Reach() or VWitem1Reach()
+function sandwichOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
 end
+
+function hiSandwichOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function greenTeaOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function justWaterOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function kebabOff()
+  return RH_1_2() or BV_2() or BK_2() or BKE() or SR() or RS()
+end
+
+function risottoOff()
+  return RH_1_2() or BV_2() or BK_2() or BKE() or SR() or RS()
+end
+
+function spicyBunOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function fruitDrinkOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function crackerOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function veggieSticksOff()
+  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+end
+
+function iceCreamOff()
+  return RH_1_3() or BV_3() or BK_1() or BKE() or SR() or RS()
+end
+
+function lemonJuiceOff()
+  return RH_1_3() or BV_3() or BK_1() or BKE() or SR() or RS()
+end
+
+function coffeeOff()
+  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+end
+
+function peanutsOff()
+  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+end
+
+function snackMixOff()
+  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+end
+
+function risingStarOff()
+  return RH_2() or RS()
+end
+
+function dkPepperOff()
+  return RH_2() or RS()
+end
+
+function maultascheOff()
+  return RH_2() or RS()
+end
+
+function spaetzleOff()
+  return RH_2() or RS()
+end
+
+function durianOff()
+  return RH_2() or RS()
+end
+
+function pengoPopOff()
+  return RH_2() or RS()
+end
+
+function beatZeroOff()
+  return RH_2() or RS()
+end
+
+function werewolfOff()
+  return RH_2() or RS()
+end
+
+function mooncakeOff()
+  return RH_2() or RS()
+end
+
+function willisOff()
+  return RH_2() or RS()
+end
+
+function pumpkinCoffeeOff()
+  return RH_2() or RS()
+end
+
+function toastOff()
+  return RH_2() or RS()
+end
+
+function sweetTeaOff()
+  return BT()
+end
+
+function chiliOff()
+  return BT()
+end
+
+function oneUpOff()
+  return RH_2() or RS()
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+function sweetTeaOff()
+  return 
+end
+
+
+
+
+-- Shop Receive Type
+
+function sandwichType()
+  return typeSandwich() and (RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW())
+end
+
+function hiSandwichType()
+  return typeHiSandwich() and (RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW())
+end
+
+-- Shop Receive Shop
 
 function sandwichShop()
-  return false
+  return (has("rookieItemShop") and RH_1_1())   or
+         (has("rookieTaraShop") and RH_1_1())   or
+         (has("bergenItemShop") and BV_1())     or
+         (has("bakiiItemShop") and BK_1())      or
+         (has("basinItemShop") and BKE())     or
+         (has("basinVendor") and BKE())       or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
 end
+
+function hiSandwichShop()
+  return (has("rookieItemShop") and RH_1_1())   or
+         (has("bergenItemShop") and BV_1())     or
+         (has("bakiiItemShop") and BK_1())      or
+         (has("basinItemShop") and BKE())     or
+         (has("basinVendor") and BKE())       or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+-- Shop Receive Slot
+
+function sandwichSlot()
+  return (RHitem1() and RH_1_1())   or
+         (RHtara1() and RH_1_1())   or
+         (BVitem1() and BV_1())     or
+         (BKitem1() and BK_1())     or
+         (BKEvendor1() and BKE()) or
+         (BKEitem1() and BKE())   or
+         (SRitem1() and SR())     or
+         (RSitem1() and RS())     or
+         (VWitem1() and VW())
+end
+
+function hiSandwichSlot()
+  return (RHitem2() and RH_1_1())   or
+         (BVitem2() and BV_1())     or
+         (BKitem2() and BK_1())     or
+         (BKEvendor2() and BKE()) or
+         (BKEitem2() and BKE())   or
+         (SRitem2() and SR())     or
+         (RSitem2() and RS())     or
+         (VWitem2() and VW())
+end
+
 
 -- Shop Types Global Handler
 
