@@ -1727,142 +1727,121 @@ function oneUpOff()
   return BKE_2()
 end
 
-function sweetTeaOff()
-  return 
+function brHelmOff()
+  return RH_1()
 end
 
-function sweetTeaOff()
-  return 
+function irHelmOff()
+  return RH_1() or BV_1() or BK_1()
 end
 
-function sweetTeaOff()
-  return 
+function silHelmOff()
+  return RH_3() or BKE_1() or VW()
 end
 
-function sweetTeaOff()
-  return 
+function stHelmOff()
+  return RH_5() or BK_1() or VM()
 end
 
-function sweetTeaOff()
-  return 
+function tiHelmOff()
+  return BKE_1() or SR()
 end
 
-function sweetTeaOff()
-  return 
+function coHelmOff()
+  return SR() or RS()
 end
 
-function sweetTeaOff()
-  return 
+function laHelmOff()
+  return RS()
 end
 
-function sweetTeaOff()
-  return 
+function brEdgeOff()
+  return RH_1()
 end
 
-function sweetTeaOff()
-  return 
+function irEdgeOff()
+  return RH_1() or BV_1() or BK_1()
 end
 
-function sweetTeaOff()
-  return 
+function silEdgeOff()
+  return RH_3() or BKE_1() or VW()
 end
 
-function sweetTeaOff()
-  return 
+function stEdgeOff()
+  return RH_5() or BK_1() or VM()
 end
 
-function sweetTeaOff()
-  return 
+function tiEdgeOff()
+  return BKE_1() or SR()
 end
 
-function sweetTeaOff()
-  return 
+function coEdgeOff()
+  return SR() or RS()
 end
 
-function sweetTeaOff()
-  return 
+function laEdgeOff()
+  return RS()
 end
 
-function sweetTeaOff()
-  return 
+function brMailOff()
+  return RH_1()
 end
 
-function sweetTeaOff()
-  return 
+function irMailOff()
+  return RH_1() or BV_1() or BK_1()
 end
 
-function sweetTeaOff()
-  return 
+function silMailOff()
+  return RH_3() or BKE_1() or VW()
 end
 
-function sweetTeaOff()
-  return 
+function stMailOff()
+  return RH_5() or BK_1() or VM()
 end
 
-function sweetTeaOff()
-  return 
+function tiMailOff()
+  return BKE_1() or SR()
 end
 
-function sweetTeaOff()
-  return 
+function coMailOff()
+  return SR() or RS()
 end
 
-function sweetTeaOff()
-  return 
+function laMailOff()
+  return RS()
 end
 
-function sweetTeaOff()
-  return 
+function brBootsOff()
+  return RH_1()
 end
 
-function sweetTeaOff()
-  return 
+function irBootsOff()
+  return RH_1() or BV_1() or BK_1()
 end
 
-function sweetTeaOff()
-  return 
+function silBootsOff()
+  return RH_3() or BKE_1() or VW()
 end
 
-function sweetTeaOff()
-  return 
+function stBootsOff()
+  return RH_5() or BK_1() or VM()
 end
 
-function sweetTeaOff()
-  return 
+function tiBootsOff()
+  return BKE_1() or SR()
 end
 
-function sweetTeaOff()
-  return 
+function coBootsOff()
+  return SR() or RS()
 end
 
-function sweetTeaOff()
-  return 
+function laBootsOff()
+  return RS()
 end
 
-function sweetTeaOff()
-  return 
+function chestDetectorOff()
+  return RS()
 end
-
-function sweetTeaOff()
-  return 
-end
-
-function sweetTeaOff()
-  return 
-end
-
-function sweetTeaOff()
-  return 
-end
-
-function sweetTeaOff()
-  return 
-end
-
-function sweetTeaOff()
-  return 
-end
-
 
 
 
