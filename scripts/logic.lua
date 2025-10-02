@@ -1967,119 +1967,119 @@ function oneUpType()
 end
 
 function brHelmType()
-  return  and (RH_1())
+  return typeBrHelm() and (RH_1())
 end
 
 function irHelmType()
-  return  and (RH_1() or BV_1() or BK_1())
+  return typeIrHelm() and (RH_1() or BV_1() or BK_1())
 end
 
 function silHelmType()
-  return  and (RH_3() or BKE_1() or VW())
+  return typeSilHelm() and (RH_3() or BKE_1() or VW())
 end
 
 function stHelmType()
-  return  and (RH_5() or BK_1() or VM())
+  return typeStHelm() and (RH_5() or BK_1() or VM())
 end
 
 function tiHelmType()
-  return  and (BKE_1() or SR())
+  return typeTiHelm() and (BKE_1() or SR())
 end
 
 function coHelmType()
-  return  and (SR() or RS())
+  return typeCoHelm() and (SR() or RS())
 end
 
 function laHelmType()
-  return  and (RS())
+  return typeLaHelm() and (RS())
 end
 
 function brEdgeType()
-  return  and (RH_1())
+  return typeBrEdge() and (RH_1())
 end
 
 function irEdgeType()
-  return  and (RH_1() or BV_1() or BK_1())
+  return typeIrEdge() and (RH_1() or BV_1() or BK_1())
 end
 
 function silEdgeType()
-  return  and (RH_3() or BKE_1() or VW())
+  return typeSilEdge() and (RH_3() or BKE_1() or VW())
 end
 
 function stEdgeType()
-  return  and (RH_5() or BK_1() or VM())
+  return typeStEdge() and (RH_5() or BK_1() or VM())
 end
 
 function tiEdgeType()
-  return  and (BKE_1() or SR())
+  return typeTiEdge() and (BKE_1() or SR())
 end
 
 function coEdgeType()
-  return  and (SR() or RS())
+  return typeCoEdge() and (SR() or RS())
 end
 
 function laEdgeType()
-  return  and (RS())
+  return typeLaEdge() and (RS())
 end
 
 function brMailType()
-  return  and (RH_1())
+  return typeBrMail() and (RH_1())
 end
 
 function irMailType()
-  return  and (RH_1() or BV_1() or BK_1())
+  return typeIrMail() and (RH_1() or BV_1() or BK_1())
 end
 
 function silMailType()
-  return  and (RH_3() or BKE_1() or VW())
+  return typeSilMail() and (RH_3() or BKE_1() or VW())
 end
 
 function stMailType()
-  return  and (RH_5() or BK_1() or VM())
+  return typeStMail() and (RH_5() or BK_1() or VM())
 end
 
 function tiMailType()
-  return  and (BKE_1() or SR())
+  return typeTiMail() and (BKE_1() or SR())
 end
 
 function coMailType()
-  return  and (SR() or RS())
+  return typeCoMail() and (SR() or RS())
 end
 
 function laMailType()
-  return  and (RS())
+  return typeLaMail() and (RS())
 end
 
 function brBootsType()
-  return  and (RH_1())
+  return typeBrBoots() and (RH_1())
 end
 
 function irBootsType()
-  return  and (RH_1() or BV_1() or BK_1())
+  return typeIrBoots() and (RH_1() or BV_1() or BK_1())
 end
 
 function silBootsType()
-  return  and (RH_3() or BKE_1() or VW())
+  return typeSilBoots() and (RH_3() or BKE_1() or VW())
 end
 
 function stBootsType()
-  return  and (RH_5() or BK_1() or VM())
+  return typeStBoots() and (RH_5() or BK_1() or VM())
 end
 
 function tiBootsType()
-  return  and (BKE_1() or SR())
+  return typeTiBoots() and (BKE_1() or SR())
 end
 
 function coBootsType()
-  return  and (SR() or RS())
+  return typeCoBoots() and (SR() or RS())
 end
 
 function laBootsType()
-  return  and (RS())
+  return typeLaBoots() and (RS())
 end
 
 function chestDetectorType()
-  return  and (RS())
+  return typeDetector() and (RS())
 end
 
 -- Shop Receive Shop
