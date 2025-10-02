@@ -2340,6 +2340,7 @@ end
 function VWweapon4Reach()
   return VWweapon4() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
+
 function VWweapon5Reach()
   return VWweapon5() and (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
