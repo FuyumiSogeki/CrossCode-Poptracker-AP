@@ -1736,7 +1736,7 @@ function irHelmOff()
 end
 
 function silHelmOff()
-  return RH_3() or BKE_1() or VW()
+  return RH_3() or RH_5() or BKE_1() or VW()
 end
 
 function stHelmOff()
@@ -1764,7 +1764,7 @@ function irEdgeOff()
 end
 
 function silEdgeOff()
-  return RH_3() or BKE_1() or VW()
+  return RH_3() or RH_5() or BKE_1() or VW()
 end
 
 function stEdgeOff()
@@ -1792,7 +1792,7 @@ function irMailOff()
 end
 
 function silMailOff()
-  return RH_3() or BKE_1() or VW()
+  return RH_3() or RH_5() or BKE_1() or VW()
 end
 
 function stMailOff()
@@ -1820,7 +1820,7 @@ function irBootsOff()
 end
 
 function silBootsOff()
-  return RH_3() or BKE_1() or VW()
+  return RH_3() or RH_5() or BKE_1() or VW()
 end
 
 function stBootsOff()
