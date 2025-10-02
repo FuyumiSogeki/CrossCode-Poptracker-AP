@@ -1652,7 +1652,7 @@ function iceCreamOff()
 end
 
 function lemonJuiceOff()
-  return RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS()
+  return RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS()
 end
 
 function coffeeOff()
