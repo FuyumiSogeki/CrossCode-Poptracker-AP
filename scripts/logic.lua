@@ -1519,23 +1519,23 @@ end
 -- Shop Reach
 -- Rookie Harbor Shops Reach
 
-function RH_1_1()
+function RH_1()
   return region2() or regionOpen2()
 end
 
-function RH_1_2()
-  return RH_1_1() and has("iceShade")
-end
-
-function RH_1_3()
-  return RH_1_1() and has("flameShade")
-end
-
-function RH_1_4()
-  return RH_1_1() and has("seedShade")
-end
-
 function RH_2()
+  return RH_1() and has("iceShade")
+end
+
+function RH_3()
+  return RH_1() and has("flameShade")
+end
+
+function RH_4()
+  return RH_1() and has("seedShade")
+end
+
+function RH_5()
   return region19() or regionOpen8()
 end
 
@@ -1577,8 +1577,12 @@ end
 
 -- Basin Keep Shops Reachable
 
-function BKE()
+function BKE_1()
   return region23() or regionOpen10()
+end
+
+function BKE_2()
+  return BKE_1() and has("GG-mush-2")
 end
 
 -- Sapphire Ridge Shops Reachable
@@ -1604,111 +1608,111 @@ end
 -- Shop Receive Off
 
 function sandwichOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function hiSandwichOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function greenTeaOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function justWaterOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function kebabOff()
-  return RH_1_2() or BV_2() or BK_2() or BKE() or SR() or RS()
+  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS()
 end
 
 function risottoOff()
-  return RH_1_2() or BV_2() or BK_2() or BKE() or SR() or RS()
+  return RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS()
 end
 
 function spicyBunOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function fruitDrinkOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function crackerOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function veggieSticksOff()
-  return RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW()
+  return RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW()
 end
 
 function iceCreamOff()
-  return RH_1_3() or BV_3() or BK_1() or BKE() or SR() or RS()
+  return RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS()
 end
 
 function lemonJuiceOff()
-  return RH_1_3() or BV_3() or BK_1() or BKE() or SR() or RS()
+  return RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS()
 end
 
 function coffeeOff()
-  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
 end
 
 function peanutsOff()
-  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
 end
 
 function snackMixOff()
-  return RH_1_4() or BV_4() or BK_3() or BKE() or SR() or RS()
+  return RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS()
 end
 
 function risingStarOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function dkPepperOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function maultascheOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function spaetzleOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function durianOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function pengoPopOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function beatZeroOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function werewolfOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function mooncakeOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function willisOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function pumpkinCoffeeOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function toastOff()
-  return RH_2() or RS()
+  return RH_5() or RS()
 end
 
 function sweetTeaOff()
@@ -1720,7 +1724,7 @@ function chiliOff()
 end
 
 function oneUpOff()
-  return RH_2() or RS()
+  return BKE_2()
 end
 
 function sweetTeaOff()
@@ -1865,33 +1869,33 @@ end
 -- Shop Receive Type
 
 function sandwichType()
-  return typeSandwich() and (RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW())
+  return typeSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
 end
 
 function hiSandwichType()
-  return typeHiSandwich() and (RH_1_1() or BV_1() or BK_1() or BKE() or SR() or RS() or VW())
+  return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
 end
 
 -- Shop Receive Shop
 
 function sandwichShop()
-  return (has("rookieItemShop") and RH_1_1())   or
-         (has("rookieTaraShop") and RH_1_1())   or
+  return (has("rookieItemShop") and RH_1())   or
+         (has("rookieTaraShop") and RH_1())   or
          (has("bergenItemShop") and BV_1())     or
          (has("bakiiItemShop") and BK_1())      or
-         (has("basinItemShop") and BKE())     or
-         (has("basinVendor") and BKE())       or
+         (has("basinItemShop") and BKE_1())     or
+         (has("basinVendor") and BKE_1())       or
          (has("sapphireItemShop") and SR())   or
          (has("rhombusItemShop") and RS())    or
          (has("vermillionItemShop") and VW())
 end
 
 function hiSandwichShop()
-  return (has("rookieItemShop") and RH_1_1())   or
+  return (has("rookieItemShop") and RH_1())   or
          (has("bergenItemShop") and BV_1())     or
          (has("bakiiItemShop") and BK_1())      or
-         (has("basinItemShop") and BKE())     or
-         (has("basinVendor") and BKE())       or
+         (has("basinItemShop") and BKE_1())     or
+         (has("basinVendor") and BKE_1())       or
          (has("sapphireItemShop") and SR())   or
          (has("rhombusItemShop") and RS())    or
          (has("vermillionItemShop") and VW())
@@ -1900,23 +1904,23 @@ end
 -- Shop Receive Slot
 
 function sandwichSlot()
-  return (RHitem1() and RH_1_1())   or
-         (RHtara1() and RH_1_1())   or
+  return (RHitem1() and RH_1())   or
+         (RHtara1() and RH_1())   or
          (BVitem1() and BV_1())     or
          (BKitem1() and BK_1())     or
-         (BKEvendor1() and BKE()) or
-         (BKEitem1() and BKE())   or
+         (BKEvendor1() and BKE_1()) or
+         (BKEitem1() and BKE_1())   or
          (SRitem1() and SR())     or
          (RSitem1() and RS())     or
          (VWitem1() and VW())
 end
 
 function hiSandwichSlot()
-  return (RHitem2() and RH_1_1())   or
+  return (RHitem2() and RH_1())   or
          (BVitem2() and BV_1())     or
          (BKitem2() and BK_1())     or
-         (BKEvendor2() and BKE()) or
-         (BKEitem2() and BKE())   or
+         (BKEvendor2() and BKE_1()) or
+         (BKEitem2() and BKE_1())   or
          (SRitem2() and SR())     or
          (RSitem2() and RS())     or
          (VWitem2() and VW())
