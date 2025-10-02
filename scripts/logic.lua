@@ -1844,7 +1844,6 @@ function chestDetectorOff()
 end
 
 
-
 -- Shop Receive Type
 
 function sandwichType()
@@ -1853,6 +1852,234 @@ end
 
 function hiSandwichType()
   return typeHiSandwich() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function greenTeaType()
+  return typeTea() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function justWaterType()
+  return typeWater() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function kebabType()
+  return typeKebab() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS())
+end
+
+function risottoType()
+  return typeRisotto() and (RH_2() or BV_2() or BK_2() or BKE_1() or SR() or RS())
+end
+
+function spicyBunType()
+  return typeBun() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function fruitDrinkType()
+  return typeFruit() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function crackerType()
+  return typeCracker() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function veggieSticksType()
+  return typeVeggie() and (RH_1() or BV_1() or BK_1() or BKE_1() or SR() or RS() or VW())
+end
+
+function iceCreamType()
+  return typeIcecream() and (RH_3() or BV_3() or BK_1() or BKE_1() or SR() or RS())
+end
+
+function lemonJuiceType()
+  return typeLemonjuice() and (RH_3() or BT() or BV_3() or BK_1() or BKE_1() or SR() or RS())
+end
+
+function coffeeType()
+  return typeCoffee() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+end
+
+function peanutsType()
+  return typePeanuts() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+end
+
+function snackMixType()
+  return typeMix() and (RH_4() or BV_4() or BK_3() or BKE_1() or SR() or RS())
+end
+
+function risingStarType()
+  return typeRisingStar() and (RH_5() or RS())
+end
+
+function dkPepperType()
+  return typePepper() and (RH_5() or RS())
+end
+
+function maultascheType()
+  return typeMaultasche() and (RH_5() or RS())
+end
+
+function spaetzleType()
+  return typeSpaetzle() and (RH_5() or RS())
+end
+
+function durianType()
+  return typeDurian() and (RH_5() or RS())
+end
+
+function pengoPopType()
+  return typePengo() and (RH_5() or RS())
+end
+
+function beatZeroType()
+  return typeBeatZero() and (RH_5() or RS())
+end
+
+function werewolfType()
+  return typeWerewolf() and (RH_5() or RS())
+end
+
+function mooncakeType()
+  return typeMooncake() and (RH_5() or RS())
+end
+
+function willisType()
+  return typeWillis() and (RH_5() or RS())
+end
+
+function pumpkinCoffeeType()
+  return typePumpkin() and (RH_5() or RS())
+end
+
+function toastType()
+  return typeToast() and (RH_5() or RS())
+end
+
+function sweetTeaType()
+  return typeSweetTea() and (BT())
+end
+
+function chiliType()
+  return typeChiliCon() and (BT())
+end
+
+function oneUpType()
+  return typeOneUp() and (BKE_2())
+end
+
+function brHelmType()
+  return  and (RH_1())
+end
+
+function irHelmType()
+  return  and (RH_1() or BV_1() or BK_1())
+end
+
+function silHelmType()
+  return  and (RH_3() or BKE_1() or VW())
+end
+
+function stHelmType()
+  return  and (RH_5() or BK_1() or VM())
+end
+
+function tiHelmType()
+  return  and (BKE_1() or SR())
+end
+
+function coHelmType()
+  return  and (SR() or RS())
+end
+
+function laHelmType()
+  return  and (RS())
+end
+
+function brEdgeType()
+  return  and (RH_1())
+end
+
+function irEdgeType()
+  return  and (RH_1() or BV_1() or BK_1())
+end
+
+function silEdgeType()
+  return  and (RH_3() or BKE_1() or VW())
+end
+
+function stEdgeType()
+  return  and (RH_5() or BK_1() or VM())
+end
+
+function tiEdgeType()
+  return  and (BKE_1() or SR())
+end
+
+function coEdgeType()
+  return  and (SR() or RS())
+end
+
+function laEdgeType()
+  return  and (RS())
+end
+
+function brMailType()
+  return  and (RH_1())
+end
+
+function irMailType()
+  return  and (RH_1() or BV_1() or BK_1())
+end
+
+function silMailType()
+  return  and (RH_3() or BKE_1() or VW())
+end
+
+function stMailType()
+  return  and (RH_5() or BK_1() or VM())
+end
+
+function tiMailType()
+  return  and (BKE_1() or SR())
+end
+
+function coMailType()
+  return  and (SR() or RS())
+end
+
+function laMailType()
+  return  and (RS())
+end
+
+function brBootsType()
+  return  and (RH_1())
+end
+
+function irBootsType()
+  return  and (RH_1() or BV_1() or BK_1())
+end
+
+function silBootsType()
+  return  and (RH_3() or BKE_1() or VW())
+end
+
+function stBootsType()
+  return  and (RH_5() or BK_1() or VM())
+end
+
+function tiBootsType()
+  return  and (BKE_1() or SR())
+end
+
+function coBootsType()
+  return  and (SR() or RS())
+end
+
+function laBootsType()
+  return  and (RS())
+end
+
+function chestDetectorType()
+  return  and (RS())
 end
 
 -- Shop Receive Shop
