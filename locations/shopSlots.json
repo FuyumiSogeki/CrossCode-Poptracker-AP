@@ -1241,8 +1241,7 @@
             }
         ]
     },
-    ,
-//Trail Shop Map
+    //Bergen Trail Shop Map
     {
         "item_count": 1,
         "children": [
@@ -4144,26 +4143,6 @@
                       "map": "ShopMap",
                       "x": 874,
                       "y": 498
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Vermillion Wasteland - Vermillion Tower/The Creator",
-                        "name": "Vermillion Tower - The Creator"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "WorldMap",
-                        "x": 480,
-                        "y": 193
                     }
                 ]
             }

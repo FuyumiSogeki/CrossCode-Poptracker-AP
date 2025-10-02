@@ -1960,34 +1960,5 @@
                 ]
             }
         ]
-    },
-    //Rookie Harbor Shop Type
-    {
-        "item_count": 1,
-        "children": [
-            {
-                "sections": [
-                    {
-                        "ref": "Shop Types/Sandwich Type/Buy A 'Sandwich' From Any Item Shop",
-                        "name": "Sandwich Slot - 100 Credits"
-                    },
-                    {
-                        "ref": "Shop Types/Hi-Sandwich Type/Buy A 'Hi-Sandwich' From Any Item Shop",
-                        "name": "Hi-Sandwich Slot - 300 Credits"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "Rookie_Harbor",
-                        "x": 127,
-                        "y": 348
-                    }
-                ],
-                "visibility_rules": 
-                [
-                    "shopShuffleType"
-                ]
-            }
-        ]
     }
 ]
