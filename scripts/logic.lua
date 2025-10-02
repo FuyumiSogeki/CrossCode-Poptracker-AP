@@ -2087,10 +2087,10 @@ end
 function sandwichShop()
   return (has("rookieItemShop") and RH_1())   or
          (has("rookieTaraShop") and RH_1())   or
-         (has("bergenItemShop") and BV_1())     or
-         (has("bakiiItemShop") and BK_1())      or
-         (has("basinItemShop") and BKE_1())     or
-         (has("basinVendor") and BKE_1())       or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
          (has("rhombusItemShop") and RS())    or
          (has("vermillionItemShop") and VW())
@@ -2098,10 +2098,10 @@ end
 
 function hiSandwichShop()
   return (has("rookieItemShop") and RH_1())   or
-         (has("bergenItemShop") and BV_1())     or
-         (has("bakiiItemShop") and BK_1())      or
-         (has("basinItemShop") and BKE_1())     or
-         (has("basinVendor") and BKE_1())       or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
          (has("sapphireItemShop") and SR())   or
          (has("rhombusItemShop") and RS())    or
          (has("vermillionItemShop") and VW())
@@ -2110,25 +2110,25 @@ end
 -- Shop Receive Slot
 
 function sandwichSlot()
-  return (RHitem1() and RH_1())   or
-         (RHtara1() and RH_1())   or
+  return (RHitem1() and RH_1())     or
+         (RHtara1() and RH_1())     or
          (BVitem1() and BV_1())     or
          (BKitem1() and BK_1())     or
          (BKEvendor1() and BKE_1()) or
          (BKEitem1() and BKE_1())   or
-         (SRitem1() and SR())     or
-         (RSitem1() and RS())     or
+         (SRitem1() and SR())       or
+         (RSitem1() and RS())       or
          (VWitem1() and VW())
 end
 
 function hiSandwichSlot()
-  return (RHitem2() and RH_1())   or
+  return (RHitem2() and RH_1())     or
          (BVitem2() and BV_1())     or
          (BKitem2() and BK_1())     or
          (BKEvendor2() and BKE_1()) or
          (BKEitem2() and BKE_1())   or
-         (SRitem2() and SR())     or
-         (RSitem2() and RS())     or
+         (SRitem2() and SR())       or
+         (RSitem2() and RS())       or
          (VWitem2() and VW())
 end
 
