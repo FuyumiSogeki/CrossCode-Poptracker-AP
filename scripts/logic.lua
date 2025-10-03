@@ -23,6 +23,10 @@ function region3()
   return region2() and has ("leafShade")
 end
 
+function region3_1()
+  return region3() and has ("guildPass")
+end
+
 function region4()
   return region3() and (has ("minePass") and has ("guildPass"))
 end
@@ -179,6 +183,10 @@ end
 
 function regionOpen3_1()
   return regionOpen2() and has ("minePass")
+end
+
+function regionOpen3_2()
+  return regionOpen2() and has ("guildPass")
 end
 
 function regionOpen4_1()
