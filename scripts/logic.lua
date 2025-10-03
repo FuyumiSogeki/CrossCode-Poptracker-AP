@@ -45,7 +45,7 @@ function region8()
 end
 
 function region9()
-  return region7() and (has ("eleHeat") and newLock(3235824114, "thiefKey"))
+  return region7() and has ("eleHeat")
 end
 
 function region10()
@@ -81,7 +81,7 @@ function region17()
 end
 
 function region17half()
-  return region17() and newLock(3235824211, "whiteKey")
+  return region17()
 end
 
 function region18()
@@ -206,7 +206,7 @@ function regionOpen4_5()
 end
 
 function regionOpen4_6()
-  return regionOpen4_3() and has ("eleHeat") and newLock(3235824114, "thiefKey")
+  return regionOpen4_3() and has ("eleHeat")
 end
 
 function regionOpen4_7()
@@ -246,7 +246,7 @@ function regionOpen7_5()
 end
 
 function regionOpen7_6()
-  return regionOpen7_5() and newLock(3235824211, "whiteKey")
+  return regionOpen7_5()
 end
 
 function regionOpen7_7()
@@ -1975,7 +1975,7 @@ function irHelmType()
 end
 
 function silHelmType()
-  return typeSilHelm() and (RH_3() or BKE_1() or VW())
+  return typeSilHelm() and (RH_3() or RH_5() or BKE_1() or VW())
 end
 
 function stHelmType()
@@ -2003,7 +2003,7 @@ function irEdgeType()
 end
 
 function silEdgeType()
-  return typeSilEdge() and (RH_3() or BKE_1() or VW())
+  return typeSilEdge() and (RH_3() or RH_5() or BKE_1() or VW())
 end
 
 function stEdgeType()
@@ -2031,7 +2031,7 @@ function irMailType()
 end
 
 function silMailType()
-  return typeSilMail() and (RH_3() or BKE_1() or VW())
+  return typeSilMail() and (RH_3() or RH_5() or BKE_1() or VW())
 end
 
 function stMailType()
@@ -2059,7 +2059,7 @@ function irBootsType()
 end
 
 function silBootsType()
-  return typeSilBoots() and (RH_3() or BKE_1() or VW())
+  return typeSilBoots() and (RH_3() or RH_5() or BKE_1() or VW())
 end
 
 function stBootsType()
