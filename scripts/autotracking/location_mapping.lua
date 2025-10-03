@@ -183,8 +183,8 @@ LOCATION_MAPPING =
 -- Valley Chests
 [3235824173] = {"@Maroon Valley/Maroon Valley - Mystery Cave Lower/Gold Chest"},
 [3235824174] = {"@Maroon Valley/Maroon Valley - Mystery Cave Upper/Silver Chest"},
-[3235824175] = {"@Maroon Valley/Maroon Valley - Cursed Temple Upper/Silver Chest"},
-[3235824176] = {"@Maroon Valley/Maroon Valley - Cursed Temple Lower/Silver Chest"},
+[3235824175] = {"@Maroon Valley/Maroon Valley - Cursed Temple Lower/Silver Chest"},
+[3235824176] = {"@Maroon Valley/Maroon Valley - Cursed Temple Upper/Silver Chest"},
 [3235824177] = {"@Maroon Valley/Maroon Valley - Cursed Temple Treasure Room/Bronze Chest"},
 [3235824178] = {"@Maroon Valley/Maroon Valley - Maroon Cave 1/Chest"},
 [3235824179] = {"@Maroon Valley/Maroon Valley - River Cliff Right/Chest"},
