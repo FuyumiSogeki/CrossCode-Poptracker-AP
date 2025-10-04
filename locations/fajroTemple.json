@@ -84,7 +84,7 @@
                 ],
                 "access_rules": 
                 [
-                    "$region17half, $newLock|3235824211|whiteKey",
+                    "$region17half",
                     "$regionOpen7_5"
                 ],
                 "sections": 
