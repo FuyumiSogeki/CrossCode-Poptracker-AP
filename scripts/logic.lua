@@ -2115,6 +2115,367 @@ function hiSandwichShop()
          (has("vermillionItemShop") and VW())
 end
 
+function greenTeaShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function justWaterShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function kebabShop()
+  return (has("rookieItemShop") and RH_2())   or
+         (has("bergenItemShop") and BV_2())   or
+         (has("bakiiItemShop") and BK_2())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function risottoShop()
+  return (has("rookieItemShop") and RH_2())   or
+         (has("bergenItemShop") and BV_2())   or
+         (has("bakiiItemShop") and BK_2())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function spicyBunShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function fruitDrinkShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function crackerShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function veggieSticksShop()
+  return (has("rookieItemShop") and RH_1())   or
+         (has("bergenItemShop") and BV_1())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())    or
+         (has("vermillionItemShop") and VW())
+end
+
+function iceCreamShop()
+  return (has("rookieItemShop") and RH_3())   or
+         (has("bergenItemShop") and BV_3())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function lemonJuiceShop()
+  return (has("rookieItemShop") and RH_3())   or
+         (has("bergenHermitShop") and BT())   or
+         (has("bergenItemShop") and BV_3())   or
+         (has("bakiiItemShop") and BK_1())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function coffeeShop()
+  return (has("rookieItemShop") and RH_4())   or
+         (has("bergenItemShop") and BV_4())   or
+         (has("bakiiItemShop") and BK_3())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function peanutsShop()
+  return (has("rookieItemShop") and RH_4())   or
+         (has("bergenItemShop") and BV_4())   or
+         (has("bakiiItemShop") and BK_3())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function snackMixShop()
+  return (has("rookieItemShop") and RH_4())   or
+         (has("bergenItemShop") and BV_4())   or
+         (has("bakiiItemShop") and BK_3())    or
+         (has("basinItemShop") and BKE_1())   or
+         (has("basinVendor") and BKE_1())     or
+         (has("sapphireItemShop") and SR())   or
+         (has("rhombusItemShop") and RS())
+end
+
+function risingStarShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function dkPepperShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function maultascheShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function spaetzleShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function durianShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function pengoPopShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function beatZeroShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function werewolfShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function mooncakeShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function willisShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function pumpkinCoffeeShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function toastShop()
+  return (has("rookieBackerChef") and RH_5()) or
+         (has("rhombusChef") and RS())
+end
+
+function sweetTeaShop()
+  return (has("bergenHermitShop") and BT())
+end
+
+function chiliShop()
+  return (has("bergenHermitShop") and BT())
+end
+
+function oneUpShop()
+  return (has("basinCalzone") and BKE_2())
+end
+
+function brHelmShop()
+  return (has("rookieWeaponShop") and RH_1())
+end
+
+function irHelmShop()
+  return (has("rookieWeaponShop") and RH_1()) or
+         (has("bergenWeaponShop") and BV_1()) or 
+         (has("bakiiWeaponShop") and BK_1())
+end
+
+function silHelmShop()
+  return (has("rookieWeaponShop") and RH_1())   or
+         (has("rookieBackerWeapon") and RH_5()) or
+         (has("basinWeaponShop") and BKE_1())   or 
+         (has("vermillionWeaponShop") and VW())
+end
+
+function stHelmShop()
+  return (has("rookieBackerWeapon") and RH_5()) or
+         (has("bakiiWeaponShop") and BK_1())    or 
+         (has("vermillionWeaponShop") and VW())
+end
+
+function tiHelmShop()
+  return (has("basinWeaponShop") and BKE_1()) or 
+         (has("sapphireWeaponShop") and SR())
+end
+
+function coHelmShop()
+  return (has("sapphireWeaponShop") and SR()) or
+         (has("rhombusWeaponShop") and RS())
+end
+
+function laHelmShop()
+  return (has("rhombusWeaponShop") and RS())
+end
+
+function brEdgeShop()
+  return (has("rookieWeaponShop") and RH_1())
+end
+
+function irEdgeShop()
+  return (has("rookieWeaponShop") and RH_1()) or
+         (has("bergenWeaponShop") and BV_1()) or
+         (has("bakiiWeaponShop") and BK_1())
+end
+
+function silEdgeShop()
+  return (has("rookieWeaponShop") and RH_1())   or
+         (has("rookieBackerWeapon") and RH_5()) or
+         (has("basinWeaponShop") and BKE_1())   or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function stEdgeShop()
+  return (has("rookieBackerWeapon") and RH_5()) or
+         (has("bakiiWeaponShop") and BK_1())    or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function tiEdgeShop()
+  return (has("basinWeaponShop") and BKE_1()) or
+         (has("sapphireWeaponShop") and SR())
+end
+
+function coEdgeShop()
+  return (has("sapphireWeaponShop") and SR()) or
+         (has("rhombusWeaponShop") and RS())
+end
+
+function laEdgeShop()
+  return (has("rhombusWeaponShop") and RS())
+end
+
+function brMailShop()
+  return (has("rookieWeaponShop") and RH_1())
+end
+
+function irMailShop()
+  return (has("rookieWeaponShop") and RH_1()) or
+         (has("bergenWeaponShop") and BV_1()) or
+         (has("bakiiWeaponShop") and BK_1())
+end
+
+function silMailShop()
+  return (has("rookieWeaponShop") and RH_1())   or
+         (has("rookieBackerWeapon") and RH_5()) or
+         (has("basinWeaponShop") and BKE_1())   or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function stMailShop()
+  return (has("rookieBackerWeapon") and RH_5()) or
+         (has("bakiiWeaponShop") and BK_1())    or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function tiMailShop()
+  return (has("basinWeaponShop") and BKE_1()) or
+         (has("sapphireWeaponShop") and SR())
+end
+
+function coMailShop()
+  return (has("sapphireWeaponShop") and SR()) or
+         (has("rhombusWeaponShop") and RS())
+end
+
+function laMailShop()
+  return (has("rhombusWeaponShop") and RS())
+end
+
+function brBootsShop()
+  return (has("rookieWeaponShop") and RH_1())
+end
+
+function irBootsShop()
+  return (has("rookieWeaponShop") and RH_1()) or
+         (has("bergenWeaponShop") and BV_1()) or
+         (has("bakiiWeaponShop") and BK_1())
+end
+
+function silBootsShop()
+  return (has("rookieWeaponShop") and RH_1())   or
+         (has("rookieBackerWeapon") and RH_5()) or
+         (has("basinWeaponShop") and BKE_1())   or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function stBootsShop()
+  return (has("rookieBackerWeapon") and RH_5()) or
+         (has("bakiiWeaponShop") and BK_1())    or
+         (has("vermillionWeaponShop") and VW())
+end
+
+function tiBootsShop()
+  return (has("basinWeaponShop") and BKE_1()) or
+         (has("sapphireWeaponShop") and SR())
+end
+
+function coBootsShop()
+  return (has("sapphireWeaponShop") and SR()) or
+         (has("rhombusWeaponShop") and RS())
+end
+
+function laBootsShop()
+  return (has("rhombusWeaponShop") and RS())
+end
+
+function chestDetectorShop()
+  return (has("rhombusCurio") and RS())
+end
+
 -- Shop Receive Slot
 
 function sandwichSlot()
@@ -2140,6 +2501,366 @@ function hiSandwichSlot()
          (VWitem2() and VW())
 end
 
+function greenTeaSlot()
+  return (RHitem3() and RH_1())     or
+         (BVitem3() and BV_1())     or
+         (BKitem3() and BK_1())     or
+         (BKEvendor3() and BKE_1()) or
+         (BKEitem3() and BKE_1())   or
+         (SRitem3() and SR())       or
+         (RSitem3() and RS())       or
+         (VWitem3() and VW())
+end
+
+function justWaterSlot()
+  return (RHitem4() and RH_1())     or
+         (BVitem4() and BV_1())     or
+         (BKitem4() and BK_1())     or
+         (BKEvendor4() and BKE_1()) or
+         (BKEitem4() and BKE_1())   or
+         (SRitem4() and SR())       or
+         (RSitem4() and RS())       or
+         (VWitem4() and VW())
+end
+
+function kebabSlot()
+  return (RHitem5() and RH_2())     or
+         (BVitem5() and BV_2())     or
+         (BKitem5() and BK_2())     or
+         (BKEvendor5() and BKE_1()) or
+         (BKEitem5() and BKE_1())   or
+         (SRitem5() and SR())       or
+         (RSitem5() and RS())
+end
+
+function risottoSlot()
+  return (RHitem6() and RH_2())     or
+         (BVitem6() and BV_2())     or
+         (BKitem6() and BK_2())     or
+         (BKEvendor6() and BKE_1()) or
+         (BKEitem6() and BKE_1())   or
+         (SRitem6() and SR())       or
+         (RSitem6() and RS())
+end
+
+function spicyBunSlot()
+  return (RHitem7() and RH_1())     or
+         (BVitem7() and BV_1())     or
+         (BKitem7() and BK_1())     or
+         (BKEvendor7() and BKE_1()) or
+         (BKEitem7() and BKE_1())   or
+         (SRitem7() and SR())       or
+         (RSitem7() and RS())       or
+         (VWitem5() and VW())
+end
+
+function fruitDrinkSlot()
+  return (RHitem8() and RH_1())     or
+         (BVitem8() and BV_1())     or
+         (BKitem8() and BK_1())     or
+         (BKEvendor8() and BKE_1()) or
+         (BKEitem8() and BKE_1())   or
+         (SRitem8() and SR())       or
+         (RSitem8() and RS())       or
+         (VWitem6() and VW())
+end
+
+function crackerSlot()
+  return (RHitem9() and RH_1())     or
+         (BVitem9() and BV_1())     or
+         (BKitem9() and BK_1())     or
+         (BKEvendor9() and BKE_1()) or
+         (BKEitem9() and BKE_1())   or
+         (SRitem9() and SR())       or
+         (RSitem9() and RS())       or
+         (VWitem7() and VW())
+end
+
+function veggieSticksSlot()
+  return (RHitem10() and RH_1())     or
+         (BVitem10() and BV_1())     or
+         (BKitem10() and BK_1())     or
+         (BKEvendor10() and BKE_1()) or
+         (BKEitem10() and BKE_1())   or
+         (SRitem10() and SR())       or
+         (RSitem10() and RS())       or
+         (VWitem8() and VW())
+end
+
+function iceCreamSlot()
+  return (RHitem11() and RH_3())     or
+         (BVitem11() and BV_3())     or
+         (BKitem11() and BK_2())     or
+         (BKEvendor11() and BKE_1()) or
+         (BKEitem11() and BKE_1())   or
+         (SRitem11() and SR())       or
+         (RSitem11() and RS())
+end
+
+function lemonJuiceSlot()
+  return (RHitem12() and RH_3())     or
+         (BThermit3() and BT())      or
+         (BVitem12() and BV_3())     or
+         (BKitem12() and BK_1())     or
+         (BKEvendor12() and BKE_1()) or
+         (BKEitem12() and BKE_1())   or
+         (SRitem12() and SR())       or
+         (RSitem12() and RS())
+end
+
+function coffeeSlot()
+  return (RHitem13() and RH_4())     or
+         (BVitem13() and BV_4())     or
+         (BKitem13() and BK_3())     or
+         (BKEvendor13() and BKE_1()) or
+         (BKEitem13() and BKE_1())   or
+         (SRitem13() and SR())       or
+         (RSitem13() and RS())
+end
+
+function peanutsSlot()
+  return (RHitem14() and RH_4())     or
+         (BVitem14() and BV_4())     or
+         (BKitem14() and BK_3())     or
+         (BKEvendor14() and BKE_1()) or
+         (BKEitem14() and BKE_1())   or
+         (SRitem14() and SR())       or
+         (RSitem14() and RS())
+end
+
+function snackMixSlot()
+  return (RHitem15() and RH_4())     or
+         (BVitem15() and BV_4())     or
+         (BKitem15() and BK_3())     or
+         (BKEvendor15() and BKE_1()) or
+         (BKEitem15() and BKE_1())   or
+         (SRitem15() and SR())       or
+         (RSitem15() and RS())
+end
+
+function risingStarSlot()
+  return (RHchef1() and RH_5()) or
+         (RSchef1() and RS())
+end
+
+function dkPepperSlot()
+  return (RHchef2() and RH_5()) or
+         (RSchef2() and RS())
+end
+
+function maultascheSlot()
+  return (RHchef3() and RH_5()) or
+         (RSchef3() and RS())
+end
+
+function spaetzleSlot()
+  return (RHchef4() and RH_5()) or
+         (RSchef4() and RS())
+end
+
+function durianSlot()
+  return (RHchef5() and RH_5()) or
+         (RSchef5() and RS())
+end
+
+function pengoPopSlot()
+  return (RHchef6() and RH_5()) or
+         (RSchef6() and RS())
+end
+
+function beatZeroSlot()
+  return (RHchef7() and RH_5()) or
+         (RSchef7() and RS())
+end
+
+function werewolfSlot()
+  return (RHchef8() and RH_5()) or
+         (RSchef8() and RS())
+end
+
+function mooncakeSlot()
+  return (RHchef9() and RH_5()) or
+         (RSchef9() and RS())
+end
+
+function willisSlot()
+  return (RHchef10() and RH_5()) or
+         (RSchef10() and RS())
+end
+
+function pumpkinCoffeeSlot()
+  return (RHchef11() and RH_5()) or
+         (RSchef11() and RS())
+end
+
+function toastSlot()
+  return (RHchef12() and RH_5()) or
+         (RSchef12() and RS())
+end
+
+function sweetTeaSlot()
+  return (BThermit1() and BT())
+end
+
+function chiliSlot()
+  return (BThermit2() and BT())
+end
+
+function oneUpSlot()
+  return (BKEcalzone1() and BKE_2())
+end
+
+function brHelmSlot()
+  return (RHweapon1() and RH_1())
+end
+
+function irHelmSlot()
+  return (RHweapon2() and RH_1()) or
+         (BVweapon1() and BV_1()) or 
+         (BKweapon1() and BK_1())
+end
+
+function silHelmSlot()
+  return (RHweapon3() and RH_1())     or
+         (RHbackWeapon2() and RH_5()) or
+         (BKEweapon1() and BKE_1())   or 
+         (VWweapon2() and VW())
+end
+
+function stHelmSlot()
+  return (RHbackWeapon1() and RH_5()) or
+         (BKweapon2() and BK_1())     or 
+         (VWweapon1() and VW())
+end
+
+function tiHelmSlot()
+  return (BKEweapon2() and BKE_1()) or 
+         (SRweapon1() and SR())
+end
+
+function coHelmSlot()
+  return (SRweapon2() and SR()) or
+         (RSweapon1() and RS())
+end
+
+function laHelmSlot()
+  return (RSweapon2() and RS())
+end
+
+function brEdgeSlot()
+  return (RHweapon4() and RH_1())
+end
+
+function irEdgeSlot()
+  return (RHweapon5() and RH_1()) or
+         (BVweapon2() and BV_1()) or 
+         (BKweapon3() and BK_1())
+end
+
+function silEdgeSlot()
+  return (RHweapon6() and RH_1())     or
+         (RHbackWeapon4() and RH_5()) or
+         (BKEweapon3() and BKE_1())   or 
+         (VWweapon5() and VW())
+end
+
+function stEdgeSlot()
+  return (RHbackWeapon3() and RH_5()) or
+         (BKweapon4() and BK_1())     or 
+         (VWweapon3() and VW())
+end
+
+function tiEdgeSlot()
+  return (BKEweapon4() and BKE_1()) or 
+         (SRweapon3() and SR())
+end
+
+function coEdgeSlot()
+  return (SRweapon4() and SR()) or
+         (RSweapon3() and RS())
+end
+
+function laEdgeSlot()
+  return (RSweapon4() and RS())
+end
+
+function brMailSlot()
+  return (RHweapon7() and RH_1())
+end
+
+function irMailSlot()
+  return (RHweapon8() and RH_1()) or
+         (BVweapon3() and BV_1()) or 
+         (BKweapon5() and BK_1())
+end
+
+function silMailSlot()
+  return (RHweapon9() and RH_1())     or
+         (RHbackWeapon6() and RH_5()) or
+         (BKEweapon5() and BKE_1())   or 
+         (VWweapon7() and VW())
+end
+
+function stMailSlot()
+  return (RHbackWeapon5() and RH_5()) or
+         (BKweapon6() and BK_1())     or 
+         (VWweapon5() and VW())
+end
+
+function tiMailSlot()
+  return (BKEweapon6() and BKE_1()) or 
+         (SRweapon5() and SR())
+end
+
+function coMailSlot()
+  return (SRweapon6() and SR()) or
+         (RSweapon5() and RS())
+end
+
+function laMailSlot()
+  return (RSweapon6() and RS())
+end
+
+function brBootsSlot()
+  return (RHweapon10() and RH_1())
+end
+
+function irBootsSlot()
+  return (RHweapon11() and RH_1()) or
+         (BVweapon4() and BV_1())  or 
+         (BKweapon7() and BK_1())
+end
+
+function silBootsSlot()
+  return (RHweapon12() and RH_1())    or
+         (RHbackWeapon8() and RH_5()) or
+         (BKEweapon7() and BKE_1())   or 
+         (VWweapon9() and VW())
+end
+
+function stBootsSlot()
+  return (RHbackWeapon7() and RH_5()) or
+         (BKweapon8() and BK_1())     or 
+         (VWweapon7() and VW())
+end
+
+function tiBootsSlot()
+  return (BKEweapon8() and BKE_1()) or 
+         (SRweapon7() and SR())
+end
+
+function coBootsSlot()
+  return (SRweapon8() and SR()) or
+         (RSweapon7() and RS())
+end
+
+function laBootsSlot()
+  return (RSweapon8() and RS())
+end
+
+function chestDetectorSlot()
+  return (RScurio1() and RS())
+end
 
 -- Shop Types Global Handler
 

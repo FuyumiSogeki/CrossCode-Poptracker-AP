@@ -197,10 +197,10 @@ ITEM_MAPPING =
 [3235924339] = {"BVweapon2", "toggle"}, -- Bergen Weapon Slot 2 (irEdge)
 [3235924340] = {"BVweapon3", "toggle"}, -- Bergen Weapon Slot 3 (irMail)
 [3235924341] = {"BVweapon4", "toggle"}, -- Bergen Weapon Slot 4 (irBoots)
+-- Bergen Hermit
 [3235924342] = {"BergenHermitShop", "toggle"}, -- Bergen Trail Hermit Hut Shop Unlock
 [3235924343] = {"BTHermit2", "toggle"}, -- Bergen Hermit Slot 2
 [3235924344] = {"chili", "toggle"}, -- Global Chili Con Carne Slot
--- Bergen Hermit
 [3235924345] = {"BTHermit3", "toggle"}, -- Bergen Hermit Slot 3
 [3235924346] = {"BTHermit1", "toggle"}, -- Bergen Hermit Slot 1
 [3235924347] = {"sweetTea", "toggle"}, -- Global Sweet Berry Tea Slot
