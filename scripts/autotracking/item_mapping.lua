@@ -12,7 +12,7 @@ ITEM_MAPPING =
 [3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
 
 -- Progressive Equipments
---[3235824004] = {"spUpgrade", "consumable"}, -- SP Upgrade, useful
+[3235824004] = {"spUpgrade", "progressive"}, -- SP Upgrade, useful
 --[3235824060] = {"progAllHeads", "progressive"}, -- Progressive All-Purpose Heads, useful
 --[3235824061] = {"progDefHeads", "progressive"}, -- Progressive Defense Heads, useful
 --[3235824062] = {"progOffHeads", "progressive"}, -- Progressive Offense Heads, useful
