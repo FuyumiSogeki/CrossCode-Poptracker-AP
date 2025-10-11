@@ -910,6 +910,397 @@
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEitem15",
+                            "$typeMix",
+                            "settingShopReceiveShops, basinItemShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon1",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"   
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Goggles Type - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon2",
+                            "$typeTiHelm",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon3",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Edge Type - 46475 Credits",
+                        "chest_unopened_img": "images/weapon/titanEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon4",
+                            "$typeTiEdge",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon5",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Mail Type - 46925 Credits",
+                        "chest_unopened_img": "images/weapon/titanMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon6",
+                            "$typeTiMail",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon7",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Titan Boots Type - 46750 Credits",
+                        "chest_unopened_img": "images/weapon/titanBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$BKEweapon8",
+                            "$typeTiBoots",
+                            "settingShopReceiveShops, basinWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -1189,6 +1580,261 @@
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor3",
+                            "$typeTea",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor4",
+                            "$typeWater",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor5",
+                            "$typeKebab",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor6",
+                            "$typeRisotto",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor7",
+                            "$typeBun",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor11",
+                            "$typeIcecream",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor12",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor13",
+                            "$typeCoffee",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor14",
+                            "$typePeanuts",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEvendor15",
+                            "$typeMix",
+                            "settingShopReceiveShops, basinVendor",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -1216,6 +1862,23 @@
                         "visibility_rules": 
                         [
                             "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$BKEcalzone1, GG-mush-2",
+                            "$typeOneUp, GG-mush-2",
+                            "settingShopReceiveShops, basinCalzone, GG-mush-2",
+                            "settingShopReceiveOff, GG-mush-2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "One Up Type - 60000 Credits",
+                        "chest_unopened_img": "images/food/OneUp.png",
+                        "chest_opened_img": "images/food/OneUpOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [

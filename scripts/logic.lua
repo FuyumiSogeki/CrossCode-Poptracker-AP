@@ -214,7 +214,7 @@ function regionOpen4_5()
 end
 
 function regionOpen4_6()
-  return regionOpen4_3() and has ("eleHeat")
+  return regionOpen4_4() and has ("eleHeat")
 end
 
 function regionOpen4_7()
@@ -2335,7 +2335,7 @@ function irHelmShop()
 end
 
 function silHelmShop()
-  return (has("rookieWeaponShop") and RH_1())   or
+  return (has("rookieWeaponShop") and RH_3())   or
          (has("rookieBackerWeapon") and RH_5()) or
          (has("basinWeaponShop") and BKE_1())   or 
          (has("vermillionWeaponShop") and VW())
@@ -2372,7 +2372,7 @@ function irEdgeShop()
 end
 
 function silEdgeShop()
-  return (has("rookieWeaponShop") and RH_1())   or
+  return (has("rookieWeaponShop") and RH_3())   or
          (has("rookieBackerWeapon") and RH_5()) or
          (has("basinWeaponShop") and BKE_1())   or
          (has("vermillionWeaponShop") and VW())
@@ -2409,7 +2409,7 @@ function irMailShop()
 end
 
 function silMailShop()
-  return (has("rookieWeaponShop") and RH_1())   or
+  return (has("rookieWeaponShop") and RH_3())   or
          (has("rookieBackerWeapon") and RH_5()) or
          (has("basinWeaponShop") and BKE_1())   or
          (has("vermillionWeaponShop") and VW())
@@ -2446,7 +2446,7 @@ function irBootsShop()
 end
 
 function silBootsShop()
-  return (has("rookieWeaponShop") and RH_1())   or
+  return (has("rookieWeaponShop") and RH_3())   or
          (has("rookieBackerWeapon") and RH_5()) or
          (has("basinWeaponShop") and BKE_1())   or
          (has("vermillionWeaponShop") and VW())
@@ -2721,7 +2721,7 @@ function irHelmSlot()
 end
 
 function silHelmSlot()
-  return (RHweapon3() and RH_1())     or
+  return (RHweapon3() and RH_3())     or
          (RHbackWeapon2() and RH_5()) or
          (BKEweapon1() and BKE_1())   or 
          (VWweapon2() and VW())
@@ -2758,7 +2758,7 @@ function irEdgeSlot()
 end
 
 function silEdgeSlot()
-  return (RHweapon6() and RH_1())     or
+  return (RHweapon6() and RH_3())     or
          (RHbackWeapon4() and RH_5()) or
          (BKEweapon3() and BKE_1())   or 
          (VWweapon5() and VW())
@@ -2795,7 +2795,7 @@ function irMailSlot()
 end
 
 function silMailSlot()
-  return (RHweapon9() and RH_1())     or
+  return (RHweapon9() and RH_3())     or
          (RHbackWeapon6() and RH_5()) or
          (BKEweapon5() and BKE_1())   or 
          (VWweapon7() and VW())
@@ -2832,7 +2832,7 @@ function irBootsSlot()
 end
 
 function silBootsSlot()
-  return (RHweapon12() and RH_1())    or
+  return (RHweapon12() and RH_3())    or
          (RHbackWeapon8() and RH_5()) or
          (BKEweapon7() and BKE_1())   or 
          (VWweapon9() and VW())

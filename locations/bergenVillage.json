@@ -1100,6 +1100,261 @@
                             "settingShopReceiveOff, seedShade"  
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kebab Roll Type - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Kebab.png",
+                        "chest_opened_img": "images/food/KebabOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem5, iceShade",
+                            "$typeKebab, iceShade",
+                            "settingShopReceiveShops, bergenItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Meaty Risotto Type - 650 Credits Have Blue Ice",
+                        "chest_unopened_img": "images/food/Risotto.png",
+                        "chest_opened_img": "images/food/RisottoOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem6, iceShade",
+                            "$typeRisotto, iceShade",
+                            "settingShopReceiveShops, bergenItemShop, iceShade",
+                            "settingShopReceiveOff, iceShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem7",
+                            "$typeBun",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem8",
+                            "$typeFruit",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem9",
+                            "$typeCracker",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem10",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, bergenItemShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bergen Ice Cream Type - 450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/food/IceCream.png",
+                        "chest_opened_img": "images/food/IceCreamOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem11, flameShade",
+                            "$typeIcecream, flameShade",
+                            "settingShopReceiveShops, bergenItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 450 Credits Have Red Flame",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem12, flameShade",
+                            "$typeLemonjuice, flameShade",
+                            "settingShopReceiveShops, bergenItemShop, flameShade",
+                            "settingShopReceiveOff, flameShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cup o' Coffee Type - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Coffee.png",
+                        "chest_opened_img": "images/food/CoffeeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem13, seedShade",
+                            "$typeCoffee, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Salted Peanuts Type - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/Peanuts.png",
+                        "chest_opened_img": "images/food/PeanutsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem14, seedShade",
+                            "$typePeanuts, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Snack Mix Type - 450 Credits Have Green Seed",
+                        "chest_unopened_img": "images/food/SnackMix.png",
+                        "chest_opened_img": "images/food/SnackMixOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVitem15, seedShade",
+                            "$typeMix, seedShade",
+                            "settingShopReceiveShops, bergenItemShop, seedShade",
+                            "settingShopReceiveOff, seedShade"  
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
@@ -1178,6 +1433,74 @@
                         "visibility_rules": 
                         [
                             "shopShuffleSlot"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon4",
+                            "$typeIrBoots",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Goggles Type - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon1",
+                            "$typeIrHelm",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Edge Type - 4500 Credits",
+                        "chest_unopened_img": "images/weapon/ironEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon2",
+                            "$typeIrEdge",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Mail Type - 4800 Credits",
+                        "chest_unopened_img": "images/weapon/ironMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BVweapon3",
+                            "$typeIrMail",
+                            "settingShopReceiveShops, bergenWeaponShop",
+                            "settingShopReceiveOff"  
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Iron Boots Type - 4700 Credits",
+                        "chest_unopened_img": "images/weapon/ironBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
                         ],
                         "access_rules":
                         [

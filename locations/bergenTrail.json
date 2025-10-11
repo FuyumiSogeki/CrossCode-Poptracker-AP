@@ -1111,6 +1111,57 @@
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Berry Tea Type - 3299 Credits",
+                        "chest_unopened_img": "images/food/SweetTea.png",
+                        "chest_opened_img": "images/food/SweetTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit1",
+                            "$typeSweetTea",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chili Con Carne Type - 1099 Credits",
+                        "chest_unopened_img": "images/food/Chili.png",
+                        "chest_opened_img": "images/food/ChiliOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit2",
+                            "$typeChiliCon",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Sweet Lemonjuice Type - 2199 Credits",
+                        "chest_unopened_img": "images/food/Lemonade.png",
+                        "chest_opened_img": "images/food/LemonadeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules":
+                        [
+                            "$BThermit3",
+                            "$typeLemonjuice",
+                            "settingShopReceiveShops, bergenHermitShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
                     }
                 ]
             }

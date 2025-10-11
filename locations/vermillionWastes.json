@@ -660,6 +660,278 @@
                             "settingShopReceiveOff"
                         ],
                         "item_count": 1
+                    },
+                    {
+                        "name": "Sandwich Type - 100 Credits",
+                        "chest_unopened_img": "images/food/Sandwich.png",
+                        "chest_opened_img": "images/food/SandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem1",
+                            "$typeSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Hi-Sandwich Type - 300 Credits",
+                        "chest_unopened_img": "images/food/HiSandwich.png",
+                        "chest_opened_img": "images/food/HiSandwichOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem2",
+                            "$typeHiSandwich",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Green Leaf Tea Type - 250 Credits",
+                        "chest_unopened_img": "images/food/GreenTea.png",
+                        "chest_opened_img": "images/food/GreenTeaOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem3",
+                            "$typeTea",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Just Water Type - 222 Credits",
+                        "chest_unopened_img": "images/food/Water.png",
+                        "chest_opened_img": "images/food/WaterOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem4",
+                            "$typeWater",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Spicy Bun Type - 200 Credits",
+                        "chest_unopened_img": "images/food/SpicyBun.png",
+                        "chest_opened_img": "images/food/SpicyBunOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem5",
+                            "$typeBun",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Fruit Drink Type - 200 Credits",
+                        "chest_unopened_img": "images/food/FruitDrink.png",
+                        "chest_opened_img": "images/food/FruitDrinkOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem6",
+                            "$typeFruit",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },                    
+                    {
+                        "name": "Rice Cracker Type - 200 Credits",
+                        "chest_unopened_img": "images/food/RiceCracker.png",
+                        "chest_opened_img": "images/food/RiceCrackerOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem7",
+                            "$typeCracker",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Veggie Sticks Type - 200 Credits",
+                        "chest_unopened_img": "images/food/VeggieSticks.png",
+                        "chest_opened_img": "images/food/VeggieSticksOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWitem8",
+                            "$typeVeggie",
+                            "settingShopReceiveShops, vermillionItemShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Goggles Type - 15850 Credits",
+                        "chest_unopened_img": "images/weapon/steelHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon1",
+                            "$typeStHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Goggles Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverHelm.png",
+                        "chest_opened_img": "images/weapon/helmOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon2",
+                            "$typeSilHelm",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Edge Type - 15800 Credits",
+                        "chest_unopened_img": "images/weapon/steelEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon3",
+                            "$typeStEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Edge Type - 29375 Credits",
+                        "chest_unopened_img": "images/weapon/silverEdge.png",
+                        "chest_opened_img": "images/weapon/edgeOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon4",
+                            "$typeSilEdge",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Mail Type - 16100 Credits",
+                        "chest_unopened_img": "images/weapon/steelMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon5",
+                            "$typeStMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Mail Type - 29725 Credits",
+                        "chest_unopened_img": "images/weapon/silverMail.png",
+                        "chest_opened_img": "images/weapon/mailOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon6",
+                            "$typeSilMail",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Steel Boots Type - 15950 Credits",
+                        "chest_unopened_img": "images/weapon/steelBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon7",
+                            "$typeStBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Silver Boots Type - 29450 Credits",
+                        "chest_unopened_img": "images/weapon/silverBoots.png",
+                        "chest_opened_img": "images/weapon/bootsOff.png",
+                        "visibility_rules": 
+                        [
+                            "shopShuffleTypes"
+                        ],
+                        "access_rules": 
+                        [
+                            "$VWweapon8",
+                            "$typeSilBoots",
+                            "settingShopReceiveShops, vermillionWeaponShop",
+                            "settingShopReceiveOff"
+                        ],
+                        "item_count": 1
                     }
                 ]
             },
