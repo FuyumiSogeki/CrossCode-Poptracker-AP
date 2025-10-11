@@ -188,7 +188,7 @@ function onClear(slot_data)
     -- get auto tabbing
     if Archipelago.PlayerNumber > -1 then
         --local data_storage_list = ({"area"})
-        local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area"})
+        local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName"})
 
         Archipelago:SetNotify(data_storage_list)
         Archipelago:Get(data_storage_list)
@@ -395,7 +395,7 @@ function onSetReply(key, value, _)
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
@@ -459,7 +459,7 @@ function retrieved(key, value)
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_area" then
+    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
