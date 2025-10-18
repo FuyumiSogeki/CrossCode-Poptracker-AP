@@ -1748,7 +1748,7 @@ function silHelmOff()
 end
 
 function stHelmOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiHelmOff()
@@ -1776,7 +1776,7 @@ function silEdgeOff()
 end
 
 function stEdgeOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiEdgeOff()
@@ -1804,7 +1804,7 @@ function silMailOff()
 end
 
 function stMailOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiMailOff()
@@ -1832,7 +1832,7 @@ function silBootsOff()
 end
 
 function stBootsOff()
-  return RH_5() or BK_1() or VM()
+  return RH_5() or BK_1() or VW()
 end
 
 function tiBootsOff()
@@ -1987,7 +1987,7 @@ function silHelmType()
 end
 
 function stHelmType()
-  return typeStHelm() and (RH_5() or BK_1() or VM())
+  return typeStHelm() and (RH_5() or BK_1() or VW())
 end
 
 function tiHelmType()
@@ -2015,7 +2015,7 @@ function silEdgeType()
 end
 
 function stEdgeType()
-  return typeStEdge() and (RH_5() or BK_1() or VM())
+  return typeStEdge() and (RH_5() or BK_1() or VW())
 end
 
 function tiEdgeType()
@@ -2043,7 +2043,7 @@ function silMailType()
 end
 
 function stMailType()
-  return typeStMail() and (RH_5() or BK_1() or VM())
+  return typeStMail() and (RH_5() or BK_1() or VW())
 end
 
 function tiMailType()
@@ -2071,7 +2071,7 @@ function silBootsType()
 end
 
 function stBootsType()
-  return typeStBoots() and (RH_5() or BK_1() or VM())
+  return typeStBoots() and (RH_5() or BK_1() or VW())
 end
 
 function tiBootsType()
