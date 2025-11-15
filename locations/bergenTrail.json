@@ -897,7 +897,11 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "settingShopReceiveOff,   $brMailOff",
+                            "settingShopReceiveTypes, $brMailType",
+                            "settingShopReceiveSlots, $brMailSlot",
+                            "settingShopReceiveShops, $brMailShop"
+
                         ],
                         "item_count": 1
                     }
