@@ -442,6 +442,10 @@ function canGrind()
   return has ("leafShade") or has ("flameShade")
 end
 
+function anyElement()
+  return has("eleHeat") or has("eleCold") or has("eleShock") or has("eleWave")
+end
+
 -- Shop Logic --
 
 -- Slot Shuffle

@@ -130,7 +130,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824322"
+                            "$newLock|3235824322, $anyElement"
                         ],
                         "item_count": 1
                     }
