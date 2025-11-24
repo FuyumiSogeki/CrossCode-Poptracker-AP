@@ -1506,7 +1506,7 @@ function manualShopTypes(location_id)
         objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Weapon Shop/Laser Boots Type - 104750 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     elseif location_id == 3235824757 then
-        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio ShopChest Detector Type - 33333 Credits")
+        objItem = Tracker:FindObjectForCode("@Rhombus Square/Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits")
         objItem.AvailableChestCount = objItem.AvailableChestCount - 1
     end
 end
