@@ -182,11 +182,11 @@ function regionOpen3()
 end
 
 function regionOpen3_1()
-  return regionOpen2() and has ("minePass")
+  return regionOpen3() and has ("minePass")
 end
 
 function regionOpen3_2()
-  return regionOpen2() and has ("guildPass")
+  return regionOpen3() and has ("guildPass")
 end
 
 function regionOpen4_1()
