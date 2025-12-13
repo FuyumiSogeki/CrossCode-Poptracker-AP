@@ -710,7 +710,7 @@
                         ],
                         "access_rules": 
                         [
-                            "$newLock|3235824251|whiteKey, eleWave"
+                            "$newLock|3235824251|whiteKey"
                         ],
                         "item_count": 1
                     }
