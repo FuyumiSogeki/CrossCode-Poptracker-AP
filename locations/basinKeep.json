@@ -275,7 +275,8 @@
                         ],
                         "access_rules": 
                         [
-                            "GG-mush-1, eleWave"
+                            "GG-mush-1, eleWave",
+                            "settingQuestShuffleOff, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -2057,7 +2058,7 @@
                     },
                     {
                         "ref": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'/One Up Slot - 60000 Credits",
-                        "name": "Basin Keep - Calzonr Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
+                        "name": "Basin Keep - Calzone Shop After 'Mushroom Kingdom'\nOne Up Slot - 60000 Credits"
                     },
                     {
                         "ref": "Basin Keep - Police HQ/Hostage Situation",
