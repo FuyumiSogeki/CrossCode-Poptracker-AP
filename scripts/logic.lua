@@ -330,7 +330,7 @@ function regionOpen15_2()
 end
 
 function regionOpen15_3()
-  return regionOpen15_2() and has ("kryskajoMaster")
+  return regionOpen15_1() and has ("kryskajoMaster")
 end
 
 function regionOpen16()
