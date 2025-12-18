@@ -378,7 +378,7 @@ ITEM_MAPPING =
 [3235924505] = {"VWitem5", "toggle"}, -- Vermillion Item Slot 5 (spicyBun)
 [3235924506] = {"VWitem6", "toggle"}, -- Vermillion Item Slot 6 (fruitDrink)
 [3235924507] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 7 (riceCracker)
-[3235924508] = {"VWitem7", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
+[3235924508] = {"VWitem8", "toggle"}, -- Vermillion Item Slot 8 (veggieSticks)
 -- Rhombus Cobalt Set
 [3235924509] = {"RSweapon1", "toggle"}, -- Rhombus Weapon Slot 8 (coHelm)
 [3235924510] = {"RSweapon3", "toggle"}, -- Rhombus Weapon Slot 8 (coEdge)
