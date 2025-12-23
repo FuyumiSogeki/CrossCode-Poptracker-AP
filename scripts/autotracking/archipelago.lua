@@ -16,6 +16,16 @@ PROG_A_UNLOCK = {}
 PROG_D_UNLOCK = {}
 PROG_O_UNLOCK = {}
 
+if Highlight then
+	HINT_STATUS_MAPPING = {
+		[20] = Highlight.Avoid,
+		[40] = Highlight.None,
+		[10] = Highlight.NoPriority,
+		[0] = Highlight.Unspecified,
+		[30] = Highlight.Priority,
+	}
+end
+
 function dump_table(o, depth)
     if depth == nil then
         depth = 0
@@ -192,6 +202,14 @@ function onClear(slot_data)
 
         Archipelago:SetNotify(data_storage_list)
         Archipelago:Get(data_storage_list)
+    end
+
+    -- get hints
+    if Archipelago.PlayerNumber > -1 then
+        HINTS_ID = "_read_hints_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+
+        Archipelago:SetNotify({HINTS_ID})
+        Archipelago:Get({HINTS_ID})
     end
 end
 
@@ -391,12 +409,19 @@ function onBounce(json)
     -- your code goes here
 end
 
-function onSetReply(key, value, _)
+function onSetReply(key, value, old_value)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
+    if value ~= old_value and key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then        
+                --updateHintsLocation(hint)
+                UpdateHintsHighlight(hint)
+            end
+        end
+    elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
@@ -460,7 +485,14 @@ function retrieved(key, value)
         print(string.format("called retrieved: %s, %s", key, value))
     end
 
-    if key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
+    if key == HINTS_ID then
+        for _, hint in ipairs(value) do
+            if hint.finding_player == Archipelago.PlayerNumber then        
+            --updateHintsLocation(hint)
+               UpdateHintsHighlight(hint)
+            end
+        end
+    elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
         splitedArea = {}
         index = 1
 
@@ -515,6 +547,67 @@ function retrieved(key, value)
                 print("Region %s", CURRENT_ROOM)
             end
             Tracker:UiHint("ActivateTab", CURRENT_ROOM)
+        end
+    end
+end
+
+function UpdateHintsHighlight(hint)
+    if PopVersion < "0.32.0" then 
+        return 
+    end
+    --print(string.format("updateHint: %s", dump_table(hint)))
+
+    -- get the highlight enum value for the hint status
+    local item_flags = hint.item_flags
+    local hint_status = nil
+    local highlight_code = nil
+
+    if item_flags == 0 then
+        hint_status = 0
+    elseif item_flags == 1 then
+        hint_status = 30
+    elseif item_flags == 2 then
+        hint_status = 10
+    else
+        hint_status = hint.status
+    end
+
+    if hint_status then
+        highlight_code = HINT_STATUS_MAPPING[hint_status]
+    end
+
+    if not highlight_code then
+        -- try to "recover" by checking hint.found (older AP versions without hint.status)
+        if hint.found then
+            highlight_code = Highlight.None
+        elseif not hint.found then
+            highlight_code = Highlight.Unspecified
+        else
+            return
+        end
+    end
+
+    -- get the location mapping for the location id
+    local mapping_entry = LOCATION_MAPPING[hint.location]
+
+    if not mapping_entry then
+        
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("updateHint: could not find location mapping for id %s", hint.location))
+        end
+
+        return
+    end
+
+    for _, location_code in pairs(mapping_entry) do
+        if location_code and location_code:sub(1, 1) == "@" then
+            local obj = Tracker:FindObjectForCode(location_code)
+
+            if obj and obj.Highlight then                
+                obj.Highlight = highlight_code
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING then
+                print(string.format("updateHint: could update section %s (obj doesn't support Highlight)", location_code))
+            end
         end
     end
 end
