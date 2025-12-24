@@ -562,7 +562,9 @@ function UpdateHintsHighlight(hint)
     local hint_status = nil
     local highlight_code = nil
 
-    if item_flags == 0 then
+    if hint.found then
+        hint_status = 40
+    elseif item_flags == 0 then
         hint_status = 0
     elseif item_flags == 1 then
         hint_status = 30
