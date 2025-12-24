@@ -21,7 +21,7 @@ if Highlight then
 		[20] = Highlight.Avoid,
 		[40] = Highlight.None,
 		[10] = Highlight.NoPriority,
-		[0] = Highlight.Unspecified,
+		[0]  = Highlight.Unspecified,
 		[30] = Highlight.Priority,
 	}
 end
@@ -555,26 +555,21 @@ function UpdateHintsHighlight(hint)
     if PopVersion < "0.32.0" then 
         return 
     end
-    --print(string.format("updateHint: %s", dump_table(hint)))
 
     -- get the highlight enum value for the hint status
     local item_flags = hint.item_flags
-    local hint_status = nil
+    local hint_status = hint.status
     local highlight_code = nil
 
     if hint.found then
-        hint_status = 40
+        highlight_code = Highlight.None
     elseif item_flags == 0 then
-        hint_status = 0
+        highlight_code = Highlight.Unspecified
     elseif item_flags == 1 then
-        hint_status = 30
+        highlight_code = Highlight.Priority
     elseif item_flags == 2 then
-        hint_status = 10
-    else
-        hint_status = hint.status
-    end
-
-    if hint_status then
+        highlight_code = Highlight.NoPriority
+    elseif hint_status then
         highlight_code = HINT_STATUS_MAPPING[hint_status]
     end
 
@@ -593,7 +588,6 @@ function UpdateHintsHighlight(hint)
     local mapping_entry = LOCATION_MAPPING[hint.location]
 
     if not mapping_entry then
-        
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("updateHint: could not find location mapping for id %s", hint.location))
         end
