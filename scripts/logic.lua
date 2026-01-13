@@ -226,7 +226,7 @@ function regionOpen4_8()
 end
 
 function regionOpen5()
-  return regionOpen3() and has ("iceShade")
+  return (regionOpen3() or has ("settingsRhombusHubOpen")) and has ("iceShade")
 end
 
 function regionOpen6()
@@ -282,7 +282,7 @@ function regionOpen9_1()
 end
 
 function regionOpen10()
-  return regionOpen9() and has ("seedShade")
+  return (regionOpen9() or has ("settingsRhombusHubOpen")) and has ("seedShade")
 end
 
 function regionOpen11()
@@ -334,7 +334,7 @@ function regionOpen15_3()
 end
 
 function regionOpen16()
-  return regionOpen9() and has ("starShade")
+  return (regionOpen9() or has ("settingsRhombusHubOpen")) and has ("starShade")
 end
 
 function regionOpen17()
