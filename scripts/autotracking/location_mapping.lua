@@ -386,6 +386,8 @@ LOCATION_MAPPING =
 [3235824365] = {"@Zir'vitar Temple/Zir'vitar Temple 3F - Post Boss Statue/Circuit Override"},
 [3235824366] = {"@Faj'ro Temple/Faj'ro Temple 4F - Post Boss Statue/SP Upgrade"},
 [3235824367] = {"@Grand Krys'kajo/Grand Krys'kajo 4F - Post Boss Statue/SP Upgrade"},
+[3235824790] = {"@Gaia's Garden/Gaia's Garden - Jungle Entrance Apollo/Apollo Duel East Pass"},
+[3235824791] = {"@Gaia's Garden/Gaia's Garden - Jungle Entrance Apollo/Apollo Duel West Pass"},
 -- Element Pedestals
 [3235824368] = {"@Temple Mine/Temple Mine U3 - Chamber of Fire/Element"},
 [3235824369] = {"@Faj'ro Temple/Faj'ro Temple 2F - Chamber of Ice/Element"},

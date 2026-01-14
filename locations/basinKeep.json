@@ -233,7 +233,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -264,7 +264,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -296,7 +296,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Right"
                 ],
                 "sections": [
                     {
@@ -339,7 +339,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
@@ -382,7 +382,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
@@ -436,7 +436,8 @@
                         ],
                         "access_rules": 
                         [
-                            ""
+                            "$region2",
+                            "$regionOpen2, $regionOpen10_Infested"
                         ],
                         "item_count": 1
                     }

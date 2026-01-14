@@ -191,13 +191,38 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("op_CL").CurrentStage = 0
     end
 
+    if slot_data['options']["rhombusHubUnlock"] then 
+        Tracker:FindObjectForCode("op_RH").CurrentStage = 1
+    else
+        Tracker:FindObjectForCode("op_RH").CurrentStage = 0
+    end
+
+    if slot_data['options']['closedGaia'] then
+        local obj = Tracker:FindObjectForCode("op_GG")
+        if obj then
+            if slot_data['options']['closedGaia'] == 0 then
+                obj.CurrentStage = 0
+            elseif slot_data['options']['closedGaia'] == 1 then
+                obj.CurrentStage = 1
+            elseif slot_data['options']['closedGaia'] == 2 then
+                obj.CurrentStage = 2
+            else
+                obj.CurrentStage = 0
+            end
+        end
+    else
+        local obj = Tracker:FindObjectForCode("op_GG")
+        if obj then
+            obj.CurrentStage = 0
+        end
+    end
+
     PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
     PROG_D_UNLOCK = slot_data['options']["progressiveChains"]["3235824052"]
     PROG_O_UNLOCK = slot_data['options']["progressiveChains"]["3235824051"]
 
     -- get auto tabbing
     if Archipelago.PlayerNumber > -1 then
-        --local data_storage_list = ({"area"})
         local data_storage_list = ({"CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName"})
 
         Archipelago:SetNotify(data_storage_list)
@@ -422,8 +447,11 @@ function onSetReply(key, value, old_value)
             end
         end
     elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
-        splitedArea = {}
-        index = 1
+        local objItem = Tracker:FindObjectForCode("auto_tab")
+        if objItem and not objItem.Active then return end
+
+        local splitedArea = {}
+        local index = 1
 
         for splited in string.gmatch(value, '([^.]+)') do 
             splitedArea[index] = splited
@@ -493,8 +521,11 @@ function retrieved(key, value)
             end
         end
     elseif key == "CrossCode_" ..Archipelago.TeamNumber.. "_" ..Archipelago.PlayerNumber.. "_mapName" then
-        splitedArea = {}
-        index = 1
+        local objItem = Tracker:FindObjectForCode("auto_tab")
+        if objItem and not objItem.Active then return end
+
+        local splitedArea = {}
+        local index = 1
 
         for splited in string.gmatch(value, '([^.]+)') do 
             splitedArea[index] = splited

@@ -6,13 +6,17 @@ ITEM_MAPPING =
 [3235824002] = {"eleShock", "toggle"}, -- Shock Element, progression
 [3235824003] = {"eleWave", "toggle"}, -- Wave Element, progression
 
+-- Upgrades
+[3235824004] = {"spUpgrade", "progressive"}, -- SP Upgrade, useful
+[3235824005] = {"gaiaWest", "toggle"}, -- Remove Gaia's Garden West barrier, progression
+[3235824006] = {"gaiaEast", "toggle"}, -- Remove Gaia's Garden East barrier, progression
+
 -- Progresssive Area
 [3235824050] = {"progAreaUnlock", "consumable"}, -- Progressive Area Unlock, progression
 [3235824051] = {"progOverUnlock", "consumable"}, -- Progressive Overworld Unlock, progression
 [3235824052] = {"progDunUnlock", "consumable"}, -- Progressive Dungeon Unlock, progression
 
 -- Progressive Equipments
-[3235824004] = {"spUpgrade", "progressive"}, -- SP Upgrade, useful
 --[3235824060] = {"progAllHeads", "progressive"}, -- Progressive All-Purpose Heads, useful
 --[3235824061] = {"progDefHeads", "progressive"}, -- Progressive Defense Heads, useful
 --[3235824062] = {"progOffHeads", "progressive"}, -- Progressive Offense Heads, useful
@@ -35,6 +39,7 @@ ITEM_MAPPING =
 --[3235824092] = {"progOffLegs", "progressive"}, -- Progressive Offense Legs, useful
 --[3235824093] = {"progLegs", "progressive"}, -- Progressive Legs, useful
 
+-- Key Items
 [3235824233] = {"brokenGauntlet", "toggle"}, -- Broken Gauntlet, progression
 [3235824235] = {"insightDisc", "toggle"}, -- Disc of Insight , progression
 [3235824237] = {"brokenShield", "toggle"}, -- Broken Shield, progression

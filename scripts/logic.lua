@@ -285,16 +285,36 @@ function regionOpen10()
   return (regionOpen9() or has ("settingsRhombusHubOpen")) and has ("seedShade")
 end
 
+function regionOpen10_Left()
+  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest")))
+end
+
+function regionOpen10_Right()
+  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast")))
+end
+
+function regionOpen10_Middle()
+  return regionOpen10_Right() or regionOpen10_Left()
+end
+
+function regionOpen10_Grove()
+  return regionOpen10_Left() and (has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("dropShade")))
+end
+
+function regionOpen10_Infested()
+  return regionOpen10_Right() and (has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("boltShade")))
+end
+
 function regionOpen11()
   return regionOpen10() and has ("pondPass")
 end
 
 function regionOpen12()
-  return regionOpen10()
+  return regionOpen10_Middle()
 end
 
 function regionOpen13_1()
-  return zirvitarKeyTotal(2) and regionOpen10()
+  return zirvitarKeyTotal(2) and regionOpen10_Middle()
 end
 
 function regionOpen13_2()
@@ -302,11 +322,11 @@ function regionOpen13_2()
 end
 
 function regionOpen14_1()
-  return sonajizKeyTotal(1) and regionOpen10() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
+  return sonajizKeyTotal(1) and regionOpen10_Middle() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
 end
 
 function regionOpen14_2()
-  return regionOpen10() and sonajizKeyTotal(3) and has("eleHeat")
+  return regionOpen10_Middle() and sonajizKeyTotal(3) and has("eleHeat")
 end
 
 function regionOpen14_3()
