@@ -298,11 +298,11 @@ function regionOpen10_Middle()
 end
 
 function regionOpen10_Grove()
-  return regionOpen10_Left() and (has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("dropShade")))
+  return regionOpen10_Left() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("dropShade")))
 end
 
 function regionOpen10_Infested()
-  return regionOpen10_Right() and (has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("boltShade")))
+  return regionOpen10_Right() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("boltShade")))
 end
 
 function regionOpen11()
