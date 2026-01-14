@@ -30,13 +30,13 @@
   {
     "name": "West Gaia Pass",
     "type": "toggle",
-    "img": "images/items/NEED_PICTURES.png",
+    "img": "images/items/gaiaWestPass.png",
     "codes": "gaiaWest"
   },
   {
     "name": "East Gaia Pass",
     "type": "toggle",
-    "img": "images/items/NEED_PICTURES.png",
+    "img": "images/items/gaiaEastPass.png",
     "codes": "gaiaEast"
   },
   {

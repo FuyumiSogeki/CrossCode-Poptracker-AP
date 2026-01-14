@@ -12,6 +12,7 @@
       ["leafShade","dropShade","seedShade","starShade","meteorShade"],
       ["insightDisc","floraDisc","thiefKey", "whiteKey", "radiantKey"],
       ["minePass", "maroonPass", "pondPass","cursedCoin", "dojoKey"],
+      ["gaiaWest", "gaiaEast", "", "", ""],
       ["brokenGauntlet", "brokenShield", "brokenSword", "brokenDeck", "brokenChakram"]
     ]
   },
