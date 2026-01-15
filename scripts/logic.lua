@@ -342,7 +342,7 @@ function regionOpen14_5()
 end
 
 function regionOpen15_1()
-  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock") and has ("eleCold"))
+  return regionOpen12() and (has ("boltShade") and has ("dropShade") and has ("eleWave") and has ("eleShock") and has ("eleCold") and has ("eleHeat"))
 end
 
 function regionOpen15_2()
