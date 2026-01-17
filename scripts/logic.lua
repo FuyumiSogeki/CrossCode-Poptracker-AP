@@ -459,7 +459,9 @@ end
 -- Misc --
 
 function canGrind()
-  return has ("leafShade") or has ("flameShade")
+  return has ("leafShade") or has ("flameShade") or (has("rhombusHubUnlock") and has("iceShade"))
+                                                 or (has("rhombusHubUnlock") and has("seedShade"))
+                                                 or (has("rhombusHubUnlock") and has("starShade"))
 end
 
 function anyElement()
