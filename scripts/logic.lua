@@ -314,7 +314,7 @@ function regionOpen12()
 end
 
 function regionOpen13_1()
-  return zirvitarKeyTotal(2) and regionOpen10_Middle()
+  return zirvitarKeyTotal(2) and regionOpen10_Right()
 end
 
 function regionOpen13_2()
@@ -322,11 +322,11 @@ function regionOpen13_2()
 end
 
 function regionOpen14_1()
-  return sonajizKeyTotal(1) and regionOpen10_Middle() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
+  return sonajizKeyTotal(1) and regionOpen10_Right() and (has("eleHeat") or has("eleCold") or has ("eleWave") or has ("eleShock"))
 end
 
 function regionOpen14_2()
-  return regionOpen10_Middle() and sonajizKeyTotal(3) and has("eleHeat")
+  return regionOpen10_Right() and sonajizKeyTotal(3) and has("eleHeat")
 end
 
 function regionOpen14_3()
