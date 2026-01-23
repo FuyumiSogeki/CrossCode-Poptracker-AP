@@ -1854,7 +1854,7 @@
                 "access_rules": 
                 [
                     "$region23",
-                    "$regionOpen10"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
