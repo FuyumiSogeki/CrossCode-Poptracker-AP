@@ -593,6 +593,29 @@
     ]
   },
   {
+    "name": "Goal",
+    "type": "progressive",
+    "initial_stage_idx": 0,
+    "allow_disabled": false,
+    "loop": false,
+    "stages": [
+      {
+        "img": "images/settings/goalCreator.png",
+        "codes": "op_G,settingGoalCreator"
+      },
+      {
+        "img": "images/settings/goalMonkey.png",
+        "codes": "op_G,settingGoalMonkey",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goalObservatory.png",
+        "codes": "op_G,settingGoalObservatory",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Rookie Item Shop",
     "type": "toggle",
     "img": "images/shops/rookieItemsOn.png",

@@ -287,10 +287,18 @@
           {
             "type": "itemgrid",
             "rows": [
-              ["auto_tab"]
+              ["op_G"]
             ],
             "item_size": 95,
             "margin": "-200,175,-2,-12"
+          },
+          {
+            "type": "itemgrid",
+            "rows": [
+              ["auto_tab"]
+            ],
+            "item_size": 95,
+            "margin": "-5,175,-2,-12"
           }
         ]
       }
