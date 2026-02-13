@@ -2131,7 +2131,8 @@
                         ],
                         "access_rules":
                         [
-                            ""
+                            "$region2",
+                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Grove"
                         ],
                         "item_count": 1
                     },
