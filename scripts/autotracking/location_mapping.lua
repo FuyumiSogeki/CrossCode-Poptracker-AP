@@ -666,10 +666,10 @@ LOCATION_MAPPING =
 [3235824632] = {"@Bergen Village/Bergen Village - Weapon Shop/Iron Mail Slot - 4800 Credits"},
 [3235824633] = {"@Bergen Village/Bergen Village - Weapon Shop/Iron Boots Slot - 4700 Credits"},
 -- Hermit Hut
-[3235824634] = {"@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits"},
+[3235824634] = {"@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Chili Con Carne Slot - 1099 Credits"},
 [3235824635] = {"@Shop Types/Chili Con Carne Type/Buy A 'Chili Con Carne' From Any Item Shop"},
-[3235824636] = {"@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits"},
-[3235824637] = {"@Bergen Trail/Bergen Trail - Hermit Shop \n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits"},
+[3235824636] = {"@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Lemonjuice Slot - 2199 Credits"},
+[3235824637] = {"@Bergen Trail/Bergen Trail - Hermit Shop\n(Discounts if 'Heating the Hermit' Finished)/Sweet Berry Tea Slot - 3299 Credits"},
 [3235824638] = {"@Shop Types/Sweet Berry Tea Type/Buy A 'Sweet Berry Tea' From Any Item Shop"},
 -- Bakii Items
 [3235824639] = {"@Ba'kii Kum/Ba'kii Kum - Weapon & Item Shop/Sandwich Slot - 100 Credits"},

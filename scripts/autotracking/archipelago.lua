@@ -300,9 +300,6 @@ function onClear(slot_data)
 end
 
 function checkForBotanityLocation()
-    print(dump_table(Archipelago.MissingLocations))
-    print(dump_table(Archipelago.CheckedLocations))
-
     for _, value in ipairs(Archipelago.MissingLocations) do
         if value == 3235824920 then
             return true
