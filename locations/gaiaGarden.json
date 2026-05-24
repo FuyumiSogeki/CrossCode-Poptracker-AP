@@ -1936,7 +1936,7 @@
                         ],
                         "access_rules": [
                             "$region2",
-                            "$regionOpen2, $regionOpen10_Infested, $regionOpen10_Left"
+                            "$regionOpen2, $regionOpen10_Right, $regionOpen10_Left"
                         ],
                         "item_count": 1
                     },

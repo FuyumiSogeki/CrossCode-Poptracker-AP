@@ -569,7 +569,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "RH-smuggle-2, eleWave"
+                            "RH-smuggle-2, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -579,7 +579,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "RH-smuggle-2, eleWave"
+                            "RH-smuggle-2, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -589,7 +589,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "RH-smuggle-2, eleWave"
+                            "RH-smuggle-2, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     }

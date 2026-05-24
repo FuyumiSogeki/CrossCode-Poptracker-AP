@@ -1767,7 +1767,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1777,7 +1777,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1787,7 +1787,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat"
+                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1818,7 +1818,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "$has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1828,7 +1828,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "$has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1838,7 +1838,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "$has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1869,7 +1869,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16"
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16, $has|azurePass"
                         ],
                         "item_count": 1
                     },                    
@@ -1879,7 +1879,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16"
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1896,6 +1896,9 @@
                         "y": 191,
                         "shape": "diamond"
                     }
+                ],
+                "visibility_rules": [
+                    "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
                     "$regionOpen20, $canGrind, questShuffle, BV-wrath",

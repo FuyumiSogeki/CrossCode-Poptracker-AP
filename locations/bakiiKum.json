@@ -433,11 +433,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left"
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -447,11 +447,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left"
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -461,11 +461,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left"
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
                         ],
                         "item_count": 1
                     }
