@@ -1962,7 +1962,7 @@
                     }
                 ],
                 "visibility_rules": [
-                    "shopShuffleTypes, settingDlcOn"
+                    "shopShuffleTypes, settingDlcOn, questShuffle"
                 ],
                 "access_rules": [
                     "$canGrind"
@@ -1995,7 +1995,7 @@
                     }
                 ],
                 "visibility_rules": [
-                    "shopShuffleTypes, settingDlcOn"
+                    "shopShuffleTypes, settingDlcOn, questShuffle"
                 ],
                 "access_rules": [
                     "$canGrind"

@@ -426,10 +426,10 @@ ITEM_MAPPING =
 [3235924531] = {"Hweapon2", "toggle"}, -- Homestedt Slot 2 (laEdge)
 [3235924532] = {"Hweapon3", "toggle"}, -- Homestedt Slot 3 (laMail)
 [3235924533] = {"Hweapon4", "toggle"}, -- Homestedt Slot 4 (laBoots)
--- [] = {"Hweapon5", "toggle"}, -- Homestedt Slot 5 (crHelm)
--- [] = {"Hweapon6", "toggle"}, -- Homestedt Slot 6 (crEdge)
--- [] = {"Hweapon7", "toggle"}, -- Homestedt Slot 7 (crMail)
--- [] = {"Hweapon8", "toggle"}, -- Homestedt Slot 8 (crBoots)
+[3235924556] = {"Hweapon5", "toggle"}, -- Homestedt Slot 5 (crHelm)
+[3235924557] = {"Hweapon6", "toggle"}, -- Homestedt Slot 6 (crEdge)
+[3235924558] = {"Hweapon7", "toggle"}, -- Homestedt Slot 7 (crMail)
+[3235924559] = {"Hweapon8", "toggle"}, -- Homestedt Slot 8 (crBoots)
 -- Azure Achipelago Weapons
 [3235924534] = {"azureWeaponShop", "toggle"}, -- Azure Archipelago Weapon Shop Unlock
 [3235924535] = {"AAweapon1", "toggle"}, -- Azure Archipelago Slot 1 (crHelm)

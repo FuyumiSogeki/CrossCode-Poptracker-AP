@@ -4526,15 +4526,15 @@
                 ]
             }
         ]
-    },/*
+    },
     {
         "item_count": 1,
         "children": [
             {
                 "sections": [
                     {
-                        "ref": "Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits",
-                        "name": "Homestedt - Weapon Shop\nCross Goggles Mail Slot\n150000 Credits"
+                        "ref": "Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Homestedt - Weapon Shop\nCross Goggles Mail Slot\n150000 Credits Have Azure A. Pass"
                     }
                 ],
                 "map_locations": [
@@ -4553,8 +4553,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits",
-                        "name": "Homestedt - Weapon Shop\nCross Edge Slot\n150000 Credits"
+                        "ref": "Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Homestedt - Weapon Shop\nCross Edge Slot\n150000 Credits Have Azure A. Pass"
                     }
                 ],
                 "map_locations": [
@@ -4573,8 +4573,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits",
-                        "name": "Homestedt - Weapon Shop\nCross Mail Slot\n150000 Credits"
+                        "ref": "Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Homestedt - Weapon Shop\nCross Mail Slot\n150000 Credits Have Azure A. Pass"
                     }
                 ],
                 "map_locations": [
@@ -4593,8 +4593,8 @@
             {
                 "sections": [
                     {
-                        "ref": "Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits",
-                        "name": "Homestedt - Weapon Shop\nCross Boots Slot\n150000 Credits"
+                        "ref": "Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Homestedt - Weapon Shop\nCross Boots Slot\n150000 Credits Have Azure A. Pass"
                     }
                 ],
                 "map_locations": [
@@ -4606,7 +4606,7 @@
                 ]
             }
         ]
-    },*/
+    },
     {
         "item_count": 1,
         "children": [

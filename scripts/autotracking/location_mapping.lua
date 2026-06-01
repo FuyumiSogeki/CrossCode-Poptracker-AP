@@ -1044,10 +1044,10 @@ LOCATION_MAPPING =
 [3235824897] = {"@Homestedt/Homestedt - Weapon Shop/Laser Edge Slot - 104500 Credits"},
 [3235824898] = {"@Homestedt/Homestedt - Weapon Shop/Laser Mail Slot - 105000 Credits"},
 [3235824899] = {"@Homestedt/Homestedt - Weapon Shop/Laser Boots Slot - 104750 Credits"},
--- [] = {"@Homestedt/Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits"},
--- [] = {"@Homestedt/Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits"},
--- [] = {"@Homestedt/Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits"},
--- [] = {"@Homestedt/Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits"},
+[3235825008] = {"@Homestedt/Homestedt - Weapon Shop/Cross Goggles Slot - 150000 Credits Have Azure A. Pass"},
+[3235825009] = {"@Homestedt/Homestedt - Weapon Shop/Cross Edge Slot - 150000 Credits Have Azure A. Pass"},
+[3235825010] = {"@Homestedt/Homestedt - Weapon Shop/Cross Mail Slot - 150000 Credits Have Azure A. Pass"},
+[3235825011] = {"@Homestedt/Homestedt - Weapon Shop/Cross Boots Slot - 150000 Credits Have Azure A. Pass"},
 
 --Azur Archipelago Shops
 [3235824900] = {"@Azure Archipelago/Azure Archipelago - Weapon Shop/Cross Goggles Slot - 150000 Credits"},

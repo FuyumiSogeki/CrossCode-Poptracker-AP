@@ -1869,7 +1869,7 @@ function HS_1()
 end
 
 function HS_2()
-  return HS_1() and regionOpenDLC_Beach() and has("settingDlcOn")
+  return HS_1() and has("azurePass") and has("settingDlcOn")
 end
 
 -- Azure Archipelago Shops Reachable
@@ -2002,11 +2002,11 @@ function oneUpOff()
 end
 
 function goatCheeseOff()
-  return HS_2()
+  return RS_2()
 end
 
 function goatMilkOff()
-  return HS_2()
+  return RS_2()
 end
 
 function brHelmOff()
@@ -2261,11 +2261,11 @@ function chiliType()
 end
 
 function goatCheeseType()
-  return typeGoatCheese() and (HS_2())
+  return typeGoatCheese() and (RS_2())
 end
 
 function goatMilkType()
-  return typeGoatMilk() and (HS_2())
+  return typeGoatMilk() and (RS_2())
 end
 
 function oneUpType()
