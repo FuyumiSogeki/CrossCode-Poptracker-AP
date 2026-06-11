@@ -1,5 +1,49 @@
 # Changelog
 
+0.9.0
+
+DLC is here !
+
+    Layout
+
+        - Add shapes to locations
+            On world map :
+                - Rectangles are connections
+                - Diamonds are towns
+                - Trapezoid are dungeons
+            On maps :
+                - Rectangles are chests
+                - Diamonds are shops (and, in the future, also trades)
+                - Trapezoid are quests/cutscenes/botanics
+
+        - Changed the layout of Shop Type and Shop Slot maps
+        - Add DLC maps
+        - Add Botanics map
+        - Add a few missing references to world map 
+        - Add reminder to meet Lukas at the Obelisk for "Guild Quest" location
+
+    Settings
+
+        - DLC
+        - Botanity
+        - Di'orbis option for goal
+
+    Autotracking
+
+        - Add all "- Reward X" to quests locations (for hint highlight)
+        - Remove not selected goal locations
+        - Gray out goal location after goaling even if it doesn't send any check
+        - Add Botanity locations
+        - Add DLC (Homestedt, Azure Archipelago and Ku'lero Temple) locations for Shops, Chests, Botanics and Quest
+
+    Logic 
+
+        - Add Shiny Orb requirement to Market Statue even without quest shuffle
+        - Add logic for "Gaia's Garden - Henry the Researcher - Trailblazing Finish" quest with closed Gaia setting
+        - Fix logic for "Gaia's Garden - Henry the Researcher - Trailblazing Defeat" quest to use the correct Gaia's zone with closed Gaia setting
+        - Some other fixes I forgot to keep track of
+        
+
 0.8.0
 
 Sogeki cooked with this update
