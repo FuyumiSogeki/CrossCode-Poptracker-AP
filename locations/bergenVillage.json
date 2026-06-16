@@ -587,7 +587,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-prog-trial"
+                            "BV-prog-trial, $has|azurePass"
                         ],
                         "item_count": 1
                     },

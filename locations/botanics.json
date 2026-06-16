@@ -1518,7 +1518,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$regionOpen10"
+                    "$regionOpen10_Middle"
                 ],
                 "sections": [
                     {
@@ -1818,7 +1818,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$regionOpen10_Right"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {
@@ -1848,7 +1848,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$regionOpen10_Right"
+                    "$regionOpen10_Infested"
                 ],
                 "sections": [
                     {

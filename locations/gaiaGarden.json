@@ -1192,7 +1192,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Right"
+                    "$regionOpen10_Right, $regionOpen10_Left"
                 ],
                 "sections": [
                     {
@@ -1304,7 +1304,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Right"
+                    "$regionOpen10_Right, $regionOpen10_Left"
                 ],
                 "sections": [
                     {
