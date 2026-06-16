@@ -1,5 +1,13 @@
 # Changelog
 
+0.9.3
+
+    Logic 
+
+        - Change region for Omega Puff Plant, Alpha/Beta Virus Shroom botanics
+        - Add Meteor Shade requirement for Henry Trailblazing quest in Sapphire Ridge
+        - Add Gaia's West Pass requirement for Drizzle Bosk Right & Overgrown Path Right chests (https://discord.com/channels/731205301247803413/1128180904926396437/1516251164201582662)
+
 0.9.0
 
 DLC is here !
