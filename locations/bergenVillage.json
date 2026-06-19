@@ -785,7 +785,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$regionOpen20, $has|azurePass"
+                            "BV-goat, $regionOpen20, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -795,7 +795,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$regionOpen20, $has|azurePass"
+                            "BV-goat, $regionOpen20, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -805,7 +805,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$regionOpen20, $has|azurePass"
+                            "BV-goat, $regionOpen20, $has|azurePass"
                         ],
                         "item_count": 1
                     }

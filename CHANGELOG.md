@@ -1,4 +1,9 @@
 # Changelog
+0.9.3.1
+
+    Logic 
+
+        - Add clearing The Goatfather quest requirement for Wrath of Goat (https://discord.com/channels/731205301247803413/1128180904926396437/1516988047760162886)
 
 0.9.3
 
