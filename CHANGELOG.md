@@ -1,6 +1,9 @@
 # Changelog
 0.9.3.1
 
+    Autotracking
+        - Use correct reference name for Hermit Shop slots/types
+
     Logic 
         - Change "Isle of Legend Left" chest from silver to gold
         - Add clearing The Goatfather quest requirement for Wrath of Goat
