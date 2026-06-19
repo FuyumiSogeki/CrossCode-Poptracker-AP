@@ -2,7 +2,7 @@
 0.9.3.1
 
     Logic 
-
+        - Change "Isle of Legend Left" chest from silver to gold
         - Add clearing The Goatfather quest requirement for Wrath of Goat
 
 0.9.3

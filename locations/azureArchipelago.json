@@ -65,7 +65,7 @@
             },
             {
                 "name": "Azure Archipelago - Isle of Legend Left",
-                "chest_unopened_img": "images/icons/chest_silver_x.png",
+                "chest_unopened_img": "images/icons/chest_gold_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
@@ -82,12 +82,12 @@
                 ],
                 "sections": [
                     {
-                        "name": "Silver Chest",
+                        "name": "Gold Chest",
                         "visibility_rules": [
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824800|whiteKey"
+                            "$newLock|3235824800|radiantKey"
                         ],
                         "item_count": 1
                     }
@@ -685,8 +685,8 @@
                         "name": "Azure Archipelago - Sandy Bar Upper Right\nGold Chest"
                     },
                     {
-                        "ref": "Azure Archipelago - Isle of Legend Left/Silver Chest",
-                        "name": "Azure Archipelago - Isle of Legend Left\nSilver Chest"
+                        "ref": "Azure Archipelago - Isle of Legend Left/Gold Chest",
+                        "name": "Azure Archipelago - Isle of Legend Left\nGold Chest"
                     },
                     {
                         "ref": "Azure Archipelago - Isle of Legend MacGuffin/Gold Chest",

@@ -930,7 +930,7 @@ LOCATION_MAPPING =
 -- Azure Archipelago Chests
 [3235824798] = {"@Azure Archipelago/Azure Archipelago - Sandy Bar Lower/Gold Chest"},
 [3235824799] = {"@Azure Archipelago/Azure Archipelago - Sandy Bar Upper Right/Gold Chest"},
-[3235824800] = {"@Azure Archipelago/Azure Archipelago - Isle of Legend Left/Silver Chest"},
+[3235824800] = {"@Azure Archipelago/Azure Archipelago - Isle of Legend Left/Gold Chest"},
 [3235824801] = {"@Azure Archipelago/Azure Archipelago - Isle of Legend MacGuffin/Gold Chest"},
 [3235824802] = {"@Azure Archipelago/Azure Archipelago - UFO Island/Silver Chest"},
 [3235824803] = {"@Azure Archipelago/Azure Archipelago - Rough Lagoon/Silver Chest"},
