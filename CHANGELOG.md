@@ -3,6 +3,7 @@
 
     Autotracking
         - Use correct reference name for Hermit Shop slots/types
+        - Correctly tracks "Maroon Valley - Mystery Cave Upper" chest type
 
     Logic 
         - Change "Isle of Legend Left" chest from silver to gold

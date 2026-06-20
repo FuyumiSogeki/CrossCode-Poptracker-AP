@@ -25,7 +25,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824174, whiteKey"
+                            "$newLock|3235824174|whiteKey"
                         ],
                         "item_count": 1
                     }
