@@ -227,130 +227,19 @@
     ]
   },
 
-  "setting_grid_side": {
-    "type": "array",
-    "orientation": "vertical",
-    "content":[
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_OM"]
-            ],
-            "item_size": 100,
-            "margin": "-2,2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_VT"]
-            ],
-            "item_size": 100,
-            "margin": "-2,2,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_QS"]
-            ],
-            "item_size": 102,
-            "margin": "-214,35,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_KR"]
-            ],
-            "item_size": 90,
-            "margin": "-5,35,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_SS"]
-            ],
-            "item_size": 100,
-            "margin": "-203,66,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_SR"]
-            ],
-            "item_size": 100,
-            "margin": "-5,66,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_VW"]
-            ],
-            "item_size": 95,
-            "margin": "-210,100,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_CL"]
-            ],
-            "item_size": 95,
-            "margin": "-5,100,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_RH"]
-            ],
-            "item_size": 95,
-            "margin": "-200,134,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_GG"]
-            ],
-            "item_size": 95,
-            "margin": "-5,134,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_G"]
-            ],
-            "item_size": 95,
-            "margin": "-200,175,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_B"]
-            ],
-            "item_size": 95,
-            "margin": "-5,175,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["op_DLC"]
-            ],
-            "item_size": 95,
-            "margin": "-200,216,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["auto_tab"]
-            ],
-            "item_size": 95,
-            "margin": "-5,216,-2,-12"
-          }
-        ]
-      }
-    ]
+  "setting_grid_side": 
+    {
+    "type": "itemgrid",
+    "rows": [
+      ["op_OM","op_VT"],
+      ["op_QS","op_KR"],
+      ["op_SS","op_SR"],
+      ["op_VW","op_CL"],
+      ["op_RH","op_GG"],
+      ["op_G","op_B"],
+      ["op_DLC","auto_tab"]
+    ],
+    "item_size": "100,35"
   },
   "tracker_horizontal": 
     {

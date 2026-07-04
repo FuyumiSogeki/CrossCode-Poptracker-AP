@@ -7,11 +7,11 @@
 	"platform": "PC",
 	"variants": {
 		"map_tracker": {
-			"display_name": "Map Tracker",
+			"display_name": "Map Tracker (Default)",
 			"flags": [ "ap" ]
 		},
 		"alt_tracker": {
-			"display_name": "Map Tracker (Settings on the side)",
+			"display_name": "Map Tracker (With settings on the side)",
 			"flags": [ "ap" ]
 		},
 		"no_setting_tracker": {
