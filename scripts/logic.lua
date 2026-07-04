@@ -3356,7 +3356,65 @@ function PointsOfPower()
   return ItCanDigButItCantHide and has("RH-hillkat") and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
+function SicklyTrees()
+  return true
+end
 
+function IntensiveTreeCare()
+  return SicklyTrees and has("RH-tree-1")
+end
+
+function BullOnFire()
+  return IntensiveTreeCare() and regionOpen9() and has("RH-tree-2") and has("eleHeat") and has("eleCold") and has("flameShade")
+end
+
+function PettyCrimeHunter()
+  return true
+end
+
+function SmuggleTrouble()
+  return PettyCrimeHunter() and has("RH-petty")
+end
+
+function WetWork()
+  return SmuggleTrouble() and has("RH-smuggle-1") and has("flameShade")
+end
+
+function WetterWork()
+  return WetWork() and has("RH-smuggle-2") and has("eleWave") and has("azurePass")
+end
+
+function RailingRider()
+  return true
+end
+
+function WoodSteaks()
+  return true
+end
+
+function MeatingExpectations()
+  return WoodSteaks() and has("RH-steaks-1") and regionOpen5()
+end
+
+function RaisingTheSteaks()
+  return MeatingExpectations() and regionOpen9() and has("RH-steaks-2") and has("iceShade") and has("flameShade") and has("eleHeat") and has("eleCold")
+end
+
+function AllHailTheIceCream()
+  return true
+end
+
+function TrainingWithTheMaster()
+  return has("iceShade") and has("flameShade")
+end
+
+function PromiseIsPromise1()
+  return has("brokenGauntlet")
+end
+
+function CrocusPocus100()
+  return has("botanics-4") and regionOpen2() and botanics100()
+end
 
 -- DLC Logic
 
