@@ -10,6 +10,14 @@
 			"display_name": "Map Tracker",
 			"flags": [ "ap" ]
 		},
+		"alt_tracker": {
+			"display_name": "Map Tracker (Settings on the side)",
+			"flags": [ "ap" ]
+		},
+		"no_setting_tracker": {
+			"display_name": "Map Tracker (Without settings)",
+			"flags": [ "ap" ]
+		},
 		"items_only": {
 			"display_name": "Items Only",
 			"flags": [ "ap" ]

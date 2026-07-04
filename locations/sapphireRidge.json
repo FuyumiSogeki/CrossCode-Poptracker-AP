@@ -1346,7 +1346,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "iceShade, eleHeat, eleCold, eleShock, eleWave"
+                            "$regionOpen5, eleHeat, eleCold, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
