@@ -230,7 +230,7 @@
     "setting_grid": {
     "type": "itemgrid",
     "rows": [
-      ["op_QS","op_CL","op_SS","op_SR","op_DLC","op_RH","op_GG","op_G","op_B","auto_tab"]
+      ["op_QS","op_CL","op_S","op_DLC","op_RH","op_GG","op_G","op_B","auto_tab"]
     ],
     "item_h_alignement": "center",
     "item_size": "120,50",

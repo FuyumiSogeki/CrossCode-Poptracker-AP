@@ -2101,8 +2101,8 @@
                         "map_locations": [
                             {
                                 "map": "Rhombus_Square",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

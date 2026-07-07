@@ -230,8 +230,8 @@
   {
     "type": "itemgrid",
     "rows": [
-      ["op_OM","op_VT","op_QS","op_KR","op_SS","op_SR","op_VW"],
-      ["op_CL","op_RH","op_GG","op_G","op_B","op_DLC","auto_tab"]
+      ["op_VT","op_QS","op_KR","op_S","op_VW", "op_CL"],
+      ["op_RH","op_GG","op_G","op_B","op_DLC","auto_tab"]
     ],
     "item_size": "100,35"
   },

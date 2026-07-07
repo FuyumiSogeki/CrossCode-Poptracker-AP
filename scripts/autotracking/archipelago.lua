@@ -12,6 +12,19 @@ SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
+SHOP_SETTING_MAPPING =
+{
+    ["offoff"] = 0,
+    ["typeoff"] = 1,
+    ["typeshop"] = 2,
+    ["typetype"] = 3,
+    ["typeslot"] = 4,
+    ["slotoff"] = 5,
+    ["slotshop"] = 6,
+    ["slottype"] = 7,
+    ["slotslot"] = 8,
+}
+
 PROG_A_UNLOCK = {}
 PROG_D_UNLOCK = {}
 PROG_O_UNLOCK = {}
@@ -100,48 +113,44 @@ function onClear(slot_data)
     end
     LOCAL_ITEMS = {}
     GLOBAL_ITEMS = {}
-    
+
     if SLOT_DATA == nil then
         return
     end
 
+    local shops = ""
+
     if slot_data['options']['shopSendMode'] then
-        local obj = Tracker:FindObjectForCode("op_SS")
-        if obj then
-            if slot_data['options']['shopSendMode'] == "itemType" then
-                obj.CurrentStage = 1
-            elseif slot_data['options']['shopSendMode'] == "slot" then
-                obj.CurrentStage = 3
-            else
-                obj.CurrentStage = 0
-            end
+        if slot_data['options']['shopSendMode'] == "itemType" then
+            shops = shops .. "type"
+        elseif slot_data['options']['shopSendMode'] == "slot" then
+            shops = shops .. "slot"
+        else
+            shops = shops .. "off"
         end
     else
-        local obj = Tracker:FindObjectForCode("op_SS")
-        if obj then
-            obj.CurrentStage = 0
-        end
+        shops = shops .. "off"
     end
 
     if slot_data['options']['shopReceiveMode'] then
-        local obj = Tracker:FindObjectForCode("op_SR")
-        if obj then
-            if slot_data['options']['shopReceiveMode'] == "itemType" then
-                obj.CurrentStage = 1
-            elseif slot_data['options']['shopReceiveMode'] == "shop" then
-                obj.CurrentStage = 2
-            elseif slot_data['options']['shopReceiveMode'] == "slot" then
-                obj.CurrentStage = 3
-            else
-                obj.CurrentStage = 0
-            end
+        if slot_data['options']['shopReceiveMode'] == "itemType" then
+            shops = shops .. "type"
+        elseif slot_data['options']['shopReceiveMode'] == "shop" then
+            shops = shops .. "shop"
+        elseif slot_data['options']['shopReceiveMode'] == "slot" then
+            shops = shops .. "slot"
+        else
+            shops = shops .. "off"
         end
     else
-        local obj = Tracker:FindObjectForCode("op_SR")
-        if obj then
-            obj.CurrentStage = 0
-        end
+        shops = shops .. "off"
     end
+
+    print(string.format("onClear: shops : %s", shops))
+    print(string.format("onClear: shops : %s", dump_table(SHOP_SETTING_MAPPING)))
+    print(string.format("onClear: shops : %s", SHOP_SETTING_MAPPING[shops]))
+    Tracker:FindObjectForCode("op_S").CurrentStage = SHOP_SETTING_MAPPING[shops]
+
 
     if slot_data['options']['vtShadeLock'] then
         local obj = Tracker:FindObjectForCode("op_VT")

@@ -1129,8 +1129,8 @@
                         "map_locations": [
                             {
                                 "map": "Maroon_Valley",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

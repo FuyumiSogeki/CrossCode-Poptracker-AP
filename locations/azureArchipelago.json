@@ -660,8 +660,8 @@
                         "map_locations": [
                             {
                                 "map": "Azure_Archipelago",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

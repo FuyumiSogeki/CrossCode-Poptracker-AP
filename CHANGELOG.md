@@ -6,6 +6,7 @@
         - Add a new layout without settings to avoid bleeding out of screen
         - Move Settings to the bottom of the screen on default layout
         - Remove obsolete and less relevant settings on default layout
+        - Merge Shop Send and Shop Receive settings into a single one
         - Move all Botanity location to an x;y position in bounds for poptracker >0.35.5
 
     Autotracking

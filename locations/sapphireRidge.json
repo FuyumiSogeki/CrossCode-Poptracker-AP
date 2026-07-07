@@ -2125,8 +2125,8 @@
                         "map_locations": [
                             {
                                 "map": "Sapphire_Ridge",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

@@ -2367,8 +2367,8 @@
                         "map_locations": [
                             {
                                 "map": "Rookie_Harbor",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

@@ -2072,8 +2072,8 @@
                         "map_locations": [
                             {
                                 "map": "Gaias_Garden",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

@@ -567,53 +567,54 @@
     ]
   },
   {
-    "name": "Shop Shuffle Sending",
+    "name": "Shop Shuffle (Sending/Receiving)",
     "type": "progressive",
     "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": false,
     "stages": [
       {
-        "img": "images/settings/shopShuffleOff.png",
-        "codes": "op_SS,settingShopShuffleOff"
+        "img": "images/settings/shopOffOff.png",
+        "codes": "op_S,settingShopShuffleOff,settingShopReceiveOff"
       },
       {
-        "img": "images/settings/shopShuffleType.png",
-        "codes": "op_SS,settingShopShuffleType,shopShuffleTypes",
+        "img": "images/settings/shopTypeOff.png",
+        "codes": "op_S,settingShopShuffleType,shopShuffleTypes,settingShopReceiveOff",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/shopShuffleSlot.png",
-        "codes": "op_SS,settingShopShuffleSlot,shopShuffleSlot",
-        "inherit_codes": false
-      }
-      
-    ]
-  },
-  {
-    "name": "Shop Shuffle Receiving",
-    "type": "progressive",
-    "initial_stage_idx": 0,
-    "allow_disabled": false,
-    "loop": false,
-    "stages": [
-      {
-        "img": "images/settings/shopReceiveOff.png",
-        "codes": "op_SR,settingShopReceiveOff"
-      },
-      {
-        "img": "images/settings/shopReceiveTypes.png",
-        "codes": "op_SR,settingShopReceiveTypes",
+        "img": "images/settings/shopTypeShop.png",
+        "codes": "op_S,settingShopShuffleType,shopShuffleTypes,settingShopReceiveShops",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/shopReceiveShops.png",
-        "codes": "op_SR,settingShopReceiveShops",
+        "img": "images/settings/shopTypeType.png",
+        "codes": "op_S,settingShopShuffleType,shopShuffleTypes,settingShopReceiveTypes",
         "inherit_codes": false
       },
       {
-        "img": "images/settings/shopReceiveSlots.png",
-        "codes": "op_SR,settingShopReceiveSlots",
+        "img": "images/settings/shopTypeSlot.png",
+        "codes": "op_S,settingShopShuffleType,shopShuffleTypes,settingShopReceiveSlots",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopSlotOff.png",
+        "codes": "op_S,settingShopShuffleSlot,shopShuffleSlot,settingShopReceiveOff",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopSlotShop.png",
+        "codes": "op_S,settingShopShuffleSlot,shopShuffleSlot,settingShopReceiveShops",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopSlotType.png",
+        "codes": "op_S,settingShopShuffleSlot,shopShuffleSlot,settingShopReceiveTypes",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/shopSlotSlot.png",
+        "codes": "op_S,settingShopShuffleSlot,shopShuffleSlot,settingShopReceiveSlots",
         "inherit_codes": false
       }
     ]

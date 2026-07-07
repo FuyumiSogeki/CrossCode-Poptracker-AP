@@ -1149,8 +1149,8 @@
                         "map_locations": [
                             {
                                 "map": "Bergen_Trail",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

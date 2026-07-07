@@ -1568,8 +1568,8 @@
                         "map_locations": [
                             {
                                 "map": "Bergen_Village",
-                                "x": 10,
-                                "y": 10,
+                                "x": 20,
+                                "y": 20,
                                 "shape": "trapezoid"
                             }
                         ]

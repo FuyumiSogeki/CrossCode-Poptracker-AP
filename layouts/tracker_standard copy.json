@@ -232,10 +232,10 @@
     "type": "itemgrid",
     "rows": [
       ["op_QS","op_CL"],
-      ["op_SS","op_SR"],
-      ["op_RH","op_GG"],
+      ["op_S","op_RH"],
+      ["op_DLC","op_GG"],
       ["op_G","op_B"],
-      ["op_DLC","auto_tab"]
+      ["auto_tab"]
     ],
     "item_size": "94,35",
     "item_margin": "2,2,2,-20"
