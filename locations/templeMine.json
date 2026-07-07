@@ -805,32 +805,32 @@
                         "map_locations": [
                             {
                                 "map": "Temple_Mine_GF",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             },
                             {
                                 "map": "Temple_Mine_U1",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             },
                             {
                                 "map": "Temple_Mine_U2",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             },
                             {
                                 "map": "Temple_Mine_U3",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             },
                             {
                                 "map": "Temple_Mine_U4",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             }
                         ]

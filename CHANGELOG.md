@@ -4,6 +4,9 @@
     Layout
         - Add a new layout with settings on the other side to avoid bleeding out of screen
         - Add a new layout without settings to avoid bleeding out of screen
+        - Move Settings to the bottom of the screen on default layout
+        - Remove obsolete and less relevant settings on default layout
+        - Move all Botanity location to an x;y position in bounds for poptracker >0.35.5
 
     Autotracking
         - Use correct reference name for Hermit Shop slots/types
@@ -13,6 +16,7 @@
         - Change "Isle of Legend Left" chest from silver to gold
         - Add clearing "The Goatfather" quest requirement for "Wrath of Goat" quest
         - Change "An Unfortunate Series of Features" quest requirement from Blue Ice Shade to Maroon Valley access
+        - Use new quest logic for Rookie Harbor quests (WIP)
 
 0.9.3
 

@@ -18,7 +18,8 @@
     ]
   },
 
-  "key_grid": {
+  "key_grid": 
+  {
     "type": "array",
     "orientation": "vertical",
     "content":[
@@ -227,14 +228,17 @@
     ]
   },
 
-    "setting_grid": {
+  "setting_grid": {
     "type": "itemgrid",
     "rows": [
-      ["op_QS","op_CL","op_SS","op_SR","op_DLC","op_RH","op_GG","op_G","op_B","auto_tab"]
+      ["op_QS","op_CL"],
+      ["op_SS","op_SR"],
+      ["op_RH","op_GG"],
+      ["op_G","op_B"],
+      ["op_DLC","auto_tab"]
     ],
-    "item_h_alignement": "center",
-    "item_size": "120,50",
-    "item_margin": "2,0,0,0"
+    "item_size": "94,35",
+    "item_margin": "2,2,2,-20"
   },
   "tracker_horizontal": 
     {
@@ -284,14 +288,7 @@
                     }
                   ]
                 }
-              }
-            ] 
-          },
-          {
-            "type": "array",
-            "dock": "bottom",
-            "orientation": "horizontal",
-            "content": [
+              },
               {
                 "type": "group",
                 "header": "Settings",
@@ -307,7 +304,7 @@
                   ]
                 }
               }
-            ]
+            ] 
           },
           {
             "type": "array",

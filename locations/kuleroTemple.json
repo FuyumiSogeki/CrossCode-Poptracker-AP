@@ -822,8 +822,8 @@
                         "map_locations": [
                             {
                                 "map": "Kulero_Temple_GF",
-                                "x": 0,
-                                "y": 0,
+                                "x": 10,
+                                "y": 10,
                                 "shape": "trapezoid"
                             }
                         ]
