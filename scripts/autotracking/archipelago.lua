@@ -268,15 +268,7 @@ function onClear(slot_data)
     end
 
     if not checkForShopLocation() then
-        local obj = Tracker:FindObjectForCode("op_SR")
-        if obj then
-            obj.CurrentStage = 0
-        end
-
-        local obj = Tracker:FindObjectForCode("op_SS")
-        if obj then
-            obj.CurrentStage = 0
-        end
+        Tracker:FindObjectForCode("op_S").CurrentStage = 0
     end
 
     PROG_A_UNLOCK = slot_data['options']["progressiveChains"]["3235824050"]
