@@ -4,6 +4,7 @@
     Layout
         - Add a new layout with settings on the other side to avoid bleeding out of screen
         - Add a new layout without settings to avoid bleeding out of screen
+        - Update Item Only and World Map layout
         - Move Settings to the bottom of the screen on default layout
         - Remove obsolete and less relevant settings on default layout
         - Merge Shop Send and Shop Receive settings into a single one
@@ -17,7 +18,7 @@
         - Change "Isle of Legend Left" chest from silver to gold
         - Add clearing "The Goatfather" quest requirement for "Wrath of Goat" quest
         - Change "An Unfortunate Series of Features" quest requirement from Blue Ice Shade to Maroon Valley access
-        - Use new quest logic for Rookie Harbor quests (WIP)
+        - Use new quest logic to avoid errors after a collect for Rookie Harbor quests (Still a wip, got brought in when dealing with more urgent issues)
 
 0.9.3
 

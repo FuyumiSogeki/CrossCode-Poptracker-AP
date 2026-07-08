@@ -231,11 +231,11 @@
     {
     "type": "itemgrid",
     "rows": [
-      ["op_QS","op_KR"],
-      ["op_S","op_CL"],
+      ["op_QS","op_CL"],
+      ["op_S","op_DLC"],
       ["op_RH","op_GG"],
       ["op_G","op_B"],
-      ["op_DLC","auto_tab"]
+      ["auto_tab"]
     ],
     "item_size": "100,35"
   },

@@ -6,24 +6,24 @@
 	"author": "Lurch9229",
 	"platform": "PC",
 	"variants": {
-		"map_tracker": {
-			"display_name": "Map Tracker (Default)",
+		"1_map_tracker": {
+			"display_name": "Default Map Tracker",
 			"flags": [ "ap" ]
 		},
-		"alt_tracker": {
-			"display_name": "Map Tracker (With settings on the side)",
+		"2_alt_tracker": {
+			"display_name": "Side Settings Map Tracker",
 			"flags": [ "ap" ]
 		},
-		"no_setting_tracker": {
-			"display_name": "Map Tracker (Without settings)",
+		"3_no_setting_tracker": {
+			"display_name": "No Settings Map Tracker",
 			"flags": [ "ap" ]
 		},
-		"items_only": {
-			"display_name": "Items Only",
+		"4_items_only": {
+			"display_name": "Items Only Tracker",
 			"flags": [ "ap" ]
 		},
-		"world_map": {
-			"display_name": "World Map",
+		"5_world_map": {
+			"display_name": "World Map Tracker",
 			"flags": [ "ap" ]
 		}
 	}
