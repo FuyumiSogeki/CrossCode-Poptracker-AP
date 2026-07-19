@@ -1,4 +1,12 @@
 # Changelog
+
+0.9.4
+
+    Logic 
+        - Change Omega Open Baraleles requirement to Gaia's Garden Grove and Wave
+        - Simplified requirements for Creator goal
+
+
 0.9.3.1
 
     Layout

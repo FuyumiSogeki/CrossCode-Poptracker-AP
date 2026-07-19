@@ -853,22 +853,10 @@
                     "settingGoalCreator"
                 ],
                 "access_rules": [
-                    "$region34, vwLockOff, settingVTGateOpen",
-                    "$region34, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$region34, vwLockOff, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
-                    "$region34, vwLockOff, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$region34, vwLockOn, meteorShade, settingVTGateOpen",
-                    "$region34, vwLockOn, meteorShade, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$region34, vwLockOn, meteorShade, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
-                    "$region34, vwLockOn, meteorShade, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockOff, settingVTGateOpen",
-                    "$regionOpen19, vwLockOff, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockOff, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
-                    "$regionOpen19, vwLockOff, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateOpen",
-                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
-                    "$regionOpen19, vwLockOn, meteorShade, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon"
+                    "$regionOpen19, settingVTGateOpen",
+                    "$regionOpen19, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
+                    "$regionOpen19, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
+                    "$regionOpen19, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon"
                 ],
                 "sections": [
                     {

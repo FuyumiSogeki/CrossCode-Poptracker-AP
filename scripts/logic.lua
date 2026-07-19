@@ -400,23 +400,7 @@ function regionOpen16_1()
 end
 
 function regionOpen19()
-  return 
-    regionOpen18() and 
-      (has("settingVTGateOpen") and
-        has("eleHeat") and
-          has("eleCold") and
-            has("elewave") and 
-              has("eleShock")) 
-  or        
-    regionOpen18() and 
-      (has("eleHeat") and 
-        has("eleCold") and 
-          has("eleWave") and 
-            has("eleShock") and
-              has("minesWon") and
-                has("fajroWon") and
-                  has("sonajizWon") and
-                    has("zirvitarWon"))
+  return regionOpen18() and has("eleHeat") and has("eleCold") and has("elewave") and has("eleShock") and ((has("vwLockOff")) or (has("vwLockOn") and has("meteorShade")))
 end
 
 -- Dungeon Keys
@@ -3326,8 +3310,86 @@ function botanics100()
   return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 1.00
 end
 
+function APromiseIsAPromise2()
+  return true
+end
+
+function APromiseIsAPromise3()
+  return true
+end
+
+function APromiseIsAPromise4()
+  return true
+end
+
+function APromiseIsAPromise5()
+  return true
+end
+
+function CrocusPocus25()
+  return true
+end
+
+function CrocusPocus50()
+  return true
+end
+
+function CrocusPocus75()
+  return true
+end
 
 -- Quest logic
+function ChaseHologramFrobbit()
+  return true
+end
+
+function FirstSteps()
+  return true
+end
+
+function AFewMoreSteps()
+  return FirstSteps() and has("AR-first")
+end
+
+function CrocusPocus0()
+  return true
+end
+
+function InsideTheObservatory()
+  return APromiseIsAPromise1() and has("dkar1") and
+         APromiseIsAPromise2() and has("dkar2") and
+         APromiseIsAPromise3() and has("dkar3") and
+         APromiseIsAPromise4() and has("dkar4") and
+         APromiseIsAPromise5() and has("dkar5")
+end
+
+function TrailblazingFinish1()
+  return TrailblazinCollect1() and
+         TrailblazingDefeat1() and
+         TrailblazingLandma1() and
+         TrailblazingProbe1()
+end
+
+function TrailblazinCollect1()
+  return true
+end
+
+function TrailblazingDefeat1()
+  return true
+end
+
+function TrailblazingLandma1()
+  return true
+end
+
+function TrailblazingProbe1()
+  return true
+end
+
+function RoundAndRound()
+  return true
+end
+
 function FactionIntroductions()
   return true
 end
@@ -3408,12 +3470,13 @@ function TrainingWithTheMaster()
   return has("iceShade") and has("flameShade")
 end
 
-function PromiseIsPromise1()
+function APromiseIsAPromise1()
   return has("brokenGauntlet")
 end
 
 function CrocusPocus100()
-  return has("botanics-4") and regionOpen2() and botanics100()
+  return CrocusPocus75() and has("botanics-4") and
+         regionOpen2() and botanics100()
 end
 
 -- DLC Logic

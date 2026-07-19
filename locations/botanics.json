@@ -1698,7 +1698,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$regionOpen10_Left"
+                    "$regionOpen10_Grove"
                 ],
                 "sections": [
                     {
@@ -1707,7 +1707,7 @@
                             ""
                         ],
                         "access_rules": [
-                            ""
+                            "eleWave"
                         ],
                         "item_count": 1
                     }
