@@ -320,7 +320,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_5"
+                    "$regionOpen7_6"
                 ],
                 "sections": [
                     {
@@ -329,7 +329,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824217|whiteKey"
+                            "$newLock|3235824217|whiteKey, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -677,7 +677,7 @@
                 ],
                 "access_rules": [
                     "$region16",
-                    "$regionOpen7_4"
+                    "$regionOpen7_1"
                 ],
                 "sections": [
                     {
