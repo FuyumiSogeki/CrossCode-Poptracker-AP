@@ -295,8 +295,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -323,8 +322,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -548,8 +546,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -558,7 +555,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824121|thiefKey"
+                            "$newLock|3235824121"
                         ],
                         "item_count": 1
                     }
@@ -576,8 +573,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region10, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_7, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_7"
                 ],
                 "sections": [
                     {
@@ -586,7 +582,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824122|thiefKey, eleHeat"
+                            "$newLock|3235824122, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -604,8 +600,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -614,7 +609,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824123|thiefKey, eleHeat"
+                            "$newLock|3235824123, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -632,8 +627,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -660,8 +654,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -670,7 +663,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824125|thiefKey, eleHeat"
+                            "$newLock|3235824125, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -688,8 +681,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -698,7 +690,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824126|thiefKey, eleHeat"
+                            "$newLock|3235824126, eleHeat"
                         ],
                         "item_count": 1
                     }
@@ -716,8 +708,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region9, $newLock|3235824114|thiefKey",
-                    "$regionOpen4_6, $newLock|3235824114|thiefKey"
+                    "$regionOpen4_6"
                 ],
                 "sections": [
                     {
@@ -726,7 +717,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824127|thiefKey, eleHeat"
+                            "$newLock|3235824127, eleHeat"
                         ],
                         "item_count": 1
                     }

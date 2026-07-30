@@ -244,7 +244,7 @@ function regionOpen4_5()
 end
 
 function regionOpen4_6()
-  return regionOpen4_4() and has("eleHeat")
+  return regionOpen4_4() and has("eleHeat") and has("thiefKey")
 end
 
 function regionOpen4_7()
@@ -264,35 +264,31 @@ function regionOpen6()
 end
 
 function regionOpen7_1()
-  return regionOpen5() and (has("sandShade") and has("eleHeat"))
+  return regionOpen5() and has("sandShade")
 end
 
 function regionOpen7_2()
-  return fajroKeyTotal(1) and regionOpen7_1()
+  return regionOpen7_1() and fajroKeyTotal(1) and has('eleHeat')
 end
 
 function regionOpen7_3()
   return regionOpen7_2() and fajroKeyTotal(3)
 end
 
-function regionOpen7_4()
-  return regionOpen7_3() and fajroKeyTotal(4)
-end
-
 function regionOpen7_5()
-  return regionOpen7_4() and has("eleCold")
+  return regionOpen7_1() and has("eleCold")
 end
 
 function regionOpen7_6()
-  return regionOpen7_5()
+  return regionOpen7_5() and has('whiteKey')
 end
 
 function regionOpen7_7()
-  return regionOpen7_5() and fajroKeyTotal(9)
+  return regionOpen7_6() and has('eleHeat')
 end
 
 function regionOpen7_8()
-  return regionOpen7_5() and has("fajroMaster")
+  return regionOpen7_6() and has("fajroMaster")
 end
 
 function regionOpen8()
@@ -372,7 +368,7 @@ function regionOpen14_5()
 end
 
 function regionOpen15_1()
-  return regionOpen12() and (has("boltShade") and has("dropShade") and has("eleWave") and has("eleShock") and has("eleCold") and has("eleHeat"))
+  return regionOpen12() and (has("boltShade") and has("dropShade") and has("eleWave") and has("eleShock"))
 end
 
 function regionOpen15_2()

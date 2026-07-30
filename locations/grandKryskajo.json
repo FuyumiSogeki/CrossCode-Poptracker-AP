@@ -4,12 +4,68 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Grand Krys'kajo - East Branch Upper",
+                "name": "Grand Krys'kajo GF - Main Stream Left",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Grand_Kryskajo_GF",
+                        "x": 140,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "$region28",
+                    "$regionOpen15_1"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235825018|thiefKey"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo GF - Main Stream Right",
+                "chest_unopened_img": "images/icons/chest_bronze_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Grand_Kryskajo_GF",
+                        "x": 193,
+                        "y": 100
+                    }
+                ],
+                "access_rules": [
+                    "$region28",
+                    "$regionOpen15_1"
+                ],
+                "sections": [
+                    {
+                        "name": "Bronze Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235825019|thiefKey, eleHeat, eleCold"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Grand Krys'kajo 3F - East Branch Upper",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 480,
                         "y": 175
                     }
@@ -32,12 +88,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - East Branch Right",
+                "name": "Grand Krys'kajo 3F - East Branch Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 560,
                         "y": 207
                     }
@@ -60,12 +116,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - East Branch Lower",
+                "name": "Grand Krys'kajo 3F - East Branch Lower",
                 "chest_unopened_img": "images/icons/chest_gold_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 540,
                         "y": 350
                     }
@@ -88,12 +144,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - West Branch Lower",
+                "name": "Grand Krys'kajo 3F - West Branch Lower",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 45,
                         "y": 385
                     }
@@ -116,12 +172,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - West Branch Upper",
+                "name": "Grand Krys'kajo 3F - West Branch Upper",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 15,
                         "y": 207
                     }
@@ -144,12 +200,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - Falling Leaves",
+                "name": "Grand Krys'kajo 3F - Falling Leaves",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 303,
                         "y": 245
                     }
@@ -172,12 +228,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - Branch Conveyance",
+                "name": "Grand Krys'kajo 3F - Branch Conveyance",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 407,
                         "y": 280
                     }
@@ -200,12 +256,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - Branch Transmit Right",
+                "name": "Grand Krys'kajo 3F - Branch Transmit Right",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 250,
                         "y": 280
                     }
@@ -228,12 +284,12 @@
                 ]
             },
             {
-                "name": "Grand Krys'kajo - Branch Transmit Left",
+                "name": "Grand Krys'kajo 3F - Branch Transmit Left",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 180,
                         "y": 280
                     }
@@ -261,7 +317,7 @@
                 "chest_opened_img": "images/icons/statue_x.png",
                 "map_locations": [
                     {
-                        "map": "Grand_Kryskajo",
+                        "map": "Grand_Kryskajo_3F_4F",
                         "x": 242,
                         "y": 75,
                         "shape": "trapezoid"
@@ -313,40 +369,40 @@
             {
                 "sections": [
                     {
-                        "ref": "Grand Krys'kajo - East Branch Upper/Chest",
-                        "name": "Grand Krys'kajo - East Branch Upper\nChest"
+                        "ref": "Grand Krys'kajo 3F - East Branch Upper/Chest",
+                        "name": "Grand Krys'kajo 3F - East Branch Upper\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - East Branch Right/Chest",
-                        "name": "Grand Krys'kajo - East Branch Right\nChest"
+                        "ref": "Grand Krys'kajo 3F - East Branch Right/Chest",
+                        "name": "Grand Krys'kajo 3F - East Branch Right\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - East Branch Lower/Gold Chest",
-                        "name": "Grand Krys'kajo - East Branch Lower\nGold Chest"
+                        "ref": "Grand Krys'kajo 3F - East Branch Lower/Gold Chest",
+                        "name": "Grand Krys'kajo 3F - East Branch Lower\nGold Chest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - West Branch Lower/Chest",
-                        "name": "Grand Krys'kajo - West Branch Lower\nChest"
+                        "ref": "Grand Krys'kajo 3F - West Branch Lower/Chest",
+                        "name": "Grand Krys'kajo 3F - West Branch Lower\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - West Branch Upper/Chest",
-                        "name": "Grand Krys'kajo - West Branch Upper\nChest"
+                        "ref": "Grand Krys'kajo 3F - West Branch Upper/Chest",
+                        "name": "Grand Krys'kajo 3F - West Branch Upper\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Falling Leaves/Chest",
-                        "name": "Grand Krys'kajo - Falling Leaves\nChest"
+                        "ref": "Grand Krys'kajo 3F - Falling Leaves/Chest",
+                        "name": "Grand Krys'kajo 3F - Falling Leaves\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Branch Conveyance/Chest",
-                        "name": "Grand Krys'kajo - Branch Conveyance\nChest"
+                        "ref": "Grand Krys'kajo 3F - Branch Conveyance/Chest",
+                        "name": "Grand Krys'kajo 3F - Branch Conveyance\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Branch Transmit Right/Chest",
-                        "name": "Grand Krys'kajo - Branch Transmit Right\nChest"
+                        "ref": "Grand Krys'kajo 3F - Branch Transmit Right/Chest",
+                        "name": "Grand Krys'kajo 3F - Branch Transmit Right\nChest"
                     },
                     {
-                        "ref": "Grand Krys'kajo - Branch Transmit Left/Chest",
-                        "name": "Grand Krys'kajo - Branch Transmit Left\nChest"
+                        "ref": "Grand Krys'kajo 3F - Branch Transmit Left/Chest",
+                        "name": "Grand Krys'kajo 3F - Branch Transmit Left\nChest"
                     },
                     {
                         "ref": "Grand Krys'kajo 4F - Post Boss Statue/Star Shade",

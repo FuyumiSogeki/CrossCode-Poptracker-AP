@@ -144,10 +144,16 @@
     "img": "images/maps/Zirvitar_Temple.png"
   },
   {
-    "name": "Grand_Kryskajo",
+    "name": "Grand_Kryskajo_3F_4F",
     "location_size": 15,
     "location_border_thickness": 2,
-    "img": "images/maps/Grand_Kryskajo.png"
+    "img": "images/maps/Grand_Kryskajo_3f_4f.png"
+  },
+  {
+    "name": "Grand_Kryskajo_GF",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/Grand_Kryskajo_gf.png"
   },
   {
     "name": "Vermillion_Wasteland",

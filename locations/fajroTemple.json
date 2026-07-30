@@ -32,6 +32,62 @@
                 ]
             },
             {
+                "name": "Faj'ro Temple GF - Balance Room 1 Left",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Fajro_Temple_GF",
+                        "x": 184,
+                        "y": 340
+                    }
+                ],
+                "access_rules": [
+                    "$region14",
+                    "$regionOpen7_3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235825016"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Faj'ro Temple GF - Balance Room 1 Right",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Fajro_Temple_GF",
+                        "x": 214,
+                        "y": 340
+                    }
+                ],
+                "access_rules": [
+                    "$region14",
+                    "$regionOpen7_3"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$newLock|3235825017"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Faj'ro Temple 3F - Bottom Chamber",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
@@ -99,8 +155,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_6"
                 ],
                 "sections": [
                     {
@@ -127,8 +182,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_6"
                 ],
                 "sections": [
                     {
@@ -239,8 +293,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_6"
                 ],
                 "sections": [
                     {
@@ -267,8 +320,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_5, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_5"
                 ],
                 "sections": [
                     {
@@ -295,8 +347,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_6, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_6"
                 ],
                 "sections": [
                     {
@@ -323,8 +374,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region18, $newLock|3235824211|whiteKey",
-                    "$regionOpen7_7, $newLock|3235824211|whiteKey"
+                    "$regionOpen7_7"
                 ],
                 "sections": [
                     {
@@ -361,7 +411,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824220"
+                            "$newLock|3235824220, eleHeat"
                         ],
                         "item_count": 1
                     }

@@ -244,7 +244,7 @@
     "img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
     "codes": "fajroKey",
-    "max_quantity": 9,
+    "max_quantity": 3,
     "initial_quantity": 0,
     "increment": 1,
 	  "swap_actions": false

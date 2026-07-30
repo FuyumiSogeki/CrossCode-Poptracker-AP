@@ -541,15 +541,23 @@
                           }
                         }
                       ]
-                    },                    
+                    },
                     {
                       "title": "Grand Krys'kajo",
                       "type": "tabbed",
                       "tabs": [
                         {
+                          "title": "GF",
                           "content": {
                             "type":"map",
-                            "maps": ["Grand_Kryskajo"]
+                            "maps": ["Grand_Kryskajo_GF"]
+                          }
+                        },
+                        {
+                          "title": "3F/4F",
+                          "content": {
+                            "type":"map",
+                            "maps": ["Grand_Kryskajo_3F_4F"]
                           }
                         }
                       ]

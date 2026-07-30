@@ -1,11 +1,25 @@
 # Changelog
 
+0.9.6
+    Layout
+        - Add tabs for Grand Krys'kajo (GF and 3F/4F) with autotabbing
+        - Add Grand Krys'kajo GF map
+        - Add exit icon on Autumn's Rise map to indicate the entry of Homestedt
+    
+    Autotracking
+        - Add new Balance Room 1 chests in Faj'ro Temple GF
+        - Add new Main Stream chests in Grand Krys'kajo GF
+
+    Logic 
+        - Update logic for regions based on chest locks
+        - Update Faj'ro Temple logic with removed keys and initial door opened
+        - Update Grand Krys'kajo logic with initial door opened
+
 0.9.4
 
     Logic 
         - Change Omega Open Baraleles requirement to Gaia's Garden Grove and Wave
         - Simplified requirements for Creator goal
-
 
 0.9.3.1
 
