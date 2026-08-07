@@ -352,19 +352,15 @@ function regionOpen14_1()
 end
 
 function regionOpen14_2()
-  return regionOpen10_Left() and sonajizKeyTotal(3) and has("eleHeat")
+  return regionOpen14_1() and sonajizKeyTotal(3)
 end
 
 function regionOpen14_3()
-  return regionOpen14_2() and has("eleCold")
+  return regionOpen14_2() and has("radiantKey") and sonajizKeyTotal(4)
 end
 
 function regionOpen14_4()
-  return regionOpen14_3() and newLockLogic("3235824338", "radiantKey") and sonajizKeyTotal(4)
-end
-
-function regionOpen14_5()
-  return regionOpen14_4() and has("eleShock")
+  return regionOpen14_3() and has("eleShock")
 end
 
 function regionOpen15_1()

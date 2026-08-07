@@ -1,5 +1,11 @@
 # Changelog
 
+0.9.7
+    Logic 
+        - Update So'najiz Temple logic with removed Heat/Cold requirement
+        - Update Faj'ro with Open World mod change
+        - Change requirement for Mine U2: Frozen Chamber 2 Right chest to use Thied's Key instead of NewLock
+
 0.9.6
     Layout
         - Add tabs for Grand Krys'kajo (GF and 3F/4F) with autotabbing

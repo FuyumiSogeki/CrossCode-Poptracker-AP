@@ -71,8 +71,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region26",
-                    "$regionOpen14_3"
+                    "$regionOpen14_2"
                 ],
                 "sections": [
                     {
@@ -127,8 +126,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region26",
-                    "$regionOpen14_3"
+                    "$regionOpen14_2"
                 ],
                 "sections": [
                     {
@@ -352,8 +350,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region27",
-                    "$regionOpen14_4"
+                    "$regionOpen14_3"
                 ],
                 "sections": [
                     {
@@ -381,8 +378,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region27",
-                    "$regionOpen14_5"
+                    "$regionOpen14_4"
                 ],
                 "sections": [
                     {

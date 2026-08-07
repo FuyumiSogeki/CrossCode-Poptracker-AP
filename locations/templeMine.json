@@ -331,7 +331,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824114|thiefKey"
+                            "$has|thiefKey"
                         ],
                         "item_count": 1
                     }
