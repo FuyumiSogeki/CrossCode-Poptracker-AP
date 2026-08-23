@@ -1072,10 +1072,10 @@ LOCATION_MAPPING =
 [3235824913] = {"@Shop Types/Goat Cheese Type/Buy A 'Goat Cheese' From Any Item Shop"},
 [3235824914] = {"@Rhombus Square/Rhombus Square - Goat Zira's Shop/Goat Milk Slot - 4500 Credits"},
 [3235824915] = {"@Shop Types/Goat Milk Type/Buy A 'Goat Milk' From Any Item Shop"},
-[3235824916] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits"},
-[3235824917] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits"},
-[3235824918] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits"},
-[3235824919] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits"},
+[3235825012] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits Have Azure A. Pass"},
+[3235825013] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits Have Azure A. Pass"},
+[3235825014] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits Have Azure A. Pass"},
+[3235825015] = {"@Rhombus Square/Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits Have Azure A. Pass"},
 
 -- Botanics
 [3235824997] = {"@Botanics/Botanics - Alpha Cone Sprout/Alpha Cone Sprout"},

@@ -60,7 +60,6 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
-
     if slot_data['options']["chestClearanceLevels"] then
         getLocksFromSlot(slot_data)
     end
@@ -146,11 +145,13 @@ function onClear(slot_data)
         shops = shops .. "off"
     end
 
-    print(string.format("onClear: shops : %s", shops))
-    print(string.format("onClear: shops : %s", dump_table(SHOP_SETTING_MAPPING)))
-    print(string.format("onClear: shops : %s", SHOP_SETTING_MAPPING[shops]))
-    Tracker:FindObjectForCode("op_S").CurrentStage = SHOP_SETTING_MAPPING[shops]
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onClear: shops : %s", shops))
+        print(string.format("onClear: shops : %s", dump_table(SHOP_SETTING_MAPPING)))
+        print(string.format("onClear: shops : %s", SHOP_SETTING_MAPPING[shops]))
+    end
 
+    Tracker:FindObjectForCode("op_S").CurrentStage = SHOP_SETTING_MAPPING[shops]
 
     if slot_data['options']['vtShadeLock'] then
         local obj = Tracker:FindObjectForCode("op_VT")

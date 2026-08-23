@@ -1,5 +1,14 @@
 # Changelog
 
+0.9.7.1
+    
+    Autotracking
+        - Fix IDs for Cross Gear equipments in Rhombus Square Weapon Shop slots
+        - Fix area/dungeon/overworld chain stopping before DLC by increasing max_quantity received for progressive unlock item
+
+    Logic 
+        - Add Azure Archipelago Pass requirement for Cross Gear equipments in Rhombus Square Weapon Shop
+
 0.9.7
     Logic 
         - Update So'najiz Temple logic with removed Heat/Cold requirement

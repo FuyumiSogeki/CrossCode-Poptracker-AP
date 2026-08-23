@@ -1242,62 +1242,62 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Goggles Slot - 150000 Credits",
+                        "name": "Cross Goggles Slot - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": [
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
-                            "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon9, azurePass",
+                            "$typeCrHelm, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Edge Slot - 150000 Credits",
+                        "name": "Cross Edge Slot - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": [
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
-                            "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon10, azurePass",
+                            "$typeCrEdge, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Mail Slot - 150000 Credits",
+                        "name": "Cross Mail Slot - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": [
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
-                            "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon11, azurePass",
+                            "$typeCrMail, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Boots Slot - 150000 Credits",
+                        "name": "Cross Boots Slot - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": [
                             "shopShuffleSlot, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
-                            "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon12, azurePass",
+                            "$typeCrBoots, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1422,62 +1422,62 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Goggles Type - 150000 Credits",
+                        "name": "Cross Goggles Type - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossHelm.png",
                         "chest_opened_img": "images/weapon/helmOff.png",
                         "visibility_rules": [
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon9",
-                            "$typeCrHelm",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon9, azurePass",
+                            "$typeCrHelm, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Edge Type - 150000 Credits",
+                        "name": "Cross Edge Type - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossEdge.png",
                         "chest_opened_img": "images/weapon/edgeOff.png",
                         "visibility_rules": [
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon10",
-                            "$typeCrEdge",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon10, azurePass",
+                            "$typeCrEdge, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Mail Type - 150000 Credits",
+                        "name": "Cross Mail Type - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossMail.png",
                         "chest_opened_img": "images/weapon/mailOff.png",
                         "visibility_rules": [
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon11",
-                            "$typeCrMail",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon11, azurePass",
+                            "$typeCrMail, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Cross Boots Type - 150000 Credits",
+                        "name": "Cross Boots Type - 150000 Credits Have Azure A. Pass",
                         "chest_unopened_img": "images/weapon/crossBoots.png",
                         "chest_opened_img": "images/weapon/bootsOff.png",
                         "visibility_rules": [
                             "shopShuffleTypes, settingDlcOn"
                         ],
                         "access_rules": [
-                            "$RSweapon12",
-                            "$typeCrBoots",
-                            "settingShopReceiveShops, rhombusWeaponShop",
-                            "settingShopReceiveOff"
+                            "$RSweapon12, azurePass",
+                            "$typeCrBoots, azurePass",
+                            "settingShopReceiveShops, rhombusWeaponShop, azurePass",
+                            "settingShopReceiveOff, azurePass"
                         ],
                         "item_count": 1
                     }
@@ -2402,20 +2402,20 @@
                         "name": "Rhombus Square - Weapon Shop\nLaser Boots Slot - 104750 Credits"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Slot - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Slot - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Slot - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Slot - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Slot - 150000 Credits Have Azure A. Pass"
                     },
                     {
                         "ref": "Rhombus Square - Weapon Shop/Cobalt Goggles Type - 71350 Credits",
@@ -2450,28 +2450,28 @@
                         "name": "Rhombus Square - Weapon Shop\nLaser Boots Type - 104750 Credits"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Type - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Goggles Type - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Goggles Type - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Edge Type - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Edge Type - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Edge Type - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Mail Type - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Mail Type - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Mail Type - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits",
-                        "name": "Rhombus Square - Weapon Shop\nCross Boots Type - 150000 Credits"
+                        "ref": "Rhombus Square - Weapon Shop/Cross Boots Type - 150000 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Weapon Shop\nCross Boots Type - 150000 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits"
+                        "ref": "Rhombus Square - Curio Shop/Chest Detector Slot - 33333 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Slot - 33333 Credits Have Azure A. Pass"
                     },
                     {
-                        "ref": "Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits",
-                        "name": "Rhombus Square - Curio Shop\nChest Detector Type - 33333 Credits"
+                        "ref": "Rhombus Square - Curio Shop/Chest Detector Type - 33333 Credits Have Azure A. Pass",
+                        "name": "Rhombus Square - Curio Shop\nChest Detector Type - 33333 Credits Have Azure A. Pass"
                     },
                     {
                         "ref": "Rhombus Square - South Arch Left/Gold Chest",

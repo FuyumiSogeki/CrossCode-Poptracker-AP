@@ -3265,25 +3265,25 @@ end
 
 -- Botanics logic
 function countBotanics()
-  count = 0
+  local botcount = 0
 
-  if regionOpen3() then count = count + 20 end
-  if regionOpen4_4() then count = count + 6 end
-  if regionOpen5() then count = count + 18 end
-  if regionOpen8() then count = count + 7 end
-  if regionOpen10() then count = count + 5 end
-  if regionOpen10_Middle() then count = count + 1 end
-  if regionOpen10_Left() then count = count + 6 end
-  if regionOpen10_Right() then count = count + 2 end
-  if regionOpen10_Infested() then count = count + 1 end
-  if regionOpen16() then count = count + 9 end
-  if regionOpen20() then count = count + 1 end
-  if regionOpen11() then count = count + 1 end
+  if regionOpen3() then botcount = botcount + 20 end
+  if regionOpen4_4() then botcount = botcount + 6 end
+  if regionOpen5() then botcount = botcount + 18 end
+  if regionOpen8() then botcount = botcount + 7 end
+  if regionOpen10() then botcount = botcount + 5 end
+  if regionOpen10_Middle() then botcount = botcount + 1 end
+  if regionOpen10_Left() then botcount = botcount + 6 end
+  if regionOpen10_Right() then botcount = botcount + 2 end
+  if regionOpen10_Infested() then botcount = botcount + 1 end
+  if regionOpen16() then botcount = botcount + 9 end
+  if regionOpen20() then botcount = botcount + 1 end
+  if regionOpen11() then botcount = botcount + 1 end
 
-  if has("settingDlcOn") and regionOpenDLC_Beach() then count = count + 6 end
-  if has("settingDlcOn") and regionOpenDLC_DungeonEntry() then count = count + 5 end
-  
-  return count
+  if has("settingDlcOn") and regionOpenDLC_Beach() then botcount = botcount + 6 end
+  if has("settingDlcOn") and regionOpenDLC_DungeonEntry() then botcount = botcount + 5 end
+
+  return botcount
 end
 
 function botanics25()
@@ -3395,7 +3395,7 @@ function BullGrab()
 end
 
 function NewMetal()
-  return BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return regionOpen9() and regionOpen4_5() and BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
 function DiggingForData()
