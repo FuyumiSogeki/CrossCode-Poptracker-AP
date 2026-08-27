@@ -777,7 +777,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$PromiseIsPromise1"
+                            "$APromiseIsAPromise1"
                         ],
                         "item_count": 1
                     }

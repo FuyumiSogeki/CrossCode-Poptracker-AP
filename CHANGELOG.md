@@ -1,5 +1,12 @@
 # Changelog
 
+0.9.7.2
+    
+    Autotracking
+        - Fix missing management for Cross Gear equiments in Homestedt Weapon Shop slots when using Send Type
+        - Fix management for Cross Gear equiments in Rhombus Square Weapon Shop slots when using Send Type
+
+
 0.9.7.1
     
     Autotracking
