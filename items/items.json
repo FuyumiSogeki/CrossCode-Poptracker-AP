@@ -214,7 +214,7 @@
   {
     "name": "Mine Master Key",
     "type": "toggle",
-    "img": "images/dungeons/ccMkey.png",
+    "img": "images/dungeons/ccMKey.png",
     "codes": "mineMaster",
     "swap_actions": false
   },
@@ -324,7 +324,7 @@
     "name": "Grand Krys'kajo Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/dungeons/KryskajoLabel.png",
+    "img": "images/dungeons/kryskajoLabel.png",
     "codes": "kryskajoLabel"
   },
   {
@@ -352,7 +352,7 @@
     "codes": "zirvitarWon"
   },
   {
-    "name": "Krys Kajo Boss",
+    "name": "Krys'kajo Boss",
     "type": "toggle",
     "codes": "kryskajoWon"
   },
@@ -721,13 +721,13 @@
   {
     "name": "Bergen Item Shop",
     "type": "toggle",
-    "img": "images/shops/BergenItemsOn.png",
+    "img": "images/shops/bergenItemsOn.png",
     "codes": "bergenItemShop"
   },
   {
     "name": "Bergen Hermit Shop",
     "type": "toggle",
-    "img": "images/shops/BergenItemsOn.png",
+    "img": "images/shops/bergenItemsOn.png",
     "codes": "bergenHermitShop"
   },
   {
@@ -2564,7 +2564,7 @@
   {
     "name": "Ku'lero Master Key",
     "type": "toggle",
-    "img": "images/dungeons/ccMkey.png",
+    "img": "images/dungeons/ccMKey.png",
     "codes": "kuleroMaster",
     "swap_actions": false
   },
