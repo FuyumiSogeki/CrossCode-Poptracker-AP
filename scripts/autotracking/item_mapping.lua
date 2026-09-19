@@ -451,8 +451,8 @@ ITEM_MAPPING =
 [3235924550] = {"RSgoat6", "toggle"}, -- Goat Zira Slot 6 (goatMilk)
 [3235924551] = {"goatMilk", "toggle"}, -- Global Goat Milk Slot
 -- Rhombus Weapons
-[3235924552] = {"RSweapon9", "toggle"}, -- Rhombus Weapon Slot 9 (crHelm)
-[3235924553] = {"RSweapon10", "toggle"}, -- Rhombus Weapon Slot 10 (crEdge)
-[3235924554] = {"RSweapon11", "toggle"}, -- Rhombus Weapon Slot 11 (crMail)
-[3235924555] = {"RSweapon12", "toggle"}, -- Rhombus Weapon Slot 12 (crBoots)
+[3235924560] = {"RSweapon9", "toggle"}, -- Rhombus Weapon Slot 9 (crHelm)
+[3235924561] = {"RSweapon10", "toggle"}, -- Rhombus Weapon Slot 10 (crEdge)
+[3235924562] = {"RSweapon11", "toggle"}, -- Rhombus Weapon Slot 11 (crMail)
+[3235924563] = {"RSweapon12", "toggle"}, -- Rhombus Weapon Slot 12 (crBoots)
 }

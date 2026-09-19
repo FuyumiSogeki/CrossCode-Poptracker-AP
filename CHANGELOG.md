@@ -1,5 +1,16 @@
 # Changelog
 
+0.9.7.3
+
+    Autotracking
+        - Fix IDs for Cross Gear equipments unlock in Rhombus Square Weapon Shop slots
+        - Fix missing management for Cross Gear equiments in Homestedt Weapon Shop slots when using Send Type
+
+    Logic
+        - Remove Shock requirement for "Rooting for Power" quest
+        - Set required Mine Key to 3 for "Building a Base" quest
+
+
 0.9.7.2
     
     Autotracking

@@ -904,7 +904,7 @@
                         ],
                         "access_rules": [
                             "eleHeat, BT-bunny",
-                            "mineKey:1, BT-bunny"
+                            "mineKey:3, BT-bunny"
                         ],
                         "item_count": 1
                     },
