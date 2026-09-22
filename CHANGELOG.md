@@ -1,30 +1,18 @@
 # Changelog
 
-0.9.7.3
+0.9.8
 
     Autotracking
+        - Fix IDs for Cross Gear equipments in Rhombus Square Weapon Shop slots
+        - Fix area/dungeon/overworld chain stopping before DLC by increasing max_quantity received for progressive unlock item
+        - Fix missing management for Cross Gear equiments in Homestedt Weapon Shop slots when using Send Type
+        - Fix management for Cross Gear equiments in Rhombus Square Weapon Shop slots when using Send Type
         - Fix IDs for Cross Gear equipments unlock in Rhombus Square Weapon Shop slots
         - Fix missing management for Cross Gear equiments in Homestedt Weapon Shop slots when using Send Type
 
     Logic
         - Remove Shock requirement for "Rooting for Power" quest
         - Set required Mine Key to 3 for "Building a Base" quest
-
-
-0.9.7.2
-    
-    Autotracking
-        - Fix missing management for Cross Gear equiments in Homestedt Weapon Shop slots when using Send Type
-        - Fix management for Cross Gear equiments in Rhombus Square Weapon Shop slots when using Send Type
-
-
-0.9.7.1
-    
-    Autotracking
-        - Fix IDs for Cross Gear equipments in Rhombus Square Weapon Shop slots
-        - Fix area/dungeon/overworld chain stopping before DLC by increasing max_quantity received for progressive unlock item
-
-    Logic 
         - Add Azure Archipelago Pass requirement for Cross Gear equipments in Rhombus Square Weapon Shop
 
 0.9.7
