@@ -398,80 +398,32 @@ end
 -- Dungeon Keys
 
 function mineKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    mineKeyAmount=Tracker:ProviderCountForCode("mineKey")*5
-    count = Tracker:FindObjectForCode("mineKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 5
-    end
-  else
-    mineKeyAmount=Tracker:ProviderCountForCode("mineKey")*1
-  end
+  mineKeyAmount=Tracker:ProviderCountForCode("mineKey")
   return (mineKeyAmount >= amount)
 end
 
 function fajroKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")*9
-    count = Tracker:FindObjectForCode("fajroKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 9
-    end
-  else
-    fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")*1
-  end
+  fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")
   return (fajroKeyAmount >= amount)
 end
 
 function zirvitarKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")*2
-    count = Tracker:FindObjectForCode("zirvitarKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 2
-    end
-  else
-    zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")*1
-  end
+  zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")
   return (zirvitarKeyAmount >= amount)
 end
 
 function sonajizKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")*4
-    count = Tracker:FindObjectForCode("sonajizKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 4
-    end
-  else
-    sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")*1
-  end
+  sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")
   return (sonajizKeyAmount >= amount)
 end
 
 function kryskajoKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")*2
-    count = Tracker:FindObjectForCode("kryskajoKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 2
-    end
-  else
-    kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")*1
-  end
+  kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")
   return (kryskajoKeyAmount >= amount)
 end
 
 function kuleroKeyTotal(amount)
-  if has("settingKeyringsOn") then
-    kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")*3
-    count = Tracker:FindObjectForCode("kuleroKey")
-    if count.AcquiredCount > 0 then
-      count.AcquiredCount = 3
-    end
-  else
-    kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")*1
-  end
+  kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")
   return (kuleroKeyAmount >= amount)
 end
 
