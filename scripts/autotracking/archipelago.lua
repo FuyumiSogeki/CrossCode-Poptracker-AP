@@ -29,6 +29,16 @@ PROG_A_UNLOCK = {}
 PROG_D_UNLOCK = {}
 PROG_O_UNLOCK = {}
 
+KEYRINGS_SET = 
+{
+    [3235824252] = 5, -- Mine
+    [3235824246] = 3, -- Fajro
+    [3235824372] = 2, -- Zirvitar
+    [3235824419] = 4, -- Sonajiz
+    [3235824449] = 2, -- Kajo
+    [3235824660] = 3, -- Kulero
+}
+
 if Highlight then
 	HINT_STATUS_MAPPING = {
 		[20] = Highlight.Avoid,
@@ -382,6 +392,12 @@ function onItem(index, item_id, item_name, player_number)
                 local objItem = Tracker:FindObjectForCode(ITEM_MAPPING[PROG_A_UNLOCK[obj.AcquiredCount]][1])
                 if objItem then
                     objItem.Active = true
+                end
+            end
+            
+            for idDungeonKey, valueDungeonKey in pairs(KEYRINGS_SET) do
+                if item_id == idDungeonKey then
+                    obj.AcquiredCount = valueDungeonKey
                 end
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
