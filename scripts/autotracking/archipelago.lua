@@ -29,7 +29,7 @@ PROG_A_UNLOCK = {}
 PROG_D_UNLOCK = {}
 PROG_O_UNLOCK = {}
 
-KEYRINGS_SET = 
+KEYRINGS_SET =
 {
     [3235824252] = 5, -- Mine
     [3235824246] = 3, -- Fajro
@@ -396,7 +396,7 @@ function onItem(index, item_id, item_name, player_number)
             end
             
             for idDungeonKey, valueDungeonKey in pairs(KEYRINGS_SET) do
-                if item_id == idDungeonKey then
+                if item_id == idDungeonKey and Tracker:ProviderCountForCode("settingKeyringsOn") >= 1 then
                     obj.AcquiredCount = valueDungeonKey
                 end
             end

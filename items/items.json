@@ -2585,5 +2585,11 @@
     "type": "toggle",
     "img": "images/items/mineDetect.png",
     "codes": "mineDetect"
+  },
+  {
+    "name": "Encrypted Key",
+    "type": "toggle",
+    "img": "images/items/encryptedKey.png",
+    "codes": "encryptedKey"
   }
 ]

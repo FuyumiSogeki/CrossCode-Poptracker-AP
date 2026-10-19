@@ -4,9 +4,12 @@
 
     Autotracking
         - Fix Ku'lero key not updating properly with kryrings setting
+        - Add Encrypted Key items
 
     Logic
         - Change the detection and update of dungeons key when using keyrings setting
+        - Add Heat and Cold requirement for "Chase Hologram Frobbit" quest
+        - Add any element requirement for "Wave" location
         
 0.9.8
 

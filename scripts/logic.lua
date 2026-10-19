@@ -340,7 +340,7 @@ function regionOpen12()
 end
 
 function regionOpen13_1()
-  return zirvitarKeyTotal(2) and regionOpen10_Right()
+  return zirvitarKeyTotal(2) and regionOpen10_Right() and anyElement()
 end
 
 function regionOpen13_2()
