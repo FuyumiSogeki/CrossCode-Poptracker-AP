@@ -9,6 +9,37 @@ function has(item, amount)
   end
 end
 
+function CanAccess(Target, IgnoreList)
+    location = LOC_LOGIC[Target]
+    reachable = false
+    ignore = IgnoreList
+    table.insert(ignore, Target)
+
+    for _, value in ipairs(location) do
+        if value.Cond == true then
+            if value.From == "" then
+                reachable = value.Cond
+            else
+                check = true
+                for _, v in ipairs(ignore) do if v == value.From then check = false end end
+
+                if check then
+                    reachable = value.Cond and CanAccess(value.From, ignore)
+                end
+            end
+
+            -- Don't shearch deeper if already reachable
+            if reachable == true then
+                return reachable
+            end
+        else 
+            reachable = false
+        end
+    end
+
+    return reachable
+end
+
 function newLockLogic(location_id, defaultKey)
     -- If tracker is in stage 0
     if Tracker:FindObjectForCode("op_CL").CurrentStage == 0 then
@@ -39,361 +70,557 @@ function newLockLogic(location_id, defaultKey)
     end
 end
 
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------REGIONS-----------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------------
- 
-function region2()
-  return has("settingOpenModeClosed")
-end
-
-function region3()
-  return region2() and has("leafShade")
-end
-
-function region3_1()
-  return region3() and has("guildPass")
-end
-
-function region4()
-  return region3() and (has("minePass") and has("guildPass"))
-end
-
-function region5()
-  return mineKeyTotal(1) and region4()
-end
-
-
-function region6()
-  return mineKeyTotal(2) and region5()
-end
-
-function region7()
-  return region6() and mineKeyTotal(3)
-end
-
-function region8()
-  return region7() and mineKeyTotal(6)
-end
-
-function region9()
-  return region7() and has("eleHeat")
-end
-
-function region10()
-  return region9() and mineKeyTotal(10)
-end
-
-function region11()
-  return region10() and (has("mineMaster") and has("iceShade"))
-end
-
-function region12()
-  return region11()  and has("maroonPass")
-end
-
-function region13()
-  return region12() and (has("eleHeat") and has("sandShade"))
-end
-
-function region14()
-  return fajroKeyTotal(1) and region13()
-end
-
-function region15()
-  return region14() and fajroKeyTotal(3)
-end
-
-function region16()
-  return fajroKeyTotal(4) and region15()
-end
+LOC_LOGIC = {
+  ["harbor"] = {
+    {From="", Cond=true},
+    {From="rise", Cond=has("leafShade")},
+    {From="bergen", Cond=has("leafShade") and has("settingsRhombusHubOpen")},
+    {From="bakii", Cond=has("iceShade") and has("settingsRhombusHubOpen")},
+    {From="harbor_north", Cond=has("flameShade")},
+    {From="fall", Cond=has("flameShade")},
+    {From="rhombus", Cond=has("meteorShade")},
+    {From="basin", Cond=has("seedShade") and has("settingsRhombusHubOpen")},
+    {From="ridge", Cond=has("starShade") and has("settingsRhombusHubOpen")},
+  },
+
+  ["rise"] = {
+    {From="harbor", Cond=has("leafShade")},
+    {From="trail", Cond=true},
+    {From="dlc_homestedt", Cond=has("guildPass")},
+  },
+
+  ["trail"] = {
+    {From="rise", Cond=true},
+    {From="bergen", Cond=true},
+  },
+
+  ["bergen"] = {
+    {From="trail", Cond=true},
+    {From="harbor", Cond=has("leafShade") and has("settingsRhombusHubOpen")},
+    {From="mine_1", Cond=has("minePass")},
+    {From="valley", Cond=has("leafShade") and has("iceShade")},
+  },
+
+  ["mine_1"] = {
+    {From="bergen", Cond=has("minePass")},
+    {From="mine_2", Cond=mineKeyTotal(1)},
+    {From="mine_8", Cond=has("mineMaster")},
+  },
+
+  ["mine_2"] = {
+    {From="mine_1", Cond=mineKeyTotal(1)},
+    {From="mine_3", Cond=mineKeyTotal(2)},
+  },
+
+  ["mine_3"] = {
+    {From="mine_2", Cond=mineKeyTotal(2)},
+    {From="mine_4", Cond=mineKeyTotal(3)},
+  },
+
+  ["mine_4"] = {
+    {From="mine_3", Cond=mineKeyTotal(3)},
+    {From="mine_5", Cond=mineKeyTotal(5)},
+    {From="mine_6", Cond=has("eleHeat")},
+  },
+
+  ["mine_5"] = {
+    {From="mine_4", Cond=mineKeyTotal(5)},
+  },
+
+  ["mine_6"] = {
+    {From="mine_4", Cond=has("eleHeat")},
+    {From="mine_7", Cond=mineKeyTotal(5)},
+  },
+
+  ["mine_7"] = {
+    {From="mine_6", Cond=mineKeyTotal(5)},
+  },
+
+  ["mine_8"] = {
+    {From="mine_1", Cond=has("mineMaster")},
+  },
+
+  ["valley"] = {
+    {From="bergen", Cond=has("leafShade") and has("iceShade")},
+    {From="bakii", Cond=true},
+    {From="fajro_1", Cond=has("sandShade")},
+  },
+
+  ["bakii"] = {
+    {From="valley", Cond=true},
+    {From="harbor", Cond=has("iceShade") and has("settingsRhombusHubOpen")},
+  },
+
+  ["fajro_1"] = {
+    {From="valley", Cond=has("sandShade")},
+    {From="fajro_2", Cond=fajroKeyTotal(1) and has("eleHeat")},
+    {From="fajro_5", Cond=has("eleCold")},
+  },
+
+  ["fajro_2"] = {
+    {From="fajro_1", Cond=fajroKeyTotal(1) and has("eleHeat")},
+    {From="fajro_3", Cond=fajroKeyTotal(3)},
+  },
+
+  ["fajro_3"] = {
+    {From="fajro_2", Cond=fajroKeyTotal(3)},
+  },
+
+  ["fajro_5"] = {
+    {From="fajro_1", Cond=has("eleCold")},
+    {From="fajro_6", Cond=has("whiteKey")},
+  },
+
+  ["fajro_6"] = {
+    {From="fajro_5", Cond=has("whiteKey")},
+    {From="fajro_7", Cond=has("eleHeat")},
+    {From="fajro_8", Cond=has("fajroMaster")},
+  },
+
+  ["fajro_7"] = {
+    {From="fajro_6", Cond=has("eleHeat")},
+  },
+
+  ["fajro_8"] = {
+    {From="fajro_6", Cond=has("fajroMaster")},
+  },
+
+  ["harbor_north"] = {
+    {From="harbor", Cond=has("flameShade")},
+  },
+
+  ["fall"] = {
+    {From="harbor", Cond=has("flameShade")},
+    {From="garden", Cond=has("flameShade") and has("seedShade")},
+    {From="ridge", Cond=has("flameShade") and has("starShade")},
+  },
+
+  ["rhombus"] = {
+    {From="harbor", Cond=has("meteorShade")},
+    {From="dlc_archipelago", Cond=has("azurePass")},
+  },
+
+  ["garden"] = {
+    {From="fall", Cond=has("flameShade") and has("seedShade")},
+    {From="basin", Cond=true},
+    {From="garden_west", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest"))},
+    {From="garden_east", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast"))},
+    {From="garden_mid", Cond=has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaEast")))},
+  },
+
+  ["basin"] = {
+    {From="harbor", Cond=has("seedShade") and has("settingsRhombusHubOpen")},
+    {From="garden", Cond=true},
+    {From="basin_slum", Cond=has("pondPass")},
+  },
+
+  ["basin_slum"] = {
+    {From="basin", Cond=has("pondPass")},
+  },
+
+  ["garden_west"] = {
+    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest"))},
+    {From="garden_grove", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade"))},
+    {From="sonajiz_1", Cond=sonajizKeyTotal(1) and anyElement()},
+  },
+
+  ["garden_east"] = {
+    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast"))},
+    {From="garden_infested", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade"))},
+    {From="zirvitar_1", Cond=zirvitarKeyTotal(2) and anyElement()},
+  },
+
+  ["garden_mid"] = {
+    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaEast")))},
+    {From="kajo_1", Cond=has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave")},
+  },
+
+  ["garden_grove"] = {
+    {From="garden_west", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade"))},
+  },
+
+  ["garden_infested"] = {
+    {From="garden_east", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade"))},
+  },
+
+  ["zirvitar_1"] = {
+    {From="garden_east", Cond=zirvitarKeyTotal(2) and anyElement()},
+    {From="zirvitar_2", Cond=has("eleWave")},
+  },
+
+  ["zirvitar_2"] = {
+    {From="zirvitar_1", Cond=has("eleWave")},
+  },
+
+  ["sonajiz_1"] = {
+    {From="garden_west", Cond=sonajizKeyTotal(1) and anyElement()},
+    {From="sonajiz_2", Cond=sonajizKeyTotal(3)},
+  },
+
+  ["sonajiz_2"] = {
+    {From="sonajiz_1", Cond=sonajizKeyTotal(3)},
+    {From="sonajiz_3", Cond=sonajizKeyTotal(4) and has("radiantKey")},
+  },
+
+  ["sonajiz_3"] = {
+    {From="sonajiz_2", Cond=sonajizKeyTotal(4) and has("radiantKey")},
+    {From="sonajiz_4", Cond=has("eleShock")},
+  },
+
+  ["sonajiz_4"] = {
+    {From="sonajiz_3", Cond=has("eleShock")},
+  },
+
+  ["kajo_1"] = {
+    {From="garden_mid", Cond=has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave")},
+    {From="kajo_2", Cond=kryskajoKeyTotal(2)},
+    {From="kajo_3", Cond=has("kryskajoMaster")},
+  },
+
+  ["kajo_2"] = {
+    {From="kajo_1", Cond=kryskajoKeyTotal(2)},
+  },
+
+  ["kajo_3"] = {
+    {From="kajo_1", Cond=has("kryskajoMaster")},
+  },
+
+  ["ridge"] = {
+    {From="fall", Cond=has("flameShade") and has("starShade")},
+    {From="harbor", Cond=has("starShade") and has("settingsRhombusHubOpen")},
+    {From="ridge_north", Cond=has("meteorShade")},
+    {From="wasteland", Cond=has("vwLockOff") or (has("vwLockOn") and has("meteorShade"))},
+  },
+
+  ["ridge_north"] = {
+    {From="ridge", Cond=has("meteorShade")},
+    {From="dlc_kulero_entry", Cond=has("ancientShade")},
+  },
+
+  ["wasteland"] = {
+    {From="ridge", Cond=has("vwLockOff") or (has("vwLockOn") and has("meteorShade"))},
+  },
+
+  ["dlc_homestedt"] = {
+    {From="rise", Cond=has("guildPass")},
+  },
+
+  ["dlc_archipelago"] = {
+    {From="rhombus", Cond=has("azurePass")},
+  },
+
+  ["dlc_kulero_entry"] = {
+    {From="ridge_north", Cond=has("ancientShade")},
+    {From="dlc_kulero_entry_1F", Cond=kuleroKeyTotal(3) and has("eleWave")},
+    {From="dlc_kulero_entry_1L", Cond=kuleroKeyTotal(3)},
+    {From="dlc_kulero_entry_1R", Cond=(kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3)},
+    {From="dlc_kulero_GF_R", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_GF_L", Cond=has("eleHeat") and has("eleCold") and has("eleWave")},
+  },
+
+  ["dlc_kulero_entry_1F"] = {
+    {From="dlc_kulero_entry", Cond=kuleroKeyTotal(3) and has("eleWave")},
+  },
 
-function region17()
-  return region16() and has("eleCold")
-end
-
-function region17half()
-  return region17()
-end
-
-function region18()
-  return region17half() and fajroKeyTotal(9)
-end
-
-function region19()
-  return region17half() and has("fajroMaster")
-end
-
-function region20()
-  return region19() and has("flameShade")
-end
-
-function region21()
-  return region20() and has("seedShade")
-end
-
-function region23()
-  return region21() and (has("eleHeat") and has("eleCold"))
-end
-
-function region24()
-  return region21() and has("pondPass")
-end
-
-function region25()
-  return zirvitarKeyTotal(2) and region23()
-end
-
-function region26()
-  return sonajizKeyTotal(3) and region23()
-end
-
-function region27()
-  return region26() and sonajizKeyTotal(4) and (has("radiantKey"))
-end
-
-function region28()
-  return region23() and (has("eleWave") and has("eleShock") and has("dropShade") and has("boltShade"))
-end
+  ["dlc_kulero_entry_1L"] = {
+    {From="dlc_kulero_entry", Cond=kuleroKeyTotal(3)},
+  },
 
-function region29()
-  return kryskajoKeyTotal(2) and region28()
-end
+  ["dlc_kulero_entry_1R"] = {
+    {From="dlc_kulero_entry", Cond=(kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3)},
+  },
 
-function region30()
-  return region28() and has("kryskajoMaster")
-end
+  ["dlc_kulero_GF_R"] = {
+    {From="dlc_kulero_entry", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_main", Cond=true},
+  },
 
-function region31()
-  return region30() and has("starShade")
-end
+  ["dlc_kulero_GF_L"] = {
+    {From="dlc_kulero_entry", Cond=has("eleHeat") and has("eleCold") and has("eleWave")},
+    {From="dlc_kulero_main", Cond=true},
+  },
 
-function region22()
-  return region31()
-end
+  ["dlc_kulero_main"] = {
+    {From="dlc_kulero_GF_R", Cond=true},
+    {From="dlc_kulero_GF_L", Cond=true},
+    {From="dlc_kulero_B2_R", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_B2_L", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")},
+    {From="dlc_kulero_B3_L", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_B3_R", Cond=has("eleWave") and has("eleShock")},
+    {From="dlc_kulero_boss", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3)},
+  },
 
-function region32()
-  return region31() and has("dojoKey")
-end
+  ["dlc_kulero_B2_R"] = {
+    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_B2_R_1", Cond=has("eleWave")},
+  },
 
-function region33()
-  return region32() and has("meteorShade")
-end
+  ["dlc_kulero_B2_R_1"] = {
+    {From="dlc_kulero_B2_R", Cond=has("eleWave")},
+  },
 
-function region34()
-  return region22() and
-    (has("settingVTGateOpen") and
-        has("eleHeat") and
-          has("eleCold") and
-            has("elewave") and 
-              has("eleShock")) 
-  or        
-    region22() and 
-      (has("eleHeat") and 
-        has("eleCold") and 
-          has("eleWave") and 
-            has("eleShock") and
-              has("minesWon") and
-                has("fajroWon") and
-                  has("sonajizWon") and
-                    has("zirvitarWon"))
-end
+  ["dlc_kulero_B2_L"] = {
+    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")},
+    {From="dlc_kulero_B2_L", Cond=kuleroKeyTotal(3)},
+  },
 
--- Open Mode Logic
+  ["dlc_kulero_B2_L_1"] = {
+    {From="dlc_kulero_B2_L", Cond=kuleroKeyTotal(3)},
+  },
 
-function regionOpen2()
-  return has("settingOpenModeOpen")
-end
+  ["dlc_kulero_B3_L"] = {
+    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+  },
 
-function regionOpen3()
-  return regionOpen2() and has("leafShade")
-end
+  ["dlc_kulero_B3_R"] = {
+    {From="dlc_kulero_main", Cond=has("eleWave") and has("eleShock")},
+  },
 
-function regionOpen3_1()
-  return regionOpen3() and has("minePass")
-end
+  ["dlc_kulero_boss"] = {
+    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3)},
+  },
+}
 
-function regionOpen3_2()
-  return regionOpen3() and has("guildPass")
+function harbor()
+  return CanAccess("harbor", {})
 end
 
-function regionOpen4_1()
-  return regionOpen3() and has("minePass")
+function rise()
+  return CanAccess("rise", {})
 end
 
-function retionOpen4_1_1()
-  return regionOpen4_1() and (mineKeyTotal(1) or has("eleHeat"))
+function trail()
+  return CanAccess("trail", {})
 end
 
-function regionOpen4_2()
-  return mineKeyTotal(1) and regionOpen4_1()
+function bergen()
+  return CanAccess("bergen", {})
 end
 
-function regionOpen4_3()
-  return regionOpen4_2() and mineKeyTotal(2)
+function mine_1()
+  return CanAccess("mine_1", {})
 end
 
-function regionOpen4_4()
-  return regionOpen4_3() and mineKeyTotal(3)
+function mine_2()
+  return CanAccess("mine_2", {})
 end
 
-function regionOpen4_5()
-  return regionOpen4_4() and mineKeyTotal(5)
+function mine_3()
+  return CanAccess("mine_3", {})
 end
 
-function regionOpen4_6()
-  return regionOpen4_4() and has("eleHeat") and has("thiefKey")
+function mine_4()
+  return CanAccess("mine_4", {})
 end
 
-function regionOpen4_7()
-  return regionOpen4_6() and mineKeyTotal(5)
+function mine_5()
+  return CanAccess("mine_5", {})
 end
 
-function regionOpen4_8()
-  return regionOpen4_1() and has("mineMaster")
+function mine_6()
+  return CanAccess("mine_6", {})
 end
 
-function regionOpen5()
-  return (regionOpen3() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("iceShade")
+function mine_7()
+  return CanAccess("mine_7", {})
 end
 
-function regionOpen6()
-  return regionOpen5() and has("maroonPass")
+function mine_8()
+  return CanAccess("mine_8", {})
 end
 
-function regionOpen7_1()
-  return regionOpen5() and has("sandShade")
+function valley()
+  return CanAccess("valley", {})
 end
 
-function regionOpen7_2()
-  return regionOpen7_1() and fajroKeyTotal(1) and has('eleHeat')
+function bakii()
+  return CanAccess("bakii", {})
 end
 
-function regionOpen7_3()
-  return regionOpen7_2() and fajroKeyTotal(3)
+function fajro_1()
+  return CanAccess("fajro_1", {})
 end
 
-function regionOpen7_5()
-  return regionOpen7_1() and has("eleCold")
+function fajro_2()
+  return CanAccess("fajro_2", {})
 end
 
-function regionOpen7_6()
-  return regionOpen7_5() and has('whiteKey')
+function fajro_3()
+  return CanAccess("fajro_3", {})
 end
 
-function regionOpen7_7()
-  return regionOpen7_6() and has('eleHeat')
+function fajro_5()
+  return CanAccess("fajro_5", {})
 end
 
-function regionOpen7_8()
-  return regionOpen7_6() and has("fajroMaster")
+function fajro_6()
+  return CanAccess("fajro_6", {})
 end
 
-function regionOpen8()
-  return regionOpen2() and has("flameShade")
+function fajro_7()
+  return CanAccess("fajro_7", {})
 end
 
-function regionOpen9()
-  return regionOpen2() and has("flameShade")
+function fajro_8()
+  return CanAccess("fajro_8", {})
 end
 
-function regionOpen20()
-  return regionOpen2() and has("meteorShade")
+function harbor_north()
+  return CanAccess("harbor_north", {})
 end
 
-function regionOpen9_1()
-  return regionOpen9() and has("seedShade")
+function fall()
+  return CanAccess("fall", {})
 end
 
-function regionOpen10()
-  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("seedShade")
+function rhombus()
+  return CanAccess("rhombus", {})
 end
 
-function regionOpen10_Left()
-  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest")))
+function garden()
+  return CanAccess("garden", {})
 end
 
-function regionOpen10_Right()
-  return regionOpen10() and (has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast")))
+function garden_west()
+  return CanAccess("garden_west", {})
 end
 
-function regionOpen10_Middle()
-  return regionOpen10_Right() or regionOpen10_Left()
+function garden_east()
+  return CanAccess("garden_east", {})
 end
 
-function regionOpen10_Grove()
-  return regionOpen10_Left() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("dropShade")))
+function garden_mid()
+  return CanAccess("garden_mid", {})
 end
 
-function regionOpen10_Infested()
-  return regionOpen10_Right() and (has("gaiaOpen") or has("settingsGaiaGardenMinimalClose") or (has("settingsGaiaGardenFullClose") and has("boltShade")))
+function garden_grove()
+  return CanAccess("garden_grove", {})
 end
 
-function regionOpen11()
-  return regionOpen10() and has("pondPass")
+function garden_infested()
+  return CanAccess("garden_infested", {})
 end
 
-function regionOpen12()
-  return regionOpen10_Middle()
+function basin_slum()
+  return CanAccess("basin_slum", {})
 end
 
-function regionOpen13_1()
-  return zirvitarKeyTotal(2) and regionOpen10_Right() and anyElement()
+function zirvitar_1()
+  return CanAccess("zirvitar_1", {})
 end
 
-function regionOpen13_2()
-  return regionOpen13_1() and has("eleWave")
+function zirvitar_2()
+  return CanAccess("zirvitar_2", {})
 end
 
-function regionOpen14_1()
-  return sonajizKeyTotal(1) and regionOpen10_Left() and (has("eleHeat") or has("eleCold") or has("eleWave") or has("eleShock"))
+function sonajiz_1()
+  return CanAccess("sonajiz_1", {})
 end
 
-function regionOpen14_2()
-  return regionOpen14_1() and sonajizKeyTotal(3)
+function sonajiz_2()
+  return CanAccess("sonajiz_2", {})
 end
 
-function regionOpen14_3()
-  return regionOpen14_2() and has("radiantKey") and sonajizKeyTotal(4)
+function sonajiz_3()
+  return CanAccess("sonajiz_3", {})
 end
 
-function regionOpen14_4()
-  return regionOpen14_3() and has("eleShock")
+function sonajiz_4()
+  return CanAccess("sonajiz_4", {})
 end
 
-function regionOpen15_1()
-  return regionOpen12() and (has("boltShade") and has("dropShade") and has("eleWave") and has("eleShock"))
+function kajo_1()
+  return CanAccess("kajo_1", {})
 end
 
-function regionOpen15_2()
-  return regionOpen15_1() and kryskajoKeyTotal(2)
+function kajo_2()
+  return CanAccess("kajo_2", {})
 end
 
-function regionOpen15_3()
-  return regionOpen15_1() and has("kryskajoMaster")
+function kajo_3()
+  return CanAccess("kajo_3", {})
 end
 
-function regionOpen16()
-  return (regionOpen9() or (regionOpen2() and has("settingsRhombusHubOpen"))) and has("starShade")
+function ridge()
+  return CanAccess("ridge", {})
 end
 
 function regionOpen17()
-  return regionOpen16() and has("dojoKey")
+  return CanAccess("regionOpen17", {})
 end
 
-function regionOpen18()
-  return regionOpen16()
+function wasteland()
+  return CanAccess("wasteland", {})
 end
 
-function regionOpen16_1()
-  return regionOpen16() and has("meteorShade")
+function ridge_north()
+  return CanAccess("ridge_north", {})
 end
 
-function regionOpen19()
-  return regionOpen18() and has("eleHeat") and has("eleCold") and has("elewave") and has("eleShock") and ((has("vwLockOff")) or (has("vwLockOn") and has("meteorShade")))
+function dlc_homestedt()
+  return CanAccess("dlc_homestedt", {})
 end
+
+function dlc_archipelago()
+  return CanAccess("dlc_archipelago", {})
+end
+
+function dlc_kulero_entry()
+  return CanAccess("dlc_kulero_entry", {})
+end
+
+function dlc_kulero_entry_1F()
+  return CanAccess("dlc_kulero_entry_1F", {})
+end
+
+function dlc_kulero_entry_1L()
+  return CanAccess("dlc_kulero_entry_1L", {})
+end
+
+function dlc_kulero_entry_1R()
+  return CanAccess("dlc_kulero_entry_1R", {})
+end
+
+function dlc_kulero_GF_R()
+  return CanAccess("dlc_kulero_GF_R", {})
+end
+
+function dlc_kulero_GF_L()
+  return CanAccess("dlc_kulero_GF_L", {})
+end
+
+function dlc_kulero_main()
+  return CanAccess("dlc_kulero_main", {})
+end
+
+function dlc_kulero_B2_R()
+  return CanAccess("dlc_kulero_B2_R", {})
+end
+
+function dlc_kulero_B2_R_1()
+  return CanAccess("dlc_kulero_B2_R_1", {})
+end
+
+function dlc_kulero_B2_L()
+  return CanAccess("dlc_kulero_B2_L", {})
+end
+
+function dlc_kulero_B2_L_1()
+  return CanAccess("dlc_kulero_B2_L_1", {})
+end
+
+function dlc_kulero_B3_L()
+  return CanAccess("dlc_kulero_B3_L", {})
+end
+
+function dlc_kulero_B3_R()
+  return CanAccess("dlc_kulero_B3_R", {})
+end
+
+function dlc_kulero_boss()
+  return CanAccess("dlc_kulero_boss", {})
+end
+
 
 -- Dungeon Keys
 
@@ -1703,7 +1930,7 @@ end
 -- Rookie Harbor Shops Reach
 
 function RH_1()
-  return region2() or regionOpen2()
+  return region2() or harbor()
 end
 
 function RH_2()
@@ -1719,17 +1946,17 @@ function RH_4()
 end
 
 function RH_5()
-  return region19() or regionOpen8()
+  return region19() or harbor_north()
 end
 
 -- Bergen Trail Shops Reach
 
 function BT()
-  return region3() or regionOpen3()
+  return region3() or rise()
 end
 
 function BV_1()
-  return region3() or regionOpen3()
+  return region3() or rise()
 end
 
 function BV_2()
@@ -1747,7 +1974,7 @@ end
 -- Bakii Kum Shops Reachable
 
 function BK_1()
-  return region11() or regionOpen5()
+  return region11() or valley()
 end
 
 function BK_2()
@@ -1761,7 +1988,7 @@ end
 -- Basin Keep Shops Reachable
 
 function BKE_1()
-  return region23() or regionOpen10()
+  return region23() or garden()
 end
 
 function BKE_2()
@@ -1771,13 +1998,13 @@ end
 -- Sapphire Ridge Shops Reachable
 
 function SR()
-  return region31() or regionOpen16()
+  return region31() or ridge()
 end
 
 -- Rhombus Square Shops Reachable
 
 function RS_1()
-  return region33() or regionOpen20()
+  return region33() or rhombus()
 end
 
 function RS_2()
@@ -1787,13 +2014,13 @@ end
 -- Vermillion Wasteland Shops Reachable
 
 function VW()
-  return (region22() or regionOpen18()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
+  return (region22() or wasteland()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
 
 -- Homestedt Shops Reachable
 
 function HS_1()
-  return regionOpenDLC1() and has("settingDlcOn")
+  return dlc_homestedt() and has("settingDlcOn")
 end
 
 function HS_2()
@@ -1803,7 +2030,7 @@ end
 -- Azure Archipelago Shops Reachable
 
 function AA()
-  return regionOpenDLC_Beach() and has("settingDlcOn")
+  return dlc_archipelago() and has("settingDlcOn")
 end
 
 -- Shop Send Type
@@ -3219,21 +3446,21 @@ end
 function countBotanics()
   local botcount = 0
 
-  if regionOpen3() then botcount = botcount + 20 end
-  if regionOpen4_4() then botcount = botcount + 6 end
-  if regionOpen5() then botcount = botcount + 18 end
-  if regionOpen8() then botcount = botcount + 7 end
-  if regionOpen10() then botcount = botcount + 5 end
-  if regionOpen10_Middle() then botcount = botcount + 1 end
-  if regionOpen10_Left() then botcount = botcount + 6 end
-  if regionOpen10_Right() then botcount = botcount + 2 end
-  if regionOpen10_Infested() then botcount = botcount + 1 end
-  if regionOpen16() then botcount = botcount + 9 end
-  if regionOpen20() then botcount = botcount + 1 end
-  if regionOpen11() then botcount = botcount + 1 end
+  if rise() then botcount = botcount + 20 end
+  if mine_4() then botcount = botcount + 6 end
+  if valley() then botcount = botcount + 18 end
+  if harbor_north() then botcount = botcount + 7 end
+  if garden() then botcount = botcount + 5 end
+  if garden_mid() then botcount = botcount + 1 end
+  if garden_west() then botcount = botcount + 6 end
+  if garden_east() then botcount = botcount + 2 end
+  if garden_infested() then botcount = botcount + 1 end
+  if ridge() then botcount = botcount + 9 end
+  if rhombus() then botcount = botcount + 1 end
+  if basin_slum() then botcount = botcount + 1 end
 
-  if has("settingDlcOn") and regionOpenDLC_Beach() then botcount = botcount + 6 end
-  if has("settingDlcOn") and regionOpenDLC_DungeonEntry() then botcount = botcount + 5 end
+  if has("settingDlcOn") and dlc_archipelago() then botcount = botcount + 6 end
+  if has("settingDlcOn") and dlc_kulero_entry() then botcount = botcount + 5 end
 
   return botcount
 end
@@ -3284,7 +3511,7 @@ end
 
 -- Quest logic
 function ChaseHologramFrobbit()
-  return true
+  return has("eleHeat") and has("eleCold")
 end
 
 function FirstSteps()
@@ -3307,31 +3534,35 @@ function InsideTheObservatory()
          APromiseIsAPromise5() and has("dkar5")
 end
 
-function TrailblazingFinish1()
-  return TrailblazinCollect1() and
-         TrailblazingDefeat1() and
-         TrailblazingLandma1() and
-         TrailblazingProbe1()
+function TrailblazingRise()
+  return TrailblazingCollectRise() and
+         TrailblazingDefeatRise() and
+         TrailblazingLandmarkRise() and
+         TrailblazingProbeRise()
 end
 
-function TrailblazinCollect1()
+function TrailblazingCollectRise()
   return true
 end
 
-function TrailblazingDefeat1()
+function TrailblazingDefeatRise()
   return true
 end
 
-function TrailblazingLandma1()
+function TrailblazingLandmarkRise()
   return true
 end
 
-function TrailblazingProbe1()
+function TrailblazingProbeRise()
   return true
 end
 
 function RoundAndRound()
   return true
+end
+
+function BeachFight()
+  return kajo_1() and dlc_archipelago()
 end
 
 function FactionIntroductions()
@@ -3347,7 +3578,7 @@ function BullGrab()
 end
 
 function NewMetal()
-  return regionOpen9() and regionOpen4_5() and BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return fall() and mine_5() and BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
 function DiggingForData()
@@ -3371,7 +3602,7 @@ function IntensiveTreeCare()
 end
 
 function BullOnFire()
-  return IntensiveTreeCare() and regionOpen9() and has("RH-tree-2") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return IntensiveTreeCare() and fall() and has("RH-tree-2") and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
 function PettyCrimeHunter()
@@ -3399,11 +3630,11 @@ function WoodSteaks()
 end
 
 function MeatingExpectations()
-  return WoodSteaks() and has("RH-steaks-1") and regionOpen5()
+  return WoodSteaks() and has("RH-steaks-1") and valley()
 end
 
 function RaisingTheSteaks()
-  return MeatingExpectations() and regionOpen9() and has("RH-steaks-2") and has("iceShade") and has("flameShade") and has("eleHeat") and has("eleCold")
+  return MeatingExpectations() and fall() and has("RH-steaks-2") and has("iceShade") and has("flameShade") and has("eleHeat") and has("eleCold")
 end
 
 function AllHailTheIceCream()
@@ -3420,71 +3651,5 @@ end
 
 function CrocusPocus100()
   return CrocusPocus75() and has("botanics-4") and
-         regionOpen2() and botanics100()
-end
-
--- DLC Logic
-
-function regionOpenDLC1()
-  return regionOpen3() and has("guildPass")
-end
-
-function regionOpenDLC_Beach()
-  return regionOpen20() and has("azurePass")
-end
-
-function regionOpenDLC_DungeonEntry()
-  return regionOpen16_1() and has("ancientShade")
-end
-
-function regionOpenDLC_DungeonEntry_1F()
-  return regionOpenDLC_DungeonEntry() and has("eleWave") and kuleroKeyTotal(3)
-end
-
-function regionOpenDLC_DungeonEntry_1L()
-  return regionOpenDLC_DungeonEntry() and kuleroKeyTotal(3)
-end
-
-function regionOpenDLC_DungeonEntry_1R()
-  return regionOpenDLC_DungeonEntry() and ((has("eleWave") and kuleroKeyTotal(2)) or (kuleroKeyTotal(3)))
-end
-
-function regionOpenDLC_DungeonGF_R()
-  return regionOpenDLC_DungeonEntry() and has("eleHeat") and has("eleCold") and has("eleShock")
-end
-
-function regionOpenDLC_DungeonGF_L()
-  return regionOpenDLC_DungeonEntry() and has("eleHeat") and has("eleCold") and has("eleWave")
-end
-
-function regionOpenDLC_DungeonMain()
-  return regionOpenDLC_DungeonGF_R() or regionOpenDLC_DungeonGF_L()
-end
-
-function regionOpenDLC_DungeonU2_R()
-  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock")
-end
-
-function regionOpenDLC_DungeonU2_R_1()
-  return regionOpenDLC_DungeonU2_R() and has("eleWave")
-end
-
-function regionOpenDLC_DungeonU2_L()
-  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")
-end
-
-function regionOpenDLC_DungeonU2_L_1()
-  return regionOpenDLC_DungeonU2_L() and has("kuleroKey", 3)
-end
-
-function regionOpenDLC_DungeonU3_L()
-  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock")
-end
-
-function regionOpenDLC_DungeonU3_R()
-  return regionOpenDLC_DungeonMain() and has("eleWave") and has("eleShock")
-end
-
-function regionOpenDLC_DungeonBoss()
-  return regionOpenDLC_DungeonMain() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and has("kuleroMaster")
+         harbor() and botanics100()
 end

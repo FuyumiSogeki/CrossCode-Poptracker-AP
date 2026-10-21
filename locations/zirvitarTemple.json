@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Right"
+                    "$garden_east"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region25",
-                    "$regionOpen13_1"
+                    "$zirvitar_1"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region25",
-                    "$regionOpen13_1"
+                    "$zirvitar_1"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Right"
+                    "$garden_east"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                 ],
                 "access_rules": [
                     "$region25",
-                    "$regionOpen13_1"
+                    "$zirvitar_1"
                 ],
                 "sections": [
                     {
@@ -157,7 +157,7 @@
                 ],
                 "access_rules": [
                     "$region25",
-                    "$regionOpen13_1"
+                    "$zirvitar_1"
                 ],
                 "sections": [
                     {
@@ -186,7 +186,7 @@
                 ],
                 "access_rules": [
                     "$region25",
-                    "$regionOpen13_2"
+                    "$zirvitar_2"
                 ],
                 "sections": [
                     {

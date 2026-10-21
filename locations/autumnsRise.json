@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -99,8 +96,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -127,8 +123,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -155,8 +150,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -183,8 +177,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -211,8 +204,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -239,8 +231,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -267,8 +258,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -295,8 +285,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -324,8 +313,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3_1"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -334,7 +322,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "minePass"
+                            "$has|minePass"
                         ],
                         "item_count": 1
                     }
@@ -352,8 +340,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -380,8 +367,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -408,8 +394,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -436,8 +421,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -464,8 +448,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -492,8 +475,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -520,8 +502,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -548,8 +529,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -577,8 +557,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -605,8 +584,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -633,8 +611,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -661,8 +638,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -689,8 +665,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -717,8 +692,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -745,8 +719,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -773,8 +746,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -802,8 +774,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -812,7 +783,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FirstSteps"
                         ],
                         "item_count": 1
                     },
@@ -822,7 +793,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FirstSteps"
                         ],
                         "item_count": 1
                     },
@@ -832,7 +803,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "AR-first"
+                            "$AFewMoreSteps"
                         ],
                         "item_count": 1
                     },
@@ -842,7 +813,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "AR-first"
+                            "$AFewMoreSteps"
                         ],
                         "item_count": 1
                     }
@@ -861,8 +832,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3_1",
-                    "$regionOpen3_2"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -871,7 +841,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "dkar1, dkar2, dkar3, dkar4, dkar5"
+                            "$has|guildPass, $InsideTheObservatory"
                         ],
                         "item_count": 1
                     }
@@ -890,8 +860,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -900,7 +869,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingRise"
                         ],
                         "item_count": 1
                     },
@@ -910,7 +879,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingCollectRise"
                         ],
                         "item_count": 1
                     },
@@ -920,7 +889,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingDefeatRise"
                         ],
                         "item_count": 1
                     },
@@ -930,7 +899,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingLandmarkRise"
                         ],
                         "item_count": 1
                     },
@@ -940,7 +909,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingProbeRise"
                         ],
                         "item_count": 1
                     }
@@ -959,8 +928,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -969,7 +937,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$RoundAndRound"
                         ],
                         "item_count": 1
                     },
@@ -979,7 +947,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$RoundAndRound"
                         ],
                         "item_count": 1
                     },
@@ -989,7 +957,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$RoundAndRound"
                         ],
                         "item_count": 1
                     }

@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region24",
-                    "$regionOpen11"
+                    "$basin_slum"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region24",
-                    "$regionOpen11"
+                    "$basin_slum"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region24",
-                    "$regionOpen11"
+                    "$basin_slum"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region24",
-                    "$regionOpen11"
+                    "$basin_slum"
                 ],
                 "sections": [
                     {
@@ -126,7 +126,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -155,7 +155,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -214,8 +214,8 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested, $has|azurePass"
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -227,8 +227,8 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested, $has|azurePass"
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -240,8 +240,8 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested, $has|azurePass"
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
+                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -260,7 +260,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -289,7 +289,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Infested"
+                    "$garden_infested"
                 ],
                 "sections": [
                     {
@@ -318,7 +318,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Infested"
+                    "$garden_infested"
                 ],
                 "sections": [
                     {
@@ -348,7 +348,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Right"
+                    "$garden_east"
                 ],
                 "sections": [
                     {
@@ -397,7 +397,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16, $has|azurePass"
+                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -407,7 +407,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16, $has|azurePass"
+                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -417,7 +417,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $regionOpen10_Right, $regionOpen10_Infested, $regionOpen16, $has|azurePass"
+                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -437,7 +437,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Grove"
+                    "$garden_grove"
                 ],
                 "sections": [
                     {
@@ -508,7 +508,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave, $has|azurePass"
+                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -520,7 +520,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave, $has|azurePass"
+                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -532,7 +532,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $regionOpenDLC_Beach, eleCold, eleWave, $has|azurePass"
+                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -552,7 +552,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10_Grove"
+                    "$garden_grove"
                 ],
                 "sections": [
                     {
@@ -611,7 +611,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -621,7 +621,7 @@
                         ],
                         "access_rules": [
                             "$region2",
-                            "$regionOpen2, $regionOpen10_Infested"
+                            "$harbor, $garden_infested"
                         ],
                         "item_count": 1
                     }
@@ -641,7 +641,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -670,7 +670,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -680,7 +680,7 @@
                         ],
                         "access_rules": [
                             "botanics-3, $region2",
-                            "botanics-3, $regionOpen2, $botanics75"
+                            "botanics-3, $harbor, $botanics75"
                         ],
                         "item_count": 1
                     }
@@ -700,7 +700,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -1415,7 +1415,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen10"
+                    "$garden"
                 ],
                 "sections": [
                     {
@@ -1884,7 +1884,7 @@
                 ],
                 "access_rules": [
                     "$region23",
-                    "$regionOpen11"
+                    "$basin_slum"
                 ],
                 "sections": [
                     {

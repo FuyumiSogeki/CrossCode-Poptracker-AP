@@ -18,7 +18,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -48,7 +48,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -78,7 +78,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -108,7 +108,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -138,7 +138,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -168,7 +168,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -199,7 +199,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -230,7 +230,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {
@@ -701,7 +701,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC1"
+                    "$dlc_homestedt"
                 ],
                 "sections": [
                     {

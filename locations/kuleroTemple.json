@@ -18,7 +18,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry_1R"
+                    "$dlc_kulero_entry_1R"
                 ],
                 "sections": [
                     {
@@ -48,7 +48,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry_1L"
+                    "$dlc_kulero_entry_1L"
                 ],
                 "sections": [
                     {
@@ -78,7 +78,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry"
+                    "$dlc_kulero_entry"
                 ],
                 "sections": [
                     {
@@ -108,7 +108,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -138,7 +138,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry"
+                    "$dlc_kulero_entry"
                 ],
                 "sections": [
                     {
@@ -168,7 +168,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -198,7 +198,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -228,7 +228,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L_1"
+                    "$dlc_kulero_B2_L_1"
                 ],
                 "sections": [
                     {
@@ -258,7 +258,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_R"
+                    "$dlc_kulero_B2_R"
                 ],
                 "sections": [
                     {
@@ -288,7 +288,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_R"
+                    "$dlc_kulero_B2_R"
                 ],
                 "sections": [
                     {
@@ -318,7 +318,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry_1F"
+                    "$dlc_kulero_entry_1F"
                 ],
                 "sections": [
                     {
@@ -348,7 +348,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_R_1"
+                    "$dlc_kulero_B2_R_1"
                 ],
                 "sections": [
                     {
@@ -378,7 +378,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonEntry"
+                    "$dlc_kulero_entry"
                 ],
                 "sections": [
                     {
@@ -408,7 +408,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -438,7 +438,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonMain"
+                    "$dlc_kulero_main"
                 ],
                 "sections": [
                     {
@@ -468,7 +468,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonBoss"
+                    "$dlc_kulero_boss"
                 ],
                 "sections": [
                     {
@@ -499,7 +499,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonGF_L"
+                    "$dlc_kulero_GF_L"
                 ],
                 "sections": [
                     {
@@ -530,7 +530,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonGF_R"
+                    "$dlc_kulero_GF_R"
                 ],
                 "sections": [
                     {
@@ -561,7 +561,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonMain"
+                    "$dlc_kulero_main"
                 ],
                 "sections": [
                     {
@@ -592,7 +592,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -623,7 +623,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_R"
+                    "$dlc_kulero_B2_R"
                 ],
                 "sections": [
                     {
@@ -654,7 +654,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_L"
+                    "$dlc_kulero_B2_L"
                 ],
                 "sections": [
                     {
@@ -685,7 +685,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU2_R"
+                    "$dlc_kulero_B2_R"
                 ],
                 "sections": [
                     {
@@ -716,7 +716,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU3_L"
+                    "$dlc_kulero_B3_L"
                 ],
                 "sections": [
                     {
@@ -747,7 +747,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonU3_R"
+                    "$dlc_kulero_B3_R"
                 ],
                 "sections": [
                     {
@@ -778,7 +778,7 @@
                     "settingDlcOn, settingGoalDiorbis"
                 ],
                 "access_rules": [
-                    "$regionOpenDLC_DungeonBoss"
+                    "$dlc_kulero_boss"
                 ],
                 "sections": [
                     {

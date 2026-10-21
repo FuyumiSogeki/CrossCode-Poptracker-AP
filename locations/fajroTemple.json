@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_3"
+                    "$fajro_3"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_3"
+                    "$fajro_3"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region17",
-                    "$regionOpen7_5"
+                    "$fajro_5"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                 ],
                 "access_rules": [
                     "$region17half",
-                    "$regionOpen7_5"
+                    "$fajro_5"
                 ],
                 "sections": [
                     {
@@ -155,7 +155,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_6"
+                    "$fajro_6"
                 ],
                 "sections": [
                     {
@@ -182,7 +182,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_5"
+                    "$fajro_5"
                 ],
                 "sections": [
                     {
@@ -210,7 +210,7 @@
                 ],
                 "access_rules": [
                     "$region17",
-                    "$regionOpen7_5"
+                    "$fajro_5"
                 ],
                 "sections": [
                     {
@@ -238,7 +238,7 @@
                 ],
                 "access_rules": [
                     "$region17",
-                    "$regionOpen7_5"
+                    "$fajro_5"
                 ],
                 "sections": [
                     {
@@ -266,7 +266,7 @@
                 ],
                 "access_rules": [
                     "$region17half",
-                    "$regionOpen7_6"
+                    "$fajro_6"
                 ],
                 "sections": [
                     {
@@ -293,7 +293,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_6"
+                    "$fajro_6"
                 ],
                 "sections": [
                     {
@@ -320,7 +320,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_6"
+                    "$fajro_6"
                 ],
                 "sections": [
                     {
@@ -347,7 +347,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_6"
+                    "$fajro_6"
                 ],
                 "sections": [
                     {
@@ -374,7 +374,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$regionOpen7_7"
+                    "$fajro_7"
                 ],
                 "sections": [
                     {
@@ -402,7 +402,7 @@
                 ],
                 "access_rules": [
                     "$region13",
-                    "$regionOpen7_1"
+                    "$fajro_1"
                 ],
                 "sections": [
                     {
@@ -430,7 +430,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -458,7 +458,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -486,7 +486,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -514,7 +514,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -542,7 +542,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -570,7 +570,7 @@
                 ],
                 "access_rules": [
                     "$region14",
-                    "$regionOpen7_2"
+                    "$fajro_2"
                 ],
                 "sections": [
                     {
@@ -599,7 +599,7 @@
                 ],
                 "access_rules": [
                     "$region19",
-                    "$regionOpen7_8"
+                    "$fajro_8"
                 ],
                 "sections": [
                     {
@@ -648,7 +648,7 @@
                 ],
                 "access_rules": [
                     "$region15",
-                    "$regionOpen7_3"
+                    "$fajro_3"
                 ],
                 "sections": [
                     {
@@ -677,7 +677,7 @@
                 ],
                 "access_rules": [
                     "$region16",
-                    "$regionOpen7_1"
+                    "$fajro_1"
                 ],
                 "sections": [
                     {

@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -156,7 +156,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -184,7 +184,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -212,7 +212,7 @@
                 ],
                 "access_rules": [
                     "$region29",
-                    "$regionOpen15_2"
+                    "$kajo_2"
                 ],
                 "sections": [
                     {
@@ -240,7 +240,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -268,7 +268,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -296,7 +296,7 @@
                 ],
                 "access_rules": [
                     "$region28",
-                    "$regionOpen15_1"
+                    "$kajo_1"
                 ],
                 "sections": [
                     {
@@ -325,7 +325,7 @@
                 ],
                 "access_rules": [
                     "$region30",
-                    "$regionOpen15_3"
+                    "$kajo_3"
                 ],
                 "sections": [
                     {

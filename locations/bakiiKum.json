@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -129,7 +129,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -158,7 +158,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -189,7 +189,7 @@
                         ],
                         "access_rules": [
                             "botanics-2, $region2",
-                            "botanics-2, $regionOpen2, $botanics50"
+                            "botanics-2, $harbor, $botanics50"
                         ],
                         "item_count": 1
                     }
@@ -208,7 +208,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -266,7 +266,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -335,7 +335,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -394,7 +394,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -423,7 +423,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-crate, flameShade, eleHeat, eleCold, $regionOpen3"
+                            "MV-crate, flameShade, eleHeat, eleCold, $rise"
                         ],
                         "item_count": 1
                     },
@@ -433,11 +433,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -447,11 +447,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -461,11 +461,11 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen16, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $regionOpenDLC_Beach, settingBoosterOn, $has|everAmber, $regionOpen10_Right, $regionOpen10_Left, $has|azurePass"
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
+                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -485,7 +485,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -514,7 +514,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -543,7 +543,7 @@
                 ],
                 "access_rules": [
                     "$region11",
-                    "$regionOpen5"
+                    "$valley"
                 ],
                 "sections": [
                     {

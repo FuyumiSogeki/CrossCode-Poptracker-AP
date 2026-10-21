@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -156,7 +156,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -184,7 +184,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -212,7 +212,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -240,7 +240,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -268,7 +268,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -296,7 +296,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -324,7 +324,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -352,7 +352,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -380,7 +380,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -408,7 +408,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -436,7 +436,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -464,7 +464,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -492,7 +492,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -520,7 +520,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -548,7 +548,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -576,7 +576,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -604,7 +604,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -632,7 +632,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -660,7 +660,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -689,7 +689,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -717,7 +717,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -745,7 +745,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -773,7 +773,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -801,7 +801,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -829,7 +829,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -857,7 +857,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -885,7 +885,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -913,7 +913,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -941,7 +941,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -969,7 +969,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -997,7 +997,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1025,7 +1025,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1053,7 +1053,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1081,7 +1081,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1138,7 +1138,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen16_1"
+                    "$ridge_north"
                 ],
                 "sections": [
                     {
@@ -1166,7 +1166,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen16_1"
+                    "$ridge_north"
                 ],
                 "sections": [
                     {
@@ -1194,7 +1194,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen16_1"
+                    "$ridge_north"
                 ],
                 "sections": [
                     {
@@ -1222,7 +1222,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen16_1"
+                    "$ridge_north"
                 ],
                 "sections": [
                     {
@@ -1250,7 +1250,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1279,7 +1279,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16_1"
+                    "$ridge_north"
                 ],
                 "sections": [
                     {
@@ -1308,7 +1308,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1337,7 +1337,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1346,7 +1346,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$regionOpen5, eleHeat, eleCold, eleShock, eleWave"
+                            "$valley, eleHeat, eleCold, eleShock, eleWave"
                         ],
                         "item_count": 1
                     }
@@ -1366,7 +1366,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -1625,7 +1625,7 @@
                 ],
                 "access_rules": [
                     "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {

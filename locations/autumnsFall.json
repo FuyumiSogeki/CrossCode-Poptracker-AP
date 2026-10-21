@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region31",
-                    "$regionOpen16"
+                    "$ridge"
                 ],
                 "sections": [
                     {
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -99,8 +96,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -127,8 +123,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -155,8 +150,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -183,8 +177,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -211,8 +204,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -239,8 +231,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -267,8 +258,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -295,8 +285,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -323,8 +312,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -351,8 +339,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -379,8 +366,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -407,8 +393,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -435,8 +420,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -463,8 +447,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -491,8 +474,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -519,8 +501,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -547,8 +528,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -575,8 +555,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -603,8 +582,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -631,8 +609,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -659,8 +636,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -687,8 +663,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -715,8 +690,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -743,8 +717,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -771,8 +744,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -800,8 +772,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region20",
-                    "$regionOpen9"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -810,7 +781,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleHeat, eleCold"
+                            "$ChaseHologramFrobbit"
                         ],
                         "item_count": 1
                     }

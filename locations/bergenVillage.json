@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -103,7 +103,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -131,7 +131,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -159,7 +159,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -187,7 +187,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -215,7 +215,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -243,7 +243,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -271,7 +271,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -299,7 +299,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -326,7 +326,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -350,7 +350,7 @@
                         ],
                         "access_rules": [
                             "eleHeat, $region10, $has|mineDetect",
-                            "eleHeat, $regionOpen4_7, $has|mineDetect"
+                            "eleHeat, $mine_7, $has|mineDetect"
                         ],
                         "item_count": 1
                     },
@@ -363,7 +363,7 @@
                         ],
                         "access_rules": [
                             "floraDisc, botanics-1, $region2",
-                            "floraDisc, botanics-1, $regionOpen2, $botanics25"
+                            "floraDisc, botanics-1, $harbor, $botanics25"
                         ],
                         "item_count": 1
                     }
@@ -382,7 +382,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -410,7 +410,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -439,7 +439,7 @@
                 ],
                 "access_rules": [
                     "$region4",
-                    "$regionOpen4_1"
+                    "$mine_1"
                 ],
                 "sections": [
                     {
@@ -468,7 +468,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -657,7 +657,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -736,7 +736,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -785,7 +785,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $regionOpen20, $has|azurePass"
+                            "BV-goat, $rhombus, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -795,7 +795,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $regionOpen20, $has|azurePass"
+                            "BV-goat, $rhombus, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -805,7 +805,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $regionOpen20, $has|azurePass"
+                            "BV-goat, $rhombus, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -825,7 +825,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -894,7 +894,7 @@
                 ],
                 "access_rules": [
                     "$region4",
-                    "$regionOpen4_1"
+                    "$mine_1"
                 ],
                 "sections": [
                     {
@@ -934,7 +934,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -961,7 +961,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {
@@ -1430,7 +1430,7 @@
                 ],
                 "access_rules": [
                     "$region3",
-                    "$regionOpen3"
+                    "$rise"
                 ],
                 "sections": [
                     {

@@ -16,7 +16,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -44,7 +44,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -72,7 +72,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -100,7 +100,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -128,7 +128,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -156,7 +156,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -184,7 +184,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -212,7 +212,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -241,7 +241,7 @@
                 ],
                 "access_rules": [
                     "$region33",
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -270,7 +270,7 @@
                 ],
                 "access_rules": [
                     "$region33, $canGrind",
-                    "$regionOpen20, $canGrind"
+                    "$rhombus, $canGrind"
                 ],
                 "sections": [
                     {
@@ -739,7 +739,7 @@
                 ],
                 "access_rules": [
                     "$region33, $canGrind",
-                    "$regionOpen20, $canGrind"
+                    "$rhombus, $canGrind"
                 ],
                 "sections": [
                     {
@@ -1118,7 +1118,7 @@
                 ],
                 "access_rules": [
                     "$region33, $canGrind",
-                    "$regionOpen20, $canGrind"
+                    "$rhombus, $canGrind"
                 ],
                 "sections": [
                     {
@@ -1497,7 +1497,7 @@
                 ],
                 "access_rules": [
                     "$region33, $canGrind",
-                    "$regionOpen20, $canGrind"
+                    "$rhombus, $canGrind"
                 ],
                 "sections": [
                     {
@@ -1547,7 +1547,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1577,7 +1577,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1607,7 +1607,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1637,7 +1637,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1667,7 +1667,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1697,7 +1697,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1727,7 +1727,7 @@
                     "settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1758,7 +1758,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1767,7 +1767,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1777,7 +1777,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1787,7 +1787,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$regionOpen3, $regionOpen5, $regionOpen10_Infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1809,7 +1809,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1860,7 +1860,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20"
+                    "$rhombus"
                 ],
                 "sections": [
                     {
@@ -1869,7 +1869,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16, $has|azurePass"
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $garden_east, $ridge, $has|azurePass"
                         ],
                         "item_count": 1
                     },                    
@@ -1879,7 +1879,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $regionOpen10_Right, $regionOpen16, $has|azurePass"
+                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $garden_east, $ridge, $has|azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1901,9 +1901,9 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$regionOpen20, $canGrind, questShuffle, BV-wrath",
-                    "$regionOpen20, $canGrind, settingQuestShuffleOff, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen5, $regionOpen8, $regionOpen10_Infested, iceShade, boltShade, dropShade",
-                    "$regionOpen20, $canGrind, settingQuestShuffleOff, $anyElement, $regionOpen3, $regionOpen10_Right, $regionOpen11, $regionOpen10_Left, iceShade, boltShade, dropShade"
+                    "$rhombus, $canGrind, questShuffle, BV-wrath",
+                    "$rhombus, $canGrind, settingQuestShuffleOff, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, iceShade, boltShade, dropShade",
+                    "$rhombus, $canGrind, settingQuestShuffleOff, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, iceShade, boltShade, dropShade"
                 ],
                 "sections": [
                     {
