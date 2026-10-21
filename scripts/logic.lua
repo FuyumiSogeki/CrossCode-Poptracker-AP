@@ -3481,10 +3481,6 @@ function botanics100()
   return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 1.00
 end
 
-function APromiseIsAPromise5()
-  return true
-end
-
 -- Quest logic
 function ChaseHologramFrobbit()
   return has("eleHeat") and has("eleCold")
@@ -3760,29 +3756,86 @@ function APromiseIsAPromise2()
   return has("brokenShield")
 end
 
+function TrailblazingGarden()
+  return TrailblazingCollectGarden() and
+         TrailblazingDefeatGarden() and
+         TrailblazingLandmarkGarden() and
+         TrailblazingProbeGarden()
+end
 
+function TrailblazingCollectGarden()
+  return garden_west() and garden_east()
+end
 
+function TrailblazingDefeatGarden()
+  return garden_west()
+end
 
+function TrailblazingLandmarkGarden()
+  return garden_grove() and garden_infested()
+end
 
+function TrailblazingProbeGarden()
+  return garden_grove() and has("eleWave")
+end
 
+function TurretDefenseChallenge1()
+  return TurretDefense() and has("GG-turret-1")
+end
 
+function TurretDefenseChallenge()
+  return AnOriginalIdea() and has("GG-turret-2")
+end
 
+function TrailblazingValley()
+  return TrailblazingCollectValley() and
+         TrailblazingDefeatValley() and
+         TrailblazingLandmarkValley() and
+         TrailblazingProbeValley()
+end
 
+function TrailblazingCollectValley()
+  return true
+end
 
+function TrailblazingDefeatValley()
+  return has("eleHeat")
+end
 
+function TrailblazingLandmarkValley()
+  return true
+end
 
+function TrailblazingProbeValley()
+  return true
+end
 
+function APromiseIsAPromise5()
+  return APromiseIsAPromise1() and has("dkar1") and
+         APromiseIsAPromise2() and has("dkar2") and
+         APromiseIsAPromise3() and has("dkar3") and
+         APromiseIsAPromise4() and has("dkar4") and
+         has("brokenCharm")
+end
 
+function LostAndOnTheRun()
+  return trail() and valley() and garden_infested() and has("eleHeat") and has("azurePass")
+end
 
+function TroubleOnTheHighway()
+  return has("azurePass")
+end
 
-
+function TremorsOfThePast()
+  return has("tremorEngine", 4) and has("hummingRazor") and has("eleShock") and garden_east() and ridge() and has("azurePass")
+end
 
 function FactionIntroductions()
   return true
 end
 
 function SmallTimeDelivery()
-  return true
+  return rise()
 end
 
 function BullGrab()
@@ -3790,11 +3843,11 @@ function BullGrab()
 end
 
 function NewMetal()
-  return fall() and mine_5() and BullGrab() and has("RH-Bull") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return BullGrab() and has("RH-Bull") and mine_5() and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
 function DiggingForData()
-  return true
+  return rise()
 end
 
 function ItCanDigButItCantHide()
@@ -3802,11 +3855,11 @@ function ItCanDigButItCantHide()
 end
 
 function PointsOfPower()
-  return ItCanDigButItCantHide and has("RH-hillkat") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return ItCanDigButItCantHide and has("RH-hillkat") and fall() and has("eleHeat") and has("eleCold") and has("flameShade")
 end
 
 function SicklyTrees()
-  return true
+  return rise()
 end
 
 function IntensiveTreeCare()
@@ -3814,11 +3867,11 @@ function IntensiveTreeCare()
 end
 
 function BullOnFire()
-  return IntensiveTreeCare() and fall() and has("RH-tree-2") and has("eleHeat") and has("eleCold") and has("flameShade")
+  return IntensiveTreeCare() and has("RH-tree-2") and has("eleHeat") and has("eleCold") and has("flameShade") and fall()
 end
 
 function PettyCrimeHunter()
-  return true
+  return rise()
 end
 
 function SmuggleTrouble()
@@ -3826,7 +3879,7 @@ function SmuggleTrouble()
 end
 
 function WetWork()
-  return SmuggleTrouble() and has("RH-smuggle-1") and has("flameShade")
+  return SmuggleTrouble() and has("RH-smuggle-1") and has("flameShade") and has("eleHeat") and has("eleCold")
 end
 
 function WetterWork()
@@ -3838,7 +3891,7 @@ function RailingRider()
 end
 
 function WoodSteaks()
-  return true
+  return trail()
 end
 
 function MeatingExpectations()
@@ -3846,14 +3899,21 @@ function MeatingExpectations()
 end
 
 function RaisingTheSteaks()
-  return MeatingExpectations() and fall() and has("RH-steaks-2") and has("iceShade") and has("flameShade") and has("eleHeat") and has("eleCold")
+  return MeatingExpectations() and has("RH-steaks-2") and fall() and garden_mid() and has("flameShade")
 end
 
 function AllHailTheIceCream()
-  return true
+  return trail()
 end
 
 function TrainingWithTheMaster()
+  return TrainingVrp() and TrainingVpi()
+end
+
+function TrainingVrp()
+  return has("iceShade") and has("flameShade")
+end
+function TrainingVpi()
   return has("iceShade") and has("flameShade")
 end
 
@@ -3862,6 +3922,5 @@ function APromiseIsAPromise1()
 end
 
 function CrocusPocus100()
-  return CrocusPocus75() and has("botanics-4") and
-         harbor() and botanics100()
+  return CrocusPocus75() and has("botanics-4") and botanics100()
 end

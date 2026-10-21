@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -155,7 +150,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -183,7 +177,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -211,7 +204,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region29",
                     "$kajo_2"
                 ],
                 "sections": [
@@ -239,7 +231,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -267,7 +258,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -295,7 +285,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region28",
                     "$kajo_1"
                 ],
                 "sections": [
@@ -324,7 +313,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region30",
                     "$kajo_3"
                 ],
                 "sections": [
@@ -362,7 +350,6 @@
             }
         ]
     },
-    //Grand Kryskajo World Map
     {
         "item_count": 1,
         "children": [

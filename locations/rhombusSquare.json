@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -155,7 +150,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -183,7 +177,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -211,7 +204,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -240,7 +232,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
                     "$rhombus"
                 ],
                 "sections": [
@@ -250,7 +241,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "dkar4, dkar1, dkar2, dkar3, brokenChakram"
+                            "$APromiseIsAPromise5"
                         ],
                         "item_count": 1
                     }
@@ -269,7 +260,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33, $canGrind",
                     "$rhombus, $canGrind"
                 ],
                 "sections": [
@@ -738,7 +728,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33, $canGrind",
                     "$rhombus, $canGrind"
                 ],
                 "sections": [
@@ -1117,7 +1106,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33, $canGrind",
                     "$rhombus, $canGrind"
                 ],
                 "sections": [
@@ -1496,7 +1484,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33, $canGrind",
                     "$rhombus, $canGrind"
                 ],
                 "sections": [
@@ -1767,7 +1754,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
+                            "$LostAndOnTheRun"
                         ],
                         "item_count": 1
                     },
@@ -1777,7 +1764,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
+                            "$LostAndOnTheRun"
                         ],
                         "item_count": 1
                     },
@@ -1787,7 +1774,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
+                            "$LostAndOnTheRun"
                         ],
                         "item_count": 1
                     }
@@ -1818,7 +1805,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "azurePass"
+                            "$TroubleOnTheHighway"
                         ],
                         "item_count": 1
                     },
@@ -1828,7 +1815,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "azurePass"
+                            "$TroubleOnTheHighway"
                         ],
                         "item_count": 1
                     },
@@ -1869,7 +1856,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "tremorEngine:4, hummingRazor eleShock, $garden_east, $ridge, azurePass"
+                            "$TremorsOfThePast"
                         ],
                         "item_count": 1
                     },                    
@@ -1879,7 +1866,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "tremorEngine:4, hummingRazor eleShock, $garden_east, $ridge, azurePass"
+                            "$TremorsOfThePast"
                         ],
                         "item_count": 1
                     }
@@ -1901,9 +1888,7 @@
                     "questShuffle, settingDlcOn"
                 ],
                 "access_rules": [
-                    "$rhombus, $canGrind, questShuffle, BV-wrath",
-                    "$rhombus, $canGrind, settingQuestShuffleOff, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, iceShade, boltShade, dropShade",
-                    "$rhombus, $canGrind, settingQuestShuffleOff, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, iceShade, boltShade, dropShade"
+                    "$rhombus, $canGrind, $WrathOfGoat, BV-wrath"
                 ],
                 "sections": [
                     {

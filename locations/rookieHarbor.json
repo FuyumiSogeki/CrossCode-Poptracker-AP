@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2, flameshade",
-                    "$harbor, flameshade"
+                    "$harbor_north"
                 ],
                 "sections": [
                     {
@@ -72,7 +70,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -97,7 +94,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Faction Introductions",
+                        "name": "Faction Introduction",
                         "chest_unopened_img": "images/icons/quest_open.png",
                         "chest_opened_img": "images/icons/quest_done.png",
                         "visibility_rules": [
@@ -122,7 +119,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region19",
                     "$harbor_north"
                 ],
                 "sections": [
@@ -150,7 +146,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -178,7 +173,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -206,7 +200,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -235,7 +228,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
                     "$rise"
                 ],
                 "sections": [
@@ -324,7 +316,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
                     "$rise"
                 ],
                 "sections": [
@@ -393,7 +384,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
                     "$rise"
                 ],
                 "sections": [
@@ -492,7 +482,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
                     "$rise"
                 ],
                 "sections": [
@@ -601,7 +590,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -630,8 +618,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$harbor"
                 ],
                 "sections": [
                     {
@@ -689,7 +676,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
                     "$rise"
                 ],
                 "sections": [
@@ -718,7 +704,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -767,7 +752,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2",
                     "$harbor"
                 ],
                 "sections": [
@@ -796,8 +780,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region33",
-                    "$rise"
+                    "$harbor_north"
                 ],
                 "sections": [
                     {
@@ -825,7 +808,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2, $canGrind",
                     "$harbor, $canGrind"
                 ],
                 "sections": [
@@ -1294,7 +1276,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2, $canGrind",
                     "$harbor, $canGrind"
                 ],
                 "sections": [
@@ -1670,7 +1651,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region19",
                     "$harbor_north"
                 ],
                 "sections": [
@@ -1699,7 +1679,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region19",
                     "$harbor_north"
                 ],
                 "sections": [
@@ -2377,7 +2356,6 @@
             }
         ]
     },
-    //Rookie Harbor World Map
     {
         "item_count": 1,
         "children": [
@@ -2400,8 +2378,8 @@
                         "name": "Rookie Harbor - Seeker Hub\nDisc of Insight"
                     },
                     {
-                        "ref": "Rookie Harbor - Seeker Hub/Faction Introductions",
-                        "name": "Rookie Harbor - Seeker Hub\nFaction Introductions"
+                        "ref": "Rookie Harbor - Seeker Hub/Faction Introduction",
+                        "name": "Rookie Harbor - Seeker Hub\nFaction Introduction"
                     },
                     {
                         "ref": "Rookie Harbor - Dusty Storage/Silver Chest",

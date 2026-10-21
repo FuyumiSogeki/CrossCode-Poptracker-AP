@@ -660,6 +660,10 @@ function retrieved(key, value)
         local splitedArea = {}
         local index = 1
 
+        if value == "jungle-city.entrance" then
+            value = "jungle.city-entrance"
+        end
+
         for splited in string.gmatch(value, '([^.]+)') do 
             splitedArea[index] = splited
             index = index + 1

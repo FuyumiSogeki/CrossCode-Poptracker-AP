@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region12",
-                    "$regionOpen6"
+                    "$valley"
                 ],
                 "sections": [
                     {
@@ -81,7 +78,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824178"
+                            "$newLock|3235824178, maroonPass"
                         ],
                         "item_count": 1
                     }
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -155,7 +150,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -183,7 +177,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -211,7 +204,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -239,7 +231,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -267,7 +258,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -295,7 +285,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -323,7 +312,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -351,7 +339,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -379,7 +366,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -407,7 +393,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -435,7 +420,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -463,7 +447,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -491,7 +474,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -519,7 +501,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -547,7 +528,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -575,7 +555,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -603,7 +582,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -631,7 +609,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -659,7 +636,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -687,7 +663,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -715,7 +690,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -743,7 +717,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -771,7 +744,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -799,7 +771,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -827,7 +798,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -855,7 +825,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -883,7 +852,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -911,7 +879,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -939,7 +906,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -967,7 +933,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -996,7 +961,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
                     "$valley"
                 ],
                 "sections": [
@@ -1006,7 +970,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingValley"
                         ],
                         "item_count": 1
                     },
@@ -1016,7 +980,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingCollectValley"
                         ],
                         "item_count": 1
                     },
@@ -1026,7 +990,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingDefeatValley"
                         ],
                         "item_count": 1
                     },
@@ -1036,7 +1000,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingLandmarkValley"
                         ],
                         "item_count": 1
                     },
@@ -1046,7 +1010,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingProbeValley"
                         ],
                         "item_count": 1
                     }
@@ -1139,7 +1103,6 @@
             }
         ]
     },
-    //Maroon Valley World Map
     {
         "item_count": 1,
         "children": [
