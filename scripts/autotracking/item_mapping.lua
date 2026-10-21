@@ -78,7 +78,7 @@ ITEM_MAPPING =
 [3235824615] = {"brokenChakram", "toggle"}, -- Broken Chakrams, progressive
 [3235824337] = {"shinyOrb", "toggle"}, -- Shiny orb
 [3235824566] = {"mineDetect", "toggle"}, -- Mine detector
-[0] = {"encryptedKey", "consumable"} -- Encrypted Key
+[0] = {"encryptedKey", "consumable"}, -- Encrypted Key
 -- Shops
 
 -- Rookie Items
