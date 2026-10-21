@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -99,8 +96,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -127,8 +123,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -155,8 +150,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -183,8 +177,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -211,8 +204,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -239,8 +231,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -267,8 +258,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -295,8 +285,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -323,8 +312,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -351,8 +339,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -379,8 +366,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -407,8 +393,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -435,8 +420,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -463,8 +447,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -491,8 +474,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -519,8 +501,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -547,8 +528,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -575,8 +555,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -603,8 +582,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -631,8 +609,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -659,8 +636,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -687,8 +663,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -697,7 +672,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$newLock|3235824522, BV-kidding, eleHeat, iceShade"
+                            "$newLock|3235824522, $KiddingAround, BV-kidding, eleHeat, iceShade"
                         ],
                         "item_count": 1
                     }
@@ -715,8 +690,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -743,8 +717,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -771,8 +744,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -800,8 +772,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -810,10 +781,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "settingShopReceiveOff,   $brMailOff",
-                            "settingShopReceiveTypes, $brMailType",
-                            "settingShopReceiveSlots, $brMailSlot",
-                            "settingShopReceiveShops, $brMailShop"
+                            "$YouVeGotMail"
                         ],
                         "item_count": 1
                     },
@@ -823,10 +791,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "settingShopReceiveOff,   $brMailOff",
-                            "settingShopReceiveTypes, $brMailType",
-                            "settingShopReceiveSlots, $brMailSlot",
-                            "settingShopReceiveShops, $brMailShop"
+                            "$YouVeGotMail"
                         ],
                         "item_count": 1
                     }
@@ -845,8 +810,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -855,7 +819,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "AR-parkour"
+                            "$RoundAndRound2"
                         ],
                         "item_count": 1
                     },
@@ -865,7 +829,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "AR-parkour"
+                            "$RoundAndRound2"
                         ],
                         "item_count": 1
                     },
@@ -875,7 +839,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "AR-parkour"
+                            "$RoundAndRound2"
                         ],
                         "item_count": 1
                     }
@@ -894,8 +858,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -904,7 +867,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TheLegendaryBunny"
                         ],
                         "item_count": 1
                     }
@@ -923,8 +886,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -933,7 +895,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat"
+                            "$TrailblazingTrail"
                         ],
                         "item_count": 1
                     },
@@ -943,7 +905,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingCollectTrail"
                         ],
                         "item_count": 1
                     },
@@ -953,7 +915,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingDefeatTrail"
                         ],
                         "item_count": 1
                     },
@@ -963,7 +925,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrailblazingLandmarkTrail"
                         ],
                         "item_count": 1
                     },
@@ -973,7 +935,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat"
+                            "$TrailblazingProbeTrail"
                         ],
                         "item_count": 1
                     }
@@ -992,8 +954,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -1159,7 +1120,6 @@
             }
         ]
     },
-    //Bergen Trail World Map
     {
         "item_count": 1,
         "children": [

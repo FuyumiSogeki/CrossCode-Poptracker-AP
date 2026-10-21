@@ -81,7 +81,7 @@ LOCATION_MAPPING =
 [3235824074] = {"@Bergen Village/Bergen Village - Seeker Hub Cellar Left/Chest"},
 [3235824075] = {"@Bergen Village/Bergen Village - Seeker Hub Cellar Right/Bronze Chest"},
 [3235824076] = {"@Bergen Village/Bergen Village South - Storage Room/Chest"},
-[3235824077] = {"@Bergen Village/Bergen Village - Omni Gliders Basement/Bronze Chest"},
+[3235824077] = {"@Bergen Village/Bergen Village - Omni Gilders Basement/Bronze Chest"},
 -- Trail Chests
 [3235824078] = {"@Bergen Trail/Bergen Trail - Abandoned Cave/Chest"},
 [3235824079] = {"@Bergen Trail/Bergen Trail - Frozen Cave/Chest"},
@@ -995,9 +995,9 @@ LOCATION_MAPPING =
 -- Quests
 [3235824847] = {"@Azure Archipelago/Azure Archipelago - Son of the Beach/Beach Fight - Reward 1"},
 [3235824848] = {"@Azure Archipelago/Azure Archipelago - Son of the Beach/Beach Fight - Reward 2"},
-[3235824849] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 1"},
-[3235824850] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 2"},
-[3235824851] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 3"},
+[3235824849] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 1 (Start In Cawhoofs first)"},
+[3235824850] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 2 (Start In Cawhoofs first)"},
+[3235824851] = {"@Bergen Village/Bergen Village - Guard HQ/Wrath of Goat - Reward 3 (Start In Cawhoofs first)"},
 [3235824852] = {"@Bergen Village/Bergen Village - Monastery/Trial of Ascension - Reward 1"},
 [3235824853] = {"@Bergen Village/Bergen Village - Monastery/Trial of Ascension - Reward 2"},
 [3235824854] = {"@Bergen Village/Bergen Village - Monastery/Trial of Ascension - Reward 3"},

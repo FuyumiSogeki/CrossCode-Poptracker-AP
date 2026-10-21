@@ -322,7 +322,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|minePass"
+                            "minePass"
                         ],
                         "item_count": 1
                     }
@@ -841,7 +841,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$has|guildPass, $InsideTheObservatory"
+                            "guildPass, $InsideTheObservatory"
                         ],
                         "item_count": 1
                     }
@@ -1006,7 +1006,6 @@
             }
         ]
     },
-    //Autumns Rise World Map
     {
         "item_count": 1,
         "children": [

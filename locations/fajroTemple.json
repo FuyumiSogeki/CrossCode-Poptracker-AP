@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_3"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_3"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17",
                     "$fajro_5"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half",
                     "$fajro_5"
                 ],
                 "sections": [
@@ -209,7 +204,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17",
                     "$fajro_5"
                 ],
                 "sections": [
@@ -237,7 +231,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17",
                     "$fajro_5"
                 ],
                 "sections": [
@@ -265,7 +258,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region17half",
                     "$fajro_6"
                 ],
                 "sections": [
@@ -401,7 +393,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region13",
                     "$fajro_1"
                 ],
                 "sections": [
@@ -429,7 +420,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -457,7 +447,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -485,7 +474,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -513,7 +501,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -541,7 +528,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -569,7 +555,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region14",
                     "$fajro_2"
                 ],
                 "sections": [
@@ -598,7 +583,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region19",
                     "$fajro_8"
                 ],
                 "sections": [
@@ -647,7 +631,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region15",
                     "$fajro_3"
                 ],
                 "sections": [
@@ -676,7 +659,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region16",
                     "$fajro_1"
                 ],
                 "sections": [
@@ -694,7 +676,6 @@
             }
         ]
     },
-    //Fa'jro Temple World Map
     {
         "item_count": 1,
         "children": [

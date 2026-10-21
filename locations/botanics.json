@@ -198,7 +198,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -228,7 +228,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -258,7 +258,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -288,7 +288,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -318,7 +318,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -348,7 +348,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -378,7 +378,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -408,7 +408,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -438,7 +438,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -468,7 +468,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -498,7 +498,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -528,7 +528,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -558,7 +558,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$trail"
                 ],
                 "sections": [
                     {
@@ -1278,7 +1278,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1308,7 +1308,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1338,7 +1338,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1368,7 +1368,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1398,7 +1398,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1428,7 +1428,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$harbor_north"
+                    "$fall"
                 ],
                 "sections": [
                     {
@@ -1638,7 +1638,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$garden_west"
+                    "$garden_mid"
                 ],
                 "sections": [
                     {
@@ -1668,7 +1668,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$garden_west"
+                    "$garden_mid"
                 ],
                 "sections": [
                     {
@@ -1698,7 +1698,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$garden_grove"
+                    "$garden_west"
                 ],
                 "sections": [
                     {
@@ -1707,7 +1707,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleWave"
+                            "eleWave, $garden_grove"
                         ],
                         "item_count": 1
                     }
@@ -2178,7 +2178,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -2208,7 +2208,7 @@
                     "settingBotanityOn"
                 ],
                 "access_rules": [
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {

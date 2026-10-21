@@ -1767,7 +1767,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1777,7 +1777,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1787,7 +1787,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$rise, $valley, $garden_infested, eleHeat, $has|azurePass"
+                            "$rise, $valley, $garden_infested, eleHeat, azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1818,7 +1818,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|azurePass"
+                            "azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1828,7 +1828,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|azurePass"
+                            "azurePass"
                         ],
                         "item_count": 1
                     },
@@ -1838,7 +1838,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|azurePass"
+                            "azurePass"
                         ],
                         "item_count": 1
                     }
@@ -1869,7 +1869,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $garden_east, $ridge, $has|azurePass"
+                            "tremorEngine:4, hummingRazor eleShock, $garden_east, $ridge, azurePass"
                         ],
                         "item_count": 1
                     },                    
@@ -1879,7 +1879,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|tremorEngine|4, $has|hummingRazor, eleShock, $garden_east, $ridge, $has|azurePass"
+                            "tremorEngine:4, hummingRazor eleShock, $garden_east, $ridge, azurePass"
                         ],
                         "item_count": 1
                     }
@@ -2111,7 +2111,6 @@
             }
         ]
     },
-    //Rhombus Square World Map
     {
         "item_count": 1,
         "children": [

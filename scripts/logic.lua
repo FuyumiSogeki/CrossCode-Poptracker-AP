@@ -3481,10 +3481,6 @@ function botanics100()
   return countBotanics() / Tracker:ProviderCountForCode("op_BA") >= 1.00
 end
 
-function APromiseIsAPromise2()
-  return true
-end
-
 function APromiseIsAPromise5()
   return true
 end
@@ -3653,15 +3649,133 @@ function CrocusPocus75()
   return CrocusPocus50() and has("botanics-3") and botanics75()
 end
 
+function YouVeGotMail()
+  return (has("settingShopReceiveOff") and brMailOff()) or (has("settingShopReceiveTypes") and brMailType()) or (has("settingShopReceiveSlots") and brMailSlot()) or (has("settingShopReceiveShops") and brMailShop())
+end
 
+function RoundAndRound2()
+  return RoundAndRound() and has("AR-parkour")
+end
+
+function TheLegendaryBunny()
+  return harbor() and rise()
+end
+
+function TrailblazingTrail()
+  return TrailblazingCollectTrail() and
+         TrailblazingDefeatTrail() and
+         TrailblazingLandmarkTrail() and
+         TrailblazingProbeTrail()
+end
+
+function TrailblazingCollectTrail()
+  return true
+end
+
+function TrailblazingDefeatTrail()
+  return true
+end
+
+function TrailblazingLandmarkTrail()
+  return true
+end
+
+function TrailblazingProbeTrail()
+  return has("eleHeat")
+end
+
+function DiggingUpThePast()
+  return mine_7() and has("eleHeat") and has("mineDetect")
+end
 
 function CrocusPocus25()
-  return CrocusPocus0() and has("botanics-1") and botanics25()
+  return CrocusPocus0() and has("botanics-1") and has("floraDisc") and botanics25()
+end
+
+function TrialOfAspiration()
+  return true
+end
+
+function ChallengeOfAspiration()
+  return TrialOfAspiration() and has("BV-asp-trial")
+end
+
+function TrialOfProgression()
+  return TrialOfAspiration() and has("BV-asp-trial") and has("eleHeat") and has("iceShade")
+end
+
+function ChallengeOfProgression()
+  return TrialOfProgression() and has("BV-prog-trial")
+end
+
+function TrialOfAscension()
+  return TrialOfProgression() and has("BV-prog-trial") and has("eleWave") and has("eleHeat") and has("azurePass")
+end
+
+function ChallengeOfAscension()
+  return TrialOfAscension() and has("BV-asc-trial")
+end
+
+function FilthyFrobbits()
+  return trail()
+end
+
+function ExplosiveDebugging()
+  return FilthyFrobbits() and has("BV-frobbits") and has("eleHeat") and has("iceShade")
+end
+
+function PreemptiveDebugging()
+  return ExplosiveDebugging() and has("BV-EX-mine")
+end
+
+function KiddingAround()
+  return trail()
 end
 
 function TheGoatfather()
+  return KiddingAround() and has("BV-kidding") and has("eleHeat") and has("iceShade")
+end
+
+function WrathOfGoat()
+  return InCawhoofs() and rhombus() and has("azurePass") --Not checking for hosted quest item for InCawhoofs. This quest is available as soon as In Cawhoofs has started
+end
+
+function FancyTophat()
   return true
 end
+
+function HeatingTheHermit()
+  return FancyTophat() and has("BV-hat") and trail() and mine_2() and has("eleHeat") and has("iceShade")
+end
+
+function BuildingBase()
+  return mine_4()
+end
+
+function PushingBases()
+  return BuildingBase() and has("BV-omni-build") and TheLegendaryBunny() and has("BT-bunny")
+end
+
+function APromiseIsAPromise2()
+  return has("brokenShield")
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function FactionIntroductions()
   return true

@@ -117,7 +117,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$newLock|3235824801|radiantKey, $has|mcCoin|3"
+                            "$newLock|3235824801|radiantKey, mcCoin:3"
                         ],
                         "item_count": 1
                     }
@@ -670,7 +670,6 @@
             }
         ]
     },
-    //Rhombus Square World Map
     {
         "item_count": 1,
         "children": [

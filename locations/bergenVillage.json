@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -60,7 +58,7 @@
                 ]
             },
             {
-                "name": "Bergen Village - Omni Gliders Basement",
+                "name": "Bergen Village - Omni Gilders Basement",
                 "chest_unopened_img": "images/icons/chest_default_x.png",
                 "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -83,8 +80,8 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$newLock|3235824077|thiefKey, minePass, eleHeat, BT-bunny",
-                            "$newLock|3235824077|thiefKey, minePass, mineKey:1, BT-bunny"
+                            "$newLock|3235824077|thiefKey, $mine_1, eleHeat, $TheLegendaryBunny, BT-bunny",
+                            "$newLock|3235824077|thiefKey, $mine_1, mineKey:1, $TheLegendaryBunny, BT-bunny"
                         ],
                         "item_count": 1
                     }
@@ -102,8 +99,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -130,8 +126,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -158,8 +153,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -186,8 +180,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -214,8 +207,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -242,8 +234,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -270,8 +261,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -298,8 +288,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -325,8 +314,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -349,8 +337,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, $region10, $has|mineDetect",
-                            "eleHeat, $mine_7, $has|mineDetect"
+                            "$DiggingUpThePast"
                         ],
                         "item_count": 1
                     },
@@ -362,8 +349,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "floraDisc, botanics-1, $region2",
-                            "floraDisc, botanics-1, $harbor, $botanics25"
+                            "$CrocusPocus25"
                         ],
                         "item_count": 1
                     }
@@ -381,8 +367,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -409,8 +394,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -438,7 +422,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region4",
                     "$mine_1"
                 ],
                 "sections": [
@@ -467,8 +450,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -477,7 +459,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrialOfAspiration"
                         ],
                         "item_count": 1
                     },
@@ -487,7 +469,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TrialOfAspiration"
                         ],
                         "item_count": 1
                     },
@@ -497,7 +479,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial"
+                            "$ChallengeOfAspiration"
                         ],
                         "item_count": 1
                     },
@@ -507,7 +489,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial"
+                            "$ChallengeOfAspiration"
                         ],
                         "item_count": 1
                     },
@@ -517,7 +499,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial"
+                            "$ChallengeOfAspiration"
                         ],
                         "item_count": 1
                     },
@@ -527,7 +509,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial, iceShade, eleHeat"
+                            "$TrialOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -537,7 +519,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial, iceShade, eleHeat"
+                            "$TrialOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -547,7 +529,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-asp-trial, iceShade, eleHeat"
+                            "$TrialOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -557,7 +539,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-prog-trial"
+                            "$ChallengeOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -567,7 +549,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-prog-trial"
+                            "$ChallengeOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -577,7 +559,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-prog-trial"
+                            "$ChallengeOfProgression"
                         ],
                         "item_count": 1
                     },
@@ -587,7 +569,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-prog-trial, $has|azurePass"
+                            "$TrialOfAscension"
                         ],
                         "item_count": 1
                     },
@@ -597,7 +579,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-prog-trial, $has|azurePass"
+                            "$TrialOfAscension"
                         ],
                         "item_count": 1
                     },
@@ -607,7 +589,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-prog-trial, $has|azurePass"
+                            "$TrialOfAscension"
                         ],
                         "item_count": 1
                     },
@@ -617,7 +599,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-asc-trial"
+                            "$ChallengeOfAscension"
                         ],
                         "item_count": 1
                     },
@@ -627,7 +609,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-asc-trial"
+                            "$ChallengeOfAscension"
                         ],
                         "item_count": 1
                     },
@@ -637,7 +619,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-asc-trial"
+                            "$ChallengeOfAscension"
                         ],
                         "item_count": 1
                     }
@@ -656,8 +638,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -666,7 +647,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FilthyFrobbits"
                         ],
                         "item_count": 1
                     },
@@ -676,7 +657,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FilthyFrobbits"
                         ],
                         "item_count": 1
                     },
@@ -686,7 +667,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-frobbits, iceShade, eleHeat"
+                            "$ExplosiveDebugging"
                         ],
                         "item_count": 1
                     },
@@ -696,7 +677,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-frobbits, iceShade, eleHeat"
+                            "$ExplosiveDebugging"
                         ],
                         "item_count": 1
                     },
@@ -706,7 +687,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-EX-mine, iceShade, eleHeat"
+                            "$PreemptiveDebugging"
                         ],
                         "item_count": 1
                     },
@@ -716,7 +697,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-EX-mine, iceShade, eleHeat"
+                            "$PreemptiveDebugging"
                         ],
                         "item_count": 1
                     }
@@ -735,8 +716,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -745,7 +725,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$KiddingAround"
                         ],
                         "item_count": 1
                     },
@@ -755,7 +735,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$KiddingAround"
                         ],
                         "item_count": 1
                     },
@@ -765,7 +745,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-kidding, eleHeat, iceShade"
+                            "$TheGoatfather"
                         ],
                         "item_count": 1
                     },
@@ -775,37 +755,37 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-kidding, eleHeat, iceShade"
+                            "$TheGoatfather"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Wrath of Goat - Reward 1",
+                        "name": "Wrath of Goat - Reward 1 (Start In Cawhoofs first)",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $rhombus, $has|azurePass"
+                            "$WrathOfGoat"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Wrath of Goat - Reward 2",
+                        "name": "Wrath of Goat - Reward 2 (Start In Cawhoofs first)",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $rhombus, $has|azurePass"
+                            "$WrathOfGoat"
                         ],
                         "item_count": 1
                     },
                     {
-                        "name": "Wrath of Goat - Reward 3",
+                        "name": "Wrath of Goat - Reward 3 (Start In Cawhoofs first)",
                         "visibility_rules": [
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, $rhombus, $has|azurePass"
+                            "$WrathOfGoat"
                         ],
                         "item_count": 1
                     }
@@ -824,8 +804,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -834,7 +813,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FancyTophat"
                         ],
                         "item_count": 1
                     },
@@ -844,7 +823,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$FancyTophat"
                         ],
                         "item_count": 1
                     },
@@ -854,7 +833,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-hat, eleHeat, iceShade, minePass"
+                            "$HeatingTheHermit"
                         ],
                         "item_count": 1
                     },
@@ -864,7 +843,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-hat, eleHeat, iceShade, minePass"
+                            "$HeatingTheHermit"
                         ],
                         "item_count": 1
                     },
@@ -874,7 +853,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-hat, eleHeat, iceShade, minePass"
+                            "$HeatingTheHermit"
                         ],
                         "item_count": 1
                     }
@@ -893,8 +872,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region4",
-                    "$mine_1"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -903,8 +881,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, BT-bunny",
-                            "mineKey:3, BT-bunny"
+                            "$BuildingBase"
                         ],
                         "item_count": 1
                     },
@@ -914,7 +891,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "BV-omni-build"
+                            "$PushingBases"
                         ],
                         "item_count": 1
                     }
@@ -933,8 +910,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -943,7 +919,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "brokenShield"
+                            "$APromiseIsAPromise2"
                         ],
                         "item_count": 1
                     }
@@ -960,8 +936,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -1429,8 +1404,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region3",
-                    "$rise"
+                    "$bergen"
                 ],
                 "sections": [
                     {
@@ -1578,7 +1552,6 @@
             }
         ]
     },
-    //Bergen Village World Map
     {
         "item_count": 1,
         "children": [
@@ -1593,8 +1566,8 @@
                         "name": "Bergen Village South - On Top Of Bergen Bar\nChest"
                     },
                     {
-                        "ref": "Bergen Village - Omni Gliders Basement/Bronze Chest",
-                        "name": "Bergen Village - Omni Gliders Basement\nBronze Chest"
+                        "ref": "Bergen Village - Omni Gilders Basement/Bronze Chest",
+                        "name": "Bergen Village - Omni Gilders Basement\nBronze Chest"
                     },
                     {
                         "ref": "Bergen Village South - Behind Ice In East/Bronze Chest",
@@ -1761,16 +1734,16 @@
                         "name": "Bergen Village - Guard HQ\nThe Goatfather - Reward 2"
                     },
                     {
-                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 1",
-                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 1"
+                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 1 (Start In Cawhoofs first)",
+                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 1 (Start In Cawhoofs first)"
                     },
                     {
-                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 2",
-                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 2"
+                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 2 (Start In Cawhoofs first)",
+                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 2 (Start In Cawhoofs first)"
                     },
                     {
-                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 3",
-                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 3"
+                        "ref": "Bergen Village - Guard HQ/Wrath of Goat - Reward 3 (Start In Cawhoofs first)",
+                        "name": "Bergen Village - Guard HQ\nWrath of Goat - Reward 3 (Start In Cawhoofs first)"
                     },
                     {
                         "ref": "Bergen Village - Mrs. Summers/Fancy Tophat - Reward 1",

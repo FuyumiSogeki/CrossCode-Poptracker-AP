@@ -133,7 +133,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|eleCold"
+                            "eleCold"
                         ],
                         "item_count": 1
                     }
@@ -171,7 +171,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$has|maroonPass, $has|eleHeat"
+                            "maroonPass, eleHeat"
                         ],
                         "item_count": 1
                     },
@@ -1233,7 +1233,6 @@
             }
         ]
     },
-    //Bakii Kum World Map
     {
         "item_count": 1,
         "children": [
