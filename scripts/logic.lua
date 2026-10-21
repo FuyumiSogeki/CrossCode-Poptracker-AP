@@ -3485,27 +3485,7 @@ function APromiseIsAPromise2()
   return true
 end
 
-function APromiseIsAPromise3()
-  return true
-end
-
-function APromiseIsAPromise4()
-  return true
-end
-
 function APromiseIsAPromise5()
-  return true
-end
-
-function CrocusPocus25()
-  return true
-end
-
-function CrocusPocus50()
-  return true
-end
-
-function CrocusPocus75()
   return true
 end
 
@@ -3563,6 +3543,124 @@ end
 
 function BeachFight()
   return kajo_1() and dlc_archipelago()
+end
+
+function CrocusPocus50()
+  return CrocusPocus25() and has("botanics-2") and botanics50()
+end
+
+function BlastingShells()
+  return valley()
+end
+
+function HotTrail()
+  return BlastingShells() and has("MV-blasting") and has("eleHeat") and has("eleCold") and has("flameShade")
+end
+
+function WaveOfSand()
+  return HotTrail() and has("MV-hot-trail") and has("eleWave") and has("meteorShade")
+end
+
+function ShadyTheft()
+  return true
+end
+
+function JustDeserts()
+  return ShadyTheft() and has("MV-thief") and valley() and has("flameShade") and has("eleHeat") and has("eleCold")
+end
+
+function CrateHate()
+  return valley()
+end
+
+function SteamyBooze()
+  return CrateHate() and has("MV-crate") and has("flameShade") and has("eleHeat") and has("eleCold")
+end
+
+function SteamyChallenge()
+  return SteamyBooze() and has("MV-booze-1")
+end
+
+function SpiritualDrinks()
+  return SteamyBooze() and has("MV-booze-1") and SteamyChallenge() and has("MV-booze-2") and has("eleCold") and has("azurePass") and (has("settingBoosterOff") or (has("settingBoosterOn") and has("everAmber") and ((NewMetal() and has("RH-metal")) or ridge() or garden_infested() or (garden_east() and garden_west()))))
+end
+
+function APromiseIsAPromise3()
+  return has("brokenSword")
+end
+
+function HostageSituation()
+  return true
+end
+
+function HighCrating()
+  return HostageSituation() and has("GG-hostage") and has("boltShade") and has("dropShade") and has("eleShock") and has("eleWave")
+end
+
+function InCawhoofs()
+  return TheGoatfather() and has("BV-goat") and HighCrating() and has("GG-high-crating") and anyElement() and bergen() and garden_east() and basin_slum() and has("azurePass") and (garden_west() or (valley() and harbor_north() and garden_infested()))
+end
+
+function SproutingBusiness()
+  return has("eleWave") and garden_infested()
+end
+
+function MushroomKingdom()
+  return (has("settingQuestShuffleOff") or (has("questShuffle") and SproutingBusiness() and has("GG-mush-1")) and has("eleWave"))
+end
+
+function TropicalChill()
+  return has("eleHeat") and has("eleCold") and garden_east()
+end
+
+function MeltingThisColdFiend()
+  return TropicalChill() and has("GG-chill") and has("boltShade") and has("dropShade") and has("eleShock") and has("eleWave")
+end
+
+function RichesWithFridges()
+  return MeltingThisColdFiend() and has("GG-snowman") and has("eleShock") and garden_east() and garden_infested() and ridge() and has("azurePass")
+end
+
+function LakesideEscort()
+  return garden_grove()
+end
+
+function RootingForPower()
+  return LakesideEscort() and has("GG-escort") and has("boltShade") and has("dropShade") and has("eleWave")
+end
+
+function SaltyDetox()
+  return RootingForPower() and has("GG-rooting") and dlc_archipelago() and garden() and has("eleCold") and has("eleWave") and has("azurePass")
+end
+
+function TurretDefense()
+  return garden_grove()
+end
+
+function AnOriginalIdea()
+  return TurretDefense() and has("GG-turret-1") and has("boltShade") and has("dropShade") and has("eleWave") and has("eleShock")
+end
+
+function PumpkinLandSuperfun()
+  return garden_infested()
+end
+
+function APromiseIsAPromise4()
+  return has("brokenDeck")
+end
+
+function CrocusPocus75()
+  return CrocusPocus50() and has("botanics-3") and botanics75()
+end
+
+
+
+function CrocusPocus25()
+  return CrocusPocus0() and has("botanics-1") and botanics25()
+end
+
+function TheGoatfather()
+  return true
 end
 
 function FactionIntroductions()

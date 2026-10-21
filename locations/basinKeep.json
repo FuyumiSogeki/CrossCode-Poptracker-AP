@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region24",
                     "$basin_slum"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region24",
                     "$basin_slum"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region24",
                     "$basin_slum"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region24",
                     "$basin_slum"
                 ],
                 "sections": [
@@ -125,8 +121,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -154,8 +149,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -166,7 +160,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$HostageSituation"
                         ],
                         "item_count": 1
                     },
@@ -178,7 +172,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$HostageSituation"
                         ],
                         "item_count": 1
                     },
@@ -190,7 +184,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-hostage, boltShade, dropShade, eleWave, eleShock"
+                            "$HighCrating"
                         ],
                         "item_count": 1
                     },
@@ -202,7 +196,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-hostage, boltShade, dropShade, eleWave, eleShock"
+                            "$HighCrating"
                         ],
                         "item_count": 1
                     },
@@ -214,8 +208,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
+                            "$InCawhoofs"
                         ],
                         "item_count": 1
                     },
@@ -227,8 +220,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
+                            "$InCawhoofs"
                         ],
                         "item_count": 1
                     },
@@ -240,8 +232,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $garden_west, $has|azurePass",
-                            "BV-goat, GG-high-crating, $anyElement, $rise, $garden_east, $basin_slum, $valley, $harbor_north, $garden_infested, $has|azurePass"
+                            "$InCawhoofs"
                         ],
                         "item_count": 1
                     }
@@ -259,8 +250,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -288,8 +278,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden_infested"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -298,7 +287,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleWave"
+                            "$SproutingBusiness"
                         ],
                         "item_count": 1
                     }
@@ -317,8 +306,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden_infested"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -327,8 +315,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "GG-mush-1, eleWave",
-                            "settingQuestShuffleOff, eleWave"
+                            "$MushroomKingdom"
                         ],
                         "item_count": 1
                     }
@@ -347,8 +334,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden_east"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -357,7 +343,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, eleCold"
+                            "$TropicalChill"
                         ],
                         "item_count": 1
                     },
@@ -367,7 +353,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, eleCold"
+                            "$TropicalChill"
                         ],
                         "item_count": 1
                     },
@@ -377,7 +363,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "eleHeat, eleCold"
+                            "$TropicalChill"
                         ],
                         "item_count": 1
                     },
@@ -387,7 +373,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-chill, boltShade, dropShade, eleShock, eleWave"
+                            "$MeltingThisColdFiend"
                         ],
                         "item_count": 1
                     },
@@ -397,7 +383,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
+                            "$RichesWithFridges"
                         ],
                         "item_count": 1
                     },
@@ -407,7 +393,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
+                            "$RichesWithFridges"
                         ],
                         "item_count": 1
                     },
@@ -417,7 +403,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-snowman, eleShock, $garden_east, $garden_infested, $ridge, $has|azurePass"
+                            "$RichesWithFridges"
                         ],
                         "item_count": 1
                     }
@@ -436,8 +422,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden_grove"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -446,7 +431,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$LakesideEscort"
                         ],
                         "item_count": 1
                     },
@@ -456,7 +441,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$LakesideEscort"
                         ],
                         "item_count": 1
                     },
@@ -466,7 +451,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$LakesideEscort"
                         ],
                         "item_count": 1
                     },
@@ -476,7 +461,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-escort, boltShade, dropShade, eleWave"
+                            "$RootingForPower"
                         ],
                         "item_count": 1
                     },
@@ -486,7 +471,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-escort, boltShade, dropShade, eleWave"
+                            "$RootingForPower"
                         ],
                         "item_count": 1
                     },
@@ -496,7 +481,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-escort, boltShade, dropShade, eleWave"
+                            "$RootingForPower"
                         ],
                         "item_count": 1
                     },
@@ -508,7 +493,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
+                            "$SaltyDetox"
                         ],
                         "item_count": 1
                     },
@@ -520,7 +505,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
+                            "$SaltyDetox"
                         ],
                         "item_count": 1
                     },
@@ -532,7 +517,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "GG-rooting, $dlc_archipelago, eleCold, eleWave, $has|azurePass"
+                            "$SaltyDetox"
                         ],
                         "item_count": 1
                     }
@@ -551,8 +536,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden_grove"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -561,7 +545,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TurretDefense"
                         ],
                         "item_count": 1
                     },
@@ -571,7 +555,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$TurretDefense"
                         ],
                         "item_count": 1
                     },
@@ -581,7 +565,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-turret-1, boltShade, dropShade, eleWave, eleShock"
+                            "$AnOriginalIdea"
                         ],
                         "item_count": 1
                     },
@@ -591,7 +575,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "GG-turret-1, boltShade, dropShade, eleWave, eleShock"
+                            "$AnOriginalIdea"
                         ],
                         "item_count": 1
                     }
@@ -610,8 +594,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -620,8 +603,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "$region2",
-                            "$harbor, $garden_infested"
+                            "$PumpkinLandSuperfun"
                         ],
                         "item_count": 1
                     }
@@ -640,8 +622,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -650,7 +631,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "brokenDeck"
+                            "$APromiseIsAPromise4"
                         ],
                         "item_count": 1
                     }
@@ -669,8 +650,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -679,8 +659,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "botanics-3, $region2",
-                            "botanics-3, $harbor, $botanics75"
+                            "$CrocusPocus75"
                         ],
                         "item_count": 1
                     }
@@ -699,8 +678,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -1414,8 +1392,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
-                    "$garden"
+                    "$basin"
                 ],
                 "sections": [
                     {
@@ -1883,7 +1860,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
                     "$basin_slum"
                 ],
                 "sections": [

@@ -15,8 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -43,8 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -71,8 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -99,8 +96,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -128,8 +124,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -138,7 +133,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleCold"
+                            "$has|eleCold"
                         ],
                         "item_count": 1
                     }
@@ -157,8 +152,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -177,8 +171,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$region12, eleHeat",
-                            "$regionOpen6, eleHeat"
+                            "$has|maroonPass, $has|eleHeat"
                         ],
                         "item_count": 1
                     },
@@ -188,8 +181,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "botanics-2, $region2",
-                            "botanics-2, $harbor, $botanics50"
+                            "$CrocusPocus50"
                         ],
                         "item_count": 1
                     }
@@ -207,8 +199,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -236,8 +227,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region12",
-                    "$regionOpen6"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -265,8 +255,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -275,7 +264,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$BlastingShells"
                         ],
                         "item_count": 1
                     },
@@ -285,7 +274,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$BlastingShells"
                         ],
                         "item_count": 1
                     },
@@ -295,7 +284,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-blasting, flameShade, eleHeat, eleCold"
+                            "$HotTrail"
                         ],
                         "item_count": 1
                     },
@@ -305,7 +294,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-hot-trail, eleWave, meteorShade"
+                            "$WaveOfSand"
                         ],
                         "item_count": 1
                     },
@@ -315,7 +304,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-hot-trail, eleWave, meteorShade"
+                            "$WaveOfSand"
                         ],
                         "item_count": 1
                     }
@@ -334,8 +323,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -344,7 +332,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$ShadyTheft"
                         ],
                         "item_count": 1
                     },
@@ -354,7 +342,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$ShadyTheft"
                         ],
                         "item_count": 1
                     },
@@ -364,7 +352,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-thief, flameShade, eleHeat, eleCold"
+                            "$JustDeserts"
                         ],
                         "item_count": 1
                     },
@@ -374,7 +362,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-thief, flameShade, eleHeat, eleCold"
+                            "$JustDeserts"
                         ],
                         "item_count": 1
                     }
@@ -393,8 +381,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -403,7 +390,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$CrateHate"
                         ],
                         "item_count": 1
                     },
@@ -413,7 +400,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            ""
+                            "$CrateHate"
                         ],
                         "item_count": 1
                     },
@@ -423,7 +410,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-crate, flameShade, eleHeat, eleCold, $rise"
+                            "$SteamyBooze"
                         ],
                         "item_count": 1
                     },
@@ -433,11 +420,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
+                            "$SpiritualDrinks"
                         ],
                         "item_count": 1
                     },
@@ -447,11 +430,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
+                            "$SpiritualDrinks"
                         ],
                         "item_count": 1
                     },
@@ -461,11 +440,7 @@
                             "questShuffle, settingDlcOn"
                         ],
                         "access_rules": [
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOff, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, RH-metal, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $ridge, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_infested, $has|azurePass",
-                            "MV-booze-1, MV-booze-2, eleCold, $dlc_archipelago, settingBoosterOn, $has|everAmber, $garden_east, $garden_west, $has|azurePass"
+                            "$SpiritualDrinks"
                         ],
                         "item_count": 1
                     }
@@ -484,8 +459,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -494,7 +468,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "MV-booze-1"
+                            "$SteamyChallenge"
                         ],
                         "item_count": 1
                     }
@@ -513,8 +487,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
@@ -523,7 +496,7 @@
                             "questShuffle"
                         ],
                         "access_rules": [
-                            "brokenSword"
+                            "$APromiseIsAPromise3"
                         ],
                         "item_count": 1
                     }
@@ -542,8 +515,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region11",
-                    "$valley"
+                    "$bakii"
                 ],
                 "sections": [
                     {
