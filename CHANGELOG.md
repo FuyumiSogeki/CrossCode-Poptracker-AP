@@ -1,12 +1,19 @@
 # Changelog
 
-0.10.0
+0.10.0-pre
 
     Autotracking
+        - Fix "Omni Gilder" name (from "Omni Glider")
+        - Added note for "Wrath of Goat" quest to remind players to start "In Cawhoofs" first
         - Fix Ku'lero key not updating properly with kryrings setting
         - Add Encrypted Key items
 
     Logic
+        - Massive logic overhaul
+            - Renamed every region to the new format
+            - Made every regions check both way for reachability
+            - Add quests requiring previous quest's requirements (To avoid false positive when being collected from)
+            - Update every location with new regions
         - Change the detection and update of dungeons key when using keyrings setting
         - Add Heat and Cold requirement for "Chase Hologram Frobbit" quest
         - Add any element requirement for "Wave" location
