@@ -9,37 +9,6 @@ function has(item, amount)
   end
 end
 
-function CanAccess(Target, IgnoreList)
-    location = LOC_LOGIC[Target]
-    reachable = false
-    ignore = IgnoreList
-    table.insert(ignore, Target)
-
-    for _, value in ipairs(location) do
-        if value.Cond == true then
-            if value.From == "" then
-                reachable = value.Cond
-            else
-                check = true
-                for _, v in ipairs(ignore) do if v == value.From then check = false end end
-
-                if check then
-                    reachable = value.Cond and CanAccess(value.From, ignore)
-                end
-            end
-
-            -- Don't shearch deeper if already reachable
-            if reachable == true then
-                return reachable
-            end
-        else 
-            reachable = false
-        end
-    end
-
-    return reachable
-end
-
 function newLockLogic(location_id, defaultKey)
     -- If tracker is in stage 0
     if Tracker:FindObjectForCode("op_CL").CurrentStage == 0 then
@@ -112,314 +81,344 @@ function anyElement()
   return has("eleHeat") or has("eleCold") or has("eleShock") or has("eleWave")
 end
 
+function CanAccess(Target, IgnoreList)
+    location = LOC_LOGIC[Target]
+    reachable = false
+    ignore = IgnoreList
+    table.insert(ignore, Target)
+
+    for _, value in ipairs(location) do
+        if value.Cond() then
+            if value.From == "" then
+                return true
+            end
+
+            local alreadyIgnored = false
+
+            for _, v in ipairs(ignore) do
+                if v == value.From then
+                    alreadyIgnored = true
+                    break
+                end
+            end
+
+            if not alreadyIgnored and CanAccess(value.From, ignore) then
+                return true
+            end
+        end
+    end
+
+    return false
+end
+
 LOC_LOGIC = {
   ["harbor"] = {
-    {From="", Cond=true},
-    {From="rise", Cond=has("leafShade")},
-    {From="bergen", Cond=has("leafShade") and has("settingsRhombusHubOpen")},
-    {From="bakii", Cond=has("iceShade") and has("settingsRhombusHubOpen")},
-    {From="harbor_north", Cond=has("flameShade")},
-    {From="fall", Cond=has("flameShade")},
-    {From="rhombus", Cond=has("meteorShade")},
-    {From="basin", Cond=has("seedShade") and has("settingsRhombusHubOpen")},
-    {From="ridge", Cond=has("starShade") and has("settingsRhombusHubOpen")},
+    {From="", Cond=function() return true end},
+    {From="rise", Cond=function() return has("leafShade") end},
+    {From="bergen", Cond=function() return has("leafShade") and has("settingsRhombusHubOpen") end},
+    {From="bakii", Cond=function() return has("iceShade") and has("settingsRhombusHubOpen") end},
+    {From="harbor_north", Cond=function() return has("flameShade") end},
+    {From="fall", Cond=function() return has("flameShade") end},
+    {From="rhombus", Cond=function() return has("meteorShade") end},
+    {From="basin", Cond=function() return has("seedShade") and has("settingsRhombusHubOpen") end},
+    {From="ridge", Cond=function() return has("starShade") and has("settingsRhombusHubOpen") end},
   },
 
   ["rise"] = {
-    {From="harbor", Cond=has("leafShade")},
-    {From="trail", Cond=true},
-    {From="dlc_homestedt", Cond=has("guildPass")},
+    {From="harbor", Cond=function() return has("leafShade") end},
+    {From="trail", Cond=function() return true end},
+    {From="dlc_homestedt", Cond=function() return has("guildPass") end},
   },
 
   ["trail"] = {
-    {From="rise", Cond=true},
-    {From="bergen", Cond=true},
+    {From="rise", Cond=function() return true end},
+    {From="bergen", Cond=function() return true end},
   },
 
   ["bergen"] = {
-    {From="trail", Cond=true},
-    {From="harbor", Cond=has("leafShade") and has("settingsRhombusHubOpen")},
-    {From="mine_1", Cond=has("minePass")},
-    {From="valley", Cond=has("leafShade") and has("iceShade")},
+    {From="trail", Cond=function() return true end},
+    {From="harbor", Cond=function() return has("leafShade") and has("settingsRhombusHubOpen") end},
+    {From="mine_1", Cond=function() return has("minePass") end},
+    {From="valley", Cond=function() return has("leafShade") and has("iceShade") end},
   },
 
   ["mine_1"] = {
-    {From="bergen", Cond=has("minePass")},
-    {From="mine_2", Cond=mineKeyTotal(1)},
-    {From="mine_8", Cond=has("mineMaster")},
+    {From="bergen", Cond=function() return has("minePass") end},
+    {From="mine_2", Cond=function() return mineKeyTotal(1) end},
+    {From="mine_8", Cond=function() return has("mineMaster") end},
   },
 
   ["mine_2"] = {
-    {From="mine_1", Cond=mineKeyTotal(1)},
-    {From="mine_3", Cond=mineKeyTotal(2)},
+    {From="mine_1", Cond=function() return mineKeyTotal(1) end},
+    {From="mine_3", Cond=function() return mineKeyTotal(2) end},
   },
 
   ["mine_3"] = {
-    {From="mine_2", Cond=mineKeyTotal(2)},
-    {From="mine_4", Cond=mineKeyTotal(3)},
+    {From="mine_2", Cond=function() return mineKeyTotal(2) end},
+    {From="mine_4", Cond=function() return mineKeyTotal(3) end},
   },
 
   ["mine_4"] = {
-    {From="mine_3", Cond=mineKeyTotal(3)},
-    {From="mine_5", Cond=mineKeyTotal(5)},
-    {From="mine_6", Cond=has("eleHeat")},
+    {From="mine_3", Cond=function() return mineKeyTotal(3) end},
+    {From="mine_5", Cond=function() return mineKeyTotal(5) end},
+    {From="mine_6", Cond=function() return has("eleHeat") end},
   },
 
   ["mine_5"] = {
-    {From="mine_4", Cond=mineKeyTotal(5)},
+    {From="mine_4", Cond=function() return mineKeyTotal(5) end},
   },
 
   ["mine_6"] = {
-    {From="mine_4", Cond=has("eleHeat")},
-    {From="mine_7", Cond=mineKeyTotal(5)},
+    {From="mine_4", Cond=function() return has("eleHeat") end},
+    {From="mine_7", Cond=function() return mineKeyTotal(5) end},
   },
 
   ["mine_7"] = {
-    {From="mine_6", Cond=mineKeyTotal(5)},
+    {From="mine_6", Cond=function() return mineKeyTotal(5) end},
   },
 
   ["mine_8"] = {
-    {From="mine_1", Cond=has("mineMaster")},
+    {From="mine_1", Cond=function() return has("mineMaster") end},
   },
 
   ["valley"] = {
-    {From="bergen", Cond=has("leafShade") and has("iceShade")},
-    {From="bakii", Cond=true},
-    {From="fajro_1", Cond=has("sandShade")},
+    {From="bergen", Cond=function() return has("leafShade") and has("iceShade") end},
+    {From="bakii", Cond=function() return true end},
+    {From="fajro_1", Cond=function() return has("sandShade") end},
   },
 
   ["bakii"] = {
-    {From="valley", Cond=true},
-    {From="harbor", Cond=has("iceShade") and has("settingsRhombusHubOpen")},
+    {From="valley", Cond=function() return true end},
+    {From="harbor", Cond=function() return has("iceShade") and has("settingsRhombusHubOpen") end},
   },
 
   ["fajro_1"] = {
-    {From="valley", Cond=has("sandShade")},
-    {From="fajro_2", Cond=fajroKeyTotal(1) and has("eleHeat")},
-    {From="fajro_5", Cond=has("eleCold")},
+    {From="valley", Cond=function() return has("sandShade") end},
+    {From="fajro_2", Cond=function() return fajroKeyTotal(1) and has("eleHeat") end},
+    {From="fajro_5", Cond=function() return has("eleCold") end},
   },
 
   ["fajro_2"] = {
-    {From="fajro_1", Cond=fajroKeyTotal(1) and has("eleHeat")},
-    {From="fajro_3", Cond=fajroKeyTotal(3)},
+    {From="fajro_1", Cond=function() return fajroKeyTotal(1) and has("eleHeat") end},
+    {From="fajro_3", Cond=function() return fajroKeyTotal(3) end},
   },
 
   ["fajro_3"] = {
-    {From="fajro_2", Cond=fajroKeyTotal(3)},
+    {From="fajro_2", Cond=function() return fajroKeyTotal(3) end},
   },
 
   ["fajro_5"] = {
-    {From="fajro_1", Cond=has("eleCold")},
-    {From="fajro_6", Cond=has("whiteKey")},
+    {From="fajro_1", Cond=function() return has("eleCold") end},
+    {From="fajro_6", Cond=function() return has("whiteKey") end},
   },
 
   ["fajro_6"] = {
-    {From="fajro_5", Cond=has("whiteKey")},
-    {From="fajro_7", Cond=has("eleHeat")},
-    {From="fajro_8", Cond=has("fajroMaster")},
+    {From="fajro_5", Cond=function() return has("whiteKey") end},
+    {From="fajro_7", Cond=function() return has("eleHeat") end},
+    {From="fajro_8", Cond=function() return has("fajroMaster") end},
   },
 
   ["fajro_7"] = {
-    {From="fajro_6", Cond=has("eleHeat")},
+    {From="fajro_6", Cond=function() return has("eleHeat") end},
   },
 
   ["fajro_8"] = {
-    {From="fajro_6", Cond=has("fajroMaster")},
+    {From="fajro_6", Cond=function() return has("fajroMaster") end},
   },
 
   ["harbor_north"] = {
-    {From="harbor", Cond=has("flameShade")},
+    {From="harbor", Cond=function() return has("flameShade") end},
   },
 
   ["fall"] = {
-    {From="harbor", Cond=has("flameShade")},
-    {From="garden", Cond=has("flameShade") and has("seedShade")},
-    {From="ridge", Cond=has("flameShade") and has("starShade")},
+    {From="harbor", Cond=function() return has("flameShade") end},
+    {From="garden", Cond=function() return has("flameShade") and has("seedShade") end},
+    {From="ridge", Cond=function() return has("flameShade") and has("starShade") end},
   },
 
   ["rhombus"] = {
-    {From="harbor", Cond=has("meteorShade")},
-    {From="dlc_archipelago", Cond=has("azurePass")},
+    {From="harbor", Cond=function() return has("meteorShade") end},
+    {From="dlc_archipelago", Cond=function() return has("azurePass") end},
   },
 
   ["garden"] = {
-    {From="fall", Cond=has("flameShade") and has("seedShade")},
-    {From="basin", Cond=true},
-    {From="garden_west", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest"))},
-    {From="garden_east", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast"))},
-    {From="garden_mid", Cond=has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaEast")))},
+    {From="fall", Cond=function() return has("flameShade") and has("seedShade") end},
+    {From="basin", Cond=function() return true end},
+    {From="garden_west", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest")) end},
+    {From="garden_east", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast")) end},
+    {From="garden_mid", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaWest"))) end},
   },
 
   ["basin"] = {
-    {From="harbor", Cond=has("seedShade") and has("settingsRhombusHubOpen")},
-    {From="garden", Cond=true},
-    {From="basin_slum", Cond=has("pondPass")},
+    {From="harbor", Cond=function() return has("seedShade") and has("settingsRhombusHubOpen") end},
+    {From="garden", Cond=function() return true end},
+    {From="basin_slum", Cond=function() return has("pondPass") end},
   },
 
   ["basin_slum"] = {
-    {From="basin", Cond=has("pondPass")},
+    {From="basin", Cond=function() return has("pondPass") end},
   },
 
   ["garden_west"] = {
-    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest"))},
-    {From="garden_grove", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade"))},
-    {From="sonajiz_1", Cond=sonajizKeyTotal(1) and anyElement()},
+    {From="garden", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and has("gaiaWest")) end},
+    {From="garden_grove", Cond=function() return (not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade")) end},
+    {From="sonajiz_1", Cond=function() return sonajizKeyTotal(1) and anyElement() end},
   },
 
   ["garden_east"] = {
-    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast"))},
-    {From="garden_infested", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade"))},
-    {From="zirvitar_1", Cond=zirvitarKeyTotal(2) and anyElement()},
+    {From="garden", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and has("gaiaEast")) end},
+    {From="garden_infested", Cond=function() return (not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade")) end},
+    {From="zirvitar_1", Cond=function() return zirvitarKeyTotal(2) and anyElement() end},
   },
 
   ["garden_mid"] = {
-    {From="garden", Cond=has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaEast")))},
-    {From="kajo_1", Cond=has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave")},
+    {From="garden", Cond=function() return has("gaiaOpen") or (has("gaiaClosed") and (has("gaiaEast") or has("gaiaWest"))) end},
+    {From="kajo_1", Cond=function() return has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave") end},
   },
 
   ["garden_grove"] = {
-    {From="garden_west", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade"))},
+    {From="garden_west", Cond=function() return (not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("dropShade")) end},
   },
 
   ["garden_infested"] = {
-    {From="garden_east", Cond=(not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade"))},
+    {From="garden_east", Cond=function() return (not has("settingsGaiaGardenFullClose")) or (has("settingsGaiaGardenFullClose") and has("boltShade")) end},
   },
 
   ["zirvitar_1"] = {
-    {From="garden_east", Cond=zirvitarKeyTotal(2) and anyElement()},
-    {From="zirvitar_2", Cond=has("eleWave")},
+    {From="garden_east", Cond=function() return zirvitarKeyTotal(2) and anyElement() end},
+    {From="zirvitar_2", Cond=function() return has("eleWave") end},
   },
 
   ["zirvitar_2"] = {
-    {From="zirvitar_1", Cond=has("eleWave")},
+    {From="zirvitar_1", Cond=function() return has("eleWave") end},
   },
 
   ["sonajiz_1"] = {
-    {From="garden_west", Cond=sonajizKeyTotal(1) and anyElement()},
-    {From="sonajiz_2", Cond=sonajizKeyTotal(3)},
+    {From="garden_west", Cond=function() return sonajizKeyTotal(1) and anyElement() end},
+    {From="sonajiz_2", Cond=function() return sonajizKeyTotal(3) end},
   },
 
   ["sonajiz_2"] = {
-    {From="sonajiz_1", Cond=sonajizKeyTotal(3)},
-    {From="sonajiz_3", Cond=sonajizKeyTotal(4) and has("radiantKey")},
+    {From="sonajiz_1", Cond=function() return sonajizKeyTotal(3) end},
+    {From="sonajiz_3", Cond=function() return sonajizKeyTotal(4) and has("radiantKey") end},
   },
 
   ["sonajiz_3"] = {
-    {From="sonajiz_2", Cond=sonajizKeyTotal(4) and has("radiantKey")},
-    {From="sonajiz_4", Cond=has("eleShock")},
+    {From="sonajiz_2", Cond=function() return sonajizKeyTotal(4) and has("radiantKey") end},
+    {From="sonajiz_4", Cond=function() return has("eleShock") end},
   },
 
   ["sonajiz_4"] = {
-    {From="sonajiz_3", Cond=has("eleShock")},
+    {From="sonajiz_3", Cond=function() return has("eleShock") end},
   },
 
   ["kajo_1"] = {
-    {From="garden_mid", Cond=has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave")},
-    {From="kajo_2", Cond=kryskajoKeyTotal(2)},
-    {From="kajo_3", Cond=has("kryskajoMaster")},
+    {From="garden_mid", Cond=function() return has("dropShade") and has("boltShade") and has("eleShock") and has("eleWave") end},
+    {From="kajo_2", Cond=function() return kryskajoKeyTotal(2) end},
+    {From="kajo_3", Cond=function() return has("kryskajoMaster") end},
   },
 
   ["kajo_2"] = {
-    {From="kajo_1", Cond=kryskajoKeyTotal(2)},
+    {From="kajo_1", Cond=function() return kryskajoKeyTotal(2) end},
   },
 
   ["kajo_3"] = {
-    {From="kajo_1", Cond=has("kryskajoMaster")},
+    {From="kajo_1", Cond=function() return has("kryskajoMaster") end},
   },
 
   ["ridge"] = {
-    {From="fall", Cond=has("flameShade") and has("starShade")},
-    {From="harbor", Cond=has("starShade") and has("settingsRhombusHubOpen")},
-    {From="ridge_north", Cond=has("meteorShade")},
-    {From="wasteland", Cond=has("vwLockOff") or (has("vwLockOn") and has("meteorShade"))},
+    {From="fall", Cond=function() return has("flameShade") and has("starShade") end},
+    {From="harbor", Cond=function() return has("starShade") and has("settingsRhombusHubOpen") end},
+    {From="ridge_north", Cond=function() return has("meteorShade") end},
+    {From="wasteland", Cond=function() return has("vwLockOff") or (has("vwLockOn") and has("meteorShade")) end},
   },
 
   ["ridge_north"] = {
-    {From="ridge", Cond=has("meteorShade")},
-    {From="dlc_kulero_entry", Cond=has("ancientShade")},
+    {From="ridge", Cond=function() return has("meteorShade") end},
+    {From="dlc_kulero_entry", Cond=function() return has("ancientShade") end},
   },
 
   ["wasteland"] = {
-    {From="ridge", Cond=has("vwLockOff") or (has("vwLockOn") and has("meteorShade"))},
+    {From="ridge", Cond=function() return has("vwLockOff") or (has("vwLockOn") and has("meteorShade")) end},
   },
 
   ["dlc_homestedt"] = {
-    {From="rise", Cond=has("guildPass")},
+    {From="rise", Cond=function() return has("guildPass") end},
   },
 
   ["dlc_archipelago"] = {
-    {From="rhombus", Cond=has("azurePass")},
+    {From="rhombus", Cond=function() return has("azurePass") end},
   },
 
   ["dlc_kulero_entry"] = {
-    {From="ridge_north", Cond=has("ancientShade")},
-    {From="dlc_kulero_entry_1F", Cond=kuleroKeyTotal(3) and has("eleWave")},
-    {From="dlc_kulero_entry_1L", Cond=kuleroKeyTotal(3)},
-    {From="dlc_kulero_entry_1R", Cond=(kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3)},
-    {From="dlc_kulero_GF_R", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
-    {From="dlc_kulero_GF_L", Cond=has("eleHeat") and has("eleCold") and has("eleWave")},
+    {From="ridge_north", Cond=function() return has("ancientShade") end},
+    {From="dlc_kulero_entry_1F", Cond=function() return kuleroKeyTotal(3) and has("eleWave") end},
+    {From="dlc_kulero_entry_1L", Cond=function() return kuleroKeyTotal(3) end},
+    {From="dlc_kulero_entry_1R", Cond=function() return (kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3) end},
+    {From="dlc_kulero_GF_R", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
+    {From="dlc_kulero_GF_L", Cond=function() return has("eleHeat") and has("eleCold") and has("eleWave") end},
   },
 
   ["dlc_kulero_entry_1F"] = {
-    {From="dlc_kulero_entry", Cond=kuleroKeyTotal(3) and has("eleWave")},
+    {From="dlc_kulero_entry", Cond=function() return kuleroKeyTotal(3) and has("eleWave") end},
   },
 
   ["dlc_kulero_entry_1L"] = {
-    {From="dlc_kulero_entry", Cond=kuleroKeyTotal(3)},
+    {From="dlc_kulero_entry", Cond=function() return kuleroKeyTotal(3) end},
   },
 
   ["dlc_kulero_entry_1R"] = {
-    {From="dlc_kulero_entry", Cond=(kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3)},
+    {From="dlc_kulero_entry", Cond=function() return (kuleroKeyTotal(2) and has("eleWave")) or kuleroKeyTotal(3) end},
   },
 
   ["dlc_kulero_GF_R"] = {
-    {From="dlc_kulero_entry", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
-    {From="dlc_kulero_main", Cond=true},
+    {From="dlc_kulero_entry", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
+    {From="dlc_kulero_main", Cond=function() return true end},
   },
 
   ["dlc_kulero_GF_L"] = {
-    {From="dlc_kulero_entry", Cond=has("eleHeat") and has("eleCold") and has("eleWave")},
-    {From="dlc_kulero_main", Cond=true},
+    {From="dlc_kulero_entry", Cond=function() return has("eleHeat") and has("eleCold") and has("eleWave") end},
+    {From="dlc_kulero_main", Cond=function() return true end},
   },
 
   ["dlc_kulero_main"] = {
-    {From="dlc_kulero_GF_R", Cond=true},
-    {From="dlc_kulero_GF_L", Cond=true},
-    {From="dlc_kulero_B2_R", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
-    {From="dlc_kulero_B2_L", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")},
-    {From="dlc_kulero_B3_L", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
-    {From="dlc_kulero_B3_R", Cond=has("eleWave") and has("eleShock")},
-    {From="dlc_kulero_boss", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3)},
+    {From="dlc_kulero_GF_R", Cond=function() return true end},
+    {From="dlc_kulero_GF_L", Cond=function() return true end},
+    {From="dlc_kulero_B2_R", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
+    {From="dlc_kulero_B2_L", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") end},
+    {From="dlc_kulero_B3_L", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
+    {From="dlc_kulero_B3_R", Cond=function() return has("eleWave") and has("eleShock") end},
+    {From="dlc_kulero_boss", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3) end},
   },
 
   ["dlc_kulero_B2_R"] = {
-    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
-    {From="dlc_kulero_B2_R_1", Cond=has("eleWave")},
+    {From="dlc_kulero_main", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
+    {From="dlc_kulero_B2_R_1", Cond=function() return has("eleWave") end},
   },
 
   ["dlc_kulero_B2_R_1"] = {
-    {From="dlc_kulero_B2_R", Cond=has("eleWave")},
+    {From="dlc_kulero_B2_R", Cond=function() return has("eleWave") end},
   },
 
   ["dlc_kulero_B2_L"] = {
-    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")},
-    {From="dlc_kulero_B2_L", Cond=kuleroKeyTotal(3)},
+    {From="dlc_kulero_main", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") end},
+    {From="dlc_kulero_B2_L", Cond=function() return kuleroKeyTotal(3) end},
   },
 
   ["dlc_kulero_B2_L_1"] = {
-    {From="dlc_kulero_B2_L", Cond=kuleroKeyTotal(3)},
+    {From="dlc_kulero_B2_L", Cond=function() return kuleroKeyTotal(3) end},
   },
 
   ["dlc_kulero_B3_L"] = {
-    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock")},
+    {From="dlc_kulero_main", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
   },
 
   ["dlc_kulero_B3_R"] = {
-    {From="dlc_kulero_main", Cond=has("eleWave") and has("eleShock")},
+    {From="dlc_kulero_main", Cond=function() return has("eleWave") and has("eleShock") end},
   },
 
   ["dlc_kulero_boss"] = {
-    {From="dlc_kulero_main", Cond=has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3)},
+    {From="dlc_kulero_main", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3) end},
   },
 }
 
@@ -476,6 +475,7 @@ function valley()
 end
 
 function bakii()
+  print("bakii !!")
   return CanAccess("bakii", {})
 end
 
