@@ -2297,7 +2297,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region2, $canGrind",
                     "$harbor, $canGrind"
                 ],
                 "sections": [

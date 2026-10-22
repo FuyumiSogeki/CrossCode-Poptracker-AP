@@ -817,10 +817,7 @@
                     "settingGoalCreator"
                 ],
                 "access_rules": [
-                    "$regionOpen19, settingVTGateOpen",
-                    "$regionOpen19, settingVTGateBosses, minesWon, fajroWon, sonajizWon, zirvitarWon",
-                    "$regionOpen19, settingVTGateShades, flameShade, iceShade, boltShade, dropShade",
-                    "$regionOpen19, settingVTGateBoth, flameShade, iceShade, boltShade, dropShade, minesWon, fajroWon, sonajizWon, zirvitarWon"
+                    "$TheCreator"
                 ],
                 "sections": [
                     {
@@ -829,7 +826,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "$TheCreator"
+                            "eleHeat, eleCold, eleWave, eleShock"
                         ],
                         "item_count": 1
                     }

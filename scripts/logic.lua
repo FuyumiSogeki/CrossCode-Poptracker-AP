@@ -70,6 +70,48 @@ function newLockLogic(location_id, defaultKey)
     end
 end
 
+-- Dungeon Keys --
+function mineKeyTotal(amount)
+  mineKeyAmount = Tracker:ProviderCountForCode("mineKey")
+  return (mineKeyAmount >= amount)
+end
+
+function fajroKeyTotal(amount)
+  fajroKeyAmount = Tracker:ProviderCountForCode("fajroKey")
+  return (fajroKeyAmount >= amount)
+end
+
+function zirvitarKeyTotal(amount)
+  zirvitarKeyAmount = Tracker:ProviderCountForCode("zirvitarKey")
+  return (zirvitarKeyAmount >= amount)
+end
+
+function sonajizKeyTotal(amount)
+  sonajizKeyAmount = Tracker:ProviderCountForCode("sonajizKey")
+  return (sonajizKeyAmount >= amount)
+end
+
+function kryskajoKeyTotal(amount)
+  kryskajoKeyAmount = Tracker:ProviderCountForCode("kryskajoKey")
+  return (kryskajoKeyAmount >= amount)
+end
+
+function kuleroKeyTotal(amount)
+  kuleroKeyAmount = Tracker:ProviderCountForCode("kuleroKey")
+  return (kuleroKeyAmount >= amount)
+end
+
+-- Misc --
+function canGrind()
+  return has("leafShade") or has("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
+                                                 or (has("settingsRhombusHubOpen") and has("seedShade"))
+                                                 or (has("settingsRhombusHubOpen") and has("starShade"))
+end
+
+function anyElement()
+  return has("eleHeat") or has("eleCold") or has("eleShock") or has("eleWave")
+end
+
 LOC_LOGIC = {
   ["harbor"] = {
     {From="", Cond=true},
@@ -501,6 +543,10 @@ function garden_infested()
   return CanAccess("garden_infested", {})
 end
 
+function basin()
+  return CanAccess("basin", {})
+end
+
 function basin_slum()
   return CanAccess("basin_slum", {})
 end
@@ -543,10 +589,6 @@ end
 
 function ridge()
   return CanAccess("ridge", {})
-end
-
-function regionOpen17()
-  return CanAccess("regionOpen17", {})
 end
 
 function wasteland()
@@ -619,51 +661,6 @@ end
 
 function dlc_kulero_boss()
   return CanAccess("dlc_kulero_boss", {})
-end
-
-
--- Dungeon Keys
-
-function mineKeyTotal(amount)
-  mineKeyAmount=Tracker:ProviderCountForCode("mineKey")
-  return (mineKeyAmount >= amount)
-end
-
-function fajroKeyTotal(amount)
-  fajroKeyAmount=Tracker:ProviderCountForCode("fajroKey")
-  return (fajroKeyAmount >= amount)
-end
-
-function zirvitarKeyTotal(amount)
-  zirvitarKeyAmount=Tracker:ProviderCountForCode("zirvitarKey")
-  return (zirvitarKeyAmount >= amount)
-end
-
-function sonajizKeyTotal(amount)
-  sonajizKeyAmount=Tracker:ProviderCountForCode("sonajizKey")
-  return (sonajizKeyAmount >= amount)
-end
-
-function kryskajoKeyTotal(amount)
-  kryskajoKeyAmount=Tracker:ProviderCountForCode("kryskajoKey")
-  return (kryskajoKeyAmount >= amount)
-end
-
-function kuleroKeyTotal(amount)
-  kuleroKeyAmount=Tracker:ProviderCountForCode("kuleroKey")
-  return (kuleroKeyAmount >= amount)
-end
-
--- Misc --
-
-function canGrind()
-  return has("leafShade") or has("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
-                                                 or (has("settingsRhombusHubOpen") and has("seedShade"))
-                                                 or (has("settingsRhombusHubOpen") and has("starShade"))
-end
-
-function anyElement()
-  return has("eleHeat") or has("eleCold") or has("eleShock") or has("eleWave")
 end
 
 -- Shop Logic --
@@ -1930,7 +1927,7 @@ end
 -- Rookie Harbor Shops Reach
 
 function RH_1()
-  return region2() or harbor()
+  return harbor()
 end
 
 function RH_2()
@@ -1946,17 +1943,17 @@ function RH_4()
 end
 
 function RH_5()
-  return region19() or harbor_north()
+  return harbor_north()
 end
 
 -- Bergen Trail Shops Reach
 
 function BT()
-  return region3() or rise()
+  return rise()
 end
 
 function BV_1()
-  return region3() or rise()
+  return rise()
 end
 
 function BV_2()
@@ -1974,7 +1971,7 @@ end
 -- Bakii Kum Shops Reachable
 
 function BK_1()
-  return region11() or valley()
+  return valley()
 end
 
 function BK_2()
@@ -1988,7 +1985,7 @@ end
 -- Basin Keep Shops Reachable
 
 function BKE_1()
-  return region23() or garden()
+  return garden()
 end
 
 function BKE_2()
@@ -1998,13 +1995,13 @@ end
 -- Sapphire Ridge Shops Reachable
 
 function SR()
-  return region31() or ridge()
+  return ridge()
 end
 
 -- Rhombus Square Shops Reachable
 
 function RS_1()
-  return region33() or rhombus()
+  return rhombus()
 end
 
 function RS_2()
@@ -2014,7 +2011,7 @@ end
 -- Vermillion Wasteland Shops Reachable
 
 function VW()
-  return (region22() or wasteland()) and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
+  return wasteland() and (has("vwLockOff") or (has("vwLockOn") and has("meteorShade")))
 end
 
 -- Homestedt Shops Reachable
