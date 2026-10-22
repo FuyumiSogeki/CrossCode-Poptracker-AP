@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
                     "$garden_east"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region25",
                     "$zirvitar_1"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region25",
                     "$zirvitar_1"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region23",
                     "$garden_east"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region25",
                     "$zirvitar_1"
                 ],
                 "sections": [
@@ -156,7 +151,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region25",
                     "$zirvitar_1"
                 ],
                 "sections": [
@@ -185,7 +179,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region25",
                     "$zirvitar_2"
                 ],
                 "sections": [
@@ -196,7 +189,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleWave"
+                            ""
                         ],
                         "item_count": 0
                     },
@@ -206,7 +199,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleWave"
+                            ""
                         ],
                         "item_count": 1
                     }
@@ -214,7 +207,6 @@
             }
         ]
     },
-    //Zir'vitar Temple World Map
     {
         "item_count": 1,
         "children": [

@@ -15,10 +15,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -45,10 +42,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -75,10 +69,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -105,10 +96,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -135,10 +123,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -165,10 +150,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -195,10 +177,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -225,10 +204,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -255,10 +231,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -285,10 +258,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -315,10 +285,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "sections": [
                     {
@@ -346,10 +313,7 @@
                     }
                 ],
                 "access_rules": [
-                    "$region22,vwLockOff",
-                    "$wasteland, vwLockOff",
-                    "$region22,vwLockOn, meteorShade",
-                    "$wasteland, vwLockOn, meteorShade"
+                    "$wasteland"
                 ],
                 "visibility_rules": [
                     ""
@@ -865,7 +829,7 @@
                             ""
                         ],
                         "access_rules": [
-                            "eleHeat, eleCold, eleWave, eleShock"
+                            "$TheCreator"
                         ],
                         "item_count": 1
                     }
@@ -873,7 +837,6 @@
             }
         ]
     },
-    //Vermillion Wasteland World Map
     {
         "item_count": 1,
         "children": [

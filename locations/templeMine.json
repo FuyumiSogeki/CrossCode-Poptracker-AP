@@ -15,7 +15,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region4",
                     "$mine_1"
                 ],
                 "sections": [
@@ -43,7 +42,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region4",
                     "$mine_1"
                 ],
                 "sections": [
@@ -71,7 +69,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region5",
                     "$mine_2"
                 ],
                 "sections": [
@@ -99,7 +96,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region5",
                     "$mine_2"
                 ],
                 "sections": [
@@ -127,7 +123,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region5",
                     "$mine_2"
                 ],
                 "sections": [
@@ -155,7 +150,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region5",
                     "$mine_2"
                 ],
                 "sections": [
@@ -183,7 +177,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region5",
                     "$mine_2"
                 ],
                 "sections": [
@@ -211,7 +204,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region6",
                     "$mine_3"
                 ],
                 "sections": [
@@ -239,7 +231,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -267,7 +258,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -349,7 +339,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -377,7 +366,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -405,7 +393,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -433,7 +420,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -461,7 +447,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -489,7 +474,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region7",
                     "$mine_4"
                 ],
                 "sections": [
@@ -518,7 +502,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region8",
                     "$mine_5"
                 ],
                 "sections": [
@@ -736,7 +719,6 @@
                     }
                 ],
                 "access_rules": [
-                    "$region10",
                     "$mine_8"
                 ],
                 "sections": [

@@ -3924,3 +3924,19 @@ end
 function CrocusPocus100()
   return CrocusPocus75() and has("botanics-4") and botanics100()
 end
+
+function HenryTrailblazing()
+  return TrailblazingRise() and has("AR-TB-done") and TrailblazingTrail() and has("BT-TB-done") and TrailblazingProbeValley() and has("MV-TB-done") and TrailblazingGarden() and has("GG-TB-done") and has("meteorShade") and has("eleShock") and harbor_north()
+end
+
+function LastMinuteHelpNeeded()
+  return has("meteorShade") and has("guildPass")
+end
+
+function AnUnfortunateSeriesOfFeatures()
+  return valley() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave")
+end
+
+function TheCreator()
+  return  wasteland() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and ((has("settingVTGateOpen")) or (has("settingVTGateBosses") and has("minesWon") and has("fajroWon") and has("sonajizWon") and has("zirvitarWon")) or (has("settingVTGateShades") and has("flameShade") and has("iceShade") and has("boltShade") and has("dropShade")) or (has("settingVTGateBoth") and has("minesWon") and has("fajroWon") and has("sonajizWon") and has("zirvitarWon") and has("flameShade") and has("iceShade") and has("boltShade") and has("dropShade")))
+end
