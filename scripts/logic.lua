@@ -3595,7 +3595,7 @@ function SproutingBusiness()
 end
 
 function MushroomKingdom()
-  return (has("settingQuestShuffleOff") or (has("questShuffle") and SproutingBusiness() and has("GG-mush-1")) and has("eleWave"))
+  return ((has("settingQuestShuffleOff") and garden_infested()) or (has("questShuffle") and SproutingBusiness() and has("GG-mush-1"))) and has("eleWave")
 end
 
 function TropicalChill()
