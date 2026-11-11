@@ -172,8 +172,10 @@ function onClear(slot_data)
 
     if slot_data['options']['questRando'] then
         Tracker:FindObjectForCode("op_QS").CurrentStage = 1
+        Tracker:FindObjectForCode("facilityXLabel").Active = true
     else
         Tracker:FindObjectForCode("op_QS").CurrentStage = 0
+        Tracker:FindObjectForCode("facilityXLabel").Active = false
     end
 
     if slot_data['mode'] then
@@ -243,6 +245,8 @@ function onClear(slot_data)
                 obj.CurrentStage = 2
             elseif slot_data['options']['goal'] == "diorbis" then
                 obj.CurrentStage = 3
+            elseif slot_data['options']['goal'] == "facility_x" then
+                obj.CurrentStage = 4
             else
                 obj.CurrentStage = 0
             end
@@ -262,8 +266,10 @@ function onClear(slot_data)
 
     if slot_data['options']["dlcActive"] then
         Tracker:FindObjectForCode("op_DLC").CurrentStage = 1
+        Tracker:FindObjectForCode("kuleroLabel").Active = true
     else
         Tracker:FindObjectForCode("op_DLC").CurrentStage = 0
+        Tracker:FindObjectForCode("kuleroLabel").Active = false
     end
 
     if slot_data['options']["allowBoosterGrinding"] then
@@ -650,6 +656,9 @@ function retrieved(key, value)
                 objItem.AvailableChestCount = objItem.AvailableChestCount - 1
             elseif Tracker:FindObjectForCode("op_G").CurrentStage == 3 then
                 objItem = Tracker:FindObjectForCode("@Ku'lero Temple/Ku'lero Temple U8 - The Rise/Di'orbis")
+                objItem.AvailableChestCount = objItem.AvailableChestCount - 1
+            elseif Tracker:FindObjectForCode("op_G").CurrentStage == 4 then
+                objItem = Tracker:FindObjectForCode("@Sapphire Ridge/Sapphire Ridge - Facility X/Enter Facility X")
                 objItem.AvailableChestCount = objItem.AvailableChestCount - 1
             end
         end

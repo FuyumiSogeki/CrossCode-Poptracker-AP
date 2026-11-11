@@ -226,6 +226,12 @@
     "location_size": 35,
     "location_border_thickness": 4,
     "img": "images/maps/Botanics_Map3.png"
+  },
+  {
+    "name": "Facility_X_Map",
+    "location_size": 25,
+    "location_border_thickness": 4,
+    "img": "images/maps/facility_x_map.png"
   }
 ]
 

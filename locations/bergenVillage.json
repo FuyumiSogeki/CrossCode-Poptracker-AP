@@ -926,6 +926,34 @@
                 ]
             },
             {
+                "name": "Bergen Village - Bill Masters",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Bergen_Village",
+                        "x": 557,
+                        "y": 917,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "access_rules": [
+                    "$bergen"
+                ],
+                "sections": [
+                    {
+                        "name": "Out of the Box",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$OutOfTheBox"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Bergen Village - Item Shop",
                 "map_locations": [
                     {

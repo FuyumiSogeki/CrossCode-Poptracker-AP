@@ -296,6 +296,7 @@
     "name": "Temple Mine Label",
     "type": "toggle",
     "allow_disabled": false,
+    "initial_active_state": "true",
     "img": "images/dungeons/mineLabel.png",
     "codes": "mineLabel"
   },
@@ -303,6 +304,7 @@
     "name": "Faj'ro Temple Label",
     "type": "toggle",
     "allow_disabled": false,
+    "initial_active_state": "true",
     "img": "images/dungeons/fajroLabel.png",
     "codes": "fajroLabel"
   },
@@ -310,6 +312,7 @@
     "name": "Son'najiz Temple Label",
     "type": "toggle",
     "allow_disabled": false,
+    "initial_active_state": "true",
     "img": "images/dungeons/sonajizLabel.png",
     "codes": "sonajizLabel"
   },
@@ -317,6 +320,7 @@
     "name": "Zir'vitar Temple Label",
     "type": "toggle",
     "allow_disabled": false,
+    "initial_active_state": "true",
     "img": "images/dungeons/zirvitarLabel.png",
     "codes": "zirvitarLabel"
   },
@@ -324,6 +328,7 @@
     "name": "Grand Krys'kajo Label",
     "type": "toggle",
     "allow_disabled": false,
+    "initial_active_state": "true",
     "img": "images/dungeons/kryskajoLabel.png",
     "codes": "kryskajoLabel"
   },
@@ -679,6 +684,11 @@
       {
         "img": "images/settings/goalDiorbis.png",
         "codes": "op_G,settingGoalDiorbis",
+        "inherit_codes": false
+      },
+      {
+        "img": "images/settings/goalFacility.png",
+        "codes": "op_G,settingGoalFacility",
         "inherit_codes": false
       }
     ]
@@ -2558,7 +2568,7 @@
     "name": "Ku'lero Temple Label",
     "type": "toggle",
     "allow_disabled": false,
-    "img": "images/items/kuleroLabel.png",
+    "img": "images/dungeons/kuleroLabel.png",
     "codes": "kuleroLabel"
   },
   {
@@ -2581,21 +2591,41 @@
 	  "swap_actions": false
   },
   {
-    "name": "Mine Detector",
+    "name": "Facility X Label",
     "type": "toggle",
-    "img": "images/items/mineDetect.png",
-    "codes": "mineDetect"
+    "allow_disabled": false,
+    "img": "images/dungeons/facilityXLabel.png",
+    "codes": "facilityXLabel"
   },
   {
     "name": "Encrypted Key",
     "type": "consumable",
     "loop": "false",
+    "img": "images/dungeons/ccEKey.png",
+    "disabled_img": "images/dungeons/ccKey.png",
     "overlay_background": "#000",
+    "codes": "encryptedKey",
     "max_quantity": 4,
     "initial_quantity": 0,
     "increment": 1,
-	  "swap_actions": false,
-    "img": "images/items/encryptedKey.png",
-    "codes": "encryptedKey"
+	  "swap_actions": false
+  },
+  {
+    "name": "Facility X Key",
+    "type": "consumable",
+    "loop": "false",
+    "img": "images/dungeons/ccKey.png",
+    "overlay_background": "#000",
+    "codes": "facilityKey",
+    "max_quantity": 4,
+    "initial_quantity": 0,
+    "increment": 1,
+	  "swap_actions": false
+  },
+  {
+    "name": "Mine Detector",
+    "type": "toggle",
+    "img": "images/items/mineDetect.png",
+    "codes": "mineDetect"
   }
 ]

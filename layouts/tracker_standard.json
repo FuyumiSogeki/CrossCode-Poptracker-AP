@@ -4,7 +4,7 @@
     "type": "itemgrid",
     "h_alignment": "center",
     "item_margin": "2,3,-10,-10",
-    "item_size": "35,35",
+    "item_size": "40",
     "rows": 
     [
       ["eleHeat","eleCold","eleShock","eleWave","spUpgrade"],
@@ -18,214 +18,225 @@
     ]
   },
 
-  "key_grid": {
+  "temple": {
     "type": "array",
-    "orientation": "vertical",
-    "content":[
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["mineLabel"]
-            ],
-            "item_size": 90,
-            "margin": "-2,2,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["mineKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-2,-2,-2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["mineMaster"]
-            ],
-            "item_size": 30,
-            "margin": "-5,-2,-2,-2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["minesWon"]
-            ],
-            "item_size": 30,
-            "margin": "-5,-2,-50,0"
-          }
-        ]
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["mineLabel"]
+        ],
+        "item_size": 144
       },
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["fajroLabel"]
-            ],
-            "item_size": 90,
-            "margin": "-2,-50,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["fajroKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-55,-2,-2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["fajroMaster"]
-            ],
-            "item_size": 30,
-            "margin": "-5,-55,-2,-2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["fajroWon"]
-            ],
-            "item_size": 30,
-            "margin": "-5,-55,-2,-12"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["sonajizLabel"]
-            ],
-            "item_size": 100,
-            "margin": "-2, -48,-2,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["sonajizKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-50,-2,-2"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["sonajizWon"]
-            ],
-            "item_size": 30,
-            "margin": "18,-53,-2,-12"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["zirvitarLabel"]
-            ],
-            "item_size": 105,
-            "margin": "-2, -58,0,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["zirvitarKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-59,0,-5"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["zirvitarWon"]
-            ],
-            "item_size": 30,
-            "margin": "8,-59,-2,0"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kryskajoLabel"]
-            ],
-            "item_size": 105,
-            "margin": "-2,-63"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kryskajoKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-64,0,-12"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kryskajoMaster"]
-            ],
-            "item_size": 30,
-            "margin": "-7,-64,-2,-12"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "-2,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kuleroLabel"]
-            ],
-            "item_size": 105,
-            "margin": "-2,-14,0,-70"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kuleroKey"]
-            ],
-            "item_size": 30,
-            "margin": "0,-15,0,-70"
-          },
-          {
-            "type": "itemgrid",
-            "rows": [
-              ["kuleroMaster"]
-            ],
-            "item_size": 30,
-            "margin": "-7,-15,-2,-70"
-          }
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["mineKey","mineMaster","minesWon"]
         ]
       }
     ]
   },
+
+  "fajro": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["fajroLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["fajroKey","fajroMaster","fajroWon"]
+        ]
+      }
+    ]
+  },
+
+  "sonajiz": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["sonajizLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["sonajizKey","","sonajizWon"]
+        ]
+      }
+    ]
+  },
+
+  "zirvitar": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["zirvitarLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["zirvitarKey","","zirvitarWon"]
+        ]
+      }
+    ]
+  },
+
+  "kajo": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["kryskajoLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["kryskajoKey","kryskajoMaster",""]
+        ]
+      }
+    ]
+  },
+
+  "facilty": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["facilityXLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["encryptedKey","",""]
+        ]
+      }
+    ]
+  },
+
+  "kulero": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-2,0,-10,-124",
+    "content": [
+      {
+        "type": "itemgrid",
+        "margin": "2,2,-5,2",
+        "rows": [
+          ["kuleroLabel"]
+        ],
+        "item_size": 144
+      },
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "0,2",
+        "item_size": "30",
+        "rows": 
+        [
+          ["kuleroKey","kuleroMaster",""]
+        ]
+      }
+    ]
+  },
+
+  "key_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0,0,0",
+    "content": [
+      {
+        "type": "layout",
+        "key": "temple"
+      },
+      {
+        "type": "layout",
+        "key": "fajro"
+      },
+      {
+        "type": "layout",
+        "key": "sonajiz"
+      },
+      {
+        "type": "layout",
+        "key": "zirvitar"
+      },
+      {
+        "type": "layout",
+        "key": "kajo"
+      },
+      {
+        "type": "layout",
+        "key": "facilty"
+      },
+      {
+        "type": "layout",
+        "key": "kulero"
+      }
+    ]
+  },
+
+  
 
   "setting_grid": {
     "type": "itemgrid",
@@ -233,7 +244,7 @@
       ["op_QS","op_CL","op_S","op_DLC","op_RH","op_GG","op_G","op_B","auto_tab"]
     ],
     "item_h_alignement": "center",
-    "item_size": "120,50",
+    "item_size": "116,28",
     "item_margin": "2,0,0,0"
   },
   "tracker_horizontal": 
@@ -561,6 +572,18 @@
                           "content": {
                             "type":"map",
                             "maps": ["Grand_Kryskajo_3F_4F"]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Facility X",
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "content": {
+                            "type":"map",
+                            "maps": ["Facility_X_Map"]
                           }
                         }
                       ]

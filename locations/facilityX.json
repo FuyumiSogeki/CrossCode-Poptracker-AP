@@ -1,0 +1,252 @@
+[
+    {
+        "name": "Facility X",
+        "color": "#FFFFFF",
+        "children": [
+            {
+                "name": "Fall - Lead Office",
+                "chest_unopened_img": "images/plant/chest_default_x.png",
+                "chest_opened_img": "images/plant/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 128,
+                        "y": 398
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$fall"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$SwitchInAltitude, $newLock|3235825020"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Encrypted Key - A Switch in Altitude",
+                "chest_unopened_img": "images/plant/quest_open.png",
+                "chest_opened_img": "images/plant/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 93,
+                        "y": 380,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$fall"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$SwitchInAltitude"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Valley - Lead Office",
+                "chest_unopened_img": "images/plant/chest_default_x.png",
+                "chest_opened_img": "images/plant/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 75,
+                        "y": 992
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$valley"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$BestInTheWest, $newLock|3235825021"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Encrypted Key - Best in the West",
+                "chest_unopened_img": "images/plant/quest_open.png",
+                "chest_opened_img": "images/plant/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 45,
+                        "y": 1006,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$valley"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$BestInTheWest"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Trail - Lead Office",
+                "chest_unopened_img": "images/plant/chest_default_x.png",
+                "chest_opened_img": "images/plant/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 714,
+                        "y": 380
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$trail"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$OutOfTheBox, $newLock|3235825022"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+            "name": "Encrypted Key - Out of the Box",
+                "chest_unopened_img": "images/plant/quest_open.png",
+                "chest_opened_img": "images/plant/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 680,
+                        "y": 370,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$trail"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$OutOfTheBox"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Garden - Lead Office",
+                "chest_unopened_img": "images/plant/chest_default_x.png",
+                "chest_opened_img": "images/plant/chest_o.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 635,
+                        "y": 700
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$garden_east"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$FoulPlay, $newLock|3235825023"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+            "name": "Encrypted Key - Foul Play",
+                "chest_unopened_img": "images/plant/quest_open.png",
+                "chest_opened_img": "images/plant/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Facility_X_Map",
+                        "x": 667,
+                        "y": 675,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "visibility_rules": [
+                    "questShuffle"
+                ],
+                "access_rules": [
+                    "$garden_east"
+                ],
+                "sections": [
+                    {
+                        "name": "Chest",
+                        "visibility_rules": [
+                            ""
+                        ],
+                        "access_rules": [
+                            "$FoulPlay"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

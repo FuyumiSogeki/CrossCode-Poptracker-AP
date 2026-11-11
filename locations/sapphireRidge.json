@@ -1305,6 +1305,34 @@
                 ]
             },
             {
+                "name": "Sapphire Ridge - Facility X",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Sapphire_Ridge",
+                        "x": 117,
+                        "y": 298,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "access_rules": [
+                    "$facility_x"
+                ],
+                "sections": [
+                    {
+                        "name": "Enter Facility X",
+                        "visibility_rules": [
+                            "settingGoalFacility"
+                        ],
+                        "access_rules": [
+                            ""
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Sapphire Ridge - Cave Inn Weapon Shop",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",

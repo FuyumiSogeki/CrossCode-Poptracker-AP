@@ -331,6 +331,7 @@ LOC_LOGIC = {
     {From="harbor", Cond=function() return has("starShade") and has("settingsRhombusHubOpen") end},
     {From="ridge_north", Cond=function() return has("meteorShade") end},
     {From="wasteland", Cond=function() return has("vwLockOff") or (has("vwLockOn") and has("meteorShade")) end},
+    {From="facility_x", Cond=function() return has("encryptedKey", 4) and trail() and valley() and fall() and garden_east() end},
   },
 
   ["ridge_north"] = {
@@ -420,6 +421,10 @@ LOC_LOGIC = {
   ["dlc_kulero_boss"] = {
     {From="dlc_kulero_main", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and kuleroKeyTotal(3) end},
   },
+
+  ["facility_x"] = {
+    {From="ridge", Cond=function() return has("encryptedKey", 4) and trail() and valley() and fall() and garden_east() end},
+  },
 }
 
 function harbor()
@@ -475,7 +480,6 @@ function valley()
 end
 
 function bakii()
-  print("bakii !!")
   return CanAccess("bakii", {})
 end
 
@@ -661,6 +665,10 @@ end
 
 function dlc_kulero_boss()
   return CanAccess("dlc_kulero_boss", {})
+end
+
+function facility_x()
+  return CanAccess("facility_x", {})
 end
 
 -- Shop Logic --
@@ -3936,4 +3944,20 @@ end
 
 function TheCreator()
   return  wasteland() and has("eleHeat") and has("eleCold") and has("eleShock") and has("eleWave") and ((has("settingVTGateOpen")) or (has("settingVTGateBosses") and has("minesWon") and has("fajroWon") and has("sonajizWon") and has("zirvitarWon")) or (has("settingVTGateShades") and has("flameShade") and has("iceShade") and has("boltShade") and has("dropShade")) or (has("settingVTGateBoth") and has("minesWon") and has("fajroWon") and has("sonajizWon") and has("zirvitarWon") and has("flameShade") and has("iceShade") and has("boltShade") and has("dropShade")))
+end
+
+function FoulPlay()
+  return garden_east() and has("meteorShade") and has("eleCold") and has("eleWave")
+end
+
+function SwitchInAltitude()
+  return rise() and fall() and has("meteorShade") and has("eleHeat") and has("eleWave")
+end
+
+function OutOfTheBox()
+  return trail() and has("meteorShade") and has("eleHeat") and has("eleShock")
+end
+
+function BestInTheWest()
+  return valley() and has("meteorShade") and has("eleCold") and has("eleShock")
 end

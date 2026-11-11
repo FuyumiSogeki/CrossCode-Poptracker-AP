@@ -666,6 +666,34 @@
                 ]
             },
             {
+                "name": "Basin Keep - Sonya Bolt",
+                "chest_unopened_img": "images/icons/quest_open.png",
+                "chest_opened_img": "images/icons/quest_done.png",
+                "map_locations": [
+                    {
+                        "map": "Basin_Keep",
+                        "x": 1300,
+                        "y": 460,
+                        "shape": "trapezoid"
+                    }
+                ],
+                "access_rules": [
+                    "$basin_slum"
+                ],
+                "sections": [
+                    {
+                        "name": "Foul Play",
+                        "visibility_rules": [
+                            "questShuffle"
+                        ],
+                        "access_rules": [
+                            "$FoulPlay"
+                        ],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
                 "name": "Basin Keep - Weapon & Item Shop",
                 "chest_unopened_img": "images/icons/quest_open.png",
                 "chest_opened_img": "images/icons/quest_done.png",
