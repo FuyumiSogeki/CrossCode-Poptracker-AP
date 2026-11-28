@@ -4,9 +4,9 @@
         "color": "#FFFFFF",
         "children": [
             {
-                "name": "Fall - Lead Office",
-                "chest_unopened_img": "images/plant/chest_default_x.png",
-                "chest_opened_img": "images/plant/chest_o.png",
+                "name": "Autumn's Fall - Lead Office",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
@@ -35,13 +35,13 @@
             },
             {
                 "name": "Encrypted Key - A Switch in Altitude",
-                "chest_unopened_img": "images/plant/quest_open.png",
-                "chest_opened_img": "images/plant/quest_done.png",
+                "chest_unopened_img": "images/dungeons/ccEKey.png",
+                "chest_opened_img": "images/dungeons/ccKey.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
-                        "x": 93,
-                        "y": 380,
+                        "x": 83,
+                        "y": 360,
                         "shape": "trapezoid"
                     }
                 ],
@@ -53,7 +53,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "Encrypted Key",
                         "visibility_rules": [
                             ""
                         ],
@@ -65,9 +65,9 @@
                 ]
             },
             {
-                "name": "Valley - Lead Office",
-                "chest_unopened_img": "images/plant/chest_default_x.png",
-                "chest_opened_img": "images/plant/chest_o.png",
+                "name": "Maroon Valley - Lead Office",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
@@ -96,8 +96,8 @@
             },
             {
                 "name": "Encrypted Key - Best in the West",
-                "chest_unopened_img": "images/plant/quest_open.png",
-                "chest_opened_img": "images/plant/quest_done.png",
+                "chest_unopened_img": "images/dungeons/ccEKey.png",
+                "chest_opened_img": "images/dungeons/ccKey.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
@@ -114,7 +114,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "Encrypted Key",
                         "visibility_rules": [
                             ""
                         ],
@@ -126,9 +126,9 @@
                 ]
             },
             {
-                "name": "Trail - Lead Office",
-                "chest_unopened_img": "images/plant/chest_default_x.png",
-                "chest_opened_img": "images/plant/chest_o.png",
+                "name": "Bergen Trail - Lead Office",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
@@ -157,13 +157,13 @@
             },
             {
             "name": "Encrypted Key - Out of the Box",
-                "chest_unopened_img": "images/plant/quest_open.png",
-                "chest_opened_img": "images/plant/quest_done.png",
+                "chest_unopened_img": "images/dungeons/ccEKey.png",
+                "chest_opened_img": "images/dungeons/ccKey.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
-                        "x": 680,
-                        "y": 370,
+                        "x": 665,
+                        "y": 355,
                         "shape": "trapezoid"
                     }
                 ],
@@ -175,7 +175,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "Encrypted Key",
                         "visibility_rules": [
                             ""
                         ],
@@ -187,9 +187,9 @@
                 ]
             },
             {
-                "name": "Garden - Lead Office",
-                "chest_unopened_img": "images/plant/chest_default_x.png",
-                "chest_opened_img": "images/plant/chest_o.png",
+                "name": "Gaia's Garden - Lead Office",
+                "chest_unopened_img": "images/icons/chest_default_x.png",
+                "chest_opened_img": "images/icons/chest_o.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
@@ -218,13 +218,13 @@
             },
             {
             "name": "Encrypted Key - Foul Play",
-                "chest_unopened_img": "images/plant/quest_open.png",
-                "chest_opened_img": "images/plant/quest_done.png",
+                "chest_unopened_img": "images/dungeons/ccEKey.png",
+                "chest_opened_img": "images/dungeons/ccKey.png",
                 "map_locations": [
                     {
                         "map": "Facility_X_Map",
-                        "x": 667,
-                        "y": 675,
+                        "x": 660,
+                        "y": 668,
                         "shape": "trapezoid"
                     }
                 ],
@@ -236,7 +236,7 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chest",
+                        "name": "Encrypted Key",
                         "visibility_rules": [
                             ""
                         ],

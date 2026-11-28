@@ -1,12 +1,19 @@
 # Changelog
 
-0.10.0-pre
+0.10.0
+
+    Layout
+        - Slightly increase "Items" icons size
+        - Lined up "Dungeons" and "Settings" elements
+        - Lightning up "Dungeons" elements if they are randomized
+        - Use CrossCode font for "Dungeons" and "Settings" elements
 
     Autotracking
         - Fix "Omni Gilder" name (from "Omni Glider")
         - Added note for "Wrath of Goat" quest to remind players to start "In Cawhoofs" first
         - Fix Ku'lero key not updating properly with kryrings setting
-        - Add Encrypted Key items
+        - Add Encrypted Key quest and mini-dungeons
+        - Add Facility X goal
 
     Logic
         - Massive logic overhaul
@@ -17,6 +24,7 @@
         - Change the detection and update of dungeons key when using keyrings setting
         - Add Heat and Cold requirement for "Chase Hologram Frobbit" quest
         - Add any element requirement for "Wave" location
+        - Made Kulero GF.L and Kulero GF.R one ways
         
 0.9.8
 

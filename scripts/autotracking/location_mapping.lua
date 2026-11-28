@@ -548,9 +548,22 @@ LOCATION_MAPPING =
 [3235824519] = {"@Rookie Harbor/Rookie Harbor - Ms. Selena Teak/Wood 'n' Steaks - Reward 2"},
 [3235824520] = {"@Rookie Harbor/Rookie Harbor - Ms. Selena Teak/Meating Expectations"},
 [3235824521] = {"@Rookie Harbor/Rookie Harbor - Ms. Selena Teak/Raising the Steaks"},
+[3235825028] = {"@Basin Keep/Basin Keep - Sonya Bolt/Foul Play"},
+[3235825029] = {"@Rookie Harbor/Rookie Harbor - Inn/A Switch in Altitude"},
+[3235825030] = {"@Bergen Village/Bergen Village - Bill Masters/Out of the Box"},
+[3235825031] = {"@Ba'kii Kum/Ba'kii Kum - Ey'leet/Best in the West"},
+
 -- New Locations
 [3235824522] = {"@Bergen Trail/Bergen Trail - Horn Cave 2/Chest"},
 [3235824523] = {"@Gaia's Garden/Gaia's Garden - Chilled Den/Silver Chest"},
+[3235825020] = {"@Facility X/Autumn's Fall - Lead Office/Chest"},
+[3235825021] = {"@Facility X/Maroon Valley - Lead Office/Chest"},
+[3235825022] = {"@Facility X/Bergen Trail - Lead Office/Chest"},
+[3235825023] = {"@Facility X/Gaia's Garden - Lead Office/Chest"},
+[3235825024] = {"@Facility X/Encrypted Key - Foul Play/Encrypted Key"},
+[3235825025] = {"@Facility X/Encrypted Key - A Switch in Altitude/Encrypted Key"},
+[3235825026] = {"@Facility X/Encrypted Key - Best in the West/Encrypted Key"},
+[3235825027] = {"@Facility X/Encrypted Key - Out of the Box/Encrypted Key"},
 -- Shops
 -- Rookie Items
 [3235824524] = {"@Rookie Harbor/Rookie Harbor - Item Shop/Sandwich Slot - 100 Credits"},

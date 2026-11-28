@@ -72,9 +72,7 @@ end
 
 -- Misc --
 function canGrind()
-  return has("leafShade") or has("flameShade") or (has("settingsRhombusHubOpen") and has("iceShade"))
-                                                 or (has("settingsRhombusHubOpen") and has("seedShade"))
-                                                 or (has("settingsRhombusHubOpen") and has("starShade"))
+  return has("leafShade") or has("flameShade") or (has("settingsRhombusHubOpen") and (has("iceShade") or has("seedShade") or has("starShade")))
 end
 
 function anyElement()
@@ -374,12 +372,10 @@ LOC_LOGIC = {
 
   ["dlc_kulero_GF_R"] = {
     {From="dlc_kulero_entry", Cond=function() return has("eleHeat") and has("eleCold") and has("eleShock") end},
-    {From="dlc_kulero_main", Cond=function() return true end},
   },
 
   ["dlc_kulero_GF_L"] = {
     {From="dlc_kulero_entry", Cond=function() return has("eleHeat") and has("eleCold") and has("eleWave") end},
-    {From="dlc_kulero_main", Cond=function() return true end},
   },
 
   ["dlc_kulero_main"] = {
